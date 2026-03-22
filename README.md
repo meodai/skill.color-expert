@@ -33,7 +33,6 @@ Everything goes into one of three folders and gets indexed.
 SKILL.md                              # The skill definition (loaded on activation)
 CLAUDE.md                             # Claude Code repo instructions
 references/
-references/
   INDEX.md                            # Master lookup table
   historical/                         # Pre-digital color science
     *.md                              # Ostwald, Helmholtz, Bezold, Ridgway, ISCC-NBS,
