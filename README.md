@@ -1,6 +1,6 @@
 # color-expert
 
-A [Claude Code skill](https://docs.anthropic.com/en/docs/claude-code) that turns Claude into a color science expert. Built from resources I keep looking up, returning to, and sharing with others.
+An [agent skill](https://agentskills.io) that turns your coding agent into a color science expert. Built from resources I keep looking up, returning to, and sharing with others.
 
 ## What this is
 
@@ -8,9 +8,9 @@ This started as a simple skill file with some color theory notes. Over time it g
 
 The skill has three layers:
 
-1. **`SKILL.md`** (~150 lines) — The "greatest hits" that Claude loads immediately. Key facts, corrections, tool recommendations, and guidelines that answer most color questions without needing to dig deeper.
+1. **`SKILL.md`** (~150 lines) — The "greatest hits" that your agent loads immediately. Key facts, corrections, tool recommendations, and guidelines that answer most color questions without needing to dig deeper.
 
-2. **`references/INDEX.md`** (~220 lines) — A structured lookup table Claude can scan to find the right reference file for a specific topic.
+2. **`references/INDEX.md`** (~220 lines) — A structured lookup table your agent can scan to find the right reference file for a specific topic.
 
 3. **`references/`** (113 markdown files, ~286K words) — Deep reference material: full video transcripts, article summaries, library documentation, scraped websites, and research notes.
 
@@ -29,10 +29,10 @@ The collection process is simple: when I come across a color resource worth keep
 Everything goes into one of three folders and gets indexed.
 
 ## Structure
-
 ```
-SKILL.md                              # The skill definition (loaded by Claude)
-CLAUDE.md                             # Instructions for Claude Code
+SKILL.md                              # The skill definition (loaded on activation)
+CLAUDE.md                             # Claude Code repo instructions
+references/
 references/
   INDEX.md                            # Master lookup table
   historical/                         # Pre-digital color science
@@ -131,38 +131,42 @@ These aren't just preferences — they're supported by the research in the colle
 
 ## Installation
 
-### Clone directly into Claude Code's skills directory
-
+### Any supported agent (recommended)
 ```bash
-git clone https://github.com/meodai/skill.color-expert ~/.claude/skills/color-expert
+npx skills add meodai/skill.color-expert
 ```
 
-### Or clone elsewhere and symlink
+Automatically detects your installed agents and places the skill
+in the correct directory. Works with Claude Code, Codex, Cursor,
+Copilot, OpenCode, and others.
 
+### Manual
+
+Clone and symlink into your agent's skills directory:
 ```bash
 git clone https://github.com/meodai/skill.color-expert ~/Sites/color-expert
+```
+
+| Agent | Symlink target |
+|-------|---------------|
+| Claude Code | `~/.claude/skills/color-expert` |
+| Codex | `~/.codex/skills/color-expert` |
+| OpenCode | `~/.agents/skills/color-expert` |
+| Project-level (any) | `.agents/skills/color-expert` |
+```bash
 ln -s ~/Sites/color-expert ~/.claude/skills/color-expert
 ```
 
-That's it. Claude Code automatically discovers skills in `~/.claude/skills/`. The next time a color-related task comes up, the skill will trigger.
-
-### Verify it's installed
-
-Start a new Claude Code session and ask something like:
-
-> "What color space should I use for CSS gradients?"
-
-If the skill is loaded, Claude will recommend OKLCH and explain why HSL is perceptually non-uniform — rather than giving a generic answer.
-
 ### Updating
-
 ```bash
-cd ~/.claude/skills/color-expert && git pull
+npx skills update
 ```
+
+Or manually: `cd ~/Sites/color-expert && git pull`
 
 ## What triggers the skill
 
-The skill activates when Claude detects work involving:
+The skill activates when your agent detects work involving:
 
 - Color naming or defining colors in natural language
 - Color spaces (RGB, HSL, LCH, OKLCH, Lab, etc.)
