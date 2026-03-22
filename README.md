@@ -187,4 +187,6 @@ Content is curated from public sources (YouTube transcripts, open-source repos, 
 
 ---
 
-_Built by [@meodai](https://github.com/meodai) — one URL at a time._
+_The skill itself was vibe-coded, but the underlying knowledge base came from a collection of color resources I curated over time. Original sources remain attributed to their authors._
+
+_Compiled by [@meodai](https://github.com/meodai) — one URL at a time._
