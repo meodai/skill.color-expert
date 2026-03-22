@@ -91,7 +91,7 @@ The theory and science I reference when building tools or explaining why things 
 - **colorandcontrast.com** — UI-focused color science reference, extracted from SPA bundle
 - **Color Nerd (Peter Donahue)** — 20+ video transcripts covering mixing paths, spectral perception, warm/cool, chroma vs saturation, bird vision, OLO
 - **Colour Society of Australia** — 13 webinar transcripts (Briggs, Itten critique, Golden paint making, Reilly palette, colour philosophy)
-- **Accessible color pair research** — original computation: of 281T hex pairs, only 11.98% pass WCAG AA, 0.08% pass APCA 90
+- **Accessible color pair research** — @mrmrs_'s Rust brute-force run over ~281T hex pairs found that only 11.98% pass WCAG AA and 0.08% pass APCA 90
 
 ### Techniques, tools & libraries (50 files)
 

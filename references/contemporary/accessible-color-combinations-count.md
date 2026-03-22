@@ -1,7 +1,7 @@
 # How Many Hex Color Combinations Are Accessible?
 
-**Source:** Research by @mrmrs* (Adam Morse) — https://x.com/mrmrs*/status/2034403566040088832
-**Method:** Rust brute-force with binary search on sorted luminance arrays (O(N log N) vs naive O(N²))
+**Source:** Research by @mrmrs_ — https://x.com/mrmrs_/status/2034403566040088832
+**Method:** Rust brute-force across all ~281 trillion hex color pairs for six algorithms. Reported runtime: 39 hours.
 
 ## The Numbers
 
@@ -47,7 +47,9 @@ Total possible hex code pairs: **~281 trillion** (16,777,216² / 2)
 
 ## Method
 
-- Computed in Rust for performance
-- Binary search on sorted luminance arrays reduces O(N²) to O(N log N)
+- Computed in Rust
+- Brute-force across all ~281 trillion hex color pairs
+- Covered six algorithms
+- Reported runtime: 39 hours
 - 16,777,216 possible hex colors (256³)
 - Pairs counted as unordered for WCAG (symmetric), ordered for APCA (asymmetric/polarity-aware)
