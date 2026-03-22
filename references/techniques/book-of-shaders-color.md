@@ -10,6 +10,7 @@ The foundational GLSL color chapter from The Book of Shaders — the most widely
 ## Key Techniques
 
 ### Color as Vectors
+
 Colors in GLSL are `vec3`/`vec4` — accessible via `.rgb`, `.xyz`, or index `[0][1][2]`. **Swizzling** rearranges components freely:
 
 ```glsl
@@ -19,14 +20,17 @@ vec3 green = yellow.bgb;    // blue into red and blue channels
 ```
 
 ### mix() for Gradients
+
 ```glsl
 vec3 color = mix(colorA, colorB, pct);  // pct = 0.0→1.0
 ```
+
 - `pct` can be a `vec3` — different blend per channel
 - Map `pct` to spatial coordinates for gradients
 - Use shaping functions (easing) for non-linear transitions
 
 ### HSB in GLSL
+
 ```glsl
 vec3 hsb = rgb2hsv(color);
 // x-axis → hue, y-axis → brightness
@@ -34,6 +38,7 @@ vec3 rgb = hsv2rgb(hsb);
 ```
 
 ### HSB Color Wheel (Polar Coordinates)
+
 ```glsl
 vec2 toCenter = vec2(0.5) - st;
 float angle = atan(toCenter.y, toCenter.x);  // -π to π
@@ -46,17 +51,19 @@ vec3 color = hsv2rgb(vec3(
 ```
 
 ### Exercises Mentioned
+
 - Turner sunset gradients
 - Sunrise→sunset animation via `u_time`
 - Rainbow with easing functions
 - Flag patterns with `step()`
 - Loading spinner color wheel
 - **RYB color wheel** via shaping functions on hue (expand certain ranges)
-- Study Josef Albers' *Interaction of Color*
+- Study Josef Albers' _Interaction of Color_
 
 ## LYGIA Shader Library
 
 Referenced as a reusable GLSL function library for color:
+
 - Color space conversions
 - Color blending
 - Gradient creation

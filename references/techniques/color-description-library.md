@@ -25,12 +25,12 @@ cd.getColorFamily();
 
 ## API
 
-| Method | Returns |
-|--------|---------|
+| Method                        | Returns                                           |
+| ----------------------------- | ------------------------------------------------- |
 | `new ColorDescription(color)` | Constructor — accepts hex, RGB, HSL, named colors |
-| `.getDescriptiveList()` | Array of descriptive adjectives |
-| `.getColorFamily()` | Color category name (e.g., "red", "blue") |
-| `.color` | Getter/setter for current color |
+| `.getDescriptiveList()`       | Array of descriptive adjectives                   |
+| `.getColorFamily()`           | Color category name (e.g., "red", "blue")         |
+| `.color`                      | Getter/setter for current color                   |
 
 ## Data Sources
 
@@ -42,6 +42,7 @@ cd.getColorFamily();
 ## Relevance to Color Naming
 
 This library approaches color from the **linguistic/emotional** side rather than the scientific naming systems (ISCC-NBS, Munsell). It answers a different question:
+
 - ISCC-NBS: "What IS this color?" → "vivid yellowish green"
 - color-description: "How does this color FEEL?" → "lush, vibrant, bold"
 

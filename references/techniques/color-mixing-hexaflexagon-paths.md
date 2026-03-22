@@ -23,7 +23,7 @@ What's really interesting is if you take intermediate hues — right, like an az
 - **CMY mixing paths curve outward** — retain chroma; produce bright secondaries (greens, blues, purples, reds)
 - **RGB mixing paths curve inward** — lose chroma; red+green → dull brown, blue+green → dull teal, red+blue → dull purple
 - **Intermediate hues** (azure, turquoise, chartreuse) have **complex/weird mixing paths** — reciprocity between subtractive and additive primaries creates unpredictable behavior
-- **Key insight:** "which colors are primary?" matters less than understanding the *geometry of mixing paths* — how chroma is lost or retained
+- **Key insight:** "which colors are primary?" matters less than understanding the _geometry of mixing paths_ — how chroma is lost or retained
 
 ## Links
 

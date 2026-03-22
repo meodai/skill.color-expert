@@ -12,22 +12,26 @@ Web-based color palette generator that creates harmonious random palettes. Name 
 ## Generation Algorithm
 
 ### 1. Hue Selection
+
 - Generates random hue stops using **HSLuv** color space
 - Minimum angle threshold (default 60°) ensures hue diversity
 - Evenly-spaced candidates around the wheel
 
 ### 2. Palette Construction
+
 - **Dark anchor:** low saturation (5–40%), low lightness (0–20%)
 - **Mid tones:** randomized saturation (50–70%), progressive lightness increases
 - **Bright highlight:** desaturated, high lightness
 - Hues distributed randomly across these tonal positions
 
 ### 3. Interpolation
+
 - **chroma.js** interpolates between color stops in **CIE L\*a\*b\*** space
 - 0.175 padding for smooth gradients
 - Perceptually even transitions
 
 ### 4. Color Naming
+
 - Integrates with [color-names API](https://github.com/meodai/color-names) to assign real names to generated colors
 - Beyond raw hex — gives context and character to each swatch
 
@@ -47,13 +51,13 @@ Web-based color palette generator that creates harmonious random palettes. Name 
 
 ## How It Relates to Other Tools
 
-| Tool | Approach | Best For |
-|------|----------|----------|
-| **FarbVelo** | Structured random with dark→light range | Quick inspiration, full tonal palettes |
-| **RampenSau** | Hue cycling + easing functions | Algorithmic ramps, generative art |
-| **Poline** | Anchor interpolation with position functions | Refining between specific colors |
-| **pro-color-harmonies** | Adaptive harmony from single base | Design system harmonies |
-| **dittoTones** | Reference system DNA transfer | Matching Tailwind/Radix quality |
+| Tool                    | Approach                                     | Best For                               |
+| ----------------------- | -------------------------------------------- | -------------------------------------- |
+| **FarbVelo**            | Structured random with dark→light range      | Quick inspiration, full tonal palettes |
+| **RampenSau**           | Hue cycling + easing functions               | Algorithmic ramps, generative art      |
+| **Poline**              | Anchor interpolation with position functions | Refining between specific colors       |
+| **pro-color-harmonies** | Adaptive harmony from single base            | Design system harmonies                |
+| **dittoTones**          | Reference system DNA transfer                | Matching Tailwind/Radix quality        |
 
 ## Links
 

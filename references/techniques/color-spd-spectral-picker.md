@@ -13,6 +13,7 @@ A web tool for creating colors by directly editing **spectral power distribution
 Most color tools work in derivative spaces (RGB, HSL, OKLCH) — abstractions built on top of how we perceive light. color-spd works at the **physics level**: the actual distribution of energy across the visible spectrum (~380–700nm).
 
 This means you can:
+
 - **Create metamers** — different spectral curves that produce the same perceived color
 - **Understand why certain colors look the way they do** — see the underlying spectral structure
 - **Bridge physics and perception** — watch how changes in spectral energy translate to perceived color changes
@@ -21,6 +22,7 @@ This means you can:
 ## Conceptual Significance
 
 This tool makes tangible the concepts from:
+
 - **Pixar Color Science** (SPDs of daylight vs candle light)
 - **FocalPaint** (spectral reflectance editing for impossible pigments)
 - **Briggs's "What is a Colour?"** (three levels: spectral → psychophysical → perceptual)

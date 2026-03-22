@@ -11,28 +11,30 @@ Hands-on workshop on color science for generative art and creative coding. Inclu
 
 ## Tools Built for This Workshop
 
-| Tool | URL | Purpose |
-|------|-----|---------|
-| **Color Grab** | https://mattdesl.github.io/colorgrab/ | Extract colors from images |
-| **Color Swatch** | https://mattdesl.github.io/colorswatch/ | Multi-space color picker |
-| **Color SPD** | https://mattdesl.github.io/color-spd/ | Spectral power distribution-based color creation |
+| Tool             | URL                                     | Purpose                                          |
+| ---------------- | --------------------------------------- | ------------------------------------------------ |
+| **Color Grab**   | https://mattdesl.github.io/colorgrab/   | Extract colors from images                       |
+| **Color Swatch** | https://mattdesl.github.io/colorswatch/ | Multi-space color picker                         |
+| **Color SPD**    | https://mattdesl.github.io/color-spd/   | Spectral power distribution-based color creation |
 
 ## Libraries Used
 
-| Library | Purpose |
-|---------|---------|
-| [Color.js](https://colorjs.io) | Color manipulation and conversion |
-| [Spectral.js](https://github.com/rvanwijnen/spectral.js) | Spectral/Kubelka-Munk mixing |
-| [Mixbox](https://github.com/scrtwpns/mixbox) | Pigment-like color mixing |
+| Library                                                  | Purpose                           |
+| -------------------------------------------------------- | --------------------------------- |
+| [Color.js](https://colorjs.io)                           | Color manipulation and conversion |
+| [Spectral.js](https://github.com/rvanwijnen/spectral.js) | Spectral/Kubelka-Munk mixing      |
+| [Mixbox](https://github.com/scrtwpns/mixbox)             | Pigment-like color mixing         |
 
 ## Curated Resource Links
 
 ### Color Pickers
+
 - **OKLCH:** https://oklch.com/
 - **OKHSV/OKHSL:** https://ok-color-picker.netlify.app/ + [theory](https://bottosson.github.io/posts/colorpicker/)
 - **HSLuv:** https://www.hsluv.org
 
 ### Color Education
+
 - **147 Named CSS Colors:** https://147colors.com
 - **Hue Color Models:** https://colorsupplyyy.com/app/
 - **Sorted CSS Colors:** https://enes.in/sorted-colors/
@@ -42,14 +44,14 @@ Hands-on workshop on color science for generative art and creative coding. Inclu
 
 ### Palette Libraries (npm packages)
 
-| Package | Content |
-|---------|---------|
-| [nice-color-palettes](https://github.com/Jam3/nice-color-palettes) | 1000 palettes from ColourLovers |
-| [chromotome](https://www.npmjs.com/package/chromotome) | Curated art/design palettes |
-| [paper-colors](https://www.npmjs.com/package/paper-colors) | Paper stock colors |
-| [riso-colors](https://www.npmjs.com/package/riso-colors) | Risograph ink colors |
+| Package                                                                                            | Content                                   |
+| -------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| [nice-color-palettes](https://github.com/Jam3/nice-color-palettes)                                 | 1000 palettes from ColourLovers           |
+| [chromotome](https://www.npmjs.com/package/chromotome)                                             | Curated art/design palettes               |
+| [paper-colors](https://www.npmjs.com/package/paper-colors)                                         | Paper stock colors                        |
+| [riso-colors](https://www.npmjs.com/package/riso-colors)                                           | Risograph ink colors                      |
 | [dictionary-of-colour-combinations](https://github.com/mattdesl/dictionary-of-colour-combinations) | Sanzo Wada's classic dictionary digitized |
-| [color-names](https://github.com/meodai/color-names) | 30K+ named colors |
+| [color-names](https://github.com/meodai/color-names)                                               | 30K+ named colors                         |
 
 ### The Wada Sanzō Connection
 
@@ -82,6 +84,7 @@ This workshop is one of the best curated collections of **practical generative c
 Generate vibrant palettes using **Kubelka-Munk pigment mixing** with 5 primaries: blue, yellow, red, white, black.
 
 **Algorithm:**
+
 1. Define 5 virtual pigments (K-M spectral profiles for blue, yellow, red, white, black)
 2. Select 2 pigments randomly
 3. Mix at a random concentration ratio
@@ -90,6 +93,7 @@ Generate vibrant palettes using **Kubelka-Munk pigment mixing** with 5 primaries
 ### Extending to N Dimensions
 
 The approach generalizes: instead of mixing 2 pigments, **sample the N-dimensional pigment simplex** — a point in the space where all N pigment concentrations sum to 1. This means:
+
 - 2 pigments = random point on a line segment
 - 3 pigments = random point on a triangle
 - 4 pigments = random point on a tetrahedron

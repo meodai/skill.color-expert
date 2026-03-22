@@ -14,11 +14,13 @@ Interview with Biren Dieterle about FocalPaint, an iPad app that simulates spect
 ## Key Topics Discussed
 
 ### Digital Paint Mixing Revolution
+
 - **Mixbox** being integrated into Rebelle 5
 - **OKLAB** as gradient space in Photoshop
 - **FocalPaint** — iPad app with spectral reflectance-based mixing
 
 ### How FocalPaint Works
+
 - **Reflectance recovery** — technique to generate spectral reflectance curves from RGB values
 - Inspired by **Scott Burns's website** on spectral reflectance recovery
 - Started from **MyPaint** forums where Annatim had made a patch for real color blending
@@ -26,20 +28,24 @@ Interview with Biren Dieterle about FocalPaint, an iPad app that simulates spect
 - Computational overhead: like having 4 texture layers instead of 1 in Photoshop
 
 ### Editable Spectral Profiles (Impossible Pigments)
+
 - Users can **directly edit the spectral waveform** of simulated pigments
 - Creates pigments that don't/can't exist in the real world
 - Produces unique colors that mix differently than anything else
 
 ### Metamers
+
 - Great teaching tool: "find three different ways to create the same brown with totally different waveforms"
 - Most RGB upsampling techniques can't produce metamers because they use static R/G/B primaries summed together
 - FocalPaint's editable waveforms allow true metamer creation
 
 ### Laser Simulation
+
 - Single-band spectral colors (like lasers) can be created
 - Mixing two adjacent single-band reds → black (they don't share spectral overlap subtractively)
 
 ### Herbert Ives's Thought Experiment (1930s)
+
 - What if pigments reflected the whole spectrum EXCEPT one tiny piece?
 - "Reverse laser" — high reflectance with one dip
 - Theorized these would mix to very bright secondaries/tertiaries

@@ -38,7 +38,7 @@ No external links mentioned.
 
 ## Source Books & Documents
 
-| Document | Author | Year | Archive.org | Local PDF |
-|----------|--------|------|-------------|-----------|
-| *Principles of the Science of Colour* | William Benson | 1868 | [archive.org](https://archive.org/details/principlesscien00bensgoog) | [pdfs/benson-principles-science-colour-1868.pdf](pdfs/benson-principles-science-colour-1868.pdf) |
-| *Colour Printing and Colour Printers* | — | ~1910 | [archive.org](https://archive.org/details/colourprintinga00gambgoog) | [pdfs/gamble-colour-printing-printers.pdf](pdfs/gamble-colour-printing-printers.pdf) |
+| Document                              | Author         | Year  | Archive.org                                                          | Local PDF                                                                                        |
+| ------------------------------------- | -------------- | ----- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| _Principles of the Science of Colour_ | William Benson | 1868  | [archive.org](https://archive.org/details/principlesscien00bensgoog) | [pdfs/benson-principles-science-colour-1868.pdf](pdfs/benson-principles-science-colour-1868.pdf) |
+| _Colour Printing and Colour Printers_ | —              | ~1910 | [archive.org](https://archive.org/details/colourprintinga00gambgoog) | [pdfs/gamble-colour-printing-printers.pdf](pdfs/gamble-colour-printing-printers.pdf)             |

@@ -13,6 +13,7 @@ One of the few deep, honest explorations of **fully generative color** in longfo
 > "Compared to the Cambrian explosion in new generative approaches to marks, forms, textures and compositions, projects exploring generative color have been relatively scarce."
 
 Rayner's reasons:
+
 1. **Color feels untamable** — too closely tied to emotions and intangible aesthetics for logic/math
 2. **It feels wrong** — some artists resist systematizing something so personal
 3. **Temptation to oversimplify** — color looks simple on the surface, so people reach for reductionist color theory
@@ -24,11 +25,13 @@ Rayner's reasons:
 ## The 6-Step Algorithm
 
 ### Step 1: Tonally Balanced Spectrum
+
 - Modify the standard spectrum so all hues produce the **same mid-grey** when desaturated
 - Without this, blue is much darker than yellow → creates "tonal lumps" in hue gradients
 - Similar to what `harveyHue()` in RampenSau does
 
 ### Step 2: Kill Green and Purple
+
 - Remove fully saturated greens entirely
 - Suppress saturated purples/ultramarine
 - **Not color theory — artistic decision** for this project's warm, earth-tone, 19th-century aesthetic
@@ -36,6 +39,7 @@ Rayner's reasons:
 - Greens and purples were less color-fast in historical dyes (his guess)
 
 ### Step 3: Antique Lights and Darks
+
 - **Lights → shift toward yellow** — mimics aged/yellowed media (vintage feel)
 - **Darks → shift toward blue or red** — depends on dominant hue:
   - Warm dominant → blue darks
@@ -44,6 +48,7 @@ Rayner's reasons:
 - "Pinch" the spectrum at purple to represent the actual hue distribution
 
 ### Step 4: Background Color-Space Island
+
 - Define a constrained region of the modified color space where backgrounds can live
 - Found by elimination: "starting with unlimited and removing what doesn't fit"
 - **No theory — just gut + iteration**
@@ -51,6 +56,7 @@ Rayner's reasons:
 - Background color gets ±4% random RGB shift each time it's referenced → subtle variation
 
 ### Step 5: Foreground Hue/Tonal Modulation
+
 - **Cannot be separated from composition** — color is inseparable from form
 - Fountain elements modulate dark↔light AND progressively shift hue
 - Degree of modulation continuously changes
@@ -59,6 +65,7 @@ Rayner's reasons:
 - In extreme cases hue can shift all the way into blues/purples
 
 ### Step 6: Three Types of Accents ("The Seasoning")
+
 - **White accent (Salt):** element → white (then yellowed by light shift)
 - **Sub accent (Herbs):** mid-value, full saturation + full opacity — reveals underlying hue when elements modulate near black/white
 - **Main accent (Spices):** "Like family recipes, some things need to be kept secret." Not complementary theory — just logic, ranges, and a sprinkle of randomness

@@ -20,27 +20,28 @@ Two complementary tools for extracting color palettes from images.
 
 ### 7 Clustering Algorithms
 
-| Algorithm | Approach | Trade-off |
-|-----------|----------|-----------|
-| **K-Means** | Iterative centroid optimization | Fast; best for spherical clusters |
-| **Mini-Batch K-Means** | Random mini-batches | Even faster on large datasets |
-| **DBSCAN** | Density-based | Finds arbitrary shapes; marks outliers as noise |
-| **Mean-Shift** | Window slides toward density peaks | No need to pre-set k; slower |
-| **Agglomerative** | Hierarchical dendrogram | Cut at any depth; O(n²) cost |
-| **OPTICS** | Density thresholds range | Reveals nested cluster structure |
-| **Median-Cut** | Recursively splits color cube | Classic palettization; splits on largest channel range |
+| Algorithm              | Approach                           | Trade-off                                              |
+| ---------------------- | ---------------------------------- | ------------------------------------------------------ |
+| **K-Means**            | Iterative centroid optimization    | Fast; best for spherical clusters                      |
+| **Mini-Batch K-Means** | Random mini-batches                | Even faster on large datasets                          |
+| **DBSCAN**             | Density-based                      | Finds arbitrary shapes; marks outliers as noise        |
+| **Mean-Shift**         | Window slides toward density peaks | No need to pre-set k; slower                           |
+| **Agglomerative**      | Hierarchical dendrogram            | Cut at any depth; O(n²) cost                           |
+| **OPTICS**             | Density thresholds range           | Reveals nested cluster structure                       |
+| **Median-Cut**         | Recursively splits color cube      | Classic palettization; splits on largest channel range |
 
 ### 3 Color Spaces for Clustering
 
-| Space | Pros | Cons |
-|-------|------|------|
-| **RGB** | Raw screen values, easy math | Not perceptually uniform (yellow "farther" from white than blue) |
-| **CIELab** | Perceptually uniform — equal step = equal perceived change | Best for human-expectation clustering |
-| **HSL (cylindrical)** | Separates hue from sat/lightness; good for creative UI | Wonky distance near poles |
+| Space                 | Pros                                                       | Cons                                                             |
+| --------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------- |
+| **RGB**               | Raw screen values, easy math                               | Not perceptually uniform (yellow "farther" from white than blue) |
+| **CIELab**            | Perceptually uniform — equal step = equal perceived change | Best for human-expectation clustering                            |
+| **HSL (cylindrical)** | Separates hue from sat/lightness; good for creative UI     | Wonky distance near poles                                        |
 
 **Tip:** Toggle color space buttons and watch the 3D point cloud morph — same data, different clustering results.
 
 ### Mesh Gradient Generation
+
 Click any palette card → instantly generates a blurred mesh gradient background from those colors. Perfect for hero sections or wallpaper experiments.
 
 ---
@@ -57,12 +58,12 @@ Upload or paste an image → extracts palette in **OKLab/OKLCh** color space wit
 
 ### Analysis Metrics
 
-| Metric | What it measures |
-|--------|-----------------|
-| **Avg Lightness** | Overall brightness (%) |
-| **Avg Chroma** | Color intensity |
-| **Colorfulness** | Vibrancy quantification |
-| **Light/Dark Ratio** | Brightness distribution |
+| Metric                     | What it measures             |
+| -------------------------- | ---------------------------- |
+| **Avg Lightness**          | Overall brightness (%)       |
+| **Avg Chroma**             | Color intensity              |
+| **Colorfulness**           | Vibrancy quantification      |
+| **Light/Dark Ratio**       | Brightness distribution      |
 | **Sparse Color Detection** | Whether colors are dispersed |
 
 ### Controls
@@ -85,15 +86,15 @@ Upload or paste an image → extracts palette in **OKLab/OKLCh** color space wit
 
 ## When to Use Which
 
-| Scenario | Best tool |
-|----------|-----------|
-| Compare clustering algorithms | img-colors.com (7 algorithms) |
-| See 3D point cloud of image colors | img-colors.com |
-| Get mesh gradient from image | img-colors.com |
-| OKLCH-native extraction | okpalette.color.pizza |
-| Bias toward muted/saturated or dark/light | okpalette.color.pizza |
-| Export palette stats | okpalette.color.pizza |
-| Privacy-first (no uploads) | okpalette.color.pizza |
+| Scenario                                  | Best tool                     |
+| ----------------------------------------- | ----------------------------- |
+| Compare clustering algorithms             | img-colors.com (7 algorithms) |
+| See 3D point cloud of image colors        | img-colors.com                |
+| Get mesh gradient from image              | img-colors.com                |
+| OKLCH-native extraction                   | okpalette.color.pizza         |
+| Bias toward muted/saturated or dark/light | okpalette.color.pizza         |
+| Export palette stats                      | okpalette.color.pizza         |
+| Privacy-first (no uploads)                | okpalette.color.pizza         |
 
 ## Links
 

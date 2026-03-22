@@ -15,12 +15,14 @@ How JPEG uses color space conversion and chroma subsampling as the first stage o
 ## Key Topics
 
 ### JPEG Is Not a File Format
+
 - JPEG = compression method (Joint Photographic Experts Group)
 - **JFIF** (JPEG File Interchange Format) = the actual file wrapper everyone uses
 - **EXIF** = photographic industry metadata format, often combined with JFIF
 - Full JPEG spec has many options (progressive, sequential, multiple color spaces) — impractical to implement all; JFIF standardized a practical subset
 
 ### JPEG Color Pipeline
+
 1. **RGB → YCbCr conversion** — separates luminance from chrominance
 2. **Chroma subsampling** — downsample Cb and Cr channels (color resolution reduced)
 3. **Discrete Cosine Transform (DCT)** — mathematical transformation of 8×8 blocks
@@ -28,6 +30,7 @@ How JPEG uses color space conversion and chroma subsampling as the first stage o
 5. **Encoding** — entropy coding to produce final compressed data
 
 ### Chroma Subsampling — The Key Insight
+
 - Human eye sees luminance at much higher resolution than chrominance
 - **Demo:** flower image with chrominance downsampled 10× in both directions (100× less color) — looks identical at normal zoom
 - Only visible zoomed to pixel level at petal edges where color/gray mismatch
@@ -38,11 +41,13 @@ How JPEG uses color space conversion and chroma subsampling as the first stage o
 - Quality slider in software controls both subsampling ratio and quantization level
 
 ### Lossy vs Lossless
+
 - **Lossless:** BMP, PNG — like zipping; exact reconstruction (LZ compression)
 - **Lossy:** JPEG — not guaranteed same output; but very close; much higher compression ratio
 - The advantage of lossy: "huge amount more compression for your money"
 
 ### Frequency in Images
+
 - **Low frequency:** gradual changes (black table → bright jumper → dark table)
 - **High frequency:** rapid changes (woolen knit pattern)
 - JPEG exploits that we don't perceive high-frequency intensity changes well — can blur/remove them

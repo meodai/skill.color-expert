@@ -6,11 +6,11 @@
 
 ## Description
 
-How Caravaggio achieved vivid greens in paintings like *Martha and Mary Magdalene* (~1598) using copper resinate glazes over verdigris, and how the same transparent glaze created deep shadows over red.
+How Caravaggio achieved vivid greens in paintings like _Martha and Mary Magdalene_ (~1598) using copper resinate glazes over verdigris, and how the same transparent glaze created deep shadows over red.
 
 ## Transcript
 
-You might look at a Caravaggio painting like *Martha and Mary Magdalene* and wonder how did he get such vivid greens. They didn't have vivid green pigments around 1600. They had like verdigris. So how'd he do it? He actually used a different pigment called copper resinate, a transparent glaze over his verdigris, and it made these vivid greens.
+You might look at a Caravaggio painting like _Martha and Mary Magdalene_ and wonder how did he get such vivid greens. They didn't have vivid green pigments around 1600. They had like verdigris. So how'd he do it? He actually used a different pigment called copper resinate, a transparent glaze over his verdigris, and it made these vivid greens.
 
 But he also used it in another interesting way. Because it was a transparent glaze, he could use it over colors like red to create deep, rich shadows. And some of you might be thinking, well, duh, complementary colors cancel out. But this whole concept of complementary colors hadn't been invented yet. Caravaggio's painting in like the 1590s, the 1600s. Complementary colors don't actually become a thing until like the late 1700s.
 
@@ -25,7 +25,7 @@ And if you want to learn more about the pigments on Caravaggio's palettes and ho
 - **Technique** — copper resinate glazed over verdigris = vivid greens; glazed over red = deep rich shadows
 - **Spectral cancellation** — any color that doesn't share spectral transmission with red will cancel red (not just the "complementary"); complementary color theory wasn't formalized until late 1700s
 - **Copper resinate looks like modern phthalo green**
-- **Painting referenced:** *Martha and Mary Magdalene* (~1598)
+- **Painting referenced:** _Martha and Mary Magdalene_ (~1598)
 
 ## Links
 
@@ -34,9 +34,9 @@ And if you want to learn more about the pigments on Caravaggio's palettes and ho
 
 ## Source Books & Documents
 
-| Document | Author | Year | Archive.org | Local PDF |
-|----------|--------|------|-------------|-----------|
-| *The Painter's Methods & Materials* | A.P. Laurie | 1926 | [archive.org](https://archive.org/details/paintersmethodsm00lauruoft) | [pdfs/laurie-painters-methods-materials.pdf](pdfs/laurie-painters-methods-materials.pdf) |
-| *Painting Materials* (handbook) | — | — | [archive.org](https://archive.org/details/PaintingMaterial) | [pdfs/painting-material.pdf](pdfs/painting-material.pdf) |
-| *The Distillation of Resins: Resinate Lakes and Pigments* | Viktor Schweizer | 1907 | [archive.org](https://archive.org/details/distillationofre00schwrich) | [pdfs/schweizer-resinate-pigments.pdf](pdfs/schweizer-resinate-pigments.pdf) |
-| *Artists' Pigments: A Handbook of Their History and Characteristics* | — | — | [archive.org](https://archive.org/details/artistspigmentsh0000unse) | borrow-only |
+| Document                                                             | Author           | Year | Archive.org                                                           | Local PDF                                                                                |
+| -------------------------------------------------------------------- | ---------------- | ---- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| _The Painter's Methods & Materials_                                  | A.P. Laurie      | 1926 | [archive.org](https://archive.org/details/paintersmethodsm00lauruoft) | [pdfs/laurie-painters-methods-materials.pdf](pdfs/laurie-painters-methods-materials.pdf) |
+| _Painting Materials_ (handbook)                                      | —                | —    | [archive.org](https://archive.org/details/PaintingMaterial)           | [pdfs/painting-material.pdf](pdfs/painting-material.pdf)                                 |
+| _The Distillation of Resins: Resinate Lakes and Pigments_            | Viktor Schweizer | 1907 | [archive.org](https://archive.org/details/distillationofre00schwrich) | [pdfs/schweizer-resinate-pigments.pdf](pdfs/schweizer-resinate-pigments.pdf)             |
+| _Artists' Pigments: A Handbook of Their History and Characteristics_ | —                | —    | [archive.org](https://archive.org/details/artistspigmentsh0000unse)   | borrow-only                                                                              |

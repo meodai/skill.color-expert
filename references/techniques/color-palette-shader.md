@@ -12,6 +12,7 @@ Dependency-free WebGL2 shader that maps any color palette across 3D perceptual c
 ## Why It Matters
 
 Quick visual assessment of palette quality:
+
 - **Tiny regions** = redundant colors (too similar to neighbors)
 - **Uneven regions** = imbalanced hue/saturation/lightness distribution
 - **Large, distinct regions** = each color does unique work
@@ -29,25 +30,32 @@ Quick visual assessment of palette quality:
 ## API
 
 ```javascript
-import { PaletteViz } from 'palette-shader';
+import { PaletteViz } from "palette-shader";
 
 const viz = new PaletteViz({
-  palette: [[1,0,0], [0,1,0], [0,0,1]], // linear sRGB [0-1]
-  container: document.querySelector('#app'),
-  colorModel: 'okhsvPolar',    // visualization space
-  distanceMetric: 'oklab',     // similarity measurement
-  position: 0.5,               // axis slice position
-  axis: 'y',                   // which axis to slice
-  gamutClip: false,             // show out-of-gamut?
-  outlineWidth: 1,              // region boundary lines
+  palette: [
+    [1, 0, 0],
+    [0, 1, 0],
+    [0, 0, 1],
+  ], // linear sRGB [0-1]
+  container: document.querySelector("#app"),
+  colorModel: "okhsvPolar", // visualization space
+  distanceMetric: "oklab", // similarity measurement
+  position: 0.5, // axis slice position
+  axis: "y", // which axis to slice
+  gamutClip: false, // show out-of-gamut?
+  outlineWidth: 1, // region boundary lines
 });
 
 // Live updates — trigger immediate re-render
-viz.palette = [[1,0,0], [0,0.5,1]];
-viz.colorModel = 'oklchPolar';
+viz.palette = [
+  [1, 0, 0],
+  [0, 0.5, 1],
+];
+viz.colorModel = "oklchPolar";
 
 // Sampling
-const [r,g,b] = viz.getColorAtUV(0.5, 0.5);
+const [r, g, b] = viz.getColorAtUV(0.5, 0.5);
 
 // Palette manipulation
 viz.addColor([0.5, 0.2, 0.8]);
@@ -56,13 +64,13 @@ viz.removeColor(2);
 
 ## Recommended Configurations
 
-| Question | Color Model | Distance |
-|----------|-------------|----------|
-| Hue distribution? | `okhslPolar` | `oklab` |
-| Most similar colors? | `okhsl` / `oklab` | `deltaE2000` |
-| Worth adding a color? | `okhslPolar` | `oklab` |
-| Print appearance? | `cielabD50` | `cielabD50` |
-| Perceptual closeness? | `oklchPolar` | `deltaE2000` |
+| Question              | Color Model       | Distance     |
+| --------------------- | ----------------- | ------------ |
+| Hue distribution?     | `okhslPolar`      | `oklab`      |
+| Most similar colors?  | `okhsl` / `oklab` | `deltaE2000` |
+| Worth adding a color? | `okhslPolar`      | `oklab`      |
+| Print appearance?     | `cielabD50`       | `cielabD50`  |
+| Perceptual closeness? | `oklchPolar`      | `deltaE2000` |
 
 ## Color Models Available
 

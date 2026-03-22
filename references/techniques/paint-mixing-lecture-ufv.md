@@ -15,18 +15,21 @@ Practical lecture and live demo on paint mixing fundamentals. Covers hue, chroma
 ## Key Topics
 
 ### 1. Color Wheel Distortions
+
 - Sampled 12 hues from a printed color wheel, plotted in CIE color space (using The Artist's Helper app)
 - Colors are NOT evenly spaced: red and red-orange are nearly identical; blue, blue-violet, and violet are almost the same hue angle
 - Greens are much further apart than expected; the entire yellow-to-blue region is vastly underrepresented
 - The wheel is limited by CMYK printing gamut — violets especially are much duller than other colors
 
 ### 2. Actual Paint Positions in Color Space
+
 - Golden Primary Yellow, Cadmium Red, Cobalt Blue plotted in CIE space
 - Everything leans warm: yellow slightly warm, red (cadmium) leans toward yellow, cobalt blue closer to center than expected
 - Red-to-yellow distance is SHORT (small changes in proportion = big hue shifts)
 - Blue-to-yellow distance is LONG (lots of uncharted greens/cyans/teals in between)
 
 ### 3. Non-Linear Mixing
+
 - Demo: mixed 2:1 blue:yellow, 1:1, and 1:2 blue:yellow
 - The 2:1 and 1:1 mixes looked very similar, but the 1:2 was dramatically different
 - **Mixing is non-linear:** proportion of paint ≠ proportional hue change
@@ -34,12 +37,14 @@ Practical lecture and live demo on paint mixing fundamentals. Covers hue, chroma
 - Tinting strength matters: blues are concentrated/strong, yellows are weak
 
 ### 4. Chroma (Intensity)
+
 - Relative vs absolute chroma: the color wheel implies all maximums are equal — they're not
 - Cadmium red has highest absolute chroma, then yellow, then cobalt blue
 - Warmer colors tend to have more chroma than cooler colors
 - Purple from cadmium red + cobalt blue = VERY dull — because both pigments' spectral profiles overlap poorly
 
 ### 5. Why Purple Is Dull
+
 - Cadmium red reflects mainly long wavelengths
 - Cobalt blue reflects mainly short wavelengths
 - Neither reflects much in the middle — mixing them subtractively kills chroma
@@ -47,6 +52,7 @@ Practical lecture and live demo on paint mixing fundamentals. Covers hue, chroma
 - To get vivid purples: use quinacridone magenta (reflects both long AND short wavelengths) or dioxazine purple
 
 ### 6. Lightness
+
 - Adding white raises lightness but also shifts hue and reduces chroma
 - White added to red → pink (lighter + less saturated + slightly cooler)
 - White added to blue → shifts hue toward cyan
@@ -54,6 +60,7 @@ Practical lecture and live demo on paint mixing fundamentals. Covers hue, chroma
 - Neutrals: mix complementary colors or use raw umber for desaturation
 
 ### 7. Color Nerd's Free Color Disc
+
 - Based on CIE science, not traditional RYB
 - ~50 pigments plotted in their actual positions
 - Yellow opposite blue-violet, magenta opposite green

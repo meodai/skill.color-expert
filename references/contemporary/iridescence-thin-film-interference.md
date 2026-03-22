@@ -23,7 +23,7 @@ But if I change the angle of the light — now because this sheet of plastic is 
 - **Angle dependence** — both the light angle and viewing angle affect which wavelengths are canceled
 - **Reflection vs. transmission differ:**
   - Direct angle: reflects cyan (blocks red/long λ) → shadow is cyan
-  - Changed angle: reflects differently but *transmits* magenta (blocks green/mid λ)
+  - Changed angle: reflects differently but _transmits_ magenta (blocks green/mid λ)
   - The blocked wavelength band shifts with angle
 - **Red light trick:** with monochromatic red light, the plastic appears transparent at one angle (red passes through) but opaque at another (red gets reflected) — no shadow when opaque because the blocked wavelength is reflected, not absorbed
 - **Complementary pairs demonstrated:** red↔cyan, green↔magenta

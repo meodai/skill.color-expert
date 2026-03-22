@@ -9,19 +9,19 @@ A comprehensive knowledge base for color-related work. See `references/INDEX.md`
 
 ## Color Spaces — What to Use When
 
-| Task | Use | Why |
-|------|-----|-----|
-| Perceptual color manipulation | **OKLCH** | Best uniformity for lightness, chroma, hue. Fixes CIELAB's blue problem. |
-| CSS gradients & palettes | **OKLCH** or `color-mix(in oklab)` | No mid-gradient darkening like RGB/HSL |
-| Gamut-aware color picking | **OKHSL / OKHSV** | Ottosson's picker spaces — cylindrical like HSL but perceptually grounded |
-| Normalized saturation (0-100%) | **HSLuv** | CIELUV chroma normalized per hue/lightness. HPLuv for pastels. |
-| Print workflows | **CIELAB D50** | ICC standard illuminant |
-| Screen workflows | **CIELAB D65** or OKLAB | D65 = screen standard |
-| HDR | **Jzazbz / ICtCp** | Designed for extended dynamic range |
-| Pigment/paint mixing simulation | **Kubelka-Munk** (Spectral.js, Mixbox) | Spectral reflectance mixing, not RGB averaging |
-| Color difference (precision) | **CIEDE2000** | Gold standard perceptual distance |
-| Color difference (fast) | **Euclidean in OKLAB** | Good enough for most applications |
-| Video/image compression | **YCbCr** | Luma+chroma separation enables chroma subsampling |
+| Task                            | Use                                    | Why                                                                       |
+| ------------------------------- | -------------------------------------- | ------------------------------------------------------------------------- |
+| Perceptual color manipulation   | **OKLCH**                              | Best uniformity for lightness, chroma, hue. Fixes CIELAB's blue problem.  |
+| CSS gradients & palettes        | **OKLCH** or `color-mix(in oklab)`     | No mid-gradient darkening like RGB/HSL                                    |
+| Gamut-aware color picking       | **OKHSL / OKHSV**                      | Ottosson's picker spaces — cylindrical like HSL but perceptually grounded |
+| Normalized saturation (0-100%)  | **HSLuv**                              | CIELUV chroma normalized per hue/lightness. HPLuv for pastels.            |
+| Print workflows                 | **CIELAB D50**                         | ICC standard illuminant                                                   |
+| Screen workflows                | **CIELAB D65** or OKLAB                | D65 = screen standard                                                     |
+| HDR                             | **Jzazbz / ICtCp**                     | Designed for extended dynamic range                                       |
+| Pigment/paint mixing simulation | **Kubelka-Munk** (Spectral.js, Mixbox) | Spectral reflectance mixing, not RGB averaging                            |
+| Color difference (precision)    | **CIEDE2000**                          | Gold standard perceptual distance                                         |
+| Color difference (fast)         | **Euclidean in OKLAB**                 | Good enough for most applications                                         |
+| Video/image compression         | **YCbCr**                              | Luma+chroma separation enables chroma subsampling                         |
 
 ### Understanding HSL's Limitations
 
@@ -34,6 +34,7 @@ HSL isn't "bad" — it's a simple, fast geometric rearrangement of RGB into a cy
 **When HSL is fine:** simple color pickers, quick CSS tweaks, situations where perceptual accuracy doesn't matter.
 
 **When to use something better:**
+
 - Generating palettes or scales → **OKLCH** (uniform lightness across hues)
 - Creating gradients → **OKLAB** or `color-mix(in oklab)` (no mid-gradient darkening)
 - Gamut-aware picking with HSL-like UX → **OKHSL** (Ottosson's perceptual HSL)
@@ -51,29 +52,33 @@ HSL isn't "bad" — it's a simple, fast geometric rearrangement of RGB into a cy
 
 Of ~281 trillion hex color pairs (computed in Rust, original research):
 
-| Threshold | % passing | Odds |
-|-----------|----------|------|
-| WCAG 3:1 (large text) | 26.49% | ~1 in 4 |
-| WCAG 4.5:1 (AA body text) | 11.98% | ~1 in 8 |
-| WCAG 7:1 (AAA) | 3.64% | ~1 in 27 |
-| APCA 60 | 7.33% | ~1 in 14 |
-| APCA 75 (fluent reading) | 1.57% | ~1 in 64 |
-| APCA 90 (preferred body) | **0.08%** | **~1 in 1,250** |
+| Threshold                 | % passing | Odds            |
+| ------------------------- | --------- | --------------- |
+| WCAG 3:1 (large text)     | 26.49%    | ~1 in 4         |
+| WCAG 4.5:1 (AA body text) | 11.98%    | ~1 in 8         |
+| WCAG 7:1 (AAA)            | 3.64%     | ~1 in 27        |
+| APCA 60                   | 7.33%     | ~1 in 14        |
+| APCA 75 (fluent reading)  | 1.57%     | ~1 in 64        |
+| APCA 90 (preferred body)  | **0.08%** | **~1 in 1,250** |
 
 APCA is far more restrictive than WCAG at comparable readability. At APCA 90, only 239 billion of 281 trillion pairs work. JPEG compression exploits the same biology: chroma subsampling (4× less color data) is invisible because human vision resolves brightness at higher resolution than color.
 
 ## Color Harmony — What Actually Works
 
 ### Hue-first harmony is useless
+
 Complementary, triadic, tetradic intervals tell you nothing about mood, legibility, or accessibility. Every hue plane has a different shape in perceptual space — geometric hue intervals guarantee no perceptual balance.
 
 ### Character-first harmony works (Ellen Divers' research)
+
 Organize by character (pale/muted/deep/vivid/dark), not hue. Finding: **hue doesn't matter for emotional response** — a muted palette reads as calm regardless of hue. Relaxed vs intense = chroma + lightness, not hue.
 
 ### Legibility = lightness variation
+
 If it reads in grayscale, it's accessible. Same character + varied lightness = readable. Same lightness regardless of hue = illegible.
 
 ### The 60-30-10 rule
+
 60% dominant color, 30% secondary, 10% accent. One color dominates to prevent "three equally-sized gorillas fighting."
 
 ## Pigment Mixing — Not What You Think
@@ -97,16 +102,16 @@ If it reads in grayscale, it's accessible. Same character + varied lightness = r
 
 ## Color Naming — Multiple Systems for Different Registers
 
-| System | Register | Example |
-|--------|----------|---------|
-| ISCC-NBS | Scientific precision | "vivid yellowish green" |
-| Munsell | Systematic notation | "5GY 7/10" |
-| XKCD | Common perception | "ugly yellow", "hospital green" |
-| Traditional Japanese | Cultural/poetic | "wasurenagusa-iro" (forget-me-not) |
-| RAL | Industrial reproducibility | RAL 5002 |
-| Ridgway (1912) | Ornithological | 1,115 named colors, public domain |
-| CSS Named Colors | Web standard | 147 named colors |
-| color-description lib | Emotional adjectives | "pale, delicate, glistening" |
+| System                | Register                   | Example                            |
+| --------------------- | -------------------------- | ---------------------------------- |
+| ISCC-NBS              | Scientific precision       | "vivid yellowish green"            |
+| Munsell               | Systematic notation        | "5GY 7/10"                         |
+| XKCD                  | Common perception          | "ugly yellow", "hospital green"    |
+| Traditional Japanese  | Cultural/poetic            | "wasurenagusa-iro" (forget-me-not) |
+| RAL                   | Industrial reproducibility | RAL 5002                           |
+| Ridgway (1912)        | Ornithological             | 1,115 named colors, public domain  |
+| CSS Named Colors      | Web standard               | 147 named colors                   |
+| color-description lib | Emotional adjectives       | "pale, delicate, glistening"       |
 
 Use `color-name-lists` npm package for 18 naming systems in one import.
 
@@ -121,7 +126,9 @@ Use `color-name-lists` npm package for 18 naming systems in one import.
 ## Recommended Tools
 
 ### Palette Generation (actual algorithms, not pre-made swatches)
+
 Note: coolors.co does not generate palettes — it just shows pre-made borrowed ones randomly. Prefer tools with real algorithms:
+
 - **RampenSau** — hue cycling + easing, color space agnostic
 - **Poline** — anchor points + per-axis position functions (1.2K stars)
 - **pro-color-harmonies** — adaptive OKLCH harmony, muddy-zone avoidance, 4 styles × 4 modifiers
@@ -130,18 +137,21 @@ Note: coolors.co does not generate palettes — it just shows pre-made borrowed 
 - **IQ Cosine Formula** — `color(t) = a + b*cos(2π(c*t+d))`, 12 floats = infinite palette
 
 ### Palette Analysis & Linting
+
 - **Color Buddy** — 38 lint rules (WCAG, CVD, distinctness, fairness, affect)
 - **Censor** — Rust CLI, CAM16UCS analysis, 20+ viz widgets
 - **Color Palette Shader** — WebGL2 Voronoi, 30+ color models, 11 distance metrics
 - **PickyPalette** — interactive sculpting on color space canvas
 
 ### Color Libraries (code)
+
 - **Culori** — 30 spaces, 10 distance metrics, gamut mapping, CVD sim
 - **@texel/color** — 5–125× faster than Color.js, minimal, for real-time
 - **Spectral.js** — open-source K-M pigment mixing (blue+yellow=green)
 - **RYBitten** — RGB↔RYB with 26 historical color cubes
 
 ### Key Online Tools
+
 - **oklch.com** — OKLCH picker
 - **Huetone** — accessible color system builder (LCH/OKLCH)
 - **View Color** — real-time analysis, WCAG + APCA, CVD preview

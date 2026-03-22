@@ -16,6 +16,7 @@ Reverse-engineering Goethe's prism "edge color" observations into a framework fo
 **Goethe:** put the prism in front of his eye → observed how it distorted an image
 
 Looking at a black bar through a prism produces two edge color sequences:
+
 - **Warm edge:** black → dark red → red → orange → amber → yellow → (desaturates toward white)
 - **Cool edge:** black → dark blue → blue → cyan → (desaturates toward white)
 
@@ -43,11 +44,13 @@ Pipe cleaner model demonstrates the spiral path through color space.
 ## Existing Examples of This Principle
 
 ### Matplotlib Colormaps
+
 - **Viridis:** black → violet → azure → blue-green → desaturated yellow → white — traces a helix through color space
 - **Magma:** same helical principle through different hues (warm circuit)
 - Peter Karpov's critique: some colormaps have hue discrimination issues in places
 
 ### Dave Green's Cubehelix
+
 - Explicitly designed as a helical path through RGB space
 - Specifically for astronomical visualization
 - Monotonic lightness + hue variation + grayscale safe

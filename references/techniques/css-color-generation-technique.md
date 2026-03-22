@@ -15,11 +15,9 @@ Generate base colors in OKLCH, then use CSS `color-mix()` to interpolate between
 const generateHxxRamp = (colors = 4, minHueDiffAngle = 60) => {
   minHueDiffAngle = Math.min(minHueDiffAngle, 360 / colors);
   const baseHue = Math.random() * 360;
-  const huesToPickFrom = new Array(
-    Math.round(360 / minHueDiffAngle)
-  ).fill('').map((_, i) =>
-    (baseHue + i * minHueDiffAngle) % 360
-  );
+  const huesToPickFrom = new Array(Math.round(360 / minHueDiffAngle))
+    .fill("")
+    .map((_, i) => (baseHue + i * minHueDiffAngle) % 360);
   // Remove random hues until we have the desired count
   while (huesToPickFrom.length > colors) {
     const randomIndex = Math.floor(Math.random() * huesToPickFrom.length);
@@ -79,7 +77,7 @@ const generateColors = (
   colorsToGenerate,
   colorsFinal,
   minHueDiffAngle = 60,
-  mixIn = 'oklab',
+  mixIn = "oklab",
 ) => {
   const baseColors = generateHxxRamp(colorsToGenerate, minHueDiffAngle);
   const cssColorStops = baseColors.map(hxxToCSSokLCH);
@@ -88,7 +86,7 @@ const generateColors = (
         cssColorStops,
         colorsFinal,
         (percent, lastValue, nextValue) =>
-          `color-mix(in ${mixIn}, ${nextValue} ${(percent * 100).toFixed(2)}%, ${lastValue})`
+          `color-mix(in ${mixIn}, ${nextValue} ${(percent * 100).toFixed(2)}%, ${lastValue})`,
       )
     : cssColorStops;
 };
@@ -102,9 +100,9 @@ const hardStopsGradient = (arrOfColors) => {
   return arrOfColors
     .map(
       (c, i) =>
-        `${c} ${((i / l) * 100).toFixed(2)}% ${(((i + 1) / l) * 100).toFixed(2)}%`
+        `${c} ${((i / l) * 100).toFixed(2)}% ${(((i + 1) / l) * 100).toFixed(2)}%`,
     )
-    .join(',');
+    .join(",");
 };
 ```
 

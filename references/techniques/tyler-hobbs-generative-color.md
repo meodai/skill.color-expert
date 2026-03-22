@@ -78,7 +78,7 @@ The most powerful technique — **gradient the probabilities themselves:**
     [0 80 80] red-odds))
 ```
 
-Result: smooth transition from blue-accent to red-accent across the piece without explicit gradient — the color *distribution* shifts, not the colors themselves.
+Result: smooth transition from blue-accent to red-accent across the piece without explicit gradient — the color _distribution_ shifts, not the colors themselves.
 
 ### 6. Context-Dependent Palette Switching
 
@@ -93,6 +93,7 @@ Different conditions trigger different probability distributions:
 ## Composability
 
 These techniques stack:
+
 - HSB → selective randomization → gradient mapping → probability distributions → gradient probabilities
 - Each layer adds sophistication without complexity
 

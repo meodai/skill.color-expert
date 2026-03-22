@@ -15,22 +15,26 @@ Peter Donahue (Color Nerd) reflects on lessons learned from 500+ TikTok color th
 ## Major Topics
 
 ### 1. Common Misconceptions on TikTok
+
 - People think brown is neutral (cosmetologists taught this in school)
 - "Complementary colors mix to brown" — actually a symptom of using wrong complement pairs (Itten model)
 - Students blame their own skill rather than questioning flawed models
 
 ### 2. Brown Is Not Neutral
+
 - Itten complement pairs center on brown, not gray
 - Cosmetologists/hairdressers have practical reasons for treating brown as neutral (human skin/hair pigments center around desaturated red-orange)
 - "Why tear apart that theory if it works?" — but when those students try to paint, it fails
 
 ### 3. The Simplified Color Disc
+
 - Designed for beginners (even 5th graders)
 - Draw straight lines between colors to predict mixtures
 - Modified version with skin tones plotted (Fenty + L'Oréal foundation ranges)
 - Used by a TikToker (acapelli) for port wine stain color correction — 3M views
 
 ### 4. Pigment Mixing Is NOT Purely Subtractive (~41:07, linked timestamp)
+
 - **Isolated rules** fail when applied to new situations (e.g., desaturating orange with blue works, but desaturating yellow with purple turns green)
 - **Multiply mode in RGB** as a teaching tool for understanding subtractive mixing patterns
 - **Introverted octopus:** mixing paths from additive primaries (RGB) curve inward toward gray — a third of the spectrum is their complement
@@ -39,6 +43,7 @@ Peter Donahue (Color Nerd) reflects on lessons learned from 500+ TikTok color th
 - **Additive primaries as "gravity wells"** that attract all mixing paths
 
 ### 5. Pigment Mixing = "Integrated Mixing"
+
 - Not purely subtractive — it's a compromise between subtractive and additive averaging
 - David Briggs: "a compromise between subtractive and additive averaging"
 - Harold Küppers: "integrated mixing"
@@ -46,6 +51,7 @@ Peter Donahue (Color Nerd) reflects on lessons learned from 500+ TikTok color th
 - The curved mixing path model (using CIECAM02 hue angles) makes it accessible
 
 ### 6. The Color Disc Tool (v4.5 → v5.1)
+
 - Polar grid with expanded achromatic center (1-inch diameter gray circle instead of a point)
 - Allows wiggle room for subtractive mixing paths between opposing colors
 - Uses CIECAM02 hue angles (better alignment with pigment mixing than HSL)
@@ -57,7 +63,7 @@ Peter Donahue (Color Nerd) reflects on lessons learned from 500+ TikTok color th
 - **Colour Society of Australia:** https://coloursociety.org.au
 - **Bruce MacEvoy's readings** — referenced for pigment plotting in CIECAM
 - **Bob Burridge — The Artist's Helper app** — used for plotting pigment mixtures
-- **Harold Küppers — *The Basic Law of Color Theory*** — referenced for "integrated mixing"
+- **Harold Küppers — _The Basic Law of Color Theory_** — referenced for "integrated mixing"
 
 ## Source References
 

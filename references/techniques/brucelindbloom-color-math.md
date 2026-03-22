@@ -13,34 +13,34 @@ The definitive reference site for **color space conversion mathematics**. Every 
 
 All the math for converting between color spaces:
 
-| Conversion | URL |
-|------------|-----|
-| RGB → XYZ | http://www.brucelindbloom.com/Eqn_RGB_to_XYZ.html |
-| XYZ → RGB | http://www.brucelindbloom.com/Eqn_XYZ_to_RGB.html |
-| RGB/XYZ Matrices | http://www.brucelindbloom.com/Eqn_RGB_XYZ_Matrix.html |
-| XYZ → Lab | http://www.brucelindbloom.com/Eqn_XYZ_to_Lab.html |
-| Lab → XYZ | http://www.brucelindbloom.com/Eqn_Lab_to_XYZ.html |
-| Lab → LCH | http://www.brucelindbloom.com/Eqn_Lab_to_LCH.html |
-| Chromatic Adaptation | http://www.brucelindbloom.com/Eqn_ChromAdapt.html |
-| Spectral → XYZ | http://www.brucelindbloom.com/Eqn_Spect_to_XYZ.html |
-| ΔE calculations | various |
+| Conversion           | URL                                                   |
+| -------------------- | ----------------------------------------------------- |
+| RGB → XYZ            | http://www.brucelindbloom.com/Eqn_RGB_to_XYZ.html     |
+| XYZ → RGB            | http://www.brucelindbloom.com/Eqn_XYZ_to_RGB.html     |
+| RGB/XYZ Matrices     | http://www.brucelindbloom.com/Eqn_RGB_XYZ_Matrix.html |
+| XYZ → Lab            | http://www.brucelindbloom.com/Eqn_XYZ_to_Lab.html     |
+| Lab → XYZ            | http://www.brucelindbloom.com/Eqn_Lab_to_XYZ.html     |
+| Lab → LCH            | http://www.brucelindbloom.com/Eqn_Lab_to_LCH.html     |
+| Chromatic Adaptation | http://www.brucelindbloom.com/Eqn_ChromAdapt.html     |
+| Spectral → XYZ       | http://www.brucelindbloom.com/Eqn_Spect_to_XYZ.html   |
+| ΔE calculations      | various                                               |
 
 ### Calculators (http://www.brucelindbloom.com/Calc.html)
 
-| Calculator | Purpose |
-|------------|---------|
-| CIE Color Calculator | Convert between XYZ, Lab, LCH, Luv, RGB with any illuminant |
-| Chromatic Adaptation | Adapt between illuminants (Bradford, Von Kries, etc.) |
-| ColorChecker Calculator | Compute XYZ values spectrally for ColorChecker patches |
-| Lab Gamut Display | Visualize the gamut of a color space in Lab |
-| RGB/XYZ Matrix Calculator | Compute matrices from custom primaries + white point |
+| Calculator                | Purpose                                                     |
+| ------------------------- | ----------------------------------------------------------- |
+| CIE Color Calculator      | Convert between XYZ, Lab, LCH, Luv, RGB with any illuminant |
+| Chromatic Adaptation      | Adapt between illuminants (Bradford, Von Kries, etc.)       |
+| ColorChecker Calculator   | Compute XYZ values spectrally for ColorChecker patches      |
+| Lab Gamut Display         | Visualize the gamut of a color space in Lab                 |
+| RGB/XYZ Matrix Calculator | Compute matrices from custom primaries + white point        |
 
 ### Key Technical Details
 
 - **sRGB = D65**, ICC profiles = D50 → chromatic adaptation needed between them
 - **Bradford method** — considered best chromatic adaptation; used in Adobe Photoshop
 - **Linear RGB required** — all matrix math requires linearized (gamma-decoded) RGB, not sRGB
-- **CIE L* continuity study** — analysis of the L* function's mathematical properties
+- **CIE L\* continuity study** — analysis of the L\* function's mathematical properties
 
 ## Lab Gamut Display — How It Works
 

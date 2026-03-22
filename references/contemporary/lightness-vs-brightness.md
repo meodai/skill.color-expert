@@ -21,7 +21,7 @@ So this guy, I'm going to change him because I'm playing a trick on here... and 
 - **Brightness** — perceived independently of surrounding lighting; absolute sense of luminous intensity
 - **Demonstration:** same paint patch appears to "glow" when surrounding context (shadow on cube face) tricks the visual system into interpreting it as self-luminous (bright) rather than just light-colored (high lightness)
 - **Relevance to color spaces:**
-  - L* in CIELAB/OKLCH = lightness (relative)
+  - L\* in CIELAB/OKLCH = lightness (relative)
   - V in HSV = value (loosely brightness)
   - Y in XYZ = luminance (physical brightness)
 

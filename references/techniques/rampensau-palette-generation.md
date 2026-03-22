@@ -12,6 +12,7 @@ JavaScript library for generating color ramps/palettes using **hue cycling and e
 ## Core Concept
 
 Instead of picking individual colors, RampenSau generates palettes by:
+
 1. **Cycling through hues** with configurable rotations and easing
 2. **Modulating saturation and lightness** via range + easing curves
 3. Optionally applying **curve methods** (lamé, sine, power, linear) for organic variation
@@ -25,15 +26,15 @@ Instead of picking individual colors, RampenSau generates palettes by:
 import { generateColorRamp } from "rampensau";
 
 const colors = generateColorRamp({
-  total: 9,           // number of colors
-  hStart: 220,        // starting hue
-  hCycles: 0.5,       // half rotation (180°)
-  hStartCenter: 0.5,  // center hue at midpoint
-  hEasing: t => t,    // linear hue easing
+  total: 9, // number of colors
+  hStart: 220, // starting hue
+  hCycles: 0.5, // half rotation (180°)
+  hStartCenter: 0.5, // center hue at midpoint
+  hEasing: (t) => t, // linear hue easing
   sRange: [0.4, 0.8], // saturation min/max
   lRange: [0.2, 0.9], // lightness min/max
-  sEasing: t => t,    // saturation easing
-  lEasing: t => t,    // lightness easing
+  sEasing: (t) => t, // saturation easing
+  lEasing: (t) => t, // lightness easing
 });
 // Returns: [[h, s, l], [h, s, l], ...]
 ```
@@ -41,6 +42,7 @@ const colors = generateColorRamp({
 ### `generateColorRampWithCurve(options)`
 
 Convenience wrapper with preset curve methods:
+
 - `curveMethod`: `'lamé'` | `'sine'` | `'power'` | `'linear'`
 - `curveAccent`: intensity (0–5)
 
@@ -63,10 +65,10 @@ const triadic = colorHarmonies.triadic(120); // base hue 120°
 ```javascript
 import { colorToCSS } from "rampensau";
 
-colorToCSS([280, 0.6, 0.5], 'oklch');
+colorToCSS([280, 0.6, 0.5], "oklch");
 // → 'oklch(L% C H)'
 
-colorToCSS([280, 0.6, 0.5], 'hsl');
+colorToCSS([280, 0.6, 0.5], "hsl");
 // → 'hsl(280, 60%, 50%)'
 ```
 

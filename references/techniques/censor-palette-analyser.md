@@ -42,17 +42,20 @@ censor daemon -p 8008
 ## 20+ Visualization Widgets
 
 ### Hue/Lightness
+
 - Rectangular hue-lightness (fixed chroma)
 - Polar hue-chroma plot
 - Polar hue-lightness at fixed chroma levels
 - Hue-lightness scatter
 
 ### Spectral
+
 - CIExy spectral distribution with non-spectral line
 - Spectral box (parabolic parametrization through black/white)
 - "Temperature" distribution (normalized -log(CCT))
 
 ### Palette Analysis
+
 - Indexed palette grid
 - **Close color clustering** (with lightness weighting) — finds redundant colors
 - **Internal similarity metric:** `(mean_d / min_d) / n^(2/3)` — single number for palette quality
@@ -61,6 +64,7 @@ censor daemon -p 8008
 - Acyclic check
 
 ### Perceptual
+
 - **CAM16UCS 3D cubes** (multiple angles) — see palette in perceptual space
 - Lightness-sorted with neutralizers
 - Lightness-chroma bars
@@ -70,12 +74,12 @@ censor daemon -p 8008
 
 ## Dithering Algorithms
 
-| Method | Description |
-|--------|-------------|
-| `--nodither` | Nearest-neighbor quantization |
-| `--bayer N` | Ordered dithering with 2^N Bayer matrix |
-| `--whitenoise WxH` | White noise ordered dithering |
-| `--bluenoise WxH` | Blue noise ordered dithering (default 14×14) |
+| Method             | Description                                  |
+| ------------------ | -------------------------------------------- |
+| `--nodither`       | Nearest-neighbor quantization                |
+| `--bayer N`        | Ordered dithering with 2^N Bayer matrix      |
+| `--whitenoise WxH` | White noise ordered dithering                |
+| `--bluenoise WxH`  | Blue noise ordered dithering (default 14×14) |
 
 ## Why It Matters
 

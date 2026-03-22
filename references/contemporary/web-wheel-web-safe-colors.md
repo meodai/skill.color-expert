@@ -34,6 +34,6 @@ I was actually inspired by this odd pattern of slopes to build this tool. It's s
 
 ## Source Books
 
-| Document | Author | Year | Archive.org | Local PDF |
-|----------|--------|------|-------------|-----------|
-| *Designing Web Graphics* (3rd ed.) | Lynda Weinman | 1999 | [archive.org](https://archive.org/details/designingwebgrapwei00wein) | borrow-only |
+| Document                           | Author        | Year | Archive.org                                                          | Local PDF   |
+| ---------------------------------- | ------------- | ---- | -------------------------------------------------------------------- | ----------- |
+| _Designing Web Graphics_ (3rd ed.) | Lynda Weinman | 1999 | [archive.org](https://archive.org/details/designingwebgrapwei00wein) | borrow-only |

@@ -3,6 +3,7 @@
 **Source:** David Briggs — [Dimensions of Color](http://www.huevaluechroma.com/)
 
 ---
+
 ## Page 071
 
 PART 7. THE DIMENSION OF HUE
@@ -16,9 +17,9 @@ The key steps of isolating hue as an independent dimension of colour, and of rep
 Optics
 of 1704. Some earlier colour diagrams in the shape of a circle had been drawn in the seventeenth century (Figs 7.1.1A, B, D), and circular diagrams displaying colours of urine had been used for medical diagnoses since the Middle Ages (Kuehni and Schwarz, 2008, Figs 2.3, 2.4), but all of these included black and white among the colours of the circle. So while
 colour
-circles had existed previously,  the circular dimension of
+circles had existed previously, the circular dimension of
 hue
-begins with 
+begins with
 Newton.
 Figure 7.1.1
 . Seventeenth century diagrams of colour order systems
@@ -52,11 +53,11 @@ c. 330 B.C.) Aristotle arranged five chromatic colours on a line between white a
 Figure 7.1.2
 .
 Linear
-colour order systems. A. Aristotle,  c. 330 BC,
+colour order systems. A. Aristotle, c. 330 BC,
 Peri Aistheseos kai aistheton
 . B. Chalcidius, c. 325 AD, from his commentary on Plato's
 Timaeus
-,. C. Bartholomaeus Anglicus,  c.1245, from his encyclopaedia
+,. C. Bartholomaeus Anglicus, c.1245, from his encyclopaedia
 De rerum naturalis (Of natural things)
 . D. Leonardo da Vinci,c. 1500,
 Trattato della pittura
@@ -89,7 +90,7 @@ with "genera" passing through red, blue, green and grey/beige
 (bigia et cinericia
 ). D. Sigfridus Forsius, 1611 manuscript
 Physica
-,  "ancient" system (see Fig. 7.1.1A), with colours in two series, through red and blue. E. Forsius' second system (see Fig. 7.1.1B), with five series through red, yellow, green, blue and grey. F. Glisson, 1677,
+, "ancient" system (see Fig. 7.1.1A), with colours in two series, through red and blue. E. Forsius' second system (see Fig. 7.1.1B), with five series through red, yellow, green, blue and grey. F. Glisson, 1677,
 Tractatus de ventriculo et intestinis,
 (cf. Fig. 7.1.1G). Diagrams A, B and C, which were not illustrated by their authors, are modeled on the later diagrams by Forsius and Glisson. For details of the original publications see Kuehni and Schwarz (2008).
 The elaborate diagram by the Jesuit mathematician Francois D'Aguilon (Figs 7.1.1C, 7.1.4) ingeniously reconciles three disparate systems: (1) a
@@ -133,7 +134,7 @@ complementarity
 monochromatic
 lights, ostensibly because he had not succeeded in demonstrating this result experimentally, but perhaps also because it would have meant conceding a point to his early critic, Huygens. It is difficult to overstate the importance of Newton's discoveries, which contributed directly or indirectly to a huge part of our conceptual framework of colour in science, technology and art - not to mention the discovery of radio waves, microwaves, and the rest of the electromagnetic spectrum! Once hue and saturation had been added to brightness as independent dimensions, it was only a small step (first taken by Brook Taylor in 1719) to recommend an explicitly three-dimensional conception of colour. The hue circle and the concept of complementarity were particularly important developments for artists, and even the concept of "warm" and "cool" hues does not seem to have taken hold until after artists saw their hues laid out in a circle.
 Figure 7.1.6.
-Generalized illustration of Newton's various experiments showing that  splitting the spectrum produces coloured lights with opposite "centres of gravity" that can be recombined to make white light.
+Generalized illustration of Newton's various experiments showing that splitting the spectrum produces coloured lights with opposite "centres of gravity" that can be recombined to make white light.
 Though Newton's circle first appears in the
 Opticks
 of 1704, the musical comparison to which we apparently owe it is contained in
@@ -219,6 +220,7 @@ here
 7 >>
 
 ---
+
 ## Page 072
 
 7.2 THE RYB HUE CIRCLE OR "ARTISTS' COLOUR WHEEL"
@@ -240,7 +242,7 @@ Traite de la peinture in mignature
 , L'Optique des couleurs,
 as illustrated by Kemp, 1990. D, Tobias Mayer, 1758,
 De affinitate colorum commentatio
-, as illustrated by Georg Christoph Lichtenberg  in 1775. E, F, Moses Harris, c. 1770-72,
+, as illustrated by Georg Christoph Lichtenberg in 1775. E, F, Moses Harris, c. 1770-72,
 The natural system of colours
 . G, Ignaz Schiffermuller, 1772,
 Versuch eines Farbensystems
@@ -289,171 +291,173 @@ Section 7.4
 ), and colourant-mixing complements (
 Section 7.5
 ), and that the hues that oppose each other are somewhat different in each case. In reality we need somewhat different hue circles to represent each set of relationships accurately. Which one we use depends on what kind of question is being asked. After this revolution, authors who continued to use the historical primaries mostly felt obliged to justify their position, given that the red, green and blue/violet primaries of Helmholtz and Maxwell were now widely regarded as the "true" primary colours by scientists. Their standard argument ever since has been that artists must work with pigments, and therefore their colour classification must be constructed in terms of the mixing of pigments rather than light. This argument neglects three crucial points:
+
 1. Artists may also be said to work with the
-light
-reflected by their artworks, and when the question concerns this visual stimulus (as in simultaneous contrast), the appropriate framework is one based on light mixture.
+   light
+   reflected by their artworks, and when the question concerns this visual stimulus (as in simultaneous contrast), the appropriate framework is one based on light mixture.
 2. Most fundamentally, artists work with the
-perceptions
-of their audience, and hue perceptions are structured around the four psychological primaries.
+   perceptions
+   of their audience, and hue perceptions are structured around the four psychological primaries.
 3. The clarification of the theoretical basis of subtractive mixing had revealed that the optimal primaries for colourant mixing were not in fact yellow, red and blue, but
-yellow, magenta
-and
-cyan
-, the complements of the additive primaries.
-What colour are yellow, red and blue?
-The "artists' colour wheel" can now be seen as an unconscious compromise, developed on the assumption that only a single hue circle was needed, at a time when the different kinds of opposite or complementary relationships were not understood. While they are unanimous in designating the primary colours as "yellow", "red" and "blue", such diagrams show far less unanimity in the paint or ink colours used to illustrate these primaries (e.g. Figs 7.2.2, 7.2.3, 7.2.4). This variation reflects the nature of the historical primaries as
-a conflation of the four psychological primaries - yellow (Y), red (R), blue (B) and green (G) - and the three subtractive primaries, yellow (Y), magenta (BR) and cyan (GB)
-, additionally complicated by the relative chroma of the available pigments. Thus, nineteenth century "primary" reds range from the the bluish red pigments closest to the ideal subtractive magenta primary (insect, madder or alizarin crimsons, all around Munsell 2.5R) through psychologically middle reds (around 5R) to the highest-chroma available red (vermilion, around 7.5R). Nineteenth century "primary" blues range from the best available subtractive primary (Prussian blue, around 7.5B-10B) and psychologically middle blue (around 10B) to the highest-chroma available blue (ultramarine, around 5PB). Nineteenth century "primary" yellows span the range of the then available high-chroma yellow colourants (roughly 7.5YR-5Y), which includes middle yellow (around 5Y). In the twentieth century the invention of phthalocyanine and quinacridone pigments respectively expanded the ranges of "primary" blues and reds closer to the ideal subtractive primaries.
-Figure 7.2.2
-. Selected nineteenth century hue systems, part 1 (
-click to enlarge
-). A, B, Baumgartner and Muller, 1803,
-Esthetique de la Toilette
-. C, Sowerby, 1809,
-A new elucidation of colours
-. D, Runge, 1809, in Runge, 1840,
-Hinterlassene Schriften
-. F-G, Runge, 1810,
-Farben-Kugel
-. H, Goethe, 1810,
-Zur farbenlehre
-. I, Gregoire's c.1810-1820 system, from Gregoire, 1820,
-Tables des couleurs sur trois feuilles
-. J, Hayter, 1813,
-An introduction to perspective, drawing, and painting
-. K, Klotz, 1816,
-Gruendliche Farbenlehre
-.
-Figure 7.2.3.
-Selected nineteenth century hue systems, part 2 (
-click to enlarge
-). A, Merimee, in Brisseau-Mirbel, 1815,
-Elemens de physiologie vegetale et de botanique
-. B, Field, 1817,
-Chromatics
-[1st edn]. C, D, Hayter, 1826,
-A new practical treatise on the three primitive colours
-. E, Merimee, 1830,
-De la peinture a l'huile
-. F, Hay, 1836,
-The laws of harmonious colouring
-[3rd edn]. G, de Lisle, 1838,
-Chromagraphie
-. H. Merimee, 1839,
-The art of painting in oil, and in fresco
-. I, Field, 1841,
-Chromatography
-[2nd edn]. J, Delaistre, 1842,
-Cours methodique du dessin et de la peinture
-. K, Forbes, 1849,
-On the classification of colours
-. L, Field, 1850,
-Rudiments of the painter's art
-.
-Figure 7.2.4.
-Selected nineteenth century hue systems, part 3 (
-click to enlarge
-). A, Adams, 1860,
-Die Farben-Harmonie in ihrer Anwendung auf die Damentoilette
-. B, Chevreul, 1861,
-Expose d'un moyen de definir et de nommer les couleurs
-. C-F, Schreiber, 1868,
-Die farbenlehre
-. G, Bacon, 1872,
-The theory of colouring
-. H, Blanc, 1876,
-Grammaire des Arts du Dessin
-. I, J, Davidson, in Field & Davidson, 1874,
-A grammar of colouring, applied to decorative painting
-. K, Ridgway, 1886,
-A nomenclature of colors for naturalists
-. L, Lacouture, 1890,
-Repertoire chromatique
-. M, Sanford, copyright 1891, in Sanford, 1910,
-Sanford's manual of color
-. N, Earhart, 1892,
-The color printer
-. O, Prang system, in Prang
-,
-Clark and Hicks, 1893,
-Suggestions for a course of instruction in color for public schools
-. P, Milton Bradley system, in Maycock, 1896,
-A class book of color
-.
-The need for a system of fixed standards for hue terms such as "yellow", "red" and "blue" was recognized as early as 1810 by Gaspard Gregoire, who published an atlas of 1,351 coloured samples arranged according to hue (Fig. 7.2.2I), value and
-relative
-chroma, but the work apparently had little impact, and no copies survive today (Kuehni and Schwarz, 2008, pp. 82-3). Two colour classifications published in the United States in the late 19th century by the printer Louis Prang and the games manufacturer Milton Bradley were also structured around the traditional primary and secondary hues, although in Bradley's system these were known as the six
-spectral primaries
-. Prang's system involved scales of twelve hues (designated R, RO, O, YO, Y, etc.) and 24 hues (R, RRO, RO, ORO, O, etc), while Bradley's system had 18 hues (R, OR, RO, O, etc.) for high chroma or "pure spectrum" colours and 12 hues (R, OR, O, YO, Y, etc.) for low chroma or "broken spectrum" colours (Fig. 7.2.4). Denman Ross (1907) used Prang's 12-hue system of hue designation for his own colour order system, and Albert Munsell used a similar lettering code for the five-hue system of his
-Atlas
-of 1915.
-Figure 7.2.5
-. A, B, Standard colour chips representing the Prang system, from Prang
-,
-Clark and Hicks, 1893,
-Suggestions for a course of instruction in color for public schools
-. C, Colour chips of the Bradley system, from Bradley, 1895,
-Elementary color
-[3rd Edn]. The chips in A to C are glued-in painted cards, as in Munsell's
-Atlas
-. Collection of the author.
-Itten's colour theory and hue system
-The "artists' colour wheel" has persisted alongside more sophisticated hue systems, and is still widely taught in art and design courses today. This persistence, and the corresponding exclusion of modern colour theory, are associated more than anything else with the extraordinary influence of one book,
-The Art of Color
-(1961) by Johannes Itten (1888-1967). Both the abridged 1970 edition by Faber Birren and the mass-produced second edition of 1973 have been widely used as textbooks, and many later texts and websites recycle the approach to colour theory presented in Itten's book. Itten's reputation derives ultimately from his association with the German Bauhaus, which has been enormously influential in art and design education since the mid-20th century. Itten was responsible for implementing the widely copied Preliminary Course (
-Vorlehre
-) at the Bauhaus, and taught there for three and a half years until the "mystical" elements in his teaching, the disunity caused by his continuing efforts to "rule the Bauhaus", and his habit of coming into the craft workshops giving instructions on technical matters he did not understand (Forgacs, 1995) lost him the support of some of the staff and students, including the director, Walter Gropius.
-Colour was taught at the Bauhaus by artists successively including Itten, Ludwig Hirschfeld-Mack, Paul Klee, and Wassily Kandinsky, as well as by various masters in the specialized workshops such as wall-painting, weaving, etc. (Gage, 1993, pp. 259-263; Poling, 1973). The dominant influence on colour theory initially was the former mentor/teacher of Itten and Hirschfeld-Mack, the painter Adolf Hoelzel (1853-1934), who also devised virtually the entire structure of the Preliminary Course implemented by Itten (Parris, 1979). Hoelzel's approach to colour was relatively broadly based, and although he attached prime importance to Goethe, he also incorporated a wide range of other influences including the scientists Wilhelm von Bezold (1837-1907), Ogden Rood (1831-1902) and Wilhelm Ostwald (1853-1932). Hoelzel used different colour diagrams for different purposes, six of which were printed in a 1919 publication by the Pelikan Company (Fig. 7.2.6A-F). The first four of these are structured around the historical primaries, secondaries and tertiaries, and are derived from a colour theory manual of 1868 by Guido Schreiber (Fig. 7.2.4C-F). They consist of two symmetrical six-hue colour circles showing the primaries and secondaries, and secondaries and tertiaries respectively (Fig. 7.2.6A, B, cf. Fig. 7.2.4C-D), a circle divided into six unequal hue sectors calculated from the ratios of the "proportional activity of the retina" that Schopenhauer (1788-1860) had asserted to be the basis of colour perception (Fig. 7.2.6C, cf. Fig. 7.2.4E), and a triangle, often known today as the "Goethe triangle" and incorrectly attributed to Goethe himself, but actually devised by Schreiber on the basis of the systems of Tobias Mayer and George Field (Fig. 7.2.6D, cf. Fig. 7.2.4F). The fifth and sixth diagrams are circles using more modern hue systems devised by Bezold (Fig. 7.2.6E, F). These "diatonic" (8-hue) and "chromatic" (12-hue) circles formed the main framework for Hoelzel's schemes of colour harmony, which included complementary, split-complementary, triadic, tetradic and "irrational" schemes. In the 12-hue circle (Fig. 7.2.6F, G), based on hue divisions Bezold had regarded as perceptually equidistant, an equilateral triad connects the modern subtractive primaries ("purple"
-1
-, cyan-blue and yellow), leaving the historical primaries unequally spaced.  Klee and Kandinsky emphasized the historical primaries/secondaries in their teaching and, like Hoelzel, held Goethe's colour writings in extraordinarily high regard, but Kandinsky also incorporated the work of scientists including Helmholtz and Ostwald. Outside their classes the main emphasis was placed on the practical aspects of colour in relation to the materials being used, and the colour system that had greatest currency was that of Ostwald (Poling, 1973).
-Figure 7.2.6
-. A-F, Six colour theory diagrams by Hoelzel from Wollner, 1919,
-Farbkreisen zu den Vortragen von Adolf Holzel
-, Pelikan Co., Stuttgart. G, 12-hue or "Chromatic" colour wheel from Hoelzel, 1919,
-Einiges uber die Farbe in ihrer bildharmonischen Bedeutung und Ausnutzung,
-with English translation of German colour names. H. Itten's color star of 1921 (lithograph on paper), with English translations of the German colour names. The hue sequence is essentially that of Hoelzel's 12-hue circle, but is reoriented to place Itten's preferred division between "warm" and "cool" hues, at the yellow/yellow-green and blue-violet/purple-violet boundaries, vertically. The very uneven hue steps in the red-blue sector might indicate alteration of some of the colours.
-In
-The Art of Color
-of 1961 Itten still derived much of his teaching from Hoelzel's theories of colour harmony and contrast, and even appropriated some of Hoelzel's diagrams, including the circle based on Schopenhauer's ratios, which Itten mistakenly thought were Goethe's (Itten, 1961, pp. 104-5). However, while explicitly critical only of Ostwald, Itten's post-Bauhaus book also eliminates almost all of the other elements Hoelzel had derived from late 19th and early 20th century science. Thus although his "colour star" lithograph of 1921 (Fig. 7.2.6H), which he had used as the basis of his teaching of colour at the Bauhaus (Itten, 1975, p. 33), follows Hoelzel's 12-hue system derived from Bezold, in the colour star and other diagrams in
-The Art of Color
-Itten reverts to a system comprising evenly-spaced historical primaries and secondaries, with six intermediates. (Additionally, he flipped the hue sequence vertically, reversing the hue order and placing primary yellow at the top centre). This post-Bauhaus version of Itten's star is thus only a variation on its 19th century forerunners such as that of Lacouture (Fig. 7.2.4L). For a three-dimensional framework Itten (like Klee) rejected the Ostwald system used fairly widely in the Bauhaus and simply ignored the Munsell system, reverting instead to a simple spherical model externally like that of Runge (1810), but internally subdivided in a manner suggested by Brucke (1866). Itten's sphere places the strongest colours of all hues on the equator, ignoring their different value and absolute chroma, and thus lacks a consistent representation of the dimension of value that is vital to most painters.
-The printed colours used to illustrate the 12 hues of Itten's post-Bauhaus system vary between different editions, and even between different diagrams in the same copy, but his three primary colours are defined in the text as perceptually pure hues, oddly enough using the names of the
-four
-psychological primaries of modern science, which are otherwise completely ignored in the book: "a red that is neither bluish nor yellowish; a yellow that is neither
-greenish
-nor reddish; and a blue that is neither
-greenish
-nor reddish" (Itten, 1961, p. 34; emphasis mine).  Itten's
-secondary
-colours, designated orange, green and violet, are also defined perceptually, as not leaning towards either primary "component", but are claimed to be also exactly complementary to the third primary in paint-mixing, in simultaneous and successive contrast, and even in expressive interpretation (Itten, 1961, p. 137). Itten designates as
-tertiary
-six third-order hues located between adjacent primary and secondary hues; these are given compound names consisting of the primary followed by the secondary, e.g. yellow-orange, red-orange, etc., as in Prang's 12-hue system. Mainly because it is structured symmetrically around just three of the four psychological primaries, Itten's hue circle is uneven perceptually, with relatively large hue steps in the yellow-green-blue sector.
-Many of Itten's explanations of colour theory are as retrograde as his classification. His explanations of successive and simultaneous contrast echo Goethe's invocation of a mysterious "
-eye animism
-" ("the eye demands the complement..."), like Goethe completely ignoring the hypothesis of
-photoreceptor adaptation
-already suggested by Palmer and Young. His discussion of colour mixing in paints is framed in terms typifying the
-intermixture model
-that had been rendered finally obsolete by Helmholtz. No mention is made of the subtractive primaries cyan and magenta, and Itten's primaries are so remote from ideal cyan and (especially) magenta that paints of these hues make a poor set of colourant-mixing primaries, quite unsuitable for mixing purples or strong middle greens. Subtractive mixing is mentioned on the single page on "Color Physics", but how is this to be reconciled with statements throughout the rest of the book that "yellow + blue = green"? Itten is also said to have "vastly simplified" Hoelzel's system of seven contrasts of colour in his own version of that system (Parris, 1979, p. 99).
-The
-Art of Color
-embodies an approach to colour theory and classification fixated at a stage at least seventy years before the founding of the Bauhaus, and fabulously anachronistic at the present time. In several ways it is the colour theory equivalent of so-called "creation science". Whatever one's opinion of other aspects of the Hoelzel-Itten innovations in art and design education, the teaching in many institutions of a near monoculture of Itten's simplistic post-Bauhaus colour theory has been disastrous for the general level of public understanding of colour today.
-1
-Hoelzel's "purple" sits between "carmine" and "purplish-violet", and so must be near modern process magenta in hue.
-Modified April 15, 2013. Original text
-here
-and
-here
-.
-<< 1
-2
-3
-4
-5
-6
-7 >>
+   yellow, magenta
+   and
+   cyan
+   , the complements of the additive primaries.
+   What colour are yellow, red and blue?
+   The "artists' colour wheel" can now be seen as an unconscious compromise, developed on the assumption that only a single hue circle was needed, at a time when the different kinds of opposite or complementary relationships were not understood. While they are unanimous in designating the primary colours as "yellow", "red" and "blue", such diagrams show far less unanimity in the paint or ink colours used to illustrate these primaries (e.g. Figs 7.2.2, 7.2.3, 7.2.4). This variation reflects the nature of the historical primaries as
+   a conflation of the four psychological primaries - yellow (Y), red (R), blue (B) and green (G) - and the three subtractive primaries, yellow (Y), magenta (BR) and cyan (GB)
+   , additionally complicated by the relative chroma of the available pigments. Thus, nineteenth century "primary" reds range from the the bluish red pigments closest to the ideal subtractive magenta primary (insect, madder or alizarin crimsons, all around Munsell 2.5R) through psychologically middle reds (around 5R) to the highest-chroma available red (vermilion, around 7.5R). Nineteenth century "primary" blues range from the best available subtractive primary (Prussian blue, around 7.5B-10B) and psychologically middle blue (around 10B) to the highest-chroma available blue (ultramarine, around 5PB). Nineteenth century "primary" yellows span the range of the then available high-chroma yellow colourants (roughly 7.5YR-5Y), which includes middle yellow (around 5Y). In the twentieth century the invention of phthalocyanine and quinacridone pigments respectively expanded the ranges of "primary" blues and reds closer to the ideal subtractive primaries.
+   Figure 7.2.2
+   . Selected nineteenth century hue systems, part 1 (
+   click to enlarge
+   ). A, B, Baumgartner and Muller, 1803,
+   Esthetique de la Toilette
+   . C, Sowerby, 1809,
+   A new elucidation of colours
+   . D, Runge, 1809, in Runge, 1840,
+   Hinterlassene Schriften
+   . F-G, Runge, 1810,
+   Farben-Kugel
+   . H, Goethe, 1810,
+   Zur farbenlehre
+   . I, Gregoire's c.1810-1820 system, from Gregoire, 1820,
+   Tables des couleurs sur trois feuilles
+   . J, Hayter, 1813,
+   An introduction to perspective, drawing, and painting
+   . K, Klotz, 1816,
+   Gruendliche Farbenlehre
+   .
+   Figure 7.2.3.
+   Selected nineteenth century hue systems, part 2 (
+   click to enlarge
+   ). A, Merimee, in Brisseau-Mirbel, 1815,
+   Elemens de physiologie vegetale et de botanique
+   . B, Field, 1817,
+   Chromatics
+   [1st edn]. C, D, Hayter, 1826,
+   A new practical treatise on the three primitive colours
+   . E, Merimee, 1830,
+   De la peinture a l'huile
+   . F, Hay, 1836,
+   The laws of harmonious colouring
+   [3rd edn]. G, de Lisle, 1838,
+   Chromagraphie
+   . H. Merimee, 1839,
+   The art of painting in oil, and in fresco
+   . I, Field, 1841,
+   Chromatography
+   [2nd edn]. J, Delaistre, 1842,
+   Cours methodique du dessin et de la peinture
+   . K, Forbes, 1849,
+   On the classification of colours
+   . L, Field, 1850,
+   Rudiments of the painter's art
+   .
+   Figure 7.2.4.
+   Selected nineteenth century hue systems, part 3 (
+   click to enlarge
+   ). A, Adams, 1860,
+   Die Farben-Harmonie in ihrer Anwendung auf die Damentoilette
+   . B, Chevreul, 1861,
+   Expose d'un moyen de definir et de nommer les couleurs
+   . C-F, Schreiber, 1868,
+   Die farbenlehre
+   . G, Bacon, 1872,
+   The theory of colouring
+   . H, Blanc, 1876,
+   Grammaire des Arts du Dessin
+   . I, J, Davidson, in Field & Davidson, 1874,
+   A grammar of colouring, applied to decorative painting
+   . K, Ridgway, 1886,
+   A nomenclature of colors for naturalists
+   . L, Lacouture, 1890,
+   Repertoire chromatique
+   . M, Sanford, copyright 1891, in Sanford, 1910,
+   Sanford's manual of color
+   . N, Earhart, 1892,
+   The color printer
+   . O, Prang system, in Prang
+   ,
+   Clark and Hicks, 1893,
+   Suggestions for a course of instruction in color for public schools
+   . P, Milton Bradley system, in Maycock, 1896,
+   A class book of color
+   .
+   The need for a system of fixed standards for hue terms such as "yellow", "red" and "blue" was recognized as early as 1810 by Gaspard Gregoire, who published an atlas of 1,351 coloured samples arranged according to hue (Fig. 7.2.2I), value and
+   relative
+   chroma, but the work apparently had little impact, and no copies survive today (Kuehni and Schwarz, 2008, pp. 82-3). Two colour classifications published in the United States in the late 19th century by the printer Louis Prang and the games manufacturer Milton Bradley were also structured around the traditional primary and secondary hues, although in Bradley's system these were known as the six
+   spectral primaries
+   . Prang's system involved scales of twelve hues (designated R, RO, O, YO, Y, etc.) and 24 hues (R, RRO, RO, ORO, O, etc), while Bradley's system had 18 hues (R, OR, RO, O, etc.) for high chroma or "pure spectrum" colours and 12 hues (R, OR, O, YO, Y, etc.) for low chroma or "broken spectrum" colours (Fig. 7.2.4). Denman Ross (1907) used Prang's 12-hue system of hue designation for his own colour order system, and Albert Munsell used a similar lettering code for the five-hue system of his
+   Atlas
+   of 1915.
+   Figure 7.2.5
+   . A, B, Standard colour chips representing the Prang system, from Prang
+   ,
+   Clark and Hicks, 1893,
+   Suggestions for a course of instruction in color for public schools
+   . C, Colour chips of the Bradley system, from Bradley, 1895,
+   Elementary color
+   [3rd Edn]. The chips in A to C are glued-in painted cards, as in Munsell's
+   Atlas
+   . Collection of the author.
+   Itten's colour theory and hue system
+   The "artists' colour wheel" has persisted alongside more sophisticated hue systems, and is still widely taught in art and design courses today. This persistence, and the corresponding exclusion of modern colour theory, are associated more than anything else with the extraordinary influence of one book,
+   The Art of Color
+   (1961) by Johannes Itten (1888-1967). Both the abridged 1970 edition by Faber Birren and the mass-produced second edition of 1973 have been widely used as textbooks, and many later texts and websites recycle the approach to colour theory presented in Itten's book. Itten's reputation derives ultimately from his association with the German Bauhaus, which has been enormously influential in art and design education since the mid-20th century. Itten was responsible for implementing the widely copied Preliminary Course (
+   Vorlehre
+   ) at the Bauhaus, and taught there for three and a half years until the "mystical" elements in his teaching, the disunity caused by his continuing efforts to "rule the Bauhaus", and his habit of coming into the craft workshops giving instructions on technical matters he did not understand (Forgacs, 1995) lost him the support of some of the staff and students, including the director, Walter Gropius.
+   Colour was taught at the Bauhaus by artists successively including Itten, Ludwig Hirschfeld-Mack, Paul Klee, and Wassily Kandinsky, as well as by various masters in the specialized workshops such as wall-painting, weaving, etc. (Gage, 1993, pp. 259-263; Poling, 1973). The dominant influence on colour theory initially was the former mentor/teacher of Itten and Hirschfeld-Mack, the painter Adolf Hoelzel (1853-1934), who also devised virtually the entire structure of the Preliminary Course implemented by Itten (Parris, 1979). Hoelzel's approach to colour was relatively broadly based, and although he attached prime importance to Goethe, he also incorporated a wide range of other influences including the scientists Wilhelm von Bezold (1837-1907), Ogden Rood (1831-1902) and Wilhelm Ostwald (1853-1932). Hoelzel used different colour diagrams for different purposes, six of which were printed in a 1919 publication by the Pelikan Company (Fig. 7.2.6A-F). The first four of these are structured around the historical primaries, secondaries and tertiaries, and are derived from a colour theory manual of 1868 by Guido Schreiber (Fig. 7.2.4C-F). They consist of two symmetrical six-hue colour circles showing the primaries and secondaries, and secondaries and tertiaries respectively (Fig. 7.2.6A, B, cf. Fig. 7.2.4C-D), a circle divided into six unequal hue sectors calculated from the ratios of the "proportional activity of the retina" that Schopenhauer (1788-1860) had asserted to be the basis of colour perception (Fig. 7.2.6C, cf. Fig. 7.2.4E), and a triangle, often known today as the "Goethe triangle" and incorrectly attributed to Goethe himself, but actually devised by Schreiber on the basis of the systems of Tobias Mayer and George Field (Fig. 7.2.6D, cf. Fig. 7.2.4F). The fifth and sixth diagrams are circles using more modern hue systems devised by Bezold (Fig. 7.2.6E, F). These "diatonic" (8-hue) and "chromatic" (12-hue) circles formed the main framework for Hoelzel's schemes of colour harmony, which included complementary, split-complementary, triadic, tetradic and "irrational" schemes. In the 12-hue circle (Fig. 7.2.6F, G), based on hue divisions Bezold had regarded as perceptually equidistant, an equilateral triad connects the modern subtractive primaries ("purple"
+   1
+   , cyan-blue and yellow), leaving the historical primaries unequally spaced. Klee and Kandinsky emphasized the historical primaries/secondaries in their teaching and, like Hoelzel, held Goethe's colour writings in extraordinarily high regard, but Kandinsky also incorporated the work of scientists including Helmholtz and Ostwald. Outside their classes the main emphasis was placed on the practical aspects of colour in relation to the materials being used, and the colour system that had greatest currency was that of Ostwald (Poling, 1973).
+   Figure 7.2.6
+   . A-F, Six colour theory diagrams by Hoelzel from Wollner, 1919,
+   Farbkreisen zu den Vortragen von Adolf Holzel
+   , Pelikan Co., Stuttgart. G, 12-hue or "Chromatic" colour wheel from Hoelzel, 1919,
+   Einiges uber die Farbe in ihrer bildharmonischen Bedeutung und Ausnutzung,
+   with English translation of German colour names. H. Itten's color star of 1921 (lithograph on paper), with English translations of the German colour names. The hue sequence is essentially that of Hoelzel's 12-hue circle, but is reoriented to place Itten's preferred division between "warm" and "cool" hues, at the yellow/yellow-green and blue-violet/purple-violet boundaries, vertically. The very uneven hue steps in the red-blue sector might indicate alteration of some of the colours.
+   In
+   The Art of Color
+   of 1961 Itten still derived much of his teaching from Hoelzel's theories of colour harmony and contrast, and even appropriated some of Hoelzel's diagrams, including the circle based on Schopenhauer's ratios, which Itten mistakenly thought were Goethe's (Itten, 1961, pp. 104-5). However, while explicitly critical only of Ostwald, Itten's post-Bauhaus book also eliminates almost all of the other elements Hoelzel had derived from late 19th and early 20th century science. Thus although his "colour star" lithograph of 1921 (Fig. 7.2.6H), which he had used as the basis of his teaching of colour at the Bauhaus (Itten, 1975, p. 33), follows Hoelzel's 12-hue system derived from Bezold, in the colour star and other diagrams in
+   The Art of Color
+   Itten reverts to a system comprising evenly-spaced historical primaries and secondaries, with six intermediates. (Additionally, he flipped the hue sequence vertically, reversing the hue order and placing primary yellow at the top centre). This post-Bauhaus version of Itten's star is thus only a variation on its 19th century forerunners such as that of Lacouture (Fig. 7.2.4L). For a three-dimensional framework Itten (like Klee) rejected the Ostwald system used fairly widely in the Bauhaus and simply ignored the Munsell system, reverting instead to a simple spherical model externally like that of Runge (1810), but internally subdivided in a manner suggested by Brucke (1866). Itten's sphere places the strongest colours of all hues on the equator, ignoring their different value and absolute chroma, and thus lacks a consistent representation of the dimension of value that is vital to most painters.
+   The printed colours used to illustrate the 12 hues of Itten's post-Bauhaus system vary between different editions, and even between different diagrams in the same copy, but his three primary colours are defined in the text as perceptually pure hues, oddly enough using the names of the
+   four
+   psychological primaries of modern science, which are otherwise completely ignored in the book: "a red that is neither bluish nor yellowish; a yellow that is neither
+   greenish
+   nor reddish; and a blue that is neither
+   greenish
+   nor reddish" (Itten, 1961, p. 34; emphasis mine). Itten's
+   secondary
+   colours, designated orange, green and violet, are also defined perceptually, as not leaning towards either primary "component", but are claimed to be also exactly complementary to the third primary in paint-mixing, in simultaneous and successive contrast, and even in expressive interpretation (Itten, 1961, p. 137). Itten designates as
+   tertiary
+   six third-order hues located between adjacent primary and secondary hues; these are given compound names consisting of the primary followed by the secondary, e.g. yellow-orange, red-orange, etc., as in Prang's 12-hue system. Mainly because it is structured symmetrically around just three of the four psychological primaries, Itten's hue circle is uneven perceptually, with relatively large hue steps in the yellow-green-blue sector.
+   Many of Itten's explanations of colour theory are as retrograde as his classification. His explanations of successive and simultaneous contrast echo Goethe's invocation of a mysterious "
+   eye animism
+   " ("the eye demands the complement..."), like Goethe completely ignoring the hypothesis of
+   photoreceptor adaptation
+   already suggested by Palmer and Young. His discussion of colour mixing in paints is framed in terms typifying the
+   intermixture model
+   that had been rendered finally obsolete by Helmholtz. No mention is made of the subtractive primaries cyan and magenta, and Itten's primaries are so remote from ideal cyan and (especially) magenta that paints of these hues make a poor set of colourant-mixing primaries, quite unsuitable for mixing purples or strong middle greens. Subtractive mixing is mentioned on the single page on "Color Physics", but how is this to be reconciled with statements throughout the rest of the book that "yellow + blue = green"? Itten is also said to have "vastly simplified" Hoelzel's system of seven contrasts of colour in his own version of that system (Parris, 1979, p. 99).
+   The
+   Art of Color
+   embodies an approach to colour theory and classification fixated at a stage at least seventy years before the founding of the Bauhaus, and fabulously anachronistic at the present time. In several ways it is the colour theory equivalent of so-called "creation science". Whatever one's opinion of other aspects of the Hoelzel-Itten innovations in art and design education, the teaching in many institutions of a near monoculture of Itten's simplistic post-Bauhaus colour theory has been disastrous for the general level of public understanding of colour today.
+   1
+   Hoelzel's "purple" sits between "carmine" and "purplish-violet", and so must be near modern process magenta in hue.
+   Modified April 15, 2013. Original text
+   here
+   and
+   here
+   .
+   << 1
+   2
+   3
+   4
+   5
+   6
+   7 >>
 
 ---
+
 ## Page 073
 
 7.3 HUE SYSTEMS BASED ON OPPONENT-HUE RELATIONSHIPS
@@ -510,7 +514,7 @@ colour expression
 Goethe's hue system
 Given that the four psychological primaries are the basic building blocks of our experience of hue, it is not surprising that they turn up repeatedly in colour order systems long before their explicit recognition by Hering and his contemporaries. In the middle ages Theodoric of Freiberg saw these four hues as the colours of the rainbow (Kuehni and Schwarz, 2008, p. 36), and the same four appear alongside white and black as the simple colours in the systems of Leonardo (
 Fig. 7.1.2D
-)  and Forsius (
+) and Forsius (
 Fig. 7.1.3E
 )
 (section 7.1
@@ -655,82 +659,84 @@ here
 4
 5
 6
->>
+
+> >
 
 ---
+
 ## Page 074
 
 HUE CIRCLES BASED ON ADDITIVE COMPLEMENTARIES
-A hue circle based on additive complimentary relationships is the relevant 
-  choice for all questions where light
+A hue circle based on additive complimentary relationships is the relevant
+choice for all questions where light
 stimulus
-is the issue. 
-  As there are many kinds of questions where this is relevant, the additive hue 
-  circle is particularly important for artists. Some examples include:
+is the issue.
+As there are many kinds of questions where this is relevant, the additive hue
+circle is particularly important for artists. Some examples include:
 Results of
 optical mixing
-, as in pointillist painting, operate on 
-    additive (partitive) principles. Even though we are dealing here with artists 
-    paints, we are seeing the result of additive mixing of
+, as in pointillist painting, operate on
+additive (partitive) principles. Even though we are dealing here with artists
+paints, we are seeing the result of additive mixing of
 light
-from these paints, not subtractive mixing. So, for example, interspersed dots 
-    of ultramarine and yellow paint (in the right proportion) will make grey, 
-    not the green you would expect from a pigment mixing wheel, and would get 
-    if you physically mixed or glazed the same pigments.
+from these paints, not subtractive mixing. So, for example, interspersed dots
+of ultramarine and yellow paint (in the right proportion) will make grey,
+not the green you would expect from a pigment mixing wheel, and would get
+if you physically mixed or glazed the same pigments.
 The c
 oloured afterimage
 seen after exposing the eye to coloured light for an interval of time
 is essentially a temporary illusion of light composed of the
 wavelengths "missing" from the stimulus, and so is the additive
 complementary. Consequently
-successive  contrast,
+successive contrast,
 which is the
 tendency of these afterimages to influence the apparent colour of other
 objects, also goes to the additive complementary.
 Hue shifts due to
 simultaneous contrast
-, including the complementary 
-    colours seen in the shadows of coloured lights, also go to the additive complementary.
+, including the complementary
+colours seen in the shadows of coloured lights, also go to the additive complementary.
 Questions of
 colour harmony
-, if viewed from the point of view of 
-    mutual enhancement of colours, depend on simultaneous and successive contrast, 
-    and so should be worked out using the additive hue circle. Ogden Rood (1879) 
-    argued that colours within 80 or 90 degrees of each other on such a wheel 
-    exhibited negative interactions, and in doing so gave an explanation for the 
-    effectiveness of colour harmonies based either on complementary pairs or on 
-    equally spaced triads (Figure 7.8).
-Figure 7.8. "Chromatic Circle displaced by Contrast, showing the 
-        effects produced by red on the other colours" from Rood (1879)
-. The 
-        arrangement of colours was determined by experiments with spinning discs, 
-        and places colours opposite their additive complements.
+, if viewed from the point of view of
+mutual enhancement of colours, depend on simultaneous and successive contrast,
+and so should be worked out using the additive hue circle. Ogden Rood (1879)
+argued that colours within 80 or 90 degrees of each other on such a wheel
+exhibited negative interactions, and in doing so gave an explanation for the
+effectiveness of colour harmonies based either on complementary pairs or on
+equally spaced triads (Figure 7.8).
+Figure 7.8. "Chromatic Circle displaced by Contrast, showing the
+effects produced by red on the other colours" from Rood (1879)
+. The
+arrangement of colours was determined by experiments with spinning discs,
+and places colours opposite their additive complements.
 In
 colour photography
-, both conventional and digital, colour 
-          correction uses the relationships of the additive hue circle. For example, 
-          excessive blueness is countered by adjusting the strength of the additive 
-          complementary with a yellow filter.
+, both conventional and digital, colour
+correction uses the relationships of the additive hue circle. For example,
+excessive blueness is countered by adjusting the strength of the additive
+complementary with a yellow filter.
 In
 digital painting programmes,
-the usual conceptual framework for 
-    hue is the Hue angle of HSB and HLS colour space, which is expressed graphically 
-    as the RGBCMY hue circle or hexagon (Figure 7.9). This system is based on 
-    additive complementary relationships, with the three screen primaries R (scarlet 
-    or orange-red), G (yellowish green) and B (deep violet-blue) placed arbitrarily 
-    at 120
+the usual conceptual framework for
+hue is the Hue angle of HSB and HLS colour space, which is expressed graphically
+as the RGBCMY hue circle or hexagon (Figure 7.9). This system is based on
+additive complementary relationships, with the three screen primaries R (scarlet
+or orange-red), G (yellowish green) and B (deep violet-blue) placed arbitrarily
+at 120
 o
-degrees to each other, and opposite their additive complementaries 
-    Y (yellow), M (magenta or red-violet) and C (cyan or blue green).
+degrees to each other, and opposite their additive complementaries
+Y (yellow), M (magenta or red-violet) and C (cyan or blue green).
 Figure 7.9. THE RGB-CMY hue circle
 .
-In this system the Hue angle is measured clockwise from "Monitor Red" at 0 
-  degrees. For the fully saturated colours, each 60 degree difference in hue angle 
-  between a primary and an adjacent secondary marks a 255 unit change in one of 
-  the RGB components (Table 7.1), and so each degree of hue angle represents a 
-  change of 255/60 or 4.25 units. The hue angle of desaturated colours is obtained 
-  by treating the colour as having a white and a coloured component, and measuring 
-  the hue of the coloured component by the same method.
+In this system the Hue angle is measured clockwise from "Monitor Red" at 0
+degrees. For the fully saturated colours, each 60 degree difference in hue angle
+between a primary and an adjacent secondary marks a 255 unit change in one of
+the RGB components (Table 7.1), and so each degree of hue angle represents a
+change of 255/60 or 4.25 units. The hue angle of desaturated colours is obtained
+by treating the colour as having a white and a coloured component, and measuring
+the hue of the coloured component by the same method.
 Colour name
 RGB components
 Hue Angle
@@ -752,59 +758,59 @@ B 255
 Magenta
 R 255 B255
 300
-As always, there is not an exact equivalence between the psychological 
-        concept defined by experience and a psychophysical concept defined by 
-        the stimulus.  Most observers see
+As always, there is not an exact equivalence between the psychological
+concept defined by experience and a psychophysical concept defined by
+the stimulus.  Most observers see
 tints
-of H = 0 as more crimson 
-        and of H = 240 as more violet than the pure colour, and shades of H = 
-        60 as more greenish and H = 300 as more purplish than the pure colour 
-        (Figure 7.10).
-Figure 7.10. Variations in perceived hue within colours of identical 
-        Hue Angle
-. Within each horizontal row, all squares have the same 
-        "Hue angle", the same R/G/B ratio, and therefore presumably the same dominant 
-        wavelength.
-In the original conception of the Munsell system (Munsell, 1905), the hue circle 
-  was based on additive complementary relationships, in that pairs of opposite 
-  colours were chosen that mixed to neutral grey in experiments with spinning 
-  discs. Munsell (1905) also regarded his opposite colours, consistently with 
-  this, as visual complements. Munsell's thoroughly decimal system specified five 
-  principle colours (red [R], yellow [Y], green [G], blue [B], and purple [P]) 
-  and five intermediate colours (YR, GY, GB, PB and RP), all equally spaced. Munsell 
-  subsequently divided each of these ten principle and intermediate hues into 
-  ten clockwise steps, e.g. 5 R is the hue in the middle of the range of the principle 
-  hue red.
-Adjustments based on extensive colourimetric measurements in the 1940's resulted 
-  in what is known as the renotated Munsell System, which is widely used today 
-  as a means of specifying colour in science and industry, as well as among a 
-  relatively small but committed band of painters. The renotated system allows 
-  conversion between Munsell and CIE specifications (such as L*ab), and thereby 
-  to approximate RGB values (or precise values if the particular RGB space is 
-  specified). The three pairs of screen primaries and secondaries red-cyan, green-magenta, 
-  and yellow- blue, which are exact additive complements in any specified RGB 
-  space, return Munsell hues that are roughly opposite in the renotated system, 
-  though not exactly so in the case of yellow and blue (Figure 7.11). In addition, 
-  the angular spacings between the three pairs in the Munsell system differ noticeably 
-  from those of the RGB-CMY hue circle, but not in a way that has an obvious superiority 
-  in perceptually equal spacing. These differences between the two hue circles 
-  are of relatively small practical importance, however; both the RGB-CMY and 
-  the Munsell hue circles make suitable conceptual frameworks for artists in situations 
-  when additive complementary relationships are relevant.
+of H = 0 as more crimson
+and of H = 240 as more violet than the pure colour, and shades of H =
+60 as more greenish and H = 300 as more purplish than the pure colour
+(Figure 7.10).
+Figure 7.10. Variations in perceived hue within colours of identical
+Hue Angle
+. Within each horizontal row, all squares have the same
+"Hue angle", the same R/G/B ratio, and therefore presumably the same dominant
+wavelength.
+In the original conception of the Munsell system (Munsell, 1905), the hue circle
+was based on additive complementary relationships, in that pairs of opposite
+colours were chosen that mixed to neutral grey in experiments with spinning
+discs. Munsell (1905) also regarded his opposite colours, consistently with
+this, as visual complements. Munsell's thoroughly decimal system specified five
+principle colours (red [R], yellow [Y], green [G], blue [B], and purple [P])
+and five intermediate colours (YR, GY, GB, PB and RP), all equally spaced. Munsell
+subsequently divided each of these ten principle and intermediate hues into
+ten clockwise steps, e.g. 5 R is the hue in the middle of the range of the principle
+hue red.
+Adjustments based on extensive colourimetric measurements in the 1940's resulted
+in what is known as the renotated Munsell System, which is widely used today
+as a means of specifying colour in science and industry, as well as among a
+relatively small but committed band of painters. The renotated system allows
+conversion between Munsell and CIE specifications (such as L\*ab), and thereby
+to approximate RGB values (or precise values if the particular RGB space is
+specified). The three pairs of screen primaries and secondaries red-cyan, green-magenta,
+and yellow- blue, which are exact additive complements in any specified RGB
+space, return Munsell hues that are roughly opposite in the renotated system,
+though not exactly so in the case of yellow and blue (Figure 7.11). In addition,
+the angular spacings between the three pairs in the Munsell system differ noticeably
+from those of the RGB-CMY hue circle, but not in a way that has an obvious superiority
+in perceptually equal spacing. These differences between the two hue circles
+are of relatively small practical importance, however; both the RGB-CMY and
+the Munsell hue circles make suitable conceptual frameworks for artists in situations
+when additive complementary relationships are relevant.
 Figure 7.11.
-Munsell hue circle, with indicative positions of the RGB primaries 
-  and secondaries shown by coloured dots.
-The Munsell hues were obtained 
-  using
+Munsell hue circle, with indicative positions of the RGB primaries
+and secondaries shown by coloured dots.
+The Munsell hues were obtained
+using
 Wallkillcolor's
-Munsell Conversion 
-  Software for the colours at 80% brightness (to avoid artefacts that arise in 
-  the conversion of some RGB colours with values near 255), assuming illuminant 
-  C, 2
+Munsell Conversion
+Software for the colours at 80% brightness (to avoid artefacts that arise in
+the conversion of some RGB colours with values near 255), assuming illuminant
+C, 2
 o
-observer. The actual values returned were: Red (R 204) = 8.03R; 
-  Yellow (R 204 G 204) = 0.56GY; Green (G 204) = 9.71GY; Cyan (G 204 B204) = 8.05BG; 
-  Blue (B 204) = 6.68PB; Magenta (R 204 B 204) = 8.19 P.
+observer. The actual values returned were: Red (R 204) = 8.03R;
+Yellow (R 204 G 204) = 0.56GY; Green (G 204) = 9.71GY; Cyan (G 204 B204) = 8.05BG;
+Blue (B 204) = 6.68PB; Magenta (R 204 B 204) = 8.19 P.
 << 1
 2
 3
@@ -814,27 +820,28 @@ observer. The actual values returned were: Red (R 204) = 8.03R;
 7 >>
 
 ---
+
 ## Page 075
 
 HUE CIRCLES BASED ON PIGMENT-MIXING COMPLEMENTARIES
-We noted previously that pigmentary mixing differs from  ideal subtractive mixing in three main ways:
+We noted previously that pigmentary mixing differs from ideal subtractive mixing in three main ways:
 ideal pigment primaries do not exist
-our best pigmentary primaries differ in hue from ideal magenta and 
-          cyan, and
-the complementary relationships are different, especially in the yellow-blue 
-          direction
+our best pigmentary primaries differ in hue from ideal magenta and
+cyan, and
+the complementary relationships are different, especially in the yellow-blue
+direction
 Quinacridone magenta/"Permanent Rose", Pthalocyanine blue (green shade), and any bright yellow such as a "Lemon Yellow" mix about the greatest gamut that can be obtained from just three artists' paints (Figure 7.12).
 Figure 7.12. Mixtures of Art Spectrum Lemon Yellow (A), Quinacridone Magenta (B), and Pthalocyanine Blue GS (Green Shade) (C) on a white ground, showing general extent of gamut
 .
-Without doubt the main reason why most artists look at a colour wheel 
-        is as a guide to the mixing of paints. Strictly speaking, no precise hue 
-        circle showing pigmentary complements can be drawn up, because the results 
-        of subtractive mixing of actual colourants depend on the details of their 
-        absorption curves, and can not be predicted
+Without doubt the main reason why most artists look at a colour wheel
+is as a guide to the mixing of paints. Strictly speaking, no precise hue
+circle showing pigmentary complements can be drawn up, because the results
+of subtractive mixing of actual colourants depend on the details of their
+absorption curves, and can not be predicted
 exactly
 from visual inspection of hues. Nevertheless, most artists will prefer a tolerably accurate diagram to a precise table. One option is to base a pigment mixing circle on our actual best primary colours, which we may as well place symmetrically, and opposite their actual pigmentary complementaries (Figure 7.13). Phthalo blue GS can be thought of as the pigmentary complement of "scarlet", meaning the orange extreme of red, between cadmium scarlet and cadmium orange. Quinacridone magenta, has for its pigmentary complement pthalocyanine green (yellow shade). Neutralizing yellow paints generally requires a carefully balanced mix of blue and violet or magenta paints. Ultramarine violet is produced by heating ultramarine blue and contains a residue of the latter in varying amounts in different brands; the bluer variants may work as a mixing complement for yellow paints.
-Figure 7.13. A simple conceptual layout of hues for pigment mixing 
-        based on our best pigmentary primaries and their complements
+Figure 7.13. A simple conceptual layout of hues for pigment mixing
+based on our best pigmentary primaries and their complements
 .
 In placing the range of reds opposite the interval from green and blue, this arrangement is more accurate than the conventional artists colour wheel, which seems to have been influenced here by the
 psychological
@@ -850,59 +857,60 @@ Color Choices
 7 >>
 
 ---
+
 ## Page 076
 
 ORTHOGONAL SYSTEMS
-The dimension of hue is not our only option for describing colour. For 
-        many scientific purposes, systems are used that dispense with hue and 
-        chroma, and instead use orthogonal coordinates. Two types of systems of 
-        orthogonal coordinates, CIE Lab space, and a series of related colour 
-        spaces used for video systems, will be mentioned briefly here.
-Most books on colour science and many websites give good accounts of 
-        CIE Lab space, and the details and history of its derivation from colourimetric 
-        data from large numbers of individuals (for example see the account at 
-        the site by efg's
-Computer 
-        Lab
+The dimension of hue is not our only option for describing colour. For
+many scientific purposes, systems are used that dispense with hue and
+chroma, and instead use orthogonal coordinates. Two types of systems of
+orthogonal coordinates, CIE Lab space, and a series of related colour
+spaces used for video systems, will be mentioned briefly here.
+Most books on colour science and many websites give good accounts of
+CIE Lab space, and the details and history of its derivation from colourimetric
+data from large numbers of individuals (for example see the account at
+the site by efg's
+Computer
+Lab
 ). While the
 specification
-of Lab colour eliminates 
-        the dimension of hue, its
+of Lab colour eliminates
+the dimension of hue, its
 graphical representation
-in 
-        the Adobe Colour Picker in practice offers the digital painter a means 
-        of selecting colours according to the dimensions of hue, relative chroma 
-        and lightness (Figure 7.14).
+in
+the Adobe Colour Picker in practice offers the digital painter a means
+of selecting colours according to the dimensions of hue, relative chroma
+and lightness (Figure 7.14).
 Figure 7.14.
 CIE Lab Colour space
-. Left: Gamut of RGB 
-        colours in Lab space viewed in ab plane, using ColorSpace. Note that the 
-        additive complimentary pairs are not exactly opposite each other in CIE 
-        Lab space. Right: Graphical representation of Lab space in the colour 
-        picker in Photoshop CS2, showing relationship to hue, relative chroma 
-        and lightness.
-Bruce MacEvoy has published colour wheels showing representative colourimetric 
-  measurements of a large number of watercolour pigments plotted using in a modified 
-  version of the CIE Lab system, and more subsequently in the more recent CIECAM 
-  system (
+. Left: Gamut of RGB
+colours in Lab space viewed in ab plane, using ColorSpace. Note that the
+additive complimentary pairs are not exactly opposite each other in CIE
+Lab space. Right: Graphical representation of Lab space in the colour
+picker in Photoshop CS2, showing relationship to hue, relative chroma
+and lightness.
+Bruce MacEvoy has published colour wheels showing representative colourimetric
+measurements of a large number of watercolour pigments plotted using in a modified
+version of the CIE Lab system, and more subsequently in the more recent CIECAM
+system (
 link
-). 
-  As colour is measured in these systems in colorimetric units, unknown colours 
-  or mixtures strictly speaking can not be plotted on these diagrams by artists 
-  lacking spectrophotometers, although positions could of course be guessed roughly 
-  based on the plotted pigments. The opposing hues or "visual complementaries" 
-  in the CIE Lab system are not exact additive, pigmentary or psychological complements.
-YUV, YIQ, and YCbCr colour spaces, devised for video systems, also use 
-        orthogonal coordinates instead of hue (Figure 7.15). YCbCr, which I have 
-        been using for the illustrations of image colours in space throughout 
-        this site, is a transformation of YUV that conveniently results in the 
-        RGB gamut, when viewed from above, forming a regular hexagon with the 
-        screen primaries evenly spaced and opposite their additive complementaries, 
-        as in the RGB-CMY hue circle (Figure 7.15).
-Figure 7.15. Plan views of RGB gamut in (A) YUV, (B) YIQ and (C) 
-        YCbCR colour spaces
-. In YCbCr the screen primaries are evenly spaced, 
-        as in the RGB-CMY hue circle, though in the reverse order.
+).
+As colour is measured in these systems in colorimetric units, unknown colours
+or mixtures strictly speaking can not be plotted on these diagrams by artists
+lacking spectrophotometers, although positions could of course be guessed roughly
+based on the plotted pigments. The opposing hues or "visual complementaries"
+in the CIE Lab system are not exact additive, pigmentary or psychological complements.
+YUV, YIQ, and YCbCr colour spaces, devised for video systems, also use
+orthogonal coordinates instead of hue (Figure 7.15). YCbCr, which I have
+been using for the illustrations of image colours in space throughout
+this site, is a transformation of YUV that conveniently results in the
+RGB gamut, when viewed from above, forming a regular hexagon with the
+screen primaries evenly spaced and opposite their additive complementaries,
+as in the RGB-CMY hue circle (Figure 7.15).
+Figure 7.15. Plan views of RGB gamut in (A) YUV, (B) YIQ and (C)
+YCbCR colour spaces
+. In YCbCr the screen primaries are evenly spaced,
+as in the RGB-CMY hue circle, though in the reverse order.
 << 1
 2
 3
@@ -912,6 +920,7 @@ Figure 7.15. Plan views of RGB gamut in (A) YUV, (B) YIQ and (C)
 7 >>
 
 ---
+
 ## Page 077
 
 WARM AND COOL HUES
@@ -945,7 +954,7 @@ Coloritto
 of 1725 mentions that painters use the expression "cold" for flesh colours that are too neutral and need more of the principal colourant.
 Figure 7.19
 . Interpretation of warmest and coolest hues suggested in the text based on the usual classifications of the four unique hues, yellow, red, blue and green. In modern colour science hues are not considered to reside in the wavelengths of the spectrum; rather, all hue perceptions are considered to be created by the visual system.as combinations of
-yellow/blue and red/green colour-opponent  perceptions or "signals"
+yellow/blue and red/green colour-opponent perceptions or "signals"
 .
 Of the
 four unique hues
@@ -993,5 +1002,5 @@ Modified May 30, 2017.
 6
 7 >>
 Next:
-Part 8: Lightness and 
-  Chroma
+Part 8: Lightness and
+Chroma

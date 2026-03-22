@@ -41,8 +41,8 @@ No external links mentioned.
 
 ## Source Books
 
-| Document | Author | Year | Archive.org | Local PDF |
-|----------|--------|------|-------------|-----------|
-| *Evolution in Color* (or similar title) | Frans Gerritsen | 1975 | not available | — |
+| Document                                | Author          | Year | Archive.org   | Local PDF |
+| --------------------------------------- | --------------- | ---- | ------------- | --------- |
+| _Evolution in Color_ (or similar title) | Frans Gerritsen | 1975 | not available | —         |
 
-Note: Gerritsen's book is not on Archive.org. The exact English title may be *"Evolution in Color"* or *"Theory and Practice of Color"* by Frans Gerritsen — a Dutch color scientist. Features innovative acetate overlay diagrams.
+Note: Gerritsen's book is not on Archive.org. The exact English title may be _"Evolution in Color"_ or _"Theory and Practice of Color"_ by Frans Gerritsen — a Dutch color scientist. Features innovative acetate overlay diagrams.

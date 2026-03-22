@@ -37,7 +37,7 @@ Anyway, this has been interesting.
   - **Ultra blue** (B+UV) — complement of yellow
   - **Gruv** (G+UV) — its complement is human magenta
   - **Ultra yellow**, **ultra cyan**, **ultra magenta** — secondaries involving UV
-  - **Human white** (R+G+B) — is a *color* for birds, complement of UV
+  - **Human white** (R+G+B) — is a _color_ for birds, complement of UV
 - **Bird white** = R+G+B+UV (all 4 cones equally stimulated)
 - **6 bird secondaries** from pairs: yellow, cyan, magenta, ruv, buv, gruv
 - **Additional "tertiary" class** from 3-cone combos: ultrayellow, ultracyan, ultramagenta, human-white

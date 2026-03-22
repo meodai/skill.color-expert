@@ -3,13 +3,14 @@
 **Source:** David Briggs — [Dimensions of Color](http://www.huevaluechroma.com/)
 
 ---
+
 ## Page 111
 
 What do Purves and Lotto's Illusions Actually Show?
 PART 11. AFTERTHOUGHTS
 What do Purves and Lotto's Illusions Actually Show? (October, 2017)
 Traditional and Modern Colour Theory: 1 Modern Colour Theory (June, 2015)
-Traditional and Modern Colour Theory: 2  Traditional Colour Theory Strikes Back (June, 2015)
+Traditional and Modern Colour Theory: 2 Traditional Colour Theory Strikes Back (June, 2015)
 What is Color? (Flame Challenge, March, 2014)
 Answers to "What is Color?" Page (March, 2014)
 Colour Constancy Illusions and Painting (October, 2018)
@@ -27,7 +28,7 @@ The Elements of Colour (February, 2024)
 Colours of Objects and Colours of Light (February, 2024)
 11.1 What do Purves and Lotto's Illusions Actually Show?
 Figure 11.1.1
-.  After Figure 6.10 from Dale Purves and R. Beau Lotto's book
+. After Figure 6.10 from Dale Purves and R. Beau Lotto's book
 Why We See What We Do; An Empirical Theory of Vision
 (2003, revised 2011). The
 areas of the image
@@ -51,20 +52,22 @@ In their book Purves and Lotto employ this and other illustrations to supposedly
 images
 representing illuminated objects. We experience visual information pre-processed into estimates of spectral reflectances, illumination and atmosphere, and it requires effort to "flatten" these superimposed perceptions into a two-dimensional, camera-like visual image.
 To sum up, there are three senses in which visual perception is not a veridical (i.e. precise and accurate) representation of physical reality.
+
 1. Colours are ways of seeing physical properties rather than physical properties in themselves, and these ways of seeing are
-imprecise in the sense that they represent only the direction and amount of bias between the long-, middle- and short-wavelength components, rather than all the details, of a spectral distribution.
+   imprecise in the sense that they represent only the direction and amount of bias between the long-, middle- and short-wavelength components, rather than all the details, of a spectral distribution.
 2. The perceived colour of an object can be a somewhat
-inaccurate representation of its spectral reflectance/transmission, as seen in simple simultaneous contrast.
+   inaccurate representation of its spectral reflectance/transmission, as seen in simple simultaneous contrast.
 3. Our
-initial estimates of comparative properties of the visual field such as relative luminance and proportions can be highly inaccurate because our perceptions of properties of objects are so salient that it can be difficult to attend to properties of the visual field itself. For the same reason, perceived comparitive properties in an image representing illuminated objects can be very inaccurate with respect to the physical properties
-of that image
-. In both cases these difficulties can be circumvented by using various devices and strategies familar to painters.
-For a more recent discussion related to the content of this page please see my video presentation
-"Colour Constancy Illusions and Painting"
-.
-Page added October 25, 2017.
+   initial estimates of comparative properties of the visual field such as relative luminance and proportions can be highly inaccurate because our perceptions of properties of objects are so salient that it can be difficult to attend to properties of the visual field itself. For the same reason, perceived comparitive properties in an image representing illuminated objects can be very inaccurate with respect to the physical properties
+   of that image
+   . In both cases these difficulties can be circumvented by using various devices and strategies familar to painters.
+   For a more recent discussion related to the content of this page please see my video presentation
+   "Colour Constancy Illusions and Painting"
+   .
+   Page added October 25, 2017.
 
 ---
+
 ## Page 112
 
 traditional and modern colour theory
@@ -114,348 +117,349 @@ Figure 11.2.2
 Chromatography
 (2nd edn, 1841). Numbers around the circumference indicate the proportions in which secondary and tertiary colours must be present in order for the three primaries to be balanced. B. Post-Newtonian model of traditional colour theory, in which white light is thought to consist of red, yellow and blue rays. A mixture of yellow and blue paints reflects only the yellow and blue rays, which are detected by yellow and blue receptors in the eye, leading to a mixed sensation of green. C. Three-dimensional colour space proposed in a 1758 lecture by Swedish astronomer Tobias Mayer, in which colours are arranged in a double pyramid according to proportions of red, yellow, blue, black and white components.
 Traditional colour theory readily adopted Newton's hue circle of 1704 in the form of the artists' "colour wheel" with its symmetrically placed historical primaries (e.g. Fig. 11.2.2A). More problematic was Newton's conclusion that lights of all colours are composed of rays of the innumerable but seven-named colours of the spectrum, and that green and orange lights could be physically simple as well as compound. This problem however could be countered by supposing that the spectrum is not continuous, as Newton had thought, but is actually made of separate red, yellow and blue rays that produce the remaining colours by intermixture. The suggestion that our eyes have three kinds of receptors responsible for colour vision was first made based on this hypothesis of red, yellow and blue rays. In this enviably simple view of colour, the historical colourant-mixing primaries coincide with the primaries for mixing coloured lights, with the sensitivities of the visual receptors, and with the psychological primaries of perception. For example in Fig. 11.2.2B, a mixture of yellow and blue paints reflects only the yellow and blue rays, which are detected by yellow and blue receptors in the eye, leading to a mixed sensation of green. The three-ray hypothesis was quite widely accepted in science, and the first three-dimensional colour order systems for classifying object colours were made on the assumption that all such colours are mixtures of red, yellow, blue and white (
-+
-black) components in various proportions (Fig. 11.2.2 C). This hypothesis was not overturned until 1852, when the version of it promoted by the Scottish physicist Sir David Brewster was convincingly demolished by the brilliant German physicist and physiologist, Hermann von Helmholtz.
-In subsequent years Helmholtz, his contemporaries including James Clerk Maxwell and Ewald Hering, and their successors collectively transformed our understanding of what colour is and how it works as fundamentally as Darwin transformed our understanding of biology over the same period, and this new understanding in turn led to modern colour printing, colour photography, cinema and television, and eventually to digital photography, painting and rendering. Modern colour theory, as understood on this website, is a system of guidance resting on the legacy of this late 19th century revolution, adapted to the practical needs of painters and teachers of painting.
-Figure 11.2.3
-. The psychological, additive and subtractive primaries of modern colour theory.
-In line with Hering's widely accepted
-opponent model
-, modern colour theory recognizes
-four
-psychological primarie
-s
-, the three historical primaries plus green, arranged in two opposing pairs,
-yellow/blue
-and
-red/green
-(Fig. 11.2.3A). This
-model is founded not on neuroscience but on contemplating how we experience colour: only red, yellow, green and blue are experienced as pure hues, and all other hue perceptions are combinations of adjacent pairs of these four: yellow-red (orange), yellow-green, blue-green (cyan, turquoise,
-etc.
-), and blue-red (purple, magenta
-etc.
-). Red, yellow, green and blue are thus the true primary
-colours
-of modern colour theory, as opposed to primary colour
-stimuli
-(of additive mixing), or primary
-colourant hues
-(of subtractive mixing).
-Figure 11.2.4
-. A. The four opponent hues or "psychological primaries", and the range of their combinations evoked by single wavelengths of light, and therefore seen in the spectrum. B. Origin of the colours of the spectrum from successive combinations of red
-vs
-green and yellow
-vs
-blue colour-opponent signals created in the brain.
-These four opponent hues are not physical components of light, but are perceptions created in the brain of the observer in the form of yellow
-vs
-blue and
-red
-vs
-green
-colour-opponent signals
-. Blue is evoked by the shorter and yellow by longer wavelengths of visible light, while green is evoked by the middle wavelengths and red by the two extremes (Fig. 11.2.4B). Successive combinations of these four hue perceptions create the sequence of hues seen in the spectrum as well as the nonspectral hues like magenta, and thus explain how we arrive at this
-circular
-succession of hues that has no physical basis in the
-linear
-sequence of wavelengths in the spectrum. The concept of four psychological primaries has strongly influenced several important colour order systems, notably the Ostwald system, which was the standard for British education in the 1930's, and the
-Natural Colour System (NCS)
-, the current colour standard in Scandinavia and Spain, and was foreshadowed in the writings of Leonardo,
-Goethe
-and others.
-In addition to the four psychological primaries, modern colour theory refers to three
-additive
-(or light-mixing) and three
-subtractive
-(or colourant-mixing) "primary colours" for the colours of lights and colourants respectively that yield a maximum
-gamut
-or
-range of colours of their mixtures. None of the additive or subtractive primaries bear a direct relationship to any of the psychological primaries, but we have a strong unconscious predisposition to
-apply to the former the
-names
-of these hues that form the framework of our experience of colour. Thus before the twentieth century, when our best available colourant-mixing primaries were slightly greenish yellow, bluish red and greenish blue paints, we almost universally labelled these primaries as simply "yellow", "red" and "blue". In the same way today we routinely label the orangeish red, yellowish green and blue or violet-blue primaries of additive-mixing technology as simply "red", "green" and "blue" (RGB).
-It is counterproductive to the wider acceptance of modern colour theory, as well as misleading, to dismiss the red, yellow and blue primaries as merely obsolete, or worse, to insist (by adopting an idiosyncratic and unrealistic definition of the term) that primary colours
-"do not exist"
-. The three historical primaries were as much a step towards recognition of the four modern psychological primaries as they were an imprecisely-named set of colourant-mixing primaries.
-Figure 11.2.5
-. A. Dominant wavelengths of sRGB "red", "green" and "blue" additive primaries in relation to responses of the L, M and S cone cells. B. Mixing of RGB additive primaries.
-So while the number
-four
-is the key to
-colour perception
-,
-three
-is the key to
-colour stimulus and colour technology
-. This number three stems from the fact that colour vision is ultimately based on three types of receptors in the eye called
-L, M and S cone cells
-. These cone cells are often loosely termed "red", "green" and "blue", and were once believed to "detect" the red, green and blue-violet bands of the spectrum, and to directly create red, green and violet or blue "fundamental sensations" respectively. However it is now known that the L, M and S cones do not detect individual wavelength bands or "colours" of the spectrum, but respond to very broad and extensively overlapping ranges of wavelengths peaking in the parts of the spectrum we see as
-greenish-yellow
-, green and blue-violet (Fig. 11.2.5A), and respond in exactly the same way, just to different degrees, throughout their range. Nor do they directly create sensations of individual colours. Instead,
-differences
-in the responses of the three cone types are recorded in the retina in the form of
-cone-opponent signals
-(L-M and L+M-S).
-Colour
-as such is created in the brain in the form of
-colour-opponent signals
-based indirectly on the
-wavelength
--dominance information contained in these
-cone-opponent signals
-. When a light creates a balanced response of all three cone types, each cone-opponent signal is balanced at zero, and the light is seen as colourless ("white light"). Colours
-of lights
-are perceptions created by our visual system in response to
-an uneven distribution of wavelengths, as detected by an unequal response of our three cone types.
-RGB "red"
-,
-"green"
-and
-"blue"
-lights work as
-additive (light-mixing) primaries
-because each of them stimulates one cone type
-more than the other two
-(Fig. 11.2.5A),
-and so when mixed in different proportions they produce a large variety of relative L, M and S cone responses, and therefore cone-opponent signals, and therefore ultimately colours. "Red" and "blue" lights unsurprisingly yield mixtures passing through magenta (red-blue), and "green" and "blue" lights unsurprisingly yield mixtures passing through cyan (green-blue), but, to the perennial astonishment of students, "red" and "green" light mixtures pass through an apparently new colour, yellow, that is
-neither
-reddish
-nor
-greenish (Fig. 11.2.5B). This asymmetry is the inevitable consequence of the mismatch between having three additive and four psychological primaries. The yellow is not really a “new” colour, in that it is already present in the colours evoked by the component lights (they are
-orange
--red and
-yellowish
-green after all!), and when these are mixed the yellow signals add together while the red and green signals cancel out, leaving pure yellow. The yellow colour is not
-made of
-the
-colours
-red and green, and is certainly not some sort of
-mistaken guess
-that the light has a wavelength that lies between those of red and green.
-Figure 11.2.6
-. A. Subtractive mixing of digital subtractive primaries. B. Explanation of subtractive mixing of digital subtractive primaries.
-Helmholtz recognized that the "colour mixing" of two colourants was in large part a
-subtractive
-process in which the colour of the mixture depends on which wavelengths
-both
-colourants pass on
-.
-It was soon realized that in theory three transparent colourants that each completely absorb one additive primary and completely pass on the other two would, when mixed subtractively in varying proportions, yield the entire gamut of those additive primaries, and hence be optimal for subtractive mixing. These ideal subtractive primaries would therefore resemble the pure
-yellow
-("red" plus "green"),
-magenta
-("red" plus "blue") and
-cyan
-("blue" plus "green") colours of computer screens (Fig. 11.2.6), the last two being far from the red and blue primaries of traditional colour theory. It took many decades however before permanent pigments at all close to ideal magenta and cyan were developed, and even today our best magenta and cyan paints and inks are redder and bluer respectively than ideal subtractive magenta and cyan. (Fig. 11.2.7A).
-Figure 11.2.7.
-A. Mixing paths of a yellow, a magenta and two cyan colourants, calculated using the program
-drop2color
-by Zsolt Kovacs Vajna. (For mixtures using a greener yellow see Fig. 2.7, next page). B-D. Spectral reflectances of pairs of cyan, magenta and yellow colourants and representative mixtures, calculated using the same program.
-Figure 11.2.7 shows predicted mixing paths and reflectance profiles of some cyan. magenta and yellow paints, calculated and plotted using the program
-drop2color
-by Zsolt Kovacs Vajna. Consistent with modern colour theory, the paints produce a larger and more evenly distributed gamut (range of colours) than the historical red, yellow and blue primaries (see Fig. 11.3.6, next page). Note well that in subtractive mixing, yellow and cyan colourants make green not because green "contains" yellow and cyan, as typical traditional colour theory assumes, but because both yellow and cyan colourants pass on large amounts of "green" wavelengths (Fig. 11.2.7B).
-Figure 11.2.8
-. A. Additive complementary pairs: digital "red" and "cyan", digital "green" and "magenta" and digital "blue" and "yellow". B. Comparison of opponent pairs and additive complementaries. In this
-CIE xyY
-(chromaticity) diagram, additive complementaries are connected by a straight line through the central "white point", in this case Illuminant C (after Kelly, 1943). Middle yellow and middle blue are essentially complementary, but middle red and middle green are not.
-Just as different sets of colours are considered primary for perception, for mixing lights and for mixing colourants, modern colour theory also recognizes somewhat different pairs of "opposite" colours in these three contexts. For every imbalance of cone responses that we experience as a colour of light, there are lights that create an opposite or
-complementary
-imbalance, and which therefore by mixing in the right proportion can create white light. Examples of such pairs of lights include the
-digital red-cyan
-,
-green-magenta
-and
-blue-yellow
-pairs familiar from graphics programs (Fig. 11.2.8A). Perhaps because the relationship between the cone-opponent responses and the colour-opponent signals we ultimately experience is indirect, pairs of colours of lights that mix to make white light (
-additive complementarie
-s
-) do not always coincide with the axes of our perceptual framework of opponent colours determined by experimental studies of large numbers of observers. According to such studies the yellow - blue opponent pair is also additively complementary or nearly so, but the red - green opponent pair is not (Fig. 11.2.8B).
-Figure 11.2.9
-. A-D, Mixing of subtractive complementaries (Liquitex Acrylics). E-G Mixing paths of a cyan paint,
-Light Blue Permanent
-(E), a magenta paint,
-Medium Magenta
-(F) and a yellow paint,
-Cadmium Yellow Medium Hue
-(G), with other paints in the collection. All diagrams produced using the program
-drop2color
-by Zsolt Kovacs Vajna.
-Colours of pairs of colourants that make neutral (black or grey) mixtures are called
-subtractive or colourant-mixing complementaries
-. The exact result of subtractive mixing depends on the precise wavelength-by-wavelength absorption of the colourants, and can not be exactly predicted from their colours alone, but the importance of this proviso is sometimes exaggerated as far as actual colourants go, and it does not prevent reasonably reliable generalizations being made about colourant-mixing complementaries. Subtractive and additive complementaries coincide quite closely near the red-cyan and green-magenta axes, but differ substantially near the yellow-blue axis (Fig. 11.2.9A, E). A yellow and a blue paint that are opposite on the Munsell hue circle would be approximate additive complementaries, so that when lights from these paints are mixed (for example, using spinning discs) they would make a near neutral (see
-Fig. 4.4.1
-), but such paints nevertheless reflect enough green wavelengths in common to make a mid-chroma green mixture when combined physically. It is this generation of green as an apparent compound of two visually distinct colours that has influenced painters since Leonardo to reject or question green as a "simple" or primary colour.
-To make a mixing complementary for a yellow paint generally requires a precise mixture of blue and violet paints (as in Fig. 11.2.9A) that is more reddish than the blue additive complementary, but less reddish than the middle purple expected in traditional colour theory (e.g. Fig. 11.3.1, next page). Interestingly,
-afterimage
-complementaries
-show a similar sort of pattern to these paint-mixing complementaries, in that they agree well with the additive complementaries near the red-cyan and green-magenta axes, but depart in a similar way near the yellow-blue axis. Complementary-coloured afterimages result from changes in the relative adaptation of the three cone types, and act as coloured virtual filters,
-subtractively
-modifying the areas of the visual field they occupy.
-Figure 11.2.10
-. A,B,C, External view, hue plane and value-chroma plane of the Munsell system. D,E, side and top view of colour solid devised by Arthur Pope based on the colour classification of his former teacher, Denman Ross. F,G, Ross' subdivision of the colours on a hue page according to chroma relative to the maximum possible ("intensity") and chroma relative to the maximum possible at that value ("neutralization"). H. Pope's subdivision of a hue page according to "purity" (later called
-saturation
-) and "energy of vibration" (later called
-brightness
-and then
-brilliance)
-. I,J, External form and cross section of the Ostwald system, showing divisions according to proportional black, white and colour content.
-Modern colour theory, like modern colour science, makes constant practical use of concepts of three-dimensional colour space. The framework of
-hue
-,
-value
-(lightness) and
-chroma
-(colour strength) devised by the American artist and art teacher Albert Munsell (1858-1918) for classifying object colours has proved especially useful to painters. Munsell explained his system in his small book
-A Color Notation
-in 1905, and embodied it as a published
-Atlas
-of colour samples in 1915. The Atlas was succeeded by the
-Munsell Book of Color
-(published from 1929 to the present), and following extensive testing and refinement by the Optical Society of America in 1943, has become a very widely accepted standard in science and industry. The Munsell Book of Color, or any of several less expensive alternatives, enables a painter to examine almost every colour obtainable from paint mixtures set out in a logical, value-based arrangement. On this site I show how the system makes a potent framework for observing colours, for understanding colour mixing in paints, and for creating effects of light from the imagination. While painters most commonly use only the conceptual framework of
-relative
-hue, value and chroma rather than the absolute Munsell dimensions, there are strong practical benefits to at least using an absolute scale of
-value
-like the Munsell scale.
-A simpler system of hue, value and relative chroma devised by Munsell's friend and rival Denman Ross has also been widely used in art education, and was further developed by Ross' former student Arthur Pope (1921). Pope showed how hue pages could also be divided up according to the
-saturation ("purity")
-and
-brightness ("energy")
-of the reflected
-light
-producing each object colour (Fig. 11.2.10 D-H), in a similar way to that later adopted in the HSB (or HSV) colour space of graphics programs. Lines of uniform saturation are of great importance to the painter in that they correspond to shading series, or the paths of the image colours needed to represent an object of one colour under different levels of illumination. Colour spaces such as the historical Ostwald system (Fig. 11.2.10 I,J) and the modern Natural Colour System (NCS) that lack a dimension of greyscale value are less useful for most painters, but have found favour in many areas of design.
-Figure 11.2.11
-. Digital colour spaces A.
-RGB
-: relative brightness scales of the "red"
-(R)
-, "green"
-(G)
-and "blue"
-(B)
-component lights. B. Ideal
-CMY
-. C.
-HLS
-: simple double cone model using digital hue
-(H)
-, a pseudo-value dimension
-(L)
-and relative chroma
-(S)
-. D.
-HSB (also known as HSV)
-: digital hue angle
-(H)
-, and measures of saturation
-(S)
-and brightness
-relative to the maximum possible (B).
-E.
-YCbCr:
-used for jpg compression and as a space for some operations in Photoshop. F, G.
-Lab
-: perceptual space with dimensions of greyscale value
-(L)
-, reddish/greenish chroma
-(a/-a)
-and yellow/blue chroma
-(b/-b)
-. Lab
-space can also be expressed as
-Lch
-: value
-(L)
-, chroma
-(C)
-and hue
-(H)
-.
-The series of colour spaces devised by the
-Commission Internationale de l' Eclairage (CIE)
-are central to modern colour science and to the development of all forms of digital colour technology including digital painting. Most fundamental is the
-CIE XYZ
-space, which is the foundation of colour management, and measures colours in relation to three virtual "primaries" that are not colours, but are purely mathematical transformations of actual lights. More commonly encountered by digital painters are the
-CIE xyY
-or chromaticity diagram (Fig. 11.2.7B), and
-CIE L*a*b*
-space, which arranges colours similarly to the Munsell system, but describes their positions in terms of reddish/greenish (a*/-a*) and yellowish/bluish (b*/-b*) chroma instead of hue and total chroma. Photoshop uses a version of CIE L*a*b* known as Lab space as an means for designating colours in the colour picker, and as a working colour space. Digital painters can select and apply modifications to their colours using a great variety of colour spaces for different purposes (Fig. 11.2.11), though probably only a small minority understand these spaces well enough to take full advantage of this versatility. Many painters who use traditional media are familiar with CIE colour spaces through the
-Handprint
-website by Bruce MacEvoy, whose plots of watercolour paints as points on the
-CIE L*a*b*
-and
-CIE CAM02
-hue planes are quite widely quoted on painting forums.
-Figure 11.2.12
-. A,C. Diagrams by Arthur Pope (1921) conceptualizing the effect of changing illumination (A) and of greyish atmospheric mist (C) on the appearance of an array of uniformly coloured stripes. B,D. Realizations in Photoshop of the relationships postulated in Pope's diagrams A and C respectively.
-Figure 11.2.13
-. A,B, Emulation of additive mixing of coloured lights (A) and effect of translucent atmospheric mist (B) from the original upload of this site. David Briggs, Photoshop CS2, 2007. C. Digital painting exercise in which students examine a photograph to determine lighting and atmosphere, and then paint in a simple object to be consistent with these. Class demonstration in Photoshop CS2 by David Briggs,
-Understanding Digital Colour
-, Billy Blue College of Design, 2008.
-Principles governing the relationship of colour and light
-have been an important part of artistic colour theory since the times of Alberti and especially Leonardo, but these principles could be expressed only verbally before modern models of colour space provided a framework for their more precise formulation. In the early 1920's Arthur Pope set out a series of important principles of colour appearance in terms of his own colour order system (Fig. 11.2.12), and beginning in the 1930's Faber Birren used the framework of the Ostwald and Munsell systems to describe colour relationships that create various effects of iridescence, lighting and atmosphere. In the middle decades of the century the American illustrator and highly influential teacher
-Frank Riley
-devised an extremely elaborate system for calculating effects of light and atmosphere within the framework of the Munsell system. Applying Reilly's system in oil paint generally involved the use of an extensive palette of "strings" of premixed colours kept in tubes. Principles of this kind can now be applied very easily using the controls available in digital painting programs (Fig. 11.2.12 B,D, Fig. 11.2.13; for details see
-Section 10
-), and of course can be applied automatically using rendering software.
-Figure 11.2.14
-. Four popular late 19th-century textbooks that explained the Helmholtz-Maxwell revolution in our understanding of colour for artists and art students.
-Numerous excellent texts explaining modern color theory for artists began to appear soon after the Helmholtz-Maxwell revolution, and those by Benson, Bezold, Rood, and Church in particular proved popular enough to be reissued in multiple editions over several decades (Fig. 11.2.14). One of the most influential was
-Modern Chromatics
-, or
-The Students' Text-book of Color
-(1879) by American physics professor and trained painter Ogden Rood, which is a revelation as to the level of technical understanding of color and light that was considered appropriate for academically trained artists of the time.
-Figure 11.2.15
-. A. Colour wheel sketch from one of Degas' notebooks of the early 1880's, illustrated by Richard Kendall in
-Degas, Beyond Impressionism
-(1996, p.101). Though mistaken by Kendall for "a rather inaccurate drawing of on elementary colour wheel", the circle in fact shows additive complementary pairs (
-vert
-opposite
-violet
-,
-jaune
-opposite
-indigo
-, and
-orange
-and
-rouge
-opposite
-bleu
-) in an orientation that seems to link it specifically to a diagram from the frontispiece of Ogden Rood's
-Modern Chromatics
-(B).
-It is difficult to say just how widely painters of this era used modern colour theory, because
-most
-art historians in their research (and teaching) seem to neglect fundamental elements of the artist's craft like colour in the pursuit of more esoteric concerns. For example, author Richard Kendall maintained that "there is no indication that [Degas] joined those of his contemporaries who engaged in a more thorough study of [colour] theory and application. On the contrary a previously unpublished and rather inaccurate drawing of an elementary colour wheel from one of Degas's notebooks of the early 1880's (fig. 104) suggests a delayed interest in such matters" (Fig. 11.2.15A). The drawing is not an inaccurate elementary colour wheel, but in fact shows the recently established additive complementaries, probably transcribed from Rood's
-Modern Chromatics
-whose French edition had been published in 1881. Thus the painter Degas took a close interest in the latest developments in modern colour theory, even though the art historian and Degas specialist Richard Kendall did not.
-These pioneering texts were followed over the course of the 20th century by numerous others incorporating various aspects of our developing understanding of colour, by Albert Munsell, Wilhelm Ostwald, Arthur Pope, Faber Birren and many others. Ralph Evans'
-An Introduction to Color
-(1948) and George Agoston's
-Color Theory and its Application in Art and Design
-(1979, 1987) may be singled out among the many that are still well worth reading today. The Munsell system was disseminated throughout the 20th century in numerous editions and reprintings of Munsell's
-A Color Notation
-and in its successor,
-The New Munsell Student Color Set
-of 1994 by Joy Turner Luke (unfortunately the text is less reliable in more recent editions), through college textbooks such as Maitland Graves'
-The Art of Color and Design
-(1941, 1951), and orally through teachers such as Frank Reilly and his disciples. Although Reilly did not publish his Munsell-based painting system himself, elements of it have been published by several of his former students, most completely by
-Apollo Dorian
-(1989). A simple introduction to many elements of modern color theory is included in James Gurney's excellent
-Color and Light: A Guide for the Realist Painter,
-which I recommend as a first step to any students who have difficulty approaching my own site. For more detailed accounts of colour science written for artists, and of historical and modern colour order systems, the best and most reliable sources are the books of Professor
-Rolf Kuehni
-, while Bruce MacEvoy's enormous
-Handprint
-website provides online information and opinion on a wealth of advanced topics.
-Published June 30, 2015.
-Previous:
-In What Senses is Visual Perception Not Veridical?
-Next:
-Traditional and Modern Colour Theory
-Part 2: Traditional colour theory strikes back!
 
----
+- black) components in various proportions (Fig. 11.2.2 C). This hypothesis was not overturned until 1852, when the version of it promoted by the Scottish physicist Sir David Brewster was convincingly demolished by the brilliant German physicist and physiologist, Hermann von Helmholtz.
+  In subsequent years Helmholtz, his contemporaries including James Clerk Maxwell and Ewald Hering, and their successors collectively transformed our understanding of what colour is and how it works as fundamentally as Darwin transformed our understanding of biology over the same period, and this new understanding in turn led to modern colour printing, colour photography, cinema and television, and eventually to digital photography, painting and rendering. Modern colour theory, as understood on this website, is a system of guidance resting on the legacy of this late 19th century revolution, adapted to the practical needs of painters and teachers of painting.
+  Figure 11.2.3
+  . The psychological, additive and subtractive primaries of modern colour theory.
+  In line with Hering's widely accepted
+  opponent model
+  , modern colour theory recognizes
+  four
+  psychological primarie
+  s
+  , the three historical primaries plus green, arranged in two opposing pairs,
+  yellow/blue
+  and
+  red/green
+  (Fig. 11.2.3A). This
+  model is founded not on neuroscience but on contemplating how we experience colour: only red, yellow, green and blue are experienced as pure hues, and all other hue perceptions are combinations of adjacent pairs of these four: yellow-red (orange), yellow-green, blue-green (cyan, turquoise,
+  etc.
+  ), and blue-red (purple, magenta
+  etc.
+  ). Red, yellow, green and blue are thus the true primary
+  colours
+  of modern colour theory, as opposed to primary colour
+  stimuli
+  (of additive mixing), or primary
+  colourant hues
+  (of subtractive mixing).
+  Figure 11.2.4
+  . A. The four opponent hues or "psychological primaries", and the range of their combinations evoked by single wavelengths of light, and therefore seen in the spectrum. B. Origin of the colours of the spectrum from successive combinations of red
+  vs
+  green and yellow
+  vs
+  blue colour-opponent signals created in the brain.
+  These four opponent hues are not physical components of light, but are perceptions created in the brain of the observer in the form of yellow
+  vs
+  blue and
+  red
+  vs
+  green
+  colour-opponent signals
+  . Blue is evoked by the shorter and yellow by longer wavelengths of visible light, while green is evoked by the middle wavelengths and red by the two extremes (Fig. 11.2.4B). Successive combinations of these four hue perceptions create the sequence of hues seen in the spectrum as well as the nonspectral hues like magenta, and thus explain how we arrive at this
+  circular
+  succession of hues that has no physical basis in the
+  linear
+  sequence of wavelengths in the spectrum. The concept of four psychological primaries has strongly influenced several important colour order systems, notably the Ostwald system, which was the standard for British education in the 1930's, and the
+  Natural Colour System (NCS)
+  , the current colour standard in Scandinavia and Spain, and was foreshadowed in the writings of Leonardo,
+  Goethe
+  and others.
+  In addition to the four psychological primaries, modern colour theory refers to three
+  additive
+  (or light-mixing) and three
+  subtractive
+  (or colourant-mixing) "primary colours" for the colours of lights and colourants respectively that yield a maximum
+  gamut
+  or
+  range of colours of their mixtures. None of the additive or subtractive primaries bear a direct relationship to any of the psychological primaries, but we have a strong unconscious predisposition to
+  apply to the former the
+  names
+  of these hues that form the framework of our experience of colour. Thus before the twentieth century, when our best available colourant-mixing primaries were slightly greenish yellow, bluish red and greenish blue paints, we almost universally labelled these primaries as simply "yellow", "red" and "blue". In the same way today we routinely label the orangeish red, yellowish green and blue or violet-blue primaries of additive-mixing technology as simply "red", "green" and "blue" (RGB).
+  It is counterproductive to the wider acceptance of modern colour theory, as well as misleading, to dismiss the red, yellow and blue primaries as merely obsolete, or worse, to insist (by adopting an idiosyncratic and unrealistic definition of the term) that primary colours
+  "do not exist"
+  . The three historical primaries were as much a step towards recognition of the four modern psychological primaries as they were an imprecisely-named set of colourant-mixing primaries.
+  Figure 11.2.5
+  . A. Dominant wavelengths of sRGB "red", "green" and "blue" additive primaries in relation to responses of the L, M and S cone cells. B. Mixing of RGB additive primaries.
+  So while the number
+  four
+  is the key to
+  colour perception
+  ,
+  three
+  is the key to
+  colour stimulus and colour technology
+  . This number three stems from the fact that colour vision is ultimately based on three types of receptors in the eye called
+  L, M and S cone cells
+  . These cone cells are often loosely termed "red", "green" and "blue", and were once believed to "detect" the red, green and blue-violet bands of the spectrum, and to directly create red, green and violet or blue "fundamental sensations" respectively. However it is now known that the L, M and S cones do not detect individual wavelength bands or "colours" of the spectrum, but respond to very broad and extensively overlapping ranges of wavelengths peaking in the parts of the spectrum we see as
+  greenish-yellow
+  , green and blue-violet (Fig. 11.2.5A), and respond in exactly the same way, just to different degrees, throughout their range. Nor do they directly create sensations of individual colours. Instead,
+  differences
+  in the responses of the three cone types are recorded in the retina in the form of
+  cone-opponent signals
+  (L-M and L+M-S).
+  Colour
+  as such is created in the brain in the form of
+  colour-opponent signals
+  based indirectly on the
+  wavelength
+  -dominance information contained in these
+  cone-opponent signals
+  . When a light creates a balanced response of all three cone types, each cone-opponent signal is balanced at zero, and the light is seen as colourless ("white light"). Colours
+  of lights
+  are perceptions created by our visual system in response to
+  an uneven distribution of wavelengths, as detected by an unequal response of our three cone types.
+  RGB "red"
+  ,
+  "green"
+  and
+  "blue"
+  lights work as
+  additive (light-mixing) primaries
+  because each of them stimulates one cone type
+  more than the other two
+  (Fig. 11.2.5A),
+  and so when mixed in different proportions they produce a large variety of relative L, M and S cone responses, and therefore cone-opponent signals, and therefore ultimately colours. "Red" and "blue" lights unsurprisingly yield mixtures passing through magenta (red-blue), and "green" and "blue" lights unsurprisingly yield mixtures passing through cyan (green-blue), but, to the perennial astonishment of students, "red" and "green" light mixtures pass through an apparently new colour, yellow, that is
+  neither
+  reddish
+  nor
+  greenish (Fig. 11.2.5B). This asymmetry is the inevitable consequence of the mismatch between having three additive and four psychological primaries. The yellow is not really a “new” colour, in that it is already present in the colours evoked by the component lights (they are
+  orange
+  -red and
+  yellowish
+  green after all!), and when these are mixed the yellow signals add together while the red and green signals cancel out, leaving pure yellow. The yellow colour is not
+  made of
+  the
+  colours
+  red and green, and is certainly not some sort of
+  mistaken guess
+  that the light has a wavelength that lies between those of red and green.
+  Figure 11.2.6
+  . A. Subtractive mixing of digital subtractive primaries. B. Explanation of subtractive mixing of digital subtractive primaries.
+  Helmholtz recognized that the "colour mixing" of two colourants was in large part a
+  subtractive
+  process in which the colour of the mixture depends on which wavelengths
+  both
+  colourants pass on
+  .
+  It was soon realized that in theory three transparent colourants that each completely absorb one additive primary and completely pass on the other two would, when mixed subtractively in varying proportions, yield the entire gamut of those additive primaries, and hence be optimal for subtractive mixing. These ideal subtractive primaries would therefore resemble the pure
+  yellow
+  ("red" plus "green"),
+  magenta
+  ("red" plus "blue") and
+  cyan
+  ("blue" plus "green") colours of computer screens (Fig. 11.2.6), the last two being far from the red and blue primaries of traditional colour theory. It took many decades however before permanent pigments at all close to ideal magenta and cyan were developed, and even today our best magenta and cyan paints and inks are redder and bluer respectively than ideal subtractive magenta and cyan. (Fig. 11.2.7A).
+  Figure 11.2.7.
+  A. Mixing paths of a yellow, a magenta and two cyan colourants, calculated using the program
+  drop2color
+  by Zsolt Kovacs Vajna. (For mixtures using a greener yellow see Fig. 2.7, next page). B-D. Spectral reflectances of pairs of cyan, magenta and yellow colourants and representative mixtures, calculated using the same program.
+  Figure 11.2.7 shows predicted mixing paths and reflectance profiles of some cyan. magenta and yellow paints, calculated and plotted using the program
+  drop2color
+  by Zsolt Kovacs Vajna. Consistent with modern colour theory, the paints produce a larger and more evenly distributed gamut (range of colours) than the historical red, yellow and blue primaries (see Fig. 11.3.6, next page). Note well that in subtractive mixing, yellow and cyan colourants make green not because green "contains" yellow and cyan, as typical traditional colour theory assumes, but because both yellow and cyan colourants pass on large amounts of "green" wavelengths (Fig. 11.2.7B).
+  Figure 11.2.8
+  . A. Additive complementary pairs: digital "red" and "cyan", digital "green" and "magenta" and digital "blue" and "yellow". B. Comparison of opponent pairs and additive complementaries. In this
+  CIE xyY
+  (chromaticity) diagram, additive complementaries are connected by a straight line through the central "white point", in this case Illuminant C (after Kelly, 1943). Middle yellow and middle blue are essentially complementary, but middle red and middle green are not.
+  Just as different sets of colours are considered primary for perception, for mixing lights and for mixing colourants, modern colour theory also recognizes somewhat different pairs of "opposite" colours in these three contexts. For every imbalance of cone responses that we experience as a colour of light, there are lights that create an opposite or
+  complementary
+  imbalance, and which therefore by mixing in the right proportion can create white light. Examples of such pairs of lights include the
+  digital red-cyan
+  ,
+  green-magenta
+  and
+  blue-yellow
+  pairs familiar from graphics programs (Fig. 11.2.8A). Perhaps because the relationship between the cone-opponent responses and the colour-opponent signals we ultimately experience is indirect, pairs of colours of lights that mix to make white light (
+  additive complementarie
+  s
+  ) do not always coincide with the axes of our perceptual framework of opponent colours determined by experimental studies of large numbers of observers. According to such studies the yellow - blue opponent pair is also additively complementary or nearly so, but the red - green opponent pair is not (Fig. 11.2.8B).
+  Figure 11.2.9
+  . A-D, Mixing of subtractive complementaries (Liquitex Acrylics). E-G Mixing paths of a cyan paint,
+  Light Blue Permanent
+  (E), a magenta paint,
+  Medium Magenta
+  (F) and a yellow paint,
+  Cadmium Yellow Medium Hue
+  (G), with other paints in the collection. All diagrams produced using the program
+  drop2color
+  by Zsolt Kovacs Vajna.
+  Colours of pairs of colourants that make neutral (black or grey) mixtures are called
+  subtractive or colourant-mixing complementaries
+  . The exact result of subtractive mixing depends on the precise wavelength-by-wavelength absorption of the colourants, and can not be exactly predicted from their colours alone, but the importance of this proviso is sometimes exaggerated as far as actual colourants go, and it does not prevent reasonably reliable generalizations being made about colourant-mixing complementaries. Subtractive and additive complementaries coincide quite closely near the red-cyan and green-magenta axes, but differ substantially near the yellow-blue axis (Fig. 11.2.9A, E). A yellow and a blue paint that are opposite on the Munsell hue circle would be approximate additive complementaries, so that when lights from these paints are mixed (for example, using spinning discs) they would make a near neutral (see
+  Fig. 4.4.1
+  ), but such paints nevertheless reflect enough green wavelengths in common to make a mid-chroma green mixture when combined physically. It is this generation of green as an apparent compound of two visually distinct colours that has influenced painters since Leonardo to reject or question green as a "simple" or primary colour.
+  To make a mixing complementary for a yellow paint generally requires a precise mixture of blue and violet paints (as in Fig. 11.2.9A) that is more reddish than the blue additive complementary, but less reddish than the middle purple expected in traditional colour theory (e.g. Fig. 11.3.1, next page). Interestingly,
+  afterimage
+  complementaries
+  show a similar sort of pattern to these paint-mixing complementaries, in that they agree well with the additive complementaries near the red-cyan and green-magenta axes, but depart in a similar way near the yellow-blue axis. Complementary-coloured afterimages result from changes in the relative adaptation of the three cone types, and act as coloured virtual filters,
+  subtractively
+  modifying the areas of the visual field they occupy.
+  Figure 11.2.10
+  . A,B,C, External view, hue plane and value-chroma plane of the Munsell system. D,E, side and top view of colour solid devised by Arthur Pope based on the colour classification of his former teacher, Denman Ross. F,G, Ross' subdivision of the colours on a hue page according to chroma relative to the maximum possible ("intensity") and chroma relative to the maximum possible at that value ("neutralization"). H. Pope's subdivision of a hue page according to "purity" (later called
+  saturation
+  ) and "energy of vibration" (later called
+  brightness
+  and then
+  brilliance)
+  . I,J, External form and cross section of the Ostwald system, showing divisions according to proportional black, white and colour content.
+  Modern colour theory, like modern colour science, makes constant practical use of concepts of three-dimensional colour space. The framework of
+  hue
+  ,
+  value
+  (lightness) and
+  chroma
+  (colour strength) devised by the American artist and art teacher Albert Munsell (1858-1918) for classifying object colours has proved especially useful to painters. Munsell explained his system in his small book
+  A Color Notation
+  in 1905, and embodied it as a published
+  Atlas
+  of colour samples in 1915. The Atlas was succeeded by the
+  Munsell Book of Color
+  (published from 1929 to the present), and following extensive testing and refinement by the Optical Society of America in 1943, has become a very widely accepted standard in science and industry. The Munsell Book of Color, or any of several less expensive alternatives, enables a painter to examine almost every colour obtainable from paint mixtures set out in a logical, value-based arrangement. On this site I show how the system makes a potent framework for observing colours, for understanding colour mixing in paints, and for creating effects of light from the imagination. While painters most commonly use only the conceptual framework of
+  relative
+  hue, value and chroma rather than the absolute Munsell dimensions, there are strong practical benefits to at least using an absolute scale of
+  value
+  like the Munsell scale.
+  A simpler system of hue, value and relative chroma devised by Munsell's friend and rival Denman Ross has also been widely used in art education, and was further developed by Ross' former student Arthur Pope (1921). Pope showed how hue pages could also be divided up according to the
+  saturation ("purity")
+  and
+  brightness ("energy")
+  of the reflected
+  light
+  producing each object colour (Fig. 11.2.10 D-H), in a similar way to that later adopted in the HSB (or HSV) colour space of graphics programs. Lines of uniform saturation are of great importance to the painter in that they correspond to shading series, or the paths of the image colours needed to represent an object of one colour under different levels of illumination. Colour spaces such as the historical Ostwald system (Fig. 11.2.10 I,J) and the modern Natural Colour System (NCS) that lack a dimension of greyscale value are less useful for most painters, but have found favour in many areas of design.
+  Figure 11.2.11
+  . Digital colour spaces A.
+  RGB
+  : relative brightness scales of the "red"
+  (R)
+  , "green"
+  (G)
+  and "blue"
+  (B)
+  component lights. B. Ideal
+  CMY
+  . C.
+  HLS
+  : simple double cone model using digital hue
+  (H)
+  , a pseudo-value dimension
+  (L)
+  and relative chroma
+  (S)
+  . D.
+  HSB (also known as HSV)
+  : digital hue angle
+  (H)
+  , and measures of saturation
+  (S)
+  and brightness
+  relative to the maximum possible (B).
+  E.
+  YCbCr:
+  used for jpg compression and as a space for some operations in Photoshop. F, G.
+  Lab
+  : perceptual space with dimensions of greyscale value
+  (L)
+  , reddish/greenish chroma
+  (a/-a)
+  and yellow/blue chroma
+  (b/-b)
+  . Lab
+  space can also be expressed as
+  Lch
+  : value
+  (L)
+  , chroma
+  (C)
+  and hue
+  (H)
+  .
+  The series of colour spaces devised by the
+  Commission Internationale de l' Eclairage (CIE)
+  are central to modern colour science and to the development of all forms of digital colour technology including digital painting. Most fundamental is the
+  CIE XYZ
+  space, which is the foundation of colour management, and measures colours in relation to three virtual "primaries" that are not colours, but are purely mathematical transformations of actual lights. More commonly encountered by digital painters are the
+  CIE xyY
+  or chromaticity diagram (Fig. 11.2.7B), and
+  CIE L*a*b*
+  space, which arranges colours similarly to the Munsell system, but describes their positions in terms of reddish/greenish (a*/-a*) and yellowish/bluish (b*/-b*) chroma instead of hue and total chroma. Photoshop uses a version of CIE L*a*b* known as Lab space as an means for designating colours in the colour picker, and as a working colour space. Digital painters can select and apply modifications to their colours using a great variety of colour spaces for different purposes (Fig. 11.2.11), though probably only a small minority understand these spaces well enough to take full advantage of this versatility. Many painters who use traditional media are familiar with CIE colour spaces through the
+  Handprint
+  website by Bruce MacEvoy, whose plots of watercolour paints as points on the
+  CIE L*a*b\*
+  and
+  CIE CAM02
+  hue planes are quite widely quoted on painting forums.
+  Figure 11.2.12
+  . A,C. Diagrams by Arthur Pope (1921) conceptualizing the effect of changing illumination (A) and of greyish atmospheric mist (C) on the appearance of an array of uniformly coloured stripes. B,D. Realizations in Photoshop of the relationships postulated in Pope's diagrams A and C respectively.
+  Figure 11.2.13
+  . A,B, Emulation of additive mixing of coloured lights (A) and effect of translucent atmospheric mist (B) from the original upload of this site. David Briggs, Photoshop CS2, 2007. C. Digital painting exercise in which students examine a photograph to determine lighting and atmosphere, and then paint in a simple object to be consistent with these. Class demonstration in Photoshop CS2 by David Briggs,
+  Understanding Digital Colour
+  , Billy Blue College of Design, 2008.
+  Principles governing the relationship of colour and light
+  have been an important part of artistic colour theory since the times of Alberti and especially Leonardo, but these principles could be expressed only verbally before modern models of colour space provided a framework for their more precise formulation. In the early 1920's Arthur Pope set out a series of important principles of colour appearance in terms of his own colour order system (Fig. 11.2.12), and beginning in the 1930's Faber Birren used the framework of the Ostwald and Munsell systems to describe colour relationships that create various effects of iridescence, lighting and atmosphere. In the middle decades of the century the American illustrator and highly influential teacher
+  Frank Riley
+  devised an extremely elaborate system for calculating effects of light and atmosphere within the framework of the Munsell system. Applying Reilly's system in oil paint generally involved the use of an extensive palette of "strings" of premixed colours kept in tubes. Principles of this kind can now be applied very easily using the controls available in digital painting programs (Fig. 11.2.12 B,D, Fig. 11.2.13; for details see
+  Section 10
+  ), and of course can be applied automatically using rendering software.
+  Figure 11.2.14
+  . Four popular late 19th-century textbooks that explained the Helmholtz-Maxwell revolution in our understanding of colour for artists and art students.
+  Numerous excellent texts explaining modern color theory for artists began to appear soon after the Helmholtz-Maxwell revolution, and those by Benson, Bezold, Rood, and Church in particular proved popular enough to be reissued in multiple editions over several decades (Fig. 11.2.14). One of the most influential was
+  Modern Chromatics
+  , or
+  The Students' Text-book of Color
+  (1879) by American physics professor and trained painter Ogden Rood, which is a revelation as to the level of technical understanding of color and light that was considered appropriate for academically trained artists of the time.
+  Figure 11.2.15
+  . A. Colour wheel sketch from one of Degas' notebooks of the early 1880's, illustrated by Richard Kendall in
+  Degas, Beyond Impressionism
+  (1996, p.101). Though mistaken by Kendall for "a rather inaccurate drawing of on elementary colour wheel", the circle in fact shows additive complementary pairs (
+  vert
+  opposite
+  violet
+  ,
+  jaune
+  opposite
+  indigo
+  , and
+  orange
+  and
+  rouge
+  opposite
+  bleu
+  ) in an orientation that seems to link it specifically to a diagram from the frontispiece of Ogden Rood's
+  Modern Chromatics
+  (B).
+  It is difficult to say just how widely painters of this era used modern colour theory, because
+  most
+  art historians in their research (and teaching) seem to neglect fundamental elements of the artist's craft like colour in the pursuit of more esoteric concerns. For example, author Richard Kendall maintained that "there is no indication that [Degas] joined those of his contemporaries who engaged in a more thorough study of [colour] theory and application. On the contrary a previously unpublished and rather inaccurate drawing of an elementary colour wheel from one of Degas's notebooks of the early 1880's (fig. 104) suggests a delayed interest in such matters" (Fig. 11.2.15A). The drawing is not an inaccurate elementary colour wheel, but in fact shows the recently established additive complementaries, probably transcribed from Rood's
+  Modern Chromatics
+  whose French edition had been published in 1881. Thus the painter Degas took a close interest in the latest developments in modern colour theory, even though the art historian and Degas specialist Richard Kendall did not.
+  These pioneering texts were followed over the course of the 20th century by numerous others incorporating various aspects of our developing understanding of colour, by Albert Munsell, Wilhelm Ostwald, Arthur Pope, Faber Birren and many others. Ralph Evans'
+  An Introduction to Color
+  (1948) and George Agoston's
+  Color Theory and its Application in Art and Design
+  (1979, 1987) may be singled out among the many that are still well worth reading today. The Munsell system was disseminated throughout the 20th century in numerous editions and reprintings of Munsell's
+  A Color Notation
+  and in its successor,
+  The New Munsell Student Color Set
+  of 1994 by Joy Turner Luke (unfortunately the text is less reliable in more recent editions), through college textbooks such as Maitland Graves'
+  The Art of Color and Design
+  (1941, 1951), and orally through teachers such as Frank Reilly and his disciples. Although Reilly did not publish his Munsell-based painting system himself, elements of it have been published by several of his former students, most completely by
+  Apollo Dorian
+  (1989). A simple introduction to many elements of modern color theory is included in James Gurney's excellent
+  Color and Light: A Guide for the Realist Painter,
+  which I recommend as a first step to any students who have difficulty approaching my own site. For more detailed accounts of colour science written for artists, and of historical and modern colour order systems, the best and most reliable sources are the books of Professor
+  Rolf Kuehni
+  , while Bruce MacEvoy's enormous
+  Handprint
+  website provides online information and opinion on a wealth of advanced topics.
+  Published June 30, 2015.
+  Previous:
+  In What Senses is Visual Perception Not Veridical?
+  Next:
+  Traditional and Modern Colour Theory
+  Part 2: Traditional colour theory strikes back!
+
+  ***
+
 ## Page 113
 
 Traditional and Modern Colour Theory, Itten, primary colours
@@ -474,7 +478,7 @@ Adobe Color CC
 Kuler
 ), which calculates complementary and triadic colour sets using a modified digital hue circle in which the hue angles are intended to conform to the traditional colour wheel (Fig. 11.3.3B). As a result of its half century of ascendancy, many artists today assume that traditional colour theory has dominated art education continuously since its origins, and assume modern colour theory is a very recent intrusion.
 Figure 11.3.2
-. A. Colour star used by Itten as the basis of his teaching at the Bauhaus c. 1921, showing  English translations of the 12 hue divisions he derived from his teacher Adolf Hoelzel. Notice the symmetrical placement of yellow, cyan blue, and a "Purple" (magenta) intermediate between "Crimson" and "Purple violet". B. Traditional hue divisions adopted in
+. A. Colour star used by Itten as the basis of his teaching at the Bauhaus c. 1921, showing English translations of the 12 hue divisions he derived from his teacher Adolf Hoelzel. Notice the symmetrical placement of yellow, cyan blue, and a "Purple" (magenta) intermediate between "Crimson" and "Purple violet". B. Traditional hue divisions adopted in
 The Art of Color
 .
 Itten took many elements of his colour theory from that of his teacher Aldof Hoelzel, but in his book of 1961 he left out almost all of the elements that Hoelzel had derived from late 19th and early 20th century science, and presented a version of traditional colour theory and classification almost entirely fixated at an early 19th-century stage of development. Thus although his "colour star" lithograph of 1921 (Fig. 11.3.2A), which he had used as the basis of his teaching of colour at the Bauhaus (Itten, 1975, p. 33), follows Hoelzel's 12-hue system derived from the scientist Wilhelm von Bezold, in
@@ -537,7 +541,7 @@ Figure 11.3.7
 The colour teaching of Josef Albers is sometimes lumped with that of Itten, but was quite different in many ways. Albers included the Ostwald and Munsell systems (favouring the latter) in his courses, ignored Itten's colour circle and sphere, and was skeptical of schemes of "objective" colour harmony. Albers did treat red, yellow and blue as the painter's primaries, but he also discussed the psychological and additive primaries, and his teaching can certainly not be said to be founded on the historical primaries. Unfortunately but perhaps inevitably, his much less dogmatic and more experience-based approach ultimately had less influence on art and design curricula than Itten's formulaic and self-contained system, which in effect insulates the teacher and the student from the last century and a half of developments in our understanding of colour.
 The revival of traditional colour theory since the 1960s was not based on a successful challenge to the truth of modern colour theory, but must be understood in the context of the concurrent reduction and elimination of other technical elements, such as traditional drawing skills, anatomy and perspective, in art education over the same period. Traditional colour theory anachronistically maintains views of the nature of colour that prevailed before the late 19th century Helmholtz-Maxwell-Hering revolution, and its relationship (or lack of relationship) to modern colour theory is in some ways like that of so-called "Creation Science" to modern biology. The difference is not between science and art, but between the sciences of different eras. Perhaps its most unfortunate effect is that students can become “adapted” to simplistic treatments of colour, making modern colour theory seem unnecessarily complicated. If 90 percent of books treated anatomy or perspective in an extremely simplistic way, you would get a similar shock the first time you saw some real artistic anatomy or perspective.
 Figure 11.3.8
-. A, value 5  plane and B-F, the five hue pages from Albert Munsell's
+. A, value 5 plane and B-F, the five hue pages from Albert Munsell's
 Atlas of the Munsell Color System
 (1915), the forerunner of the modern
 Munsell Book of Color
@@ -550,10 +554,11 @@ Next:
 "What is Color?"
 
 ---
+
 ## Page 114
 
 11.4 "What is Color?"
-This page presents an explanation of  colour for school children, produced in response to the
+This page presents an explanation of colour for school children, produced in response to the
 2014 Flame Challenge
 by actor Alan Alda. Whether it succeeds with its target audience or not, I hope it helps promote a better understanding of colour, and especially of the significance of the
 opponent model
@@ -641,7 +646,7 @@ So the colour "red" is not something we "detect" in light, but is a signal added
 You might be wondering why our eyes and brain would do this, but look what we get when the two colour signals combine:
 Colours form a
 circle
-because the combinations of the four colour signals we create form a continuous loop: RED + YELLOW, YELLOW + GREEN, GREEN + BLUE, BLUE + RED. Single wavelengths of the spectrum can produce most but not all of the  possible combinations.
+because the combinations of the four colour signals we create form a continuous loop: RED + YELLOW, YELLOW + GREEN, GREEN + BLUE, BLUE + RED. Single wavelengths of the spectrum can produce most but not all of the possible combinations.
 Magenta
 is a combination of our blue and red colour signals, produced exactly the same way as the colours of the spectrum, but from mixtures of wavelengths from the two ends.
 My nephew Guy's eyes have only two types of cones
@@ -655,61 +660,61 @@ unevenly
 A bright yellow object like a lemon absorbs blue and violet wavelengths, and reflects red, orange, yellow and green wavelengths.Our
 L and M
 cones both respond strongly to these wavelengths, and these responses:
--
-combine
-to create a strong yellow colour signal, and
--
-cancel
-each other from making a strong red or green colour signal.
-[Study
-this section
-again to see if you can work out why].
-On your computer screen the colour of the lemon is made by tiny red and green lights.
-Together these give off wavelengths of a similar
-range
-to the lemon that create the same relative response of our cone cells, and so the same colour, even though the
-proportions
-of these wavelengths are very different.
-P.S. Colour is more complex in complex scenes. A white object can reflect light of any colour if the lighting is that colour. Our brains are quite good at automatically allowing for these effects of lighting, and because of this ability, called
-colour constancy
-, the colour that we see an object as
-being
-depends not just the wavelengths coming from it, but on the whole scene.
-You probably see an
-object
-coloured like the one on the upper left in all of these pictures, even though each of the other five
-pictures
-actually contains a very small range of colours, from only about a third of the colour wheel!
-2
-(click picture to enlarge).
-If you study this explanation carefully you will understand much better than most adults what colour really is. But if you take the time to explain it to them, and they keep trying, you'll find they can eventually understand almost anything.
-...
-This is the video version submitted for the competition:
-You can leave comments on the video on its Vimeo page:
-David Briggs - What is Colour?
-...
-As a test of your understanding after studying this page and the video, you might like to watch these two YouTube videos to see if you can see the problems with them. (I've written a technical explanation of what I think is wrong with them
-here
-).
-This Is Not Yellow
-(Michael Stevens, Vsauce)
-https://www.youtube.com/watch?v=R3unPcJDbCc
-Colour Mixing: The Mystery of Magenta
-(Steve Mould)
-https://www.youtube.com/watch?v=iPPYGJjKVco
-March 9, 2014.
-Previous:
-Traditional and Modern Colour Theory Part 2: traditional colour Theory Strikes Back!
-Next:
-Answers to "What is Color?"
-1
-Only for the rhetorical purposes of this page; Guy's colour vision is actually normal.
-2
-These pictures are variations on an illusion created by
-Dr R. Beau Lotto
-and made publicly available by him for use with proper accreditation.
 
----
+- combine
+  to create a strong yellow colour signal, and
+- cancel
+  each other from making a strong red or green colour signal.
+  [Study
+  this section
+  again to see if you can work out why].
+  On your computer screen the colour of the lemon is made by tiny red and green lights.
+  Together these give off wavelengths of a similar
+  range
+  to the lemon that create the same relative response of our cone cells, and so the same colour, even though the
+  proportions
+  of these wavelengths are very different.
+  P.S. Colour is more complex in complex scenes. A white object can reflect light of any colour if the lighting is that colour. Our brains are quite good at automatically allowing for these effects of lighting, and because of this ability, called
+  colour constancy
+  , the colour that we see an object as
+  being
+  depends not just the wavelengths coming from it, but on the whole scene.
+  You probably see an
+  object
+  coloured like the one on the upper left in all of these pictures, even though each of the other five
+  pictures
+  actually contains a very small range of colours, from only about a third of the colour wheel!
+  2
+  (click picture to enlarge).
+  If you study this explanation carefully you will understand much better than most adults what colour really is. But if you take the time to explain it to them, and they keep trying, you'll find they can eventually understand almost anything.
+  ...
+  This is the video version submitted for the competition:
+  You can leave comments on the video on its Vimeo page:
+  David Briggs - What is Colour?
+  ...
+  As a test of your understanding after studying this page and the video, you might like to watch these two YouTube videos to see if you can see the problems with them. (I've written a technical explanation of what I think is wrong with them
+  here
+  ).
+  This Is Not Yellow
+  (Michael Stevens, Vsauce)
+  https://www.youtube.com/watch?v=R3unPcJDbCc
+  Colour Mixing: The Mystery of Magenta
+  (Steve Mould)
+  https://www.youtube.com/watch?v=iPPYGJjKVco
+  March 9, 2014.
+  Previous:
+  Traditional and Modern Colour Theory Part 2: traditional colour Theory Strikes Back!
+  Next:
+  Answers to "What is Color?"
+  1
+  Only for the rhetorical purposes of this page; Guy's colour vision is actually normal.
+  2
+  These pictures are variations on an illusion created by
+  Dr R. Beau Lotto
+  and made publicly available by him for use with proper accreditation.
+
+  ***
+
 ## Page 115
 
 11.5 Answers to "What is colour?" page
@@ -887,11 +892,12 @@ March 9, 2014.
 5
 6
 7
->>
-Previous:
-"What is Color?"
+
+> > Previous:
+> > "What is Color?"
 
 ---
+
 ## Page 116
 
 What do Purves and Lotto's Illusions Actually Show?
@@ -1013,6 +1019,7 @@ Next:
 The Art Science and History of Colour Quiz
 
 ---
+
 ## Page 117
 
 The Art, Science and History of Colour Quiz
@@ -1046,6 +1053,7 @@ Previous:
 Colour Constancy Illusions and Painting
 
 ---
+
 ## Page 118
 
 What do Purves and Lotto's Illusions Actually Show?
@@ -1310,6 +1318,7 @@ First draft
 of video published January 3 , 2020.
 
 ---
+
 ## Page 119
 
 Where is Colour Education Now?
@@ -1322,6 +1331,7 @@ Page published May 11, 2020.
 Home
 
 ---
+
 ## Page 1110
 
 Color Impact 2020
@@ -1331,9 +1341,9 @@ Jennifer Cohlman Bracchi
 Andreas Schwarz
 Robin Kingsburgh
 Luanne Stovall
-Paul Green-Armytage  1
+Paul Green-Armytage 1
 The colour theory debate
-Paul Green-Armytage  2
+Paul Green-Armytage 2
 Panel discussion
 Maggie Maggio
 Below is my summary of the talks presented at the Inter-Society Color Council virtual symposium Color Impact 2020, originally prepared as a report submitted to a meeting of the National Executive Committee of the
@@ -1401,79 +1411,81 @@ and
 Widening Our Vision
 respectively. The most conspicuous lack of agreement seemed to be over the scope of the term “traditional colour theory”, which the
 first participant
-* characterized as having evolved “as a foundational component of art and design education” but also showed as including works like the
-Handbook of Color Psychology
-of Elliot
-et al.
-(2015), an excellent compendium of current colour science. This latter content had of course not attracted criticism from the Colour Literacy Project. What had come in for criticism is what the second participant,
-Maggie Maggio
-, characterized as the cornerstone of traditional colour theory, namely the simplistic “rehash” of red, yellow and blue primary colours, secondary and tertiary colours, and so on, content that in the first participant's view was something that traditional colour theory has “moved beyond”. The exchange brought out the need for participants in such debates to begin with an agreed set of criteria defining which theories among the multitude involving colour are to be included in the category “traditional colour theory”, to prevent the debate being at cross purposes and to clarify whether the positions being defended by the participants are internally consistent. Robert Hirschler as Chair neatly summed up the consensus expressed by both participants as follows: “Yes, we don’t need that fossilized, simplistic, oversimplified colour theory but we do need to know more about colour so that the exploration and experimentation can be explained somehow”.
-*The first participant subsequently launched an extraordinary series of attacks on my personal and professional reputation on her website beginning on 28/08/2020 (preserved on the archive.org Wayback Machine
-here
-), ostensibly in response to my brief review of the debate, which she incorrectly claimed was biased and defamatory against her. The disparity between my tactful comments here and the far-fetched accusations and abusive retribution they were met with can be confirmed by inspecting the archives of the original and all later versions of our pages preserved on the
-Wayback Machine
-.
-In subsequent revisions the participant very wisely removed her most defamatory statements about me, but persisted in playing the victim, expressing the hope that I "can find a way to treat other academics with respect – as do most within the global academic community – and refrain from denigrating
-ad hominen
-commentary when academic perspectives differ", while continuing on the same page her denigrating
-ad hominem
-commentary directed at me, including for some time the tag
-"DAVID BRIGGS COLOUR FRAUD"
-(
-preserved here
-). The participant
-continues
-to oblige me to provide these links as evidence to separate fact from projection in our respective conduct, but as a courtesy to a colleague of long standing I've removed her name from this page.
-In his second session of hands-on activities Paul demonstrated a more elaborate version of the
-Color Sorting Set
-for more advanced students, and comparable in difficulty with some existing exercises for sorting colours according to NCS nuance. Categories of “very light”, “light muted”, “dark muted”, “very dark” and a weakly chromatic “grey” to the original four, producing a regular grid of nine tint-shade-tone “characters” for each hue, corresponding to relative white, black and colour content rather than lightness and chroma. The
-Color Sorting Set
-uses a new hue scale of nine named hues: red, orange, yellow, lime green, green, blue green, blue, violet and magenta. These named hues lack any hierarchy among themselves and each sits opposite an interval between two named hues, two features that might make the circle more difficult to memorize and hold in the mind than the familiar opponent, traditional, additive-subtractive and Munsell hue circles, but which are employed deliberately with the intention of avoiding commitment to any one of the latter hue scales.
-Next, Luanne Stovall hosted a panel discussion
-Expanding the Focus of Art and Design Education
-involving
-Leslie Mutchler
-, Chair of the Foundation Department at the Pratt Institute,
-Nader Sadoughi
-, a BFA Design student at The University of Texas at Austin, and
-Alicia Keshishian
-, who leads the multidisciplnary education program of the Color Marketing Group. (The fourth scheduled panellist
-Richard Mehl
-of the School of Visual Arts, NYC, was unable to participate).
-The three speakers each described new ways in which colour education is being expanded beyond what is normally included in traditional colour theory, from the point of view of a teacher, a student, and an educator in industry. Leslie described how she had taught colour in different institutions “in a myriad of ways, but always focussed on the spiritual, the slippery and the emotive along with the formal, the scientific, and the concrete”, and emphasized the mutual interaction and enhancement of her teaching and her artistic research and productions, such as
-Intermediate Geochromatic Studies
-(2020) with Jason Urban. Nader described what he saw as a crisis in colour education around the world resulting from an over-reliance on the flawed texts of Albers and Itten and the traditional red-yellow-blue colour wheel, and enthusiastically advocated the application of modern colour order systems such as CIE L*a*b* in classroom education. Alicia described co-teaching multidisciplinary classes for industry professionals addressing colour through design, science and technology, and recorded her astonishment to discover when first teaching these classes that only about 10 percent of colour professionals had an understanding of the basics of the subject. In the ensuing discussion there was agreement with the view that higher education in the United States is generally failing colour professionals (the fully interdisciplinary colour programs at the Pratt Institute and the University of Texas among the few exceptions), and with the observation of a current college student that colour classes are the “bad maths” of most colleges.
-In the final segment
-Maggie Maggio
-introduced the ISCC/AIC Colour Literacy Project and its new website,
-https://colourliteracy.org/.
-The Colour Literacy Project was formed in the wake of the Munsell 2018 symposium to “identify and address the most basic, current misconceptions and misinformation about colour while building a bridge between the art and science of 21st century colour education”. Maggie gave participants a tour of the new website, which is still in its early stages but gives an explanation of the specific objectives of the project, a listing of the team members and project consultants, and two examples of prototype modules for early school level teaching. A
-page of educator resources
-is currently under construction but already includes a link to
-Colour Online
-, a curated collection of some
-500 links to useful colour-related resources
-prepared specifically for the Project by
-David Briggs
-, as well as resources previously produced by team members
-Stephen Westland
-,
-Harald Arnkil
-and
-Andreas Schwarz
-.
-Color Impact 2020 presented a strong challenge to the status quo in colour education, with calls to present colour in new and engaging ways as a fully interdisciplinary subject bridging many areas of the sciences and the arts. Such calls have been made many times in the past and will no doubt be made many times in the future in the ongoing battle against outdated, formulaic and uninspiring “rehash” in colour education.
-David Briggs,
-Vice President and NSW Divisional Chair,
-Colour Society of Australia
-This page published July 17, 2020. Last revised 12/04/2022; previous versions archived
-here
-and
-here
-.
-Home
+
+- characterized as having evolved “as a foundational component of art and design education” but also showed as including works like the
+  Handbook of Color Psychology
+  of Elliot
+  et al.
+  (2015), an excellent compendium of current colour science. This latter content had of course not attracted criticism from the Colour Literacy Project. What had come in for criticism is what the second participant,
+  Maggie Maggio
+  , characterized as the cornerstone of traditional colour theory, namely the simplistic “rehash” of red, yellow and blue primary colours, secondary and tertiary colours, and so on, content that in the first participant's view was something that traditional colour theory has “moved beyond”. The exchange brought out the need for participants in such debates to begin with an agreed set of criteria defining which theories among the multitude involving colour are to be included in the category “traditional colour theory”, to prevent the debate being at cross purposes and to clarify whether the positions being defended by the participants are internally consistent. Robert Hirschler as Chair neatly summed up the consensus expressed by both participants as follows: “Yes, we don’t need that fossilized, simplistic, oversimplified colour theory but we do need to know more about colour so that the exploration and experimentation can be explained somehow”.
+  *The first participant subsequently launched an extraordinary series of attacks on my personal and professional reputation on her website beginning on 28/08/2020 (preserved on the archive.org Wayback Machine
+  here
+  ), ostensibly in response to my brief review of the debate, which she incorrectly claimed was biased and defamatory against her. The disparity between my tactful comments here and the far-fetched accusations and abusive retribution they were met with can be confirmed by inspecting the archives of the original and all later versions of our pages preserved on the
+  Wayback Machine
+  .
+  In subsequent revisions the participant very wisely removed her most defamatory statements about me, but persisted in playing the victim, expressing the hope that I "can find a way to treat other academics with respect – as do most within the global academic community – and refrain from denigrating
+  ad hominen
+  commentary when academic perspectives differ", while continuing on the same page her denigrating
+  ad hominem
+  commentary directed at me, including for some time the tag
+  "DAVID BRIGGS COLOUR FRAUD"
+  (
+  preserved here
+  ). The participant
+  continues
+  to oblige me to provide these links as evidence to separate fact from projection in our respective conduct, but as a courtesy to a colleague of long standing I've removed her name from this page.
+  In his second session of hands-on activities Paul demonstrated a more elaborate version of the
+  Color Sorting Set
+  for more advanced students, and comparable in difficulty with some existing exercises for sorting colours according to NCS nuance. Categories of “very light”, “light muted”, “dark muted”, “very dark” and a weakly chromatic “grey” to the original four, producing a regular grid of nine tint-shade-tone “characters” for each hue, corresponding to relative white, black and colour content rather than lightness and chroma. The
+  Color Sorting Set
+  uses a new hue scale of nine named hues: red, orange, yellow, lime green, green, blue green, blue, violet and magenta. These named hues lack any hierarchy among themselves and each sits opposite an interval between two named hues, two features that might make the circle more difficult to memorize and hold in the mind than the familiar opponent, traditional, additive-subtractive and Munsell hue circles, but which are employed deliberately with the intention of avoiding commitment to any one of the latter hue scales.
+  Next, Luanne Stovall hosted a panel discussion
+  Expanding the Focus of Art and Design Education
+  involving
+  Leslie Mutchler
+  , Chair of the Foundation Department at the Pratt Institute,
+  Nader Sadoughi
+  , a BFA Design student at The University of Texas at Austin, and
+  Alicia Keshishian
+  , who leads the multidisciplnary education program of the Color Marketing Group. (The fourth scheduled panellist
+  Richard Mehl
+  of the School of Visual Arts, NYC, was unable to participate).
+  The three speakers each described new ways in which colour education is being expanded beyond what is normally included in traditional colour theory, from the point of view of a teacher, a student, and an educator in industry. Leslie described how she had taught colour in different institutions “in a myriad of ways, but always focussed on the spiritual, the slippery and the emotive along with the formal, the scientific, and the concrete”, and emphasized the mutual interaction and enhancement of her teaching and her artistic research and productions, such as
+  Intermediate Geochromatic Studies
+  (2020) with Jason Urban. Nader described what he saw as a crisis in colour education around the world resulting from an over-reliance on the flawed texts of Albers and Itten and the traditional red-yellow-blue colour wheel, and enthusiastically advocated the application of modern colour order systems such as CIE L*a*b* in classroom education. Alicia described co-teaching multidisciplinary classes for industry professionals addressing colour through design, science and technology, and recorded her astonishment to discover when first teaching these classes that only about 10 percent of colour professionals had an understanding of the basics of the subject. In the ensuing discussion there was agreement with the view that higher education in the United States is generally failing colour professionals (the fully interdisciplinary colour programs at the Pratt Institute and the University of Texas among the few exceptions), and with the observation of a current college student that colour classes are the “bad maths” of most colleges.
+  In the final segment
+  Maggie Maggio
+  introduced the ISCC/AIC Colour Literacy Project and its new website,
+  https://colourliteracy.org/.
+  The Colour Literacy Project was formed in the wake of the Munsell 2018 symposium to “identify and address the most basic, current misconceptions and misinformation about colour while building a bridge between the art and science of 21st century colour education”. Maggie gave participants a tour of the new website, which is still in its early stages but gives an explanation of the specific objectives of the project, a listing of the team members and project consultants, and two examples of prototype modules for early school level teaching. A
+  page of educator resources
+  is currently under construction but already includes a link to
+  Colour Online
+  , a curated collection of some
+  500 links to useful colour-related resources
+  prepared specifically for the Project by
+  David Briggs
+  , as well as resources previously produced by team members
+  Stephen Westland
+  ,
+  Harald Arnkil
+  and
+  Andreas Schwarz
+  .
+  Color Impact 2020 presented a strong challenge to the status quo in colour education, with calls to present colour in new and engaging ways as a fully interdisciplinary subject bridging many areas of the sciences and the arts. Such calls have been made many times in the past and will no doubt be made many times in the future in the ongoing battle against outdated, formulaic and uninspiring “rehash” in colour education.
+  David Briggs,
+  Vice President and NSW Divisional Chair,
+  Colour Society of Australia
+  This page published July 17, 2020. Last revised 12/04/2022; previous versions archived
+  here
+  and
+  here
+  .
+  Home
 
 ---
+
 ## Page 1111
 
 More than three dimensions
@@ -1547,7 +1559,7 @@ the balance of chromatic (coloured) and white light components perceived in the 
 . A column of digital colour swatches of uniform chroma can be seen to range from lighter swatches emitting lots of relatively whitish light to darker swatches emitting a smaller amount of less whitish or more saturated light.
 A note to the CIE definition of saturation reads that within certain limits, a colour stimulus of a given
 chromaticity
-exhibits approximately constant saturation as the  intensity of light (luminance) varies. Chromaticity refers to the overall balance of long-, middle- and shor-wavelength components in a light, and this would be expected to stay constant when a uniform object such as our cube reflects illumination varying only in intensity. This relationship of constant saturation has been implemented in our cube, so that proceeding from A to B to C the colourfulness of the light increases in step with its brightness.
+exhibits approximately constant saturation as the intensity of light (luminance) varies. Chromaticity refers to the overall balance of long-, middle- and shor-wavelength components in a light, and this would be expected to stay constant when a uniform object such as our cube reflects illumination varying only in intensity. This relationship of constant saturation has been implemented in our cube, so that proceeding from A to B to C the colourfulness of the light increases in step with its brightness.
 [05:54] We might therefore expect that in the
 image
 of our orange cube, the image areas used to depict faces A, B and C should increase in
@@ -1601,6 +1613,7 @@ This page published September 2, 2021.
 Home
 
 ---
+
 ## Page 1112
 
 Shillito portfolio
@@ -1696,6 +1709,7 @@ This page published February 15, 2022.
 Home
 
 ---
+
 ## Page 1113
 
 The Dimensions of Colour Today
@@ -1817,7 +1831,7 @@ I think it’s fair to say that it’s become harder today for people to teach t
 Resources mentioned in the introduction:
 Understanding and Applying Colour
 https://sites.google.com/site/djcbriggs/tmct
-This public programs course of eight weekly 3-hour classes is offered live on Zoom through the National Art School, Sydney,  four times each year  beginning in February, April/May,  July and October.
+This public programs course of eight weekly 3-hour classes is offered live on Zoom through the National Art School, Sydney, four times each year beginning in February, April/May, July and October.
 Colour Society of Australia
 https://coloursociety.org.au/
 Colour Literacy Project
@@ -1884,6 +1898,7 @@ This page published March 31, 2022.
 Home
 
 ---
+
 ## Page 1114
 
 Index of Works
@@ -1910,26 +1925,26 @@ October 1
 , 2023.
 Video recording of presentation:
 https://www.youtube.com/watch?v=ii9dWIG9nOY
-Text of presentation:   Text:
+Text of presentation:  Text:
 http://www.huevaluechroma.com/1118.php
-Briggs, D.J.C., 2023.  The Elements of Colour I: Colour Perceptions, Colour Stimuli, and Colour Measurement.
+Briggs, D.J.C., 2023. The Elements of Colour I: Colour Perceptions, Colour Stimuli, and Colour Measurement.
 Journal of the International Colour Association
 ,
 33
 , 79-96.
 https://aic-color.org/resources/Documents/jaic_v33_06.pdf
-Briggs, D.J.C., 2023. The Elements of Colour II:  The Attributes of Perceived Colour.
+Briggs, D.J.C., 2023. The Elements of Colour II: The Attributes of Perceived Colour.
 Journal of the International Colour Association
 ,
 33
-,  97-118
+, 97-118
 https://aic-color.org/resources/Documents/jaic_v33_07.pdf
 Briggs, D.J.C., 2023.
 The Elements of Colour
 Invited webinar for the Design Institute of Australia, May 18, 2023.
 Video recording of preentation:
 https://www.youtube.com/watch?v=AtrRpGb-7FU
-Text of presentation:   Text:
+Text of presentation:  Text:
 http://www.huevaluechroma.com/1117.php
 Briggs, D.J.C., 2023.
 Controlling Colour: Historical Background
@@ -2056,7 +2071,7 @@ Briggs, D.J.C., 2020 - .
 The Colour Courses
 . Course information and optional further reading links for
 Understanding and Applying Colour
-, my public online course conducted  through the National Art School, Sydney, four times per year beginning in February, April/May, July and October.
+, my public online course conducted through the National Art School, Sydney, four times per year beginning in February, April/May, July and October.
 https://sites.google.com/site/djcbriggs/tmct
 Briggs, D.J.C., 2020.
 Colour Online
@@ -2314,6 +2329,7 @@ The Dimensions of Colour Today
 Home
 
 ---
+
 ## Page 1115
 
 Psychophysical Colour
@@ -2359,7 +2375,7 @@ virtual
 objects depicted in the scene are so visually insistent that it can be extremely difficult to attend to colour perceptions relating to the image
 areas themselves
 ,
-unless we break the representational spell of the image areas by providing a target seen as being outside the depicted illumination, when suddenly we can make veridical comparisons, as I’ve discussed elsewhere*.
+unless we break the representational spell of the image areas by providing a target seen as being outside the depicted illumination, when suddenly we can make veridical comparisons, as I’ve discussed elsewhere\*.
 [06:33] Our ability to perceive the overall spectral reflectance of an object as its colour is most effective in daylight or similar illumination. Under spectrally biased illumination our visual system has the capacity, to a degree, to
 adapt
 to the spectral bias, making the illumination appear less strongly coloured than it would otherwise, and quite separately to this, to a degree, to disentangle or parse a scene into colours relating to illumination and spectral reflectance, so that we might perceive some things in this reddish scene as white and grey objects under reddish illumination. Nevertheless, our capacity to “see” spectral reflectance as colour diminishes as the spectral bias of the light increases, and under monochromatic illumination we perceive only variations in the object’s reflectance of the single wavelength present.
@@ -2395,17 +2411,18 @@ of lights and objects to cause a perception of red, blue etc., or to cause such 
 “Psychophysical colour” refers to the colorimetric measures devised to specify the perceiver-dependent property of a light, or of an object viewed in daylight, that determines its
 disposition
 to appear this or that colour. In terms of Hardin’s well-known quote – “Colored objects are illusions, but not unfounded illusions” - “psychophysical colour” specifications identify for practical purposes the properties of lights and objects that our “illusions” of perceived colour are founded on.
-*
-Colour Constancy Illusions and Painting
-,
-http://www.huevaluechroma.com/116.php
-Acknowledgements
-I am very grateful to Robert Hirschler, Barry Maund, Mohan Matthen, and Derek Brown for generously providing comments on an earlier draft of this manuscript. All of their comments led to corrections or clarifications, but responsibility for any remaining errors is entirely my own.
-This page published June 16, 2022.
-< Index of works
-Home
 
----
+- Colour Constancy Illusions and Painting
+  ,
+  http://www.huevaluechroma.com/116.php
+  Acknowledgements
+  I am very grateful to Robert Hirschler, Barry Maund, Mohan Matthen, and Derek Brown for generously providing comments on an earlier draft of this manuscript. All of their comments led to corrections or clarifications, but responsibility for any remaining errors is entirely my own.
+  This page published June 16, 2022.
+  < Index of works
+  Home
+
+  ***
+
 ## Page 1116
 
 A Shillito Student Portfolio from the Mid-1940’s
@@ -2482,6 +2499,7 @@ This page published June 16, 2022.
 Home
 
 ---
+
 ## Page 1117
 
 The elements of colour
@@ -2862,6 +2880,7 @@ Colours of Objects and Colours of Light >
 Home
 
 ---
+
 ## Page 1118
 
 Colours of objects and colours of light

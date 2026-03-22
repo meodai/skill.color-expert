@@ -4,6 +4,7 @@
 **Year:** 1912
 **Colors:** 1,115 named colors across 53 plates
 **Sources:**
+
 - [Project Gutenberg (full text + plates)](https://www.gutenberg.org/files/63087/63087-h/63087-h.htm)
 - [Archive.org (scanned original)](https://archive.org/details/colorstandardsc00ridg)
 - [Digitized JSON dataset (meodai)](https://github.com/meodai/Color-Standards-and-Color-Nomenclature)
@@ -40,7 +41,6 @@ glorious forests, magnificent mountains, and lovely
 plains of his native land; whose encouragement made
 possible the completion of a seemingly hopeless task,
 this book is affectionately and gratefully dedicated.
-
 
 ### PREFACE
 
@@ -90,13 +90,13 @@ of Chicago; Prof.W. J. Spillman, of the
 U. S. Department of Agriculture; Mr.Williams
 Welch, of the U. S. Signal Service; Mr.Milton
 Bradley, of Springfield, Mass.; Dr.P. G. Nutting,
-of the U. S.  Bureau of Standards;
+of the U. S. Bureau of Standards;
 Mr.P. L. Ricker, of the Bureau of Plant
-Industry, U. S. Department of Agriculture; and Mr.J. L.  Ridgway, of the U. S. Geological Survey. The
+Industry, U. S. Department of Agriculture; and Mr.J. L. Ridgway, of the U. S. Geological Survey. The
 late ProfessorS. P. Langley, then Secretary of
 the Smithsonian Institution, was good enough to take a kindly interest
 in this undertaking and gave the author assistance for which he is
-glad to make acknowledgment.  More than to all others, however, is the
+glad to make acknowledgment. More than to all others, however, is the
 author deeply indebted to Mr.John E. Thayer,
 of Lancaster, Mass., and Señor DonJosé
 C. Zeledón, of San José, Costa Rica, for aid so indispensible
@@ -115,14 +115,12 @@ colors of the original plates developed many perplexing and often
 discouraging problems, which were finally solved through Mr.A. B. Hoen'sexpert knowledge of chemistry and
 pigments; the skill, industry, and patience of the firm's head
 colorist, Mr.Frank Portugal, and the personal
-interest of both these gentlemen.  It is, therefore, with the greatest
+interest of both these gentlemen. It is, therefore, with the greatest
 pleasure that the author's grateful acknowledgment is made to the firm
 ofA. Hoen & Companyfor the satisfactory
 manner in which they have fulfilled their contract.
 
-
 ### CONTENTS
-
 
 ### PROLOGUE
 
@@ -260,7 +258,7 @@ desired result was achieved. Several serious problems were involved,
 the matter of change of hue through chemical reaction of the combined
 pigments or dyes[11](especially the latter)
 being almost as troublesome as that of securing the proper degree of
-difference between each adjoining pair of hues.  The method by which
+difference between each adjoining pair of hues. The method by which
 satisfactory results were finally secured was as follows: First, six
 disks were colored to represent each of the fundamental spectrum
 colors,[7]according to the author's conception of
@@ -281,7 +279,7 @@ near correct to serve as a basis for a symmetrical curve; and after
 the points out of[8]proper line were suitably relocated the two
 component colors were correspondingly readjusted on the color-wheel
 and each faulty disk corrected (or a new one painted) until it exactly
-matched the required combination.  The scales representing the tints
+matched the required combination. The scales representing the tints
 and shades of each color, and also the gray or broken colors were
 similarly determined by corrected
 curves.[13]
@@ -313,7 +311,6 @@ the colors themselves, except that in case of the broken colors the
 "primes" (′, ′′, ′′′, ′′′′, or ′′′′′) are to be affixed to the hue
 number. First locate thehue, designated by number, then thetone, designated by lower case letter, the full, pure colors of
 the middle horizontal row being designated by number alone.
-
 
 #### Color Names
 
@@ -352,7 +349,7 @@ appropriate, names for the colors which it has seemed desirable to
 represent. In other words, certain colors are selected for
 illustration, for which names must be provided; and when names that
 are exclusively pertinent or otherwise entirely satisfactory are not
-at hand, they must be looked up or invented.  It should also be borne
+at hand, they must be looked up or invented. It should also be borne
 in mind that almost any object or substance varies more or less in
 color; and that therefore if the "orange,"
 "lemon," "chestnut" or
@@ -413,7 +410,7 @@ unfortunately, the untimely death of Mr. Wampole prevented from
 progressing beyond the accumulation of this collection. For the use of
 this material I am indebted to the courtesy of Dr. Frederick
 V. Coville, Botanist of the U. S. Department of Agriculture, and
-Mr. P. L.  Ricker, Assistant Botanist, Bureau of Plant Industry, in
+Mr. P. L. Ricker, Assistant Botanist, Bureau of Plant Industry, in
 the same Department. (2) A splendid collection of colored Japanese
 silks, taffetas, velvets, and other dress goods, kindly sent me by
 Mr. C. H. Hospital, of the silk department of the firm of Woodward and
@@ -425,7 +422,7 @@ For obvious reasons it has, of course, been necessary to ignore
 many trade names, through which the popular nomenclature of colors has
 become involved in really chaotic confusion rendered more confounded
 by the continual coinage of new names, many of them synonymous[13]and
-most of them vague and variable in their application.  Most of them
+most of them vague and variable in their application. Most of them
 are invented, apparently without care or judgment, by the dyer or
 manufacturer of fabrics, and are as capricious in their meaning as in
 their origin; for example: Such fanciful names as "zulu," "serpent
@@ -455,7 +452,7 @@ established[14]through common usage. This very important consideration
 has induced the author to retain such of the old standards as can be
 matched in the present work, even though some of them do not agree
 strictly with either his own or the usual conception of the colors in
-question. An asterisk (*) preceding a color name indicates that the
+question. An asterisk (\*) preceding a color name indicates that the
 name in question is adopted from the older work, the variation between
 different copies of the work requiring the selection, in the new one,
 of a color representing as nearly as possible an average of the
@@ -490,7 +487,6 @@ adjectives. For example: To indicate a color which has no lustre or
 brightness, the adjective matt (or mat) may be used, in preference todull, which implies reduction in purity or chroma; other
 adjectives, appropriate in special cases, being velvety, glossy,
 burnished metallic, matt-metallic, etc.
-
 
 #### Color Terms
 
@@ -655,7 +651,7 @@ may be termed either warm or cool."
 
 Complementary Color.—"As white light is the sum of all
 color, if we take from white light a given color the remaining color
-is the complement of the given color."  When any two colors or hues
+is the complement of the given color." When any two colors or hues
 which when combined in proper proportion on the color-wheel produce,
 by rotation, neutral gray, these two colors each represent the
 complementary of the other.
@@ -669,8 +665,8 @@ which the reader is referred to the chapter on "Color Definitions" on
 pages 23-30 of Milton Bradley's excellent and most useful book
 "Elementary Color."
 
-
 #### TABLE OF PERCENTAGES OF
+
 COMPONENT COLORS IN THE CONNECTING HUES OF THE CHROMATIC
 SCALE.
 
@@ -681,8 +677,8 @@ original Plates of this work; together with an equal number of exact
 intermediates (not shown on the Plates), the latter in lower-case type
 and not indicated by symbols.
 
-
 #### TABLE SHOWING PERCENTAGE OF WHITE AND BLACK,
+
 RESPECTIVELY, IN EACH TONE OF THE
 TONE OR LUMINOSITY SCALES.
 
@@ -728,8 +724,8 @@ while that of violet is only about 13;[28]for the percentage of black in corresp
 scales is precisely the same for each color throughout the chromatic
 scale of this work.
 
-
 #### TABLE SHOWING PERCENTAGES OF NEUTRAL GRAY
+
 IN THE BROKEN COLOR SCALES.
 
 Every Plate in each series of broken colors (′ to ′′′′′)
@@ -740,8 +736,8 @@ The percentages of white in the tints and of black in the
 shades of the tone scales are in all cases exactly the same
 as in the tone scales of pure colors.
 
-
 #### TABLE OF PERCENTAGE OF BLACK AND WHITE IN THE
+
 DIFFERENT TONES OF CARBON GRAY.
 
 Note.—The percentages given in the preceding tables may not in all cases be precisely
@@ -749,8 +745,8 @@ those actually contained in the colors on the Plates, since absolute precision
 in reproduction is hardly possible. All that can be claimed is a reasonably
 close approximation to the ideal.
 
-
 #### DYES AND PIGMENTS USED IN THE
+
 PREPARATION OF THE MAXWELL DISKS, REPRESENTING THE THIRTY-SIX COLORS
 OF THE PURE SPECTRUM SCALE, FORMING THE BASIS OF THE COLOR-SCHEME OF
 THIS WORK.[29]
@@ -818,20 +814,20 @@ rapidly fading and eventually disappearing; light
 blue and rhodamin, while sensitive to light, are far less
 so than the greens and violets.
 
-
 #### ALPHABETICAL LIST OF COLORS REPRESENTED ON
+
 PLATES OF THIS WORK
 
-
 #### THE FOLLOWING COLORS REPRESENTED IN THE OLD "NOMENCLATURE
+
 OF COLORS" (1886) CANNOT BE MATCHED BY COLORS IN
 THE PRESENT WORK. THEY ARE INTERMEDIATES, EITHER AS TO
 HUE OR TONE (SOMETIMES BOTH), AND WOULD FALL IN UNCOLORED
 SPACES, AS INDICATED BY THE NUMERALS AND LETTERS APPENDED
 TO EACH:—
 
-
 #### A FEW OF THE MODERN BOOKS ON THE SUBJECT
+
 OF COLOR WHICH THE AUTHOR OF THIS
 WORK HAS FOUND MOST USEFUL
 
@@ -907,7 +903,6 @@ An exceedingly useful work for artists and decorators, but not
 adapted to the needs of science. The technical execution of the
 plates is exquisite and the colors very fine.
 
-
 ### FOOTNOTES
 
 [1]A | Nomenclature of Colors
@@ -915,7 +910,7 @@ plates is exquisite and the colors very fine.
 Ornithologists. | By | Robert Ridgway, | Curator, Department of Birds,
 United States National Museum. | With ten colored plates and seven
 plates | of outline illustrations. | Boston: | Little, Brown, and
-Company. | 1886. | (12mo., pp.  129, pls. 17.)
+Company. | 1886. | (12mo., pp. 129, pls. 17.)
 
 The subject of color and color nomenclature discussed on pages
 15-58. Plates i-x, inclusive, represent 186 named colors, hand-painted
@@ -941,7 +936,7 @@ their various modifications.
 figureon the frontispiece of this work, which clearly illustrates
 this method of color measurement. Larger disks of spectrum red, green,
 and violet are interlocked and adjusted so that they present,
-respectively, 32, 42, and 26 per cent.  of the circumference;
+respectively, 32, 42, and 26 per cent. of the circumference;
 superimposed on these is a single smaller disk of neutral gray, and on
 this two still smaller disks of black and white, the former occupying
 79, the latter 21, per cent. of the area. The result of this
@@ -972,10 +967,10 @@ color-wheel work it is necessary to discard practically all the
 so-called artists' colors, as being much too dull to even
 approximately represent the colors of the spectrum, and to substitute
 carefully selected aniline or coal-tar dyes, of which, fortunately,
-there is a very large number of remarkable purity of hue.  Indeed, the
+there is a very large number of remarkable purity of hue. Indeed, the
 work of most color-physicists is vitiated by their use of such crude
 colors as vermilion, carmine, scarlet-lake, chrome yellow, emerald
-green, Prussian blue, etc.  (For a list of dyes and pigments used in
+green, Prussian blue, etc. (For a list of dyes and pigments used in
 preparing the Maxwell disks representing the thirty-six colors of the
 chromatic scale, seepages 26, 27.)
 
@@ -1106,7 +1101,6 @@ coal-tar dyes named are all of the manufacture of Dr. G. Grübler and
 Co., Leipzig, Germany, unless otherwise stated. (See Preface,page
 ii.)
 
-
 ### CAUTION!!!
 
 Do Not Expose These Plates to the Light for a
@@ -1127,7 +1121,6 @@ and hence this caution not to expose the plates unnecessarily.
 (SeeChurch: "The Chemistry of Paints and Painting," third edition, pages
 257-263.)
 
-
 #### EXPLANATION OF PLATES XXII AND XXIV.
 
 Reference to these plates was unfortunately overlooked when the text
@@ -1137,11 +1130,9 @@ These plates are simply _extras_. They were made at an early stage in
 the preparation of the work and discarded; but were finally inserted,
 merely to add to the number of colors represented.
 
-
 ### TRANSCRIBER'S NOTE
 
 The color sample forLight Corinthian Redon plate VVXII is missing
 from the original book.
 
 The entryPlatesin theTable of Contentswas added by the transcriber.
-

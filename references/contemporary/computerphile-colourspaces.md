@@ -14,18 +14,21 @@ Clear introduction to three core color spaces — RGB, CMYK, and YCbCr — and w
 ## Key Topics
 
 ### RGB (Red, Green, Blue)
+
 - **Additive** — adding all colors → white; removing all → black
 - Format used by monitors and graphics cards
 - Any color created by varying amounts of R, G, B
 - Color cube: R, G, B corners; secondaries at midpoints (cyan, magenta, yellow); white in center
 
 ### CMYK (Cyan, Magenta, Yellow, Black)
+
 - **Subtractive** — adding all dyes → black (in theory)
 - K (black) added because C+M+Y produces muddy dark brown, not true black — wastes toner
 - Printers use CMYK; print drivers convert RGB→CMYK automatically
 - Color cube: C, M, Y corners; secondaries (R, G, B) at midpoints; black in center (opposite of RGB)
 
 ### YCbCr (Luminance, Blue Chrominance, Red Chrominance)
+
 - Separates **brightness (Y)** from **color (Cb, Cr)**
 - Y = luminance (grayscale version of image), 0–255
 - Cb = blue chrominance ("blueness"), -127 to +128
@@ -34,12 +37,14 @@ Clear introduction to three core color spaces — RGB, CMYK, and YCbCr — and w
 - "Less blue" = more yellow; "less red" = more green (opponent-like encoding)
 
 ### Why YCbCr Exists
+
 - **Human vision is more sensitive to brightness than color** — can downsample Cb/Cr without noticeable quality loss
 - **Fundamental to JPEG compression** — downsample color channels, keep luminance at full resolution
 - Used in TV broadcasting (PAL, NTSC), HD video, and most video compression
 - This is chroma subsampling (4:2:0, 4:2:2, etc.)
 
 ### When to Use Which
+
 - **RGB** — default for screens, graphics cards, web; widely supported
 - **CMYK** — printing (drivers handle conversion)
 - **YCbCr** — video, TV broadcasting, JPEG; enables efficient compression via chroma subsampling

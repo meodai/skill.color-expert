@@ -2,7 +2,7 @@
 
 **Source:** [Color & Contrast](https://colorandcontrast.com/) — A comprehensive guide to color for UI designers
 
-*88 content fragments extracted from SPA bundle*
+_88 content fragments extracted from SPA bundle_
 
 ---
 
@@ -10,43 +10,43 @@
 
 RGB color spaces are widely supported in most technologies, and are a safe approach to define colors for UI.
 
-RGB color spaces are not perceptually uniform. Using these to mix 
+RGB color spaces are not perceptually uniform. Using these to mix
 
 A color space is a collection all colors within a particular specific set of primaries. Color spaces are specific implimentations of a color model.
 
 A color space is a collection all colors within a particular specific set of primaries (
 
-Color spaces are specific implimentations of a 
+Color spaces are specific implimentations of a
 
-Some color spaces have cylindrical transformations, which qualify as unique color spaces despite being bound to the same 
+Some color spaces have cylindrical transformations, which qualify as unique color spaces despite being bound to the same
 
-Devices can support different color spaces. For web, the default 
+Devices can support different color spaces. For web, the default
 
- annotation defines colors in sRGB color space. For wider gamut colors in web applications, use 
+annotation defines colors in sRGB color space. For wider gamut colors in web applications, use
 
-Color relationships and properties can vary considerably between different color spaces. When creating 
+Color relationships and properties can vary considerably between different color spaces. When creating
 
- between colors) in a variety of color spaces to find the best appearance.
+between colors) in a variety of color spaces to find the best appearance.
 
 A color model is method of describing color. When this method is implemented with precise math, it becomes a color space.
 
 A color model based on the perceptual aspects of color vision. When implemented under fixed viewing conditions, a color appearnce model becomes a uniform color space.
 
-When implemented under fixed viewing conditions, a color appearance model becomes a 
+When implemented under fixed viewing conditions, a color appearance model becomes a
 
-. This means the key differentiator between color appearance models relates to 
+. This means the key differentiator between color appearance models relates to
 
 Most uses of color in user interfaces are not affected by color appearance models. You do not need to rely on these color spaces to create aesthetically appealing and accessible colors.
 
-Uniform color spaces are linear models of human vision. However, human perception is non-linear. Do not rely on these color spaces alone to create aesthetically balanced colors. 
+Uniform color spaces are linear models of human vision. However, human perception is non-linear. Do not rely on these color spaces alone to create aesthetically balanced colors.
 
-Browser support is still growing for LAB, OKLAB, LCH and OKLCH color spaces. Check 
+Browser support is still growing for LAB, OKLAB, LCH and OKLCH color spaces. Check
 
 A relative measurement of luminance used in color appearance models where adaptive light is a factor. The relative luminance formula is used by the Web Content Accessibility Guidelines (WCAG) for calculating lightness contrast, and used in the definition of their success criteria.
 
 )),jt=lt.xyz(lt.workspace.sRGB,lt.illuminant.D65),bt=function(e){return jt.toRgb(ht.toXyz({J:e[0],C:e[1],h:e[2]}))},pt=function(e){var t=ht.fromXyz(jt.fromRgb(e));return[t.J,t.C,t.h]},ut=function(){var e=1,t=.007,i=.0228,c=Math.PI,o=64/c/5,s=1/(5*o+1),n=.2*Math.pow(s,4)*(5*o)+.1*Math.pow(1-Math.pow(s,4),2)*Math.pow(5*o,1/3);return[function(o){var s=Object(r.a)(o,3),a=s[0],l=s[1],d=s[2],h=l*Math.pow(n,.25),j=(1+100*t)*a/(1+t*a);j/=e;var b=1/i*Math.log(1+i*h);return[j,b*Math.cos(d*(c/180)),b*Math.sin(d*(c/180))]},function(e){var o=Object(r.a)(e,3),s=o[0],a=o[1],l=o[2],d=Math.sqrt(a*a+l*l),h=(Math.exp(d*i)-1)/i,j=(180/c*Math.atan2(l,a)+360)%360,b=h/Math.pow(n,.25);return[s/(1+t*(100-s)),b,j]}]}(),At=Object(r.a)(ut,2),mt=At[0],gt=At[1],Ot=function(e){return bt(gt(e))},xt=function(e){return mt(pt(e))},ft=console;ft.color=function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:
 
-Most digital color pickers and tools utilize additive color spaces such as 
+Most digital color pickers and tools utilize additive color spaces such as
 
 In color spaces, lightness, brightness, and value are unique measurements.
 
@@ -58,7 +58,7 @@ In color spaces, hue is measured in degrees and defines specific values of color
 
 An RGB color model supported in most digital displays. sRGB is the most widely used color space for web browsers.
 
- supported in most digital displays. sRGB is the most widely used color space for web browsers.
+supported in most digital displays. sRGB is the most widely used color space for web browsers.
 
 The sRGB color space is the web default, and supported by most digital displays. HEX format is a base 16 format for RGB.
 
@@ -76,21 +76,21 @@ Try to match the Display-P3 color as close as you can for an optically enhanced 
 
 Display-P3 is not supported by all browsers. Always define a fallback sRGB color value.
 
-Display-P3 has much more vibrant (chromatic) colors than sRGB. Do not directly convert Display-P3 values to sRGB for 
+Display-P3 has much more vibrant (chromatic) colors than sRGB. Do not directly convert Display-P3 values to sRGB for
 
- of a color, as they may appear much less chromatic than intended. Direct conversion is done by multiplying each Display-P3 channel by 255.
+of a color, as they may appear much less chromatic than intended. Direct conversion is done by multiplying each Display-P3 channel by 255.
 
 A uniform color space reated in 1976 by the CIE. LAB is an opponent color space.
 
- created in 1976 by the International Commission on Illumination (CIE). CIELAB is an 
+created in 1976 by the International Commission on Illumination (CIE). CIELAB is an
 
 LCH is a cylindrical transformation of LAB color space. Properties are Lightness, Chroma, and Hue.
 
-Browser support is still growing for CIELAB color space. Check 
+Browser support is still growing for CIELAB color space. Check
 
 A uniform color space created in 2020 by Bj\xf6rn Ottosson. OKLAB is an opponent color space based on based on CAM16-UCS and IPT color spaces.
 
- and IPT color spaces. It is intended to be more perceptually uniform color space, blend well, and behave well numerically.
+and IPT color spaces. It is intended to be more perceptually uniform color space, blend well, and behave well numerically.
 
 OKLCH is a cylindrical transformation of LAB color space. Properties are Lightness, Chroma, and Hue.
 
@@ -98,29 +98,29 @@ A perceptual color space for image processing
 
 A uniform color space created in 1976. CIELUV is an opponent color space.
 
- created in 1976 by the International Commission on Illumination (CIE). CIELUV is an 
+created in 1976 by the International Commission on Illumination (CIE). CIELUV is an
 
- and CIELUV were both recommended as interim solutions for solving 
+and CIELUV were both recommended as interim solutions for solving
 
-HSLuv is a cylindrical transformation and adaptation of CIELUV created by 
+HSLuv is a cylindrical transformation and adaptation of CIELUV created by
 
 CIELUV and HSLuv are not supported by web browsers.
 
-It is unclear why or when to use CIELUV over 
+It is unclear why or when to use CIELUV over
 
 A color appearance model created in 2002 by the International Commission on Illumination (CIE). CAM02 is an improved model after its predecessor, CIECAM97s.
 
- created in 2002 by the International Commission on Illumination (CIE). CAM02 is an improved model after its predecessor, CIECAM97s. 
+created in 2002 by the International Commission on Illumination (CIE). CAM02 is an improved model after its predecessor, CIECAM97s.
 
-CAM02 is not available in CSS, but available to use in various color libraries (such as 
+CAM02 is not available in CSS, but available to use in various color libraries (such as
 
 The cylindrical transformation of CAM02 uses properties Lightness, Chroma, and Hue.
 
 data:image/png;base64,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
 
-)}},i)]})})),c.colorjsRamps=c.colorSpacesJS.map((function(e,t){console.log(e);var i=new Qc.a(c.color1),o=new Qc.a(c.color2),s=i.steps(o,{space:e,steps:c.steps}).map((function(e){var t=[e.srgb[0],e.srgb[1],e.srgb[2]].map((function(e){return Math.floor(255*e)}));return
+)}},i)]})})),c.colorjsRamps=c.colorSpacesJS.map((function(e,t){console.log(e);var i=new Qc.a(c.color1),o=new Qc.a(c.color2),s=i.steps(o,{space:e,steps:c.steps}).map((function(e){var t=[e.srgb[0],e.srgb[1],e.srgb[2]].map((function(e){return Math.floor(255\*e)}));return
 
-. Finding proper interpolation paths and color spaces is equal part art and science. 
+. Finding proper interpolation paths and color spaces is equal part art and science.
 
 Don't rely on color space interpolation to create aesthetic and perceptually balanced color out-of-the-box.
 
@@ -130,15 +130,15 @@ Despite how it may seem, uniform color spaces do not help accomplish this balanc
 
 Tools are becoming more widely available that support many color spaces. Despite these recommendations, it's always best to test and experiment with colors yourself.
 
-One tool that helps you test various color spaces and visualize color metrics is Adobe's open-source tool 
+One tool that helps you test various color spaces and visualize color metrics is Adobe's open-source tool
 
 All available colors within a specific color space.
 
 Gamuts outlined on the visible spectrum for Adobe Pro Photo, Display-P3, sRGB, and CMYK color spaces.
 
-,children:'Color spaces with a high range of colors are referred to as 
+,children:'Color spaces with a high range of colors are referred to as
 
-Colors that are out of gamut can be replaced by in-gamut colors using various methods called 
+Colors that are out of gamut can be replaced by in-gamut colors using various methods called
 
 Colors that are out of gamut can be mapped to the closest approximate color within the supported color space. Most color libraries support gamut mapping.
 
@@ -150,35 +150,34 @@ Data regarding an input or output color space used for a device or media. Intern
 
 Color management is the controlled conversion of colors, which can be done using ICC color profiles.
 
-Media displayed on a device may have a unique color profile. Web applications may display colors in 
+Media displayed on a device may have a unique color profile. Web applications may display colors in
 
- while still properly displaying an image formatted to a different color profile.
+while still properly displaying an image formatted to a different color profile.
 
-Color profiles are especially important when creating image assets. An image formatted to 
+Color profiles are especially important when creating image assets. An image formatted to
 
 A uniform color space created in 2016 by the International Commission on Illumination (CIE). CAM16 is an enhancement to LAB color space for improved perceptual uniformity. CAM16 is an improved model after its predecessor, CAM02.
 
- created in 2016 by the International Commission on Illumination (CIE). CAM16 is an improved model after its predecessor, 
+created in 2016 by the International Commission on Illumination (CIE). CAM16 is an improved model after its predecessor,
 
 Comprehensive color solutions: CAM16, CAT16,and CAM16-UCS
 
 A color space created by the CIE for color matching functions. It is based on imaginary primary colors and can be used to match all colors in the visible spectrum.
 
-A color space created by the CIE for color matching functions. It is based on imaginary primary colors and can be used to match all colors in the 
+A color space created by the CIE for color matching functions. It is based on imaginary primary colors and can be used to match all colors in the
 
-XYZ was a transformation of CIE RGB color space, ensuring values are all positive and accommodating for 
+XYZ was a transformation of CIE RGB color space, ensuring values are all positive and accommodating for
 
- XYZ is not supported in any devices. The colors shown in this tool only depict colors that are within the sRGB 
+XYZ is not supported in any devices. The colors shown in this tool only depict colors that are within the sRGB
 
 XYZ is not based on color appearance and generally is not used for creating colors for user interfaces.
 
 A color space representing the three different cone responses of trichromatic vision. LMS is used in studying and simulating color vision deficiencies.
 
-A color space representing the three different 
+A color space representing the three different
 
- LMS is not supported in any devices. The colors shown in this tool only depict colors that are within the sRGB 
+LMS is not supported in any devices. The colors shown in this tool only depict colors that are within the sRGB
 
 LMS is not based on color appearance and generally is not used for creating colors for user interfaces.
 
 data:image/png;base64,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
-

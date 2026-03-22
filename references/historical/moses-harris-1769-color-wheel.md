@@ -39,13 +39,13 @@ And in fact, as a friend pointed out to me, Harris's hand-colored wheel must inc
 
 ## Timeline of Color Wheels
 
-| Year | Author | Key Feature |
-|------|--------|-------------|
-| 1704 | Newton | First true color circle (in Opticks) — light, not paint |
-| 1708 | Boutet (?) | First artist color wheel; two reds (crimson + fire) |
-| 1719 | Brook Taylor | Proposed using Newton's circle for paint mixing |
-| 1769 | Moses Harris | First RYB at 120° equal spacing — the template for bad theory |
-| 1772 | Schiffermüller | Similar to Harris but independently developed |
+| Year | Author         | Key Feature                                                   |
+| ---- | -------------- | ------------------------------------------------------------- |
+| 1704 | Newton         | First true color circle (in Opticks) — light, not paint       |
+| 1708 | Boutet (?)     | First artist color wheel; two reds (crimson + fire)           |
+| 1719 | Brook Taylor   | Proposed using Newton's circle for paint mixing               |
+| 1769 | Moses Harris   | First RYB at 120° equal spacing — the template for bad theory |
+| 1772 | Schiffermüller | Similar to Harris but independently developed                 |
 
 ## Links
 

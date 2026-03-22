@@ -24,6 +24,7 @@ These two theories weren't reconciled until the 1960s–70s when CIE developed L
 ### The Ladd-Franklin Connection
 
 Lewis took classes at Columbia in the 1920s when **Dr. Christine Ladd-Franklin** was lecturing there. Ladd-Franklin:
+
 - Completed PhD work at Johns Hopkins but was **denied the degree because she was a woman** (retroactively awarded years later)
 - Proposed that color vision evolved from dichromatic (yellow-blue, like dogs) to trichromatic — supporting Hering's opponent process model through evolutionary biology
 - Published her theory in 1929; died in 1930
@@ -44,17 +45,17 @@ Lewis saw merit in Ladd-Franklin's ideas and wanted to present them in useful fo
 
 ## Timeline Context
 
-| Year | Event |
-|------|-------|
-| Late 1800s | Hering proposes opponent process theory |
-| 1922 | AAAS publishes support for evolution |
-| 1929 | Ladd-Franklin publishes color vision evolution theory |
-| 1930 | Ladd-Franklin dies |
-| **1931** | **Lewis publishes the wheel** / CIE publishes chromaticity diagram |
-| 1930s | Lewis tours US lecturing; then disappears from history |
-| 1960s–70s | CIE Lab/Luv finally reconcile trichromatic + opponent process |
+| Year       | Event                                                              |
+| ---------- | ------------------------------------------------------------------ |
+| Late 1800s | Hering proposes opponent process theory                            |
+| 1922       | AAAS publishes support for evolution                               |
+| 1929       | Ladd-Franklin publishes color vision evolution theory              |
+| 1930       | Ladd-Franklin dies                                                 |
+| **1931**   | **Lewis publishes the wheel** / CIE publishes chromaticity diagram |
+| 1930s      | Lewis tours US lecturing; then disappears from history             |
+| 1960s–70s  | CIE Lab/Luv finally reconcile trichromatic + opponent process      |
 
 ## Links
 
 - **High-res scans:** on Color Nerd's linktree
-- **Ladd-Franklin biography:** in *Book of Color Concepts* (Taschen)
+- **Ladd-Franklin biography:** in _Book of Color Concepts_ (Taschen)

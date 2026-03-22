@@ -16,12 +16,12 @@ This is the same principle as Goethe's "edge colors" — hue, lightness, and chr
 
 ## 4 Parameters
 
-| Parameter | Controls | Default |
-|-----------|----------|---------|
-| **Start** | Starting hue direction (1=red, 2=green, 3=blue) | 0.5 |
-| **Rotations** | How many R→G→B cycles black→white | -1.5 |
-| **Hue/Saturation** | Color intensity (0=grayscale, >1=vivid but may clip) | 1.0 |
-| **Gamma** | Emphasize low or high intensity values | 1.0 |
+| Parameter          | Controls                                             | Default |
+| ------------------ | ---------------------------------------------------- | ------- |
+| **Start**          | Starting hue direction (1=red, 2=green, 3=blue)      | 0.5     |
+| **Rotations**      | How many R→G→B cycles black→white                    | -1.5    |
+| **Hue/Saturation** | Color intensity (0=grayscale, >1=vivid but may clip) | 1.0     |
+| **Gamma**          | Emphasize low or high intensity values               | 1.0     |
 
 ## Why It Matters
 

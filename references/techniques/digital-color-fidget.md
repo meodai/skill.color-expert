@@ -26,18 +26,22 @@ So if you're interested, you can go play with it. The link is in my link tree â€
 ## Links
 
 ### Digital Color Fidget
+
 - **Tool:** https://petertdonahue.com/color-fidget.html
 
 ### Other Color Nerd Tools (petertdonahue.com)
+
 - **ISCC-NBS Color Names (Centroid Picker):** https://petertdonahue.com/ISCC-NBS-Color-Names.html
 - **OSA-UCS Picker:** https://petertdonahue.com/osa-ucs-picker.html
 - **Gamut Mask > Palette:** https://petertdonahue.com/Gamut-to-Palette.html
 - **Spiral Palette Generator:** https://petertdonahue.com/Spiral-Palette-Generator.html
 
 ### Related Products (discontinued)
+
 - **The Gray Muse â€” Color Fidget:** https://www.thegraymuse.com/collections/the-color-fidget
 
 ### Creator
+
 - **Website:** https://petertdonahue.com/
 - **YouTube:** https://www.youtube.com/@ColorNerd1
 - **Instagram:** https://www.instagram.com/art.pete.repeat/

@@ -37,8 +37,8 @@ No external links mentioned.
 
 ## Source Books & Documents
 
-| Document | Author | Year | Archive.org | Local PDF |
-|----------|--------|------|-------------|-----------|
-| *Handbuch der physiologischen Optik* | Hermann von Helmholtz | 1856–67 | [archive.org](https://archive.org/details/handbuchderphysi00helm) | [pdfs/helmholtz-physiologischen-optik.pdf](pdfs/helmholtz-physiologischen-optik.pdf) |
-| *Die Farbenlehre im Hinblick auf Kunst und Kunstgewerbe* | Wilhelm von Bezold | 1874 | [archive.org](https://archive.org/details/diefarbenlehreim00bezo) | [pdfs/bezold-farbenlehre-1874.pdf](pdfs/bezold-farbenlehre-1874.pdf) |
-| *The Theory of Color in Its Relation to Art and Art-Industry* (English trans.) | Wilhelm von Bezold | 1876 | [archive.org](https://archive.org/details/theoryofcolorini00bezo) | [pdfs/bezold-theory-of-color-english.pdf](pdfs/bezold-theory-of-color-english.pdf) |
+| Document                                                                       | Author                | Year    | Archive.org                                                       | Local PDF                                                                            |
+| ------------------------------------------------------------------------------ | --------------------- | ------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| _Handbuch der physiologischen Optik_                                           | Hermann von Helmholtz | 1856–67 | [archive.org](https://archive.org/details/handbuchderphysi00helm) | [pdfs/helmholtz-physiologischen-optik.pdf](pdfs/helmholtz-physiologischen-optik.pdf) |
+| _Die Farbenlehre im Hinblick auf Kunst und Kunstgewerbe_                       | Wilhelm von Bezold    | 1874    | [archive.org](https://archive.org/details/diefarbenlehreim00bezo) | [pdfs/bezold-farbenlehre-1874.pdf](pdfs/bezold-farbenlehre-1874.pdf)                 |
+| _The Theory of Color in Its Relation to Art and Art-Industry_ (English trans.) | Wilhelm von Bezold    | 1876    | [archive.org](https://archive.org/details/theoryofcolorini00bezo) | [pdfs/bezold-theory-of-color-english.pdf](pdfs/bezold-theory-of-color-english.pdf)   |

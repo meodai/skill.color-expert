@@ -35,15 +35,19 @@ void main() {
 ## Creating LUTs
 
 ### From Photoshop
+
 1. Open the identity LUT image (ships with the library)
 2. Apply any adjustments (curves, color balance, hue/sat, etc.)
 3. Save — the modified image IS your LUT
 
 ### Programmatically (Node.js)
+
 Generate LUTs in code for precise color science operations:
+
 ```bash
 glsl-lut > images/lut.png  # CLI: outputs identity LUT
 ```
+
 Then modify pixels programmatically — e.g., "desaturate all colors some distance from a target hue in OKLAB color space."
 
 ## Why LUTs Matter
@@ -57,6 +61,7 @@ Then modify pixels programmatically — e.g., "desaturate all colors some distan
 ## Relation to Color Science
 
 LUTs encode arbitrary color→color mappings, so they can implement:
+
 - **Gamut mapping** (e.g., Display P3 → sRGB)
 - **Color space transforms** (baked into a texture)
 - **Film stock emulation** (Kodak Portra, Fuji Velvia characteristics)

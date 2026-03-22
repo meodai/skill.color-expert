@@ -29,6 +29,7 @@ The collection process is simple: when I come across a color resource worth keep
 Everything goes into one of three folders and gets indexed.
 
 ## Structure
+
 ```
 SKILL.md                              # The skill definition (loaded on activation)
 CLAUDE.md                             # Claude Code repo instructions
@@ -59,13 +60,13 @@ references/
 
 ### By the numbers
 
-| | Count |
-|---|---:|
-| Markdown reference files | 113 |
-| Total words | ~286,000 |
-| Source PDFs (local, gitignored) | 14 |
-| Online tools catalogued | 48 |
-| Video sources transcribed | 54+ |
+|                                 |    Count |
+| ------------------------------- | -------: |
+| Markdown reference files        |      113 |
+| Total words                     | ~286,000 |
+| Source PDFs (local, gitignored) |       14 |
+| Online tools catalogued         |       48 |
+| Video sources transcribed       |      54+ |
 
 ### Historical color science (14 files)
 
@@ -131,6 +132,7 @@ These aren't just preferences — they're supported by the research in the colle
 ## Installation
 
 ### Any supported agent (recommended)
+
 ```bash
 npx skills add meodai/skill.color-expert
 ```
@@ -142,21 +144,24 @@ Copilot, OpenCode, and others.
 ### Manual
 
 Clone and symlink into your agent's skills directory:
+
 ```bash
 git clone https://github.com/meodai/skill.color-expert ~/Sites/color-expert
 ```
 
-| Agent | Symlink target |
-|-------|---------------|
-| Claude Code | `~/.claude/skills/color-expert` |
-| Codex | `~/.codex/skills/color-expert` |
-| OpenCode | `~/.agents/skills/color-expert` |
-| Project-level (any) | `.agents/skills/color-expert` |
+| Agent               | Symlink target                  |
+| ------------------- | ------------------------------- |
+| Claude Code         | `~/.claude/skills/color-expert` |
+| Codex               | `~/.codex/skills/color-expert`  |
+| OpenCode            | `~/.agents/skills/color-expert` |
+| Project-level (any) | `.agents/skills/color-expert`   |
+
 ```bash
 ln -s ~/Sites/color-expert ~/.claude/skills/color-expert
 ```
 
 ### Updating
+
 ```bash
 npx skills update
 ```
@@ -182,4 +187,4 @@ Content is curated from public sources (YouTube transcripts, open-source repos, 
 
 ---
 
-*Built by [@meodai](https://github.com/meodai) — one URL at a time.*
+_Built by [@meodai](https://github.com/meodai) — one URL at a time._

@@ -3,7 +3,8 @@
 **Source:** [GitHub — darosh/colorsort-js](https://github.com/darosh/colorsort-js)
 **Author:** darosh (inspired by meodai's CodePen exploration)
 **License:** MIT
-**Demos:** 
+**Demos:**
+
 - Sorting test: https://darosh.github.io/colorsort-js/sorting-test/
 - R&D sandbox: https://darosh.github.io/colorsort-js/
 
@@ -14,6 +15,7 @@ TypeScript library implementing multiple algorithms to sort colors in **perceptu
 ## Core Problem
 
 Given an unsorted list of colors, find the ordering that produces the smoothest perceptual transitions. This is non-trivial because:
+
 - RGB sorting produces jagged transitions
 - HSL sorting has perceptual non-uniformity issues
 - The optimal path depends on the color space and distance metric used
@@ -45,6 +47,7 @@ Given an unsorted list of colors, find the ordering that produces the smoothest 
 ## Why Color Sorting Matters
 
 When generating palettes (via RampenSau, Poline, or any method), the raw output order may not be perceptually smooth. Sorting creates coherent sequences for:
+
 - **UI color scales** — sequential ramps need smooth progression
 - **Data visualization** — categorical scales need distinct but ordered colors
 - **Design systems** — swatch panels need logical arrangement

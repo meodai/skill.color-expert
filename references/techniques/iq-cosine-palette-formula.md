@@ -16,12 +16,12 @@ Where `t` goes from 0 to 1, and `a`, `b`, `c`, `d` are **3D vectors** (one compo
 
 ## What Each Parameter Controls
 
-| Parameter | Controls | Type |
-|-----------|----------|------|
-| **a** | Color brightness (base offset) | vec3 |
-| **b** | Color contrast (amplitude) | vec3 |
-| **c** | How quickly colors change (frequency) | vec3 |
-| **d** | Location of color peaks (phase) | vec3 |
+| Parameter | Controls                              | Type |
+| --------- | ------------------------------------- | ---- |
+| **a**     | Color brightness (base offset)        | vec3 |
+| **b**     | Color contrast (amplitude)            | vec3 |
+| **c**     | How quickly colors change (frequency) | vec3 |
+| **d**     | Location of color peaks (phase)       | vec3 |
 
 ## How It Works
 
@@ -64,15 +64,15 @@ vec3 pal( in float t, in vec3 a, in vec3 b, in vec3 c, in vec3 d )
 
 ### 7 Presets (a, b, c, d vectors)
 
-| # | a | b | c | d | Character |
-|---|---|---|---|---|-----------|
-| 1 | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (1.0, 1.0, 1.0) | (0.00, 0.33, 0.67) | Rainbow — evenly spaced RGB phase |
-| 2 | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (1.0, 1.0, 1.0) | (0.00, 0.10, 0.20) | Cool blue-green gradient |
-| 3 | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (1.0, 1.0, 1.0) | (0.30, 0.20, 0.20) | Warm red-orange |
-| 4 | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (1.0, 1.0, 0.5) | (0.80, 0.90, 0.30) | Green-yellow-magenta (halved blue freq) |
-| 5 | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (1.0, 0.7, 0.4) | (0.00, 0.15, 0.20) | Sunset — different frequencies per channel |
-| 6 | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (2.0, 1.0, 0.0) | (0.50, 0.20, 0.25) | High-frequency red, constant blue |
-| 7 | (0.8, 0.5, 0.4) | (0.2, 0.4, 0.2) | (2.0, 1.0, 1.0) | (0.00, 0.25, 0.25) | Asymmetric — different offsets + amplitudes |
+| #   | a               | b               | c               | d                  | Character                                   |
+| --- | --------------- | --------------- | --------------- | ------------------ | ------------------------------------------- |
+| 1   | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (1.0, 1.0, 1.0) | (0.00, 0.33, 0.67) | Rainbow — evenly spaced RGB phase           |
+| 2   | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (1.0, 1.0, 1.0) | (0.00, 0.10, 0.20) | Cool blue-green gradient                    |
+| 3   | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (1.0, 1.0, 1.0) | (0.30, 0.20, 0.20) | Warm red-orange                             |
+| 4   | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (1.0, 1.0, 0.5) | (0.80, 0.90, 0.30) | Green-yellow-magenta (halved blue freq)     |
+| 5   | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (1.0, 0.7, 0.4) | (0.00, 0.15, 0.20) | Sunset — different frequencies per channel  |
+| 6   | (0.5, 0.5, 0.5) | (0.5, 0.5, 0.5) | (2.0, 1.0, 0.0) | (0.50, 0.20, 0.25) | High-frequency red, constant blue           |
+| 7   | (0.8, 0.5, 0.4) | (0.2, 0.4, 0.2) | (2.0, 1.0, 1.0) | (0.00, 0.25, 0.25) | Asymmetric — different offsets + amplitudes |
 
 ### Pattern Analysis
 

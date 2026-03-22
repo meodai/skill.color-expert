@@ -35,20 +35,24 @@ Most beginners do the opposite — they saturate everything, which creates confl
 ## How The Pyramid Works
 
 ### Layer 1: Neutrals (largest proportion)
+
 - Grays, browns, desaturated tones
 - Sets the overall atmosphere and mood
 - "The stage" for everything else
 
 ### Layer 2: Local/mid-saturation colors
+
 - The actual object colors at moderate chroma
 - Skin tones, fabric colors, environmental hues
 - Recognizable but not screaming
 
 ### Layer 3: Saturated colors (small proportion)
+
 - Higher chroma versions that create emphasis
 - Used for key elements, not everywhere
 
 ### Layer 4: Accents (smallest proportion)
+
 - The most vivid, intense touches
 - Where the eye goes — the focal point
 - Works BECAUSE everything else is restrained
@@ -56,11 +60,13 @@ Most beginners do the opposite — they saturate everything, which creates confl
 ## Two Strategies for Application
 
 ### Strategy 1: Plan from the start
+
 - Thumbnail with value structure first
 - Assign pyramid layers to composition zones
 - Block in neutrals first, add saturation progressively
 
 ### Strategy 2: Adjust on the fly
+
 - If an image feels "off" — check the proportion
 - Usually the problem is too much saturation across too large an area
 - Desaturate the majority, keep vivid color only where it matters
@@ -69,6 +75,7 @@ Most beginners do the opposite — they saturate everything, which creates confl
 ## The 1-2-3 Read (Visual Hierarchy)
 
 Color proportion serves the read order:
+
 1. **First read** — overall shape/silhouette (value contrast)
 2. **Second read** — major color areas (the tonic)
 3. **Third read** — details and accents (the payoff)

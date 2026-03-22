@@ -38,14 +38,14 @@ Beyond that, there's also a certain class of people — they're all female as it
 
 ## Full Pixar Color Science Series (Khan Academy)
 
-| Lesson | URL |
-|--------|-----|
-| Spectrum of Light | https://www.khanacademy.org/computing/pixar/color/color-101/v/colorscience-1 |
-| RGB Color Model | https://www.khanacademy.org/computing/pixar/color/color-101/v/color-2 |
+| Lesson                 | URL                                                                           |
+| ---------------------- | ----------------------------------------------------------------------------- |
+| Spectrum of Light      | https://www.khanacademy.org/computing/pixar/color/color-101/v/colorscience-1  |
+| RGB Color Model        | https://www.khanacademy.org/computing/pixar/color/color-101/v/color-2         |
 | Color Science overview | https://www.khanacademy.org/computing/pixar/color/color-101/v/color-science-1 |
-| Color Contrast | https://www.khanacademy.org/computing/pixar/color/color-101/v/color4-master |
-| Color Correction | https://www.khanacademy.org/computing/pixar/color/color-101/v/color5-final |
-| Full course page | https://www.khanacademy.org/computing/pixar/color |
+| Color Contrast         | https://www.khanacademy.org/computing/pixar/color/color-101/v/color4-master   |
+| Color Correction       | https://www.khanacademy.org/computing/pixar/color/color-101/v/color5-final    |
+| Full course page       | https://www.khanacademy.org/computing/pixar/color                             |
 
 ## Links
 
@@ -141,8 +141,8 @@ Another great example is from Toy Story 3 — Lotso the bear has been the only r
 - **Checker shadow illusion** — squares A and B are the same gray but look different due to surrounding brightness context
 - **Contrast = difference in color or illumination** — brains are hardwired to notice it (survival mechanism)
 - **Pixar uses contrast for storytelling:**
-  - *Inside Out:* darken surroundings to make Anger's flames contrast extremely
-  - *Toy Story 3:* make Lotso less pink than replacement bear to shift emotional focus
+  - _Inside Out:_ darken surroundings to make Anger's flames contrast extremely
+  - _Toy Story 3:_ make Lotso less pink than replacement bear to shift emotional focus
 - **Director of Photography (DP)** makes all color/lighting decisions in Pixar films
 
 ---
@@ -223,4 +223,4 @@ Compare this to the hue-saturation color wheel, which is NOT perceptually unifor
 - **HSL wheel is NOT perceptually uniform** — midpoint of red and green on the HSL wheel ≠ yellow; it's desaturated yellow
 - Note: the CIE 1931 diagram is only approximately perceptually uniform — CIELUV/CIELAB were later improvements
 
-*This completes the full Pixar in a Box: Color Science series (5 core lessons + bonus + color space lesson).*
+_This completes the full Pixar in a Box: Color Science series (5 core lessons + bonus + color space lesson)._

@@ -14,6 +14,7 @@
 ## Why Hue-First Fails
 
 ### Every Hue Plane Has a Different Shape
+
 - Magenta reaches full chroma at mid-lightness
 - Lime green peaks near the top of the lightness scale
 - Indigo peaks around L=30-40
@@ -21,6 +22,7 @@
 - **Geometric hue intervals ignore this reality** — choosing colors 120° apart doesn't guarantee any perceptual balance
 
 ### The Itten Problem
+
 - Itten's color star (1961) and similar tools prescribe geometric hue relationships
 - But hue intervals tell you nothing about: contrast, legibility, mood, accessibility
 - "The standard stuff you learn about color harmony is useless"
@@ -29,14 +31,14 @@
 
 Instead of organizing by hue, organize by **character:**
 
-| Character | Description |
-|-----------|-------------|
-| **Light/Pale** | High lightness, low chroma |
-| **Muted** | Medium lightness, low chroma |
-| **Deep** | Dark but HIGH chroma |
-| **Vivid** | High chroma at any lightness |
-| **Dark** | Low lightness, low-medium chroma |
-| **Middling** | Medium everything |
+| Character      | Description                      |
+| -------------- | -------------------------------- |
+| **Light/Pale** | High lightness, low chroma       |
+| **Muted**      | Medium lightness, low chroma     |
+| **Deep**       | Dark but HIGH chroma             |
+| **Vivid**      | High chroma at any lightness     |
+| **Dark**       | Low lightness, low-medium chroma |
+| **Middling**   | Medium everything                |
 
 ### The Key Finding
 
@@ -46,7 +48,8 @@ Instead of organizing by hue, organize by **character:**
 - "Blue is calm and red is energetic" is wrong — it's about how chromatic and how light/dark
 - **Relaxed vs intense** = same: chroma + lightness, not hue
 
-### Shigenobu Kobayashi's *Book of Colors*
+### Shigenobu Kobayashi's _Book of Colors_
+
 Referenced as further reading on character-based color organization.
 
 ## The Final Piece: Legibility via Lightness
@@ -65,5 +68,5 @@ Character-first solves mood/emotion but not legibility. Same chroma, same charac
 ## Links
 
 - **Ellen Divers** — research on character-based color harmony
-- **Shigenobu Kobayashi — *Book of Colors*** — character-based color organization
+- **Shigenobu Kobayashi — _Book of Colors_** — character-based color organization
 - **OKLCH Photoshop plugin** (from RISD) — free

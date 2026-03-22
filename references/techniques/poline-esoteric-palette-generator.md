@@ -25,13 +25,13 @@ import { Poline, positionFunctions } from "poline";
 
 // Basic — random anchors
 const poline = new Poline();
-poline.colorsCSS;      // ["hsl(...)", ...]
+poline.colorsCSS; // ["hsl(...)", ...]
 poline.colorsCSSoklch; // ["oklch(...)", ...]
 
 // Custom anchors + config
 const poline = new Poline({
   anchorColors: [
-    [309, 0.72, 0.8],  // [hue, saturation, lightness]
+    [309, 0.72, 0.8], // [hue, saturation, lightness]
     [67, 0.32, 0.08],
   ],
   numPoints: 6,
@@ -49,8 +49,8 @@ poline.removeAnchorPoint({ index: 2 });
 
 // Sample any position along the palette
 const mid = poline.getColorAt(0.5);
-mid.hsl;     // [h, s, l]
-mid.hslCSS;  // "hsl(120, 80%, 60%)"
+mid.hsl; // [h, s, l]
+mid.hslCSS; // "hsl(120, 80%, 60%)"
 
 // Hue shift entire palette
 poline.shiftHue(60);
@@ -63,26 +63,26 @@ poline.closedLoop = true;
 
 Control distribution of colors along anchor paths:
 
-| Function | Behavior |
-|----------|----------|
-| `linearPosition` | Even spacing |
+| Function                       | Behavior                         |
+| ------------------------------ | -------------------------------- |
+| `linearPosition`               | Even spacing                     |
 | `sinusoidalPosition` (default) | Smooth acceleration/deceleration |
-| `exponentialPosition` | Cluster toward edges |
-| `quadraticPosition` | Curved falloff |
-| `cubicPosition` | Smoother curves |
-| `quarticPosition` | Even smoother |
-| `asinusoidalPosition` | Inverse sinusoidal |
-| `arcPosition` | Arc-like distribution |
-| `smoothStepPosition` | Smooth step |
+| `exponentialPosition`          | Cluster toward edges             |
+| `quadraticPosition`            | Curved falloff                   |
+| `cubicPosition`                | Smoother curves                  |
+| `quarticPosition`              | Even smoother                    |
+| `asinusoidalPosition`          | Inverse sinusoidal               |
+| `arcPosition`                  | Arc-like distribution            |
+| `smoothStepPosition`           | Smooth step                      |
 
 Each axis (X, Y, Z) can use a different function — creating complex distribution patterns from simple components.
 
 ## Output Formats
 
 ```javascript
-poline.colors;         // [[h, s, l], ...]
-poline.colorsCSS;      // HSL CSS strings
-poline.colorsCSSlch;   // LCH CSS strings
+poline.colors; // [[h, s, l], ...]
+poline.colorsCSS; // HSL CSS strings
+poline.colorsCSSlch; // LCH CSS strings
 poline.colorsCSSoklch; // OKLCH CSS strings
 ```
 
@@ -99,13 +99,13 @@ poline.colorsCSSoklch; // OKLCH CSS strings
 
 ## How Poline Differs from RampenSau
 
-| | Poline | RampenSau |
-|---|--------|-----------|
-| **Approach** | Anchor points + path interpolation | Hue cycling + easing |
-| **Input** | Specific anchor colors | Start hue + rotation amount |
-| **Paths** | 3D cartesian between anchors | Cylindrical sweep |
-| **Best for** | Specific palette refinement | Generative/random palettes |
-| **Complexity** | Higher (per-axis functions) | Simpler (global easing) |
+|                | Poline                             | RampenSau                   |
+| -------------- | ---------------------------------- | --------------------------- |
+| **Approach**   | Anchor points + path interpolation | Hue cycling + easing        |
+| **Input**      | Specific anchor colors             | Start hue + rotation amount |
+| **Paths**      | 3D cartesian between anchors       | Cylindrical sweep           |
+| **Best for**   | Specific palette refinement        | Generative/random palettes  |
+| **Complexity** | Higher (per-axis functions)        | Simpler (global easing)     |
 
 ## Links
 

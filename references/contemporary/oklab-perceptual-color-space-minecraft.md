@@ -13,32 +13,38 @@ A geologist/Minecraft builder explains perceptual uniformity through practical d
 ## Key Topics
 
 ### RGB Problems Demonstrated
+
 - **Gradients darken in the middle:** blue→red, red→green, green→magenta all dip in brightness mid-transition
 - In RGB color space, midpoint colors arc away from the diagonal → non-linear perceptual distance
 - **Gamma correction:** our eyes are more sensitive to dark colors; perceive 50% brightness at only 25% intensity; sRGB applies gamma to compensate
 - Linear RGB (gamma removed) straightens gradients somewhat but doesn't fix everything
 
 ### HSV/HSB Problems
+
 - Still just rearranged RGB, not a different space
 - **Perceived brightness varies with hue** at constant saturation/brightness — blue is never as bright as yellow
 - To maintain constant perceived brightness across hues, must vary saturation dramatically ("discarded rubber band" shape in RGB space)
 - HSB color picker: changing shade from yellow to blue introduces purple tint — doesn't maintain hue
 
 ### What "Perceptually Uniform" Means
+
 - **Just Noticeable Difference (JND):** the smallest color change your eyes can detect
 - In a uniform space, the JND distance is the same regardless of starting color
 - Demo: green needs ~10 units of change to notice; black needs only ~1 unit — in RGB these plot as vastly different distances; in a uniform space they'd be equal
 
 ### OKLAB Conversion Pipeline
+
 1. sRGB → remove gamma → **Linear RGB**
 2. Linear RGB → **CIE XYZ** (1930s, contains all visible colors)
 3. XYZ → **LMS** (approximate human cone response: Long, Medium, Short)
 4. LMS → reapply perceptual gamma → **straighten and tweak** → **OKLAB**
+
 - **L** = lightness (black → white)
 - **a** = magenta ↔ green axis
 - **b** = blue ↔ yellow axis
 
 ### OKLAB in Practice (Minecraft)
+
 - All Minecraft blocks plotted in OKLAB space → fit in a nice shape around their average colors
 - **RGB gradient vs OKLAB gradient (same endpoints):**
   - Red→Green: RGB path curves, darkens in middle; OKLAB path is nearly straight
@@ -47,6 +53,7 @@ A geologist/Minecraft builder explains perceptual uniformity through practical d
 - OKLAB could also identify **missing colors in Minecraft** scientifically — gaps in the block palette
 
 ### Texture Noise
+
 - A block's average color may be right for a gradient, but high-contrast texture noise (like melon) makes it unusable in practice — a separate consideration from color space
 
 ## Links

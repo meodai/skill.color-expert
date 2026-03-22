@@ -30,31 +30,32 @@ Interactive color palette tool where **the canvas IS the instrument**. Users scu
 
 ## Interaction
 
-| Input | Action |
-|-------|--------|
-| Double-click | Add color |
-| Click | Select nearest color |
-| Drag | Move selected color |
-| 1 / 2 / 3 | Switch display axis |
-| Scroll | Adjust 3rd dimension |
-| Alt/Option | Reveal raw color space |
-| Shift+Alt | Isolate single color |
-| Cmd+hover | Preview new color |
-| P | Toggle position markers |
-| Delete | Remove color |
+| Input        | Action                  |
+| ------------ | ----------------------- |
+| Double-click | Add color               |
+| Click        | Select nearest color    |
+| Drag         | Move selected color     |
+| 1 / 2 / 3    | Switch display axis     |
+| Scroll       | Adjust 3rd dimension    |
+| Alt/Option   | Reveal raw color space  |
+| Shift+Alt    | Isolate single color    |
+| Cmd+hover    | Preview new color       |
+| P            | Toggle position markers |
+| Delete       | Remove color            |
 
 ## Built With
 
-| Component | Purpose |
-|-----------|---------|
-| **palette-shader** | WebGL2 Voronoi region rendering |
-| **culori** | Color space conversions |
-| **colorsort-js** | ML-trained color sorting |
-| **Token Beam** | Real-time design token sync (Figma etc.) |
+| Component          | Purpose                                  |
+| ------------------ | ---------------------------------------- |
+| **palette-shader** | WebGL2 Voronoi region rendering          |
+| **culori**         | Color space conversions                  |
+| **colorsort-js**   | ML-trained color sorting                 |
+| **Token Beam**     | Real-time design token sync (Figma etc.) |
 
 ## Why It Matters
 
 Traditional color pickers show one color at a time. PickyPalette shows the **entire palette in context** — you see immediately:
+
 - How much color space each palette entry "owns"
 - Whether colors are too similar (tiny regions)
 - Whether the palette is balanced across the space

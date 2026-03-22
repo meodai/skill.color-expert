@@ -17,6 +17,7 @@ A painter's perspective on color harmony with three key concepts: complementary 
 **Visual complement test:** Stare at a colored square for 20-30 seconds → remove it → see the afterimage on white background. This retinal persistence reveals the TRUE visual complement.
 
 **Result:** The visual complements match CMY, not RYB:
+
 - Red ↔ Cyan
 - Yellow ↔ Blue
 - Magenta ↔ Green
@@ -27,11 +28,11 @@ A painter's perspective on color harmony with three key concepts: complementary 
 
 A music-inspired terminology for the three roles colors play in a composition:
 
-| Role | Definition | Character |
-|------|-----------|-----------|
-| **Dominant** | Largest surface area | Low chroma, sets the overall tone |
-| **Tonic** | The "main color" — the one you remember | Medium-high chroma, defines the painting's identity |
-| **Accent** | Small, vivid touch | Highest chroma, draws the eye like sugar |
+| Role         | Definition                              | Character                                           |
+| ------------ | --------------------------------------- | --------------------------------------------------- |
+| **Dominant** | Largest surface area                    | Low chroma, sets the overall tone                   |
+| **Tonic**    | The "main color" — the one you remember | Medium-high chroma, defines the painting's identity |
+| **Accent**   | Small, vivid touch                      | Highest chroma, draws the eye like sugar            |
 
 ### The Chroma Balance Rule
 
@@ -40,19 +41,21 @@ A music-inspired terminology for the three roles colors play in a composition:
 **Scale analogy:** a very vivid color on one side, a dull color on the other. To balance: the duller color must occupy MORE space. The issue isn't just hue choice — it's chroma × area.
 
 ### Key Insight
+
 > "Color harmony rarely comes when colors are all equally vivid next to each other — which creates conflicts. Harmony is more easily achieved if one color keeps a low profile to allow the others to capture attention."
 
 ## 3. The 60-30-10 Rule (applied)
 
-| % | Role | Character |
-|---|------|-----------|
+| %   | Role     | Character                                 |
+| --- | -------- | ----------------------------------------- |
 | 60% | Dominant | Neutral/low chroma — sets the environment |
-| 30% | Tonic | Secondary color — the memorable identity |
-| 10% | Accent | Vivid pop — draws attention to key areas |
+| 30% | Tonic    | Secondary color — the memorable identity  |
+| 10% | Accent   | Vivid pop — draws attention to key areas  |
 
 ### Historical examples:
-- **Vermeer, *The Geographer*:** 60% beige/brown background, 30% deep blue coat, 10% red accent
-- **Clausen, *The Stone Pickers*:** 60% light green fields, 30% linen/sky, 10% red fabric
+
+- **Vermeer, _The Geographer_:** 60% beige/brown background, 30% deep blue coat, 10% red accent
+- **Clausen, _The Stone Pickers_:** 60% light green fields, 30% linen/sky, 10% red fabric
 
 > "I'm not saying Vermeer had this rule in mind — he most likely followed his intuition. But it still led to very harmonious and elegant compositions."
 

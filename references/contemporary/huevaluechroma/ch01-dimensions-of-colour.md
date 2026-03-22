@@ -3,6 +3,7 @@
 **Source:** David Briggs — [Dimensions of Color](http://www.huevaluechroma.com/)
 
 ---
+
 ## Page 011
 
 Colour spaces: Hue, lightness and chroma
@@ -118,74 +119,72 @@ selecting and mixing
 colours, and (3) for
 creating
 colour relationships from the imagination.
-1.
-As a framework for
-observing
-colour relationships
-.
-Painters trained in the concept of colour space do not try to copy each colour in their subject in isolation (the strategy of every beginner). Instead, they use the concept of colour space as a frame of reference for grasping the
-relationship
-of each colour to the totality of colours present. Tonal realist painters, for example, typically observe colour relationships in the
-light
-from their subject, and then, by a process of either conscious or unconscious translation, identify each individual colour in terms of the hue, value and chroma of the
-paint colour
-they will need to use in order that the whole ensemble replicates the visual appearance of the subject as closely as possible. In practice, this usually involves first selecting the most important ten or so colours in the subject, and finding the place of these in relation to each other (Fig. 1.1.6). This begins the process of building what I call a
-scaffolding
-for progressively finding the place of all remaining colours, most of which can usually be considered as variations on, or intermediates between, these scaffolding colours.
-Figure 1.1.6.
-: Left:
-Lyndall
-by David Briggs, 2005, oil on canvas. Right: plan view (above)
-and side view (below) of ten selected colours from the image plotted in YCbCr space using
-the programme
-ColorSpace
-by Philippe Colantoni.
-2.
-As a framework for
-selecting and mixing
-colour
-.
-Artists who think in terms of colour space do not need to remember recipes for mixing colours: they understand that most colours can be mixed from any number of combinations of paints, as long as the target colour is within the three-dimensional
-gamut
-of those paints. They literally visualize colour mixing as moving colour from place to place through colour space. They decide on the changes in hue, chroma and lightness required, and predict in advance what effect various additions are are likely to have. These crafty painters can mix every colour they want very quickly and accurately, particularly if they equip their palette with a series of
-strings
-of pre-mixed pools of colours at various values. This approach to colour mixing was developed to an elaborate degree by the influential mid-20th century American teacher Frank Reilly, whose approach has been described in books by his ex-students including Apollo Dorian, Frank Covino, Jack Faragasso and Angelo John Grado.
-3.
-As a framework for
-creating colour relationships from the imagination
-.
-The dimensions of colour form an essential conceptual framework for any kind of activity that involves creating colour relationships from the imagination. In the nineteenth and early twentieth centuries, much thought on colour spaces (including Munsell's own writings) was directed towards discovering rules of
-"colour harmony",
-and there are still many echoes of this kind of investigation today. On this site however I am much more concerned with the application of colour space to the creation of convincing effects of light. The concept of colour space provides a quantitative framework for applying the simple physical laws that govern the behaviour of light and colour, some of which were understood in a qualitative way as far back as Leonardo. If the artist gets these relationships right in a painting, the payoff is not merely technical correctness but can be a vivid glow of light and feeling of atmosphere. And, just as with, for example, perspective and anatomy, having the understanding that allows you to do something from the imagination makes working from nature far more efficient.
-Figure 1.1.7.
-Imaginary sphere under three imaginary light sources, painted as three layers in screen mode (one for each light source). David Briggs, 2007, Photoshop CS2.
-Many painters think of colour space in terms of
-relative
-hue, lightness and chroma, but there others who train themselves to think in terms of absolute scales of these dimensions such as those of the
-Munsell Book of Color (q.v.
-Graydon Parrish and Steve Linberg's
-Classical Lab
-)
-. The glossy version of the Munsell "big book" is favoured over the matte version among oil painters because paint mixtures can be tested on the individual removable colour chips and then wiped off safely. Painters who stop short of going the full Munsell often find it very helpful to at least think of
-lightness
-in terms of an absolute scale of some kind.
-In the remainder of this introductory section we will examine each of the major dimensions or attributes of colours in turn, but in order to really understand our subject we must first take up the thorny question of what these "colours" actually are!
-Modified February 19, 2017. Original text
-here
-.
-<< 1
-2
-3
-4
-5
-6
-7
-8
->>
-Next:
-The Dimensions of What, Exactly?
+
+1.  As a framework for
+    observing
+    colour relationships
+    .
+    Painters trained in the concept of colour space do not try to copy each colour in their subject in isolation (the strategy of every beginner). Instead, they use the concept of colour space as a frame of reference for grasping the
+    relationship
+    of each colour to the totality of colours present. Tonal realist painters, for example, typically observe colour relationships in the
+    light
+    from their subject, and then, by a process of either conscious or unconscious translation, identify each individual colour in terms of the hue, value and chroma of the
+    paint colour
+    they will need to use in order that the whole ensemble replicates the visual appearance of the subject as closely as possible. In practice, this usually involves first selecting the most important ten or so colours in the subject, and finding the place of these in relation to each other (Fig. 1.1.6). This begins the process of building what I call a
+    scaffolding
+    for progressively finding the place of all remaining colours, most of which can usually be considered as variations on, or intermediates between, these scaffolding colours.
+    Figure 1.1.6.
+    : Left:
+    Lyndall
+    by David Briggs, 2005, oil on canvas. Right: plan view (above)
+    and side view (below) of ten selected colours from the image plotted in YCbCr space using
+    the programme
+    ColorSpace
+    by Philippe Colantoni.
+2.  As a framework for
+    selecting and mixing
+    colour
+    .
+    Artists who think in terms of colour space do not need to remember recipes for mixing colours: they understand that most colours can be mixed from any number of combinations of paints, as long as the target colour is within the three-dimensional
+    gamut
+    of those paints. They literally visualize colour mixing as moving colour from place to place through colour space. They decide on the changes in hue, chroma and lightness required, and predict in advance what effect various additions are are likely to have. These crafty painters can mix every colour they want very quickly and accurately, particularly if they equip their palette with a series of
+    strings
+    of pre-mixed pools of colours at various values. This approach to colour mixing was developed to an elaborate degree by the influential mid-20th century American teacher Frank Reilly, whose approach has been described in books by his ex-students including Apollo Dorian, Frank Covino, Jack Faragasso and Angelo John Grado.
+3.  As a framework for
+    creating colour relationships from the imagination
+    .
+    The dimensions of colour form an essential conceptual framework for any kind of activity that involves creating colour relationships from the imagination. In the nineteenth and early twentieth centuries, much thought on colour spaces (including Munsell's own writings) was directed towards discovering rules of
+    "colour harmony",
+    and there are still many echoes of this kind of investigation today. On this site however I am much more concerned with the application of colour space to the creation of convincing effects of light. The concept of colour space provides a quantitative framework for applying the simple physical laws that govern the behaviour of light and colour, some of which were understood in a qualitative way as far back as Leonardo. If the artist gets these relationships right in a painting, the payoff is not merely technical correctness but can be a vivid glow of light and feeling of atmosphere. And, just as with, for example, perspective and anatomy, having the understanding that allows you to do something from the imagination makes working from nature far more efficient.
+    Figure 1.1.7.
+    Imaginary sphere under three imaginary light sources, painted as three layers in screen mode (one for each light source). David Briggs, 2007, Photoshop CS2.
+    Many painters think of colour space in terms of
+    relative
+    hue, lightness and chroma, but there others who train themselves to think in terms of absolute scales of these dimensions such as those of the
+    Munsell Book of Color (q.v.
+    Graydon Parrish and Steve Linberg's
+    Classical Lab
+    )
+    . The glossy version of the Munsell "big book" is favoured over the matte version among oil painters because paint mixtures can be tested on the individual removable colour chips and then wiped off safely. Painters who stop short of going the full Munsell often find it very helpful to at least think of
+    lightness
+    in terms of an absolute scale of some kind.
+    In the remainder of this introductory section we will examine each of the major dimensions or attributes of colours in turn, but in order to really understand our subject we must first take up the thorny question of what these "colours" actually are!
+    Modified February 19, 2017. Original text
+    here
+    .
+    << 1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    > > Next:
+    > > The Dimensions of What, Exactly?
 
 ---
+
 ## Page 012
 
 What is colour? colour ontology, perceived colour, psyhophysical colour, primary and secondaty qualities,
@@ -260,220 +259,222 @@ to be different colours, the squares are
 actually
 the same colour? The answer depends on in which sense we are using the word "colour".
 The view of colour reflected in these standard definitions can be elaborated as follows:
+
 1. Hue along with brightness, lightness, colourfulness, chroma and saturation are attributes of visual perception, not physical properties of lights or objects.
 2. The property of a light or an object that we
-see as
-its particular colour is not purely physical but
-psychophysical
-, meaning that it involves the perceiver as well as the stimulus in its specification
-2
-. For humans with normal colour vision this property is the balance of long-, middle and short-wavelength components in the spectral composition of a light relative to daylight, or for an object the balance of these components in its intrinsic spectral reflectance. The number of components - three - arises from the number of receptor types involved in human colour vision. Lights whose balance of long-, middle- and short-wavelengths evoke the same relative response of the three cone cell types are indistinguishable to the human observer, irrespective of any smaller scale differences in their spectral compositions (e.g. Fig. 1.2.3, below). We call members of a class of visually matching but physically diverse colour stimuli
-metameric.
+   see as
+   its particular colour is not purely physical but
+   psychophysical
+   , meaning that it involves the perceiver as well as the stimulus in its specification
+   2
+   . For humans with normal colour vision this property is the balance of long-, middle and short-wavelength components in the spectral composition of a light relative to daylight, or for an object the balance of these components in its intrinsic spectral reflectance. The number of components - three - arises from the number of receptor types involved in human colour vision. Lights whose balance of long-, middle- and short-wavelengths evoke the same relative response of the three cone cell types are indistinguishable to the human observer, irrespective of any smaller scale differences in their spectral compositions (e.g. Fig. 1.2.3, below). We call members of a class of visually matching but physically diverse colour stimuli
+   metameric.
 3. The balance of long-, middle- and short-wavelength components in a light, as detected by the human visual system, can be specified by a set of three numbers called
-tristimulus values
-, defined as the
-"amounts of the 3 reference colour stimuli, in a given trichromatic system, required to match the colour of the stimulus considered"
-(
-CIE, 2011, 17-1345
-). CIE XYZ tristimulus values use three mathematically defined virtual "primaries" to psychophysically specify the colour of any light. As colour perception varies somewhat among individuals with "normal" colour vision, these tristimulus values use the necessary assumption of a mathematically defined "standard" human observer. When X=Y=Z the long-, middle- and short-wavelengths components are evenly balanced and the light in isolation will appear white, but note carefully that the X, Y and Z values do
-not
-individually
-specify the three wavelength components. Lights with the same XYZ tristimulus values
-match
-in colour when viewed together
-in the same viewing conditions, but the perceived colour of the matching pair
-will vary depending on those conditions (just as does the perceived colour of
-R159 G170 B65
-in Fig. 1.2.2)
-.
+   tristimulus values
+   , defined as the
+   "amounts of the 3 reference colour stimuli, in a given trichromatic system, required to match the colour of the stimulus considered"
+   (
+   CIE, 2011, 17-1345
+   ). CIE XYZ tristimulus values use three mathematically defined virtual "primaries" to psychophysically specify the colour of any light. As colour perception varies somewhat among individuals with "normal" colour vision, these tristimulus values use the necessary assumption of a mathematically defined "standard" human observer. When X=Y=Z the long-, middle- and short-wavelengths components are evenly balanced and the light in isolation will appear white, but note carefully that the X, Y and Z values do
+   not
+   individually
+   specify the three wavelength components. Lights with the same XYZ tristimulus values
+   match
+   in colour when viewed together
+   in the same viewing conditions, but the perceived colour of the matching pair
+   will vary depending on those conditions (just as does the perceived colour of
+   R159 G170 B65
+   in Fig. 1.2.2)
+   .
 4. A set of CIE XYZ tristimulus values specifies the psychophysical colour of a light stimulus including the intensity of the light (called
-luminance
-),
-just as a set of RGB values does for a colour on a screen. We can also specify the colour of a light stimulus considered
-separately
-from its intensity by using the
-ratio
-of the X, Y and Z components, which can be represented on a two-dimensional diagram called a
-chromaticity diagram
-(Fig. 1.2.3, right).
-Figure 1.2.3
-. Left: Spectral power distributions of three standard white
-illuminants
-(light sources). Though very different physically, these three lights have the same
-chromaticity
-(psychophysical colour considered separately from light intensity) and thus match in colour, appearing a warm white when viewed in isolation. Right: CIE xy
-chromaticity
-diagram showing chromaticities of the RGB lights of a specific RGB colour space (sRGB) and of the three illuminants on the left at a single point. The faint horseshoe-shaped line shows the chromaticities of the monochromatic wavelengths of the spectrum. All images derived from the program
-ColorSpace
-by Philippe Colantoni.
+   luminance
+   ),
+   just as a set of RGB values does for a colour on a screen. We can also specify the colour of a light stimulus considered
+   separately
+   from its intensity by using the
+   ratio
+   of the X, Y and Z components, which can be represented on a two-dimensional diagram called a
+   chromaticity diagram
+   (Fig. 1.2.3, right).
+   Figure 1.2.3
+   . Left: Spectral power distributions of three standard white
+   illuminants
+   (light sources). Though very different physically, these three lights have the same
+   chromaticity
+   (psychophysical colour considered separately from light intensity) and thus match in colour, appearing a warm white when viewed in isolation. Right: CIE xy
+   chromaticity
+   diagram showing chromaticities of the RGB lights of a specific RGB colour space (sRGB) and of the three illuminants on the left at a single point. The faint horseshoe-shaped line shows the chromaticities of the monochromatic wavelengths of the spectrum. All images derived from the program
+   ColorSpace
+   by Philippe Colantoni.
 5. Light stimuli that match in isolation can evoke very different colour perceptions in different parts of the visual field due to the capacity of our visual system to separate effects of illumination from colours seen as belonging to objects, called an
-object colours
-(
-CIE e-ILV 17-831
-). For example neutral light of a given brightness may evoke a perception of a dimly lit white object in one part of the visual field and a strongly lit dark object in another (Fig. 1.2.4 below). An object colour is the way in which we perceive an object's intrinsic spectral reflectance, or rather its overall long, middle and short wavelength components. When an object can be freely inspected in daylight its perceived object colour is a very good indication of the latter, and object colour perception achieves a considerable level of
-colour constancy
-in illumination of varying intensity and (to a point) of varying colour. Object-colour perception relies on unconscious processing that is rapid, automatic and seemingly effortless, creating the impression that object colours reside outside us and are directly perceived.  Although not perfect the relative constancy of object colour perception is sufficient to maintain the impression that these perceptions generated in the brain are intrinsic properties residing in objects themselves.
-Figure 1.2.4
-. Checker shadow illusion created by Edward H. Adelson. (
-click to enlarge
-) Source:
-http://web.mit.edu/persci/people/adelson/checkershadow_illusion.html
-. Neutral light of a given brightness evokes object-colour perceptions of a dimly lit light grey object in one part of the visual field (B) and a strongly lit dark grey object in another (A), and without assistance it is very difficult to see that these lights match physically (right). We find this alarming because we normally assume that our visual system should be simply detecting the physical properties of the image itself.
+   object colours
+   (
+   CIE e-ILV 17-831
+   ). For example neutral light of a given brightness may evoke a perception of a dimly lit white object in one part of the visual field and a strongly lit dark object in another (Fig. 1.2.4 below). An object colour is the way in which we perceive an object's intrinsic spectral reflectance, or rather its overall long, middle and short wavelength components. When an object can be freely inspected in daylight its perceived object colour is a very good indication of the latter, and object colour perception achieves a considerable level of
+   colour constancy
+   in illumination of varying intensity and (to a point) of varying colour. Object-colour perception relies on unconscious processing that is rapid, automatic and seemingly effortless, creating the impression that object colours reside outside us and are directly perceived. Although not perfect the relative constancy of object colour perception is sufficient to maintain the impression that these perceptions generated in the brain are intrinsic properties residing in objects themselves.
+   Figure 1.2.4
+   . Checker shadow illusion created by Edward H. Adelson. (
+   click to enlarge
+   ) Source:
+   http://web.mit.edu/persci/people/adelson/checkershadow_illusion.html
+   . Neutral light of a given brightness evokes object-colour perceptions of a dimly lit light grey object in one part of the visual field (B) and a strongly lit dark grey object in another (A), and without assistance it is very difficult to see that these lights match physically (right). We find this alarming because we normally assume that our visual system should be simply detecting the physical properties of the image itself.
 6. The colour of an object is specified psychophysically by the XYZ trismulus values of the light it reflects under a standard daylight illuminant, and these XYZ values
-together
-record the object's disposition to reflect a particular balance of long, middle and short wavelengths. (Once again, the X, Y and Z values do not
-individually
-specify these three components).
+   together
+   record the object's disposition to reflect a particular balance of long, middle and short wavelengths. (Once again, the X, Y and Z values do not
+   individually
+   specify these three components).
 7. A trio of XYZ tristimulus values does not correspond to absolutely fixed perceived colour attributes such as a particular hue, lightness and chroma because these will vary depending on the viewing conditions, but can be converted to perceived colour attributes if a set of viewing are specified as standard, as for example in the 1943 renotation of the Munsell system. Colour order systems generally use some form of daylight illumination as standard for this conversion, so that the colour attributes obtained acceptably describe the colour perceived to be intrinsic in the object itself.
-Figure 1.2.5
-. A. Extract from Newton's
-Opticks
-(1704, p. 90). B. Newton's colour circle from the
-Opticks
-(1704, Book I, Part II, Pl. 3), illustrating his "center of gravity" principle for predicting the colour of a mixture of lights. Unequal amounts of red, orange, yellow, green, blue, indigo and violet "rays", indicated by the relative sizes of the small circles (
-p, q, r, s, t, u,
-and
-x
-), mix to make light of colour
-z
-between spectral orange (Y) and white (O), seen as whitish orange.
-Elements of this scientific view of colour can be traced back to antiquity via Descartes and Galileo, but began in substantial detail with Sir Isaac Newton's researches into the physical basis of colour. In the well-known passage from his
-Opticks
-(1704) shown in Fig.1.2.5A Newton explicitly distinguished between colour as a psychological "sensation" residing "in the Sensorium" and what he called colours "in the rays" and colours "in the object". For Newton colour
-in light
-is the "power" or "disposition" of the light to be seen as this or that perceived colour, and he demonstrated that for an isolated light this power or disposition depends on the relative
-balance
-of the component "rays", represented approximately by their "center of gravity" in a two-dimensional system, his colour circle (Fig. 1.2.5B). We now understand that this system is two-dimensional because it results from the
-relative
-responses of the three cone cell types on which our colour vision depends (
-Section 1.4
-). Newton's diagram is a precursor of a modern chromaticity diagram, and already implies that most colours of light can be evoked by many different combinations of "rays" having the same centre of gravity, and thus correspond to a whole class of combinations of "rays" (we would now say
-metameric spectral power distributions
-) that are indistinguishable to the human visual system.
-As for  what he called "Colours in the Object", Newton recognised that these are the object's "disposition to reflect this or that sort of rays more copiously than the rest", that is the wavelength balance of its intrinsic spectral reflectance (Fig. 1.2.5A).
-The Attributes or Dimensions of Perceived Colour
-The six attributes of perceived colour listed in the CIE definition quoted above -
-hue, brightness, lightness, colourfulness, saturation and chroma
--  are defined perceptually, that is, as attributes of visual perception rather than as physical properties of lights or objects, though each can be characterized as the way in which we perceive an aspect of those physical properties
-3
-.
-Hue
-is defined perceptually as the "attribute of a visual perception according to which an area appears to be similar to one of the colours: red, yellow, green, and blue, or to a combination of adjacent pairs of these colours considered in a closed ring" (
-CIE, 2011 17-542
-).
-Hue is the way in which we perceive a
-direction of bias
-among the long-, middle and short-wavelength components of the
-spectral power distribution
-of a light relative to daylight, or of the
-spectral reflectance
-of an object relative to a spectrally neutral reflector.
-Brightness
-is defined perceptually as the"attribute of a visual perception according to which an area appears to emit, or reflect, more or less light" (
-CIE, 2011, 17-111
-).
-Brightness is the way in which we perceive
-visible
-energy of light or
-luminance
-(= radiant energy of light, weighted wavelength-by-wavelength by the response of the human visual system).
-Lightness
-(= greyscale value) is defined perceptually as the "brightness of an area judged relative to the brightness of a similarly illuminated area that appears to be white or highly transmitting"
-CIE 2011, 17-680
-).
-Lightness is the way in which we perceive an object's efficiency as a diffuse reflector of light (called its
-diffuse luminous reflectance
-).
-Colourfulness
-is defined perceptually as the "attribute of a visual perception according to which the perceived colour of an area appears to be more or less chromatic" (
-CIE, 2011, 17-233
-).
-Colourfulness is the way in which we perceive the
-absolute
-amount
-of bias between the long-, middle and short-wavelength components of a light, relative to daylight.
-Saturation
-is defined perceptually as the "colourfulness of an area judged in proportion to its brightness" (
-CIE, 2011, 17-1136
-), which amounts to the perceived freedom from whitishness of the light from that area.
-Saturation is the way in which we perceive the
-proportional
-amount of bias between the long-, middle and short-wavelength components of a light, relative to daylight.  In a given setting light of a given saturation exhibits greater colourfulness as it becomes brighter.
-Chroma
-is defined perceptually as the"colourfulness of an area judged as a proportion of the brightness of a similarly illuminated area that appears white or highly transmitting" (
-CIE, 2011, 17-139
-).
-Chroma is the way in which we perceive an object's efficiency as a
-spectrally selective
-reflector/transmitter of light , or specifically the absolute amount of bias between the long-, middle and short-wavelength components of its reflectance/transmission.
-Brilliance
-, a seventh attribute not currently defined by the CIE but appearing  in some other systems as
-clearness
-or its converse,
-blackness.
-Brilliance is the relative brightness of an area judged on a scale of appearance proceeding from black through decreasing blackness (or "greyness") to fluorent (fluorescent-looking) and then self-luminous.
-Brilliance is our perception of the brightness of an object relative to the maximum brightness possible or at least commonly encountered for a similarly illuminated object
-of the same hue and saturation
-Each of these attributes can be considered as a dimension of a space of perceived colours, for example hue, lightness and chroma (of object colours), or hue, brightness and colourfulness (of lights) or hue, saturation and brilliance/blackness (of object colours). The following pages will introduce each of these colour attributes along with the various psychometric scales used as quantitative measures of them.
-Primary and Secondary Qualities: An Evolutionary Perspective
-It seems natural to assume that we see the physical world directly, and that colours like red and green exist objectively outside us in objects and in the wavelengths of light, but perhaps it should not be too surprising that perception is subtler and more interesting than this. Like all of our sensory systems, our visual system evolved under selective pressure to provide us with information about our environment, but only such information as is worthwhile obtaining
-considering the evolutionary cost of obtaining it
-.
-So, while it might have been nice for us to have evolved the capacity to perceive wavelength-by-wavelength spectral power distributions of lights and spectral reflectances of objects, this precision would have been very expensive for us to develop and superfluous for these properties. Because the amounts of each wavelength can vary independently, both of these properties have innumerable degrees of freedom, and spaces representing all of their possible states have potentially infinite dimensions, depending on how closely the spectrum is split. Instead, we content ourselves with perceiving these physical properties through our trichromatic visual system as colours having just three dimensions. In a similar way, while it might have been nice for us to have evolved the capacity to analyze the precise chemical composition of any substance we encounter, the evolutionary cost of developing this capacity would be prohibitive, and we make do with the very coarse-grained representations of chemical composition provided by our senses of taste and smell.
-Qualities like colour, taste and smell that are coarse-grained perceptions of much more complex physical properties are commonly distinguished as
-secondary qualities
-, as opposed to primary qualities like distance, size, shape, motion, number, and solidity. The physical properties we perceive as the primary qualities are much simpler mathematically and less costly for us to develop the ability to perceive precisely and accurately than those we perceive as the secondary qualities. Thus physical distance, size and number have one degree of freedom, shape has two and volume has three, and so do our perceptions of them; these perceptions do not entail representing a physical property having innumerable degrees of freedom with an "icon" having far fewer. Apart from being perceivable with much higher precision, the physical properties we perceive as primary qualities are also particularly important to us selectively: if I perceive that there is a solid branch about a metre below me, it could be of quite pressing importance to my survival that there actually is a solid branch about a metre below me!
-Secondary qualities like colour are the ways in which we perceive complex physical properties, ways of perceiving shaped by evolutionary pragmatism. We will see later how evolutionary pressure also shapes which physical properties we tend to
-notice
-most, as well as which aspects of physical properties we are able to perceive at all. Colour vision is primarily of value to us for providing information about the properties of objects rather than the properties of the light at each point in the visual field, and our perceptions of the former can be so salient that it is very difficult to attend to precise comparisons of the latter, as colour constancy illusions such as the
-Adelson checkerboard illusion
-demonstrate.
-1
-The
-International Commission on Illumination
-or
-Commission Internationale de L'Eclairage (CIE)
-was founded in 1913 and is the organization responsible for the international coordination of lighting-related technical standards. In the field of colour the CIE established the fundamental framework of modern colorimetry including the CIE 2
-o
-and 10
-o
-standard observers, the CIE standard illuminants (Illuminants C, D50, D65 etc), various widely used colour spaces including CIE XYZ, CIE xyY and CIE L*a*b*, colour difference formulae (CIEDE94, CIEDE2000), and colour appearance models including CIECAM02. Its
-International Lighting Vocabulary
-lists definitions for 1448 terms and is by far the most comprehensive and authoritative source on the scientific terminology of light and colour.
-2
-Unfortunately the subtly nuanced scientific view of colour embodied in the CIE definitions is often reduced to the crude simplification that colours "only exist in the mind". This has led to the mistaken perception that the scientific view of colour is inconsistent with everyday experience, which in turn has motivated a great deal of discussion among philosophers, much of it in support of the "common sense" view that in one way or another, colours are "real". Philosophers characterize the view that (perceived) colours "only exist in the mind" as
-eliminativism
-and the view that colour is the (psychophysical)
-disposition
-of lights and objects to cause an experience of perceived colour as
-dispositionalism
-, and in general treat these as conflicting positions rather than just different usages of the word "colour". More eccentrically,
-colour physicalism
-equates the colour of an object with its particular spectral reflectance, classifying its perceived colour as merely the appearance of this actual, "physical colour". Most of the major philosophical positions seem more or less compatible with current science on the
-process
-of colour vision, but
-colour primitivism
-on the other hand valiantly defends the position that colours are intrinsic, non-relational, and non-reducible properties of lights and objects. For an infinitely fairer and more authoritative outline of the philosophy of colour than I can provide, the reader should consult Barry Maund's entry
-"Color"
-in
-The Stanford Encyclopedia of Philosophy
-.
-3
-It should not be necessary to add that there is no claim that each perception represents the corresponding physical property precisely and infallibly.
-Page added January 15, 2017; last updated September 28, 2019
-<< 1
-2
-3
-4
-5
-6
-7
-8
->>
-Next:
-The Dimensions of Colour: Lightness
+   Figure 1.2.5
+   . A. Extract from Newton's
+   Opticks
+   (1704, p. 90). B. Newton's colour circle from the
+   Opticks
+   (1704, Book I, Part II, Pl. 3), illustrating his "center of gravity" principle for predicting the colour of a mixture of lights. Unequal amounts of red, orange, yellow, green, blue, indigo and violet "rays", indicated by the relative sizes of the small circles (
+   p, q, r, s, t, u,
+   and
+   x
+   ), mix to make light of colour
+   z
+   between spectral orange (Y) and white (O), seen as whitish orange.
+   Elements of this scientific view of colour can be traced back to antiquity via Descartes and Galileo, but began in substantial detail with Sir Isaac Newton's researches into the physical basis of colour. In the well-known passage from his
+   Opticks
+   (1704) shown in Fig.1.2.5A Newton explicitly distinguished between colour as a psychological "sensation" residing "in the Sensorium" and what he called colours "in the rays" and colours "in the object". For Newton colour
+   in light
+   is the "power" or "disposition" of the light to be seen as this or that perceived colour, and he demonstrated that for an isolated light this power or disposition depends on the relative
+   balance
+   of the component "rays", represented approximately by their "center of gravity" in a two-dimensional system, his colour circle (Fig. 1.2.5B). We now understand that this system is two-dimensional because it results from the
+   relative
+   responses of the three cone cell types on which our colour vision depends (
+   Section 1.4
+   ). Newton's diagram is a precursor of a modern chromaticity diagram, and already implies that most colours of light can be evoked by many different combinations of "rays" having the same centre of gravity, and thus correspond to a whole class of combinations of "rays" (we would now say
+   metameric spectral power distributions
+   ) that are indistinguishable to the human visual system.
+   As for what he called "Colours in the Object", Newton recognised that these are the object's "disposition to reflect this or that sort of rays more copiously than the rest", that is the wavelength balance of its intrinsic spectral reflectance (Fig. 1.2.5A).
+   The Attributes or Dimensions of Perceived Colour
+   The six attributes of perceived colour listed in the CIE definition quoted above -
+   hue, brightness, lightness, colourfulness, saturation and chroma
+
+- are defined perceptually, that is, as attributes of visual perception rather than as physical properties of lights or objects, though each can be characterized as the way in which we perceive an aspect of those physical properties
+  3
+  .
+  Hue
+  is defined perceptually as the "attribute of a visual perception according to which an area appears to be similar to one of the colours: red, yellow, green, and blue, or to a combination of adjacent pairs of these colours considered in a closed ring" (
+  CIE, 2011 17-542
+  ).
+  Hue is the way in which we perceive a
+  direction of bias
+  among the long-, middle and short-wavelength components of the
+  spectral power distribution
+  of a light relative to daylight, or of the
+  spectral reflectance
+  of an object relative to a spectrally neutral reflector.
+  Brightness
+  is defined perceptually as the"attribute of a visual perception according to which an area appears to emit, or reflect, more or less light" (
+  CIE, 2011, 17-111
+  ).
+  Brightness is the way in which we perceive
+  visible
+  energy of light or
+  luminance
+  (= radiant energy of light, weighted wavelength-by-wavelength by the response of the human visual system).
+  Lightness
+  (= greyscale value) is defined perceptually as the "brightness of an area judged relative to the brightness of a similarly illuminated area that appears to be white or highly transmitting"
+  CIE 2011, 17-680
+  ).
+  Lightness is the way in which we perceive an object's efficiency as a diffuse reflector of light (called its
+  diffuse luminous reflectance
+  ).
+  Colourfulness
+  is defined perceptually as the "attribute of a visual perception according to which the perceived colour of an area appears to be more or less chromatic" (
+  CIE, 2011, 17-233
+  ).
+  Colourfulness is the way in which we perceive the
+  absolute
+  amount
+  of bias between the long-, middle and short-wavelength components of a light, relative to daylight.
+  Saturation
+  is defined perceptually as the "colourfulness of an area judged in proportion to its brightness" (
+  CIE, 2011, 17-1136
+  ), which amounts to the perceived freedom from whitishness of the light from that area.
+  Saturation is the way in which we perceive the
+  proportional
+  amount of bias between the long-, middle and short-wavelength components of a light, relative to daylight. In a given setting light of a given saturation exhibits greater colourfulness as it becomes brighter.
+  Chroma
+  is defined perceptually as the"colourfulness of an area judged as a proportion of the brightness of a similarly illuminated area that appears white or highly transmitting" (
+  CIE, 2011, 17-139
+  ).
+  Chroma is the way in which we perceive an object's efficiency as a
+  spectrally selective
+  reflector/transmitter of light , or specifically the absolute amount of bias between the long-, middle and short-wavelength components of its reflectance/transmission.
+  Brilliance
+  , a seventh attribute not currently defined by the CIE but appearing in some other systems as
+  clearness
+  or its converse,
+  blackness.
+  Brilliance is the relative brightness of an area judged on a scale of appearance proceeding from black through decreasing blackness (or "greyness") to fluorent (fluorescent-looking) and then self-luminous.
+  Brilliance is our perception of the brightness of an object relative to the maximum brightness possible or at least commonly encountered for a similarly illuminated object
+  of the same hue and saturation
+  Each of these attributes can be considered as a dimension of a space of perceived colours, for example hue, lightness and chroma (of object colours), or hue, brightness and colourfulness (of lights) or hue, saturation and brilliance/blackness (of object colours). The following pages will introduce each of these colour attributes along with the various psychometric scales used as quantitative measures of them.
+  Primary and Secondary Qualities: An Evolutionary Perspective
+  It seems natural to assume that we see the physical world directly, and that colours like red and green exist objectively outside us in objects and in the wavelengths of light, but perhaps it should not be too surprising that perception is subtler and more interesting than this. Like all of our sensory systems, our visual system evolved under selective pressure to provide us with information about our environment, but only such information as is worthwhile obtaining
+  considering the evolutionary cost of obtaining it
+  .
+  So, while it might have been nice for us to have evolved the capacity to perceive wavelength-by-wavelength spectral power distributions of lights and spectral reflectances of objects, this precision would have been very expensive for us to develop and superfluous for these properties. Because the amounts of each wavelength can vary independently, both of these properties have innumerable degrees of freedom, and spaces representing all of their possible states have potentially infinite dimensions, depending on how closely the spectrum is split. Instead, we content ourselves with perceiving these physical properties through our trichromatic visual system as colours having just three dimensions. In a similar way, while it might have been nice for us to have evolved the capacity to analyze the precise chemical composition of any substance we encounter, the evolutionary cost of developing this capacity would be prohibitive, and we make do with the very coarse-grained representations of chemical composition provided by our senses of taste and smell.
+  Qualities like colour, taste and smell that are coarse-grained perceptions of much more complex physical properties are commonly distinguished as
+  secondary qualities
+  , as opposed to primary qualities like distance, size, shape, motion, number, and solidity. The physical properties we perceive as the primary qualities are much simpler mathematically and less costly for us to develop the ability to perceive precisely and accurately than those we perceive as the secondary qualities. Thus physical distance, size and number have one degree of freedom, shape has two and volume has three, and so do our perceptions of them; these perceptions do not entail representing a physical property having innumerable degrees of freedom with an "icon" having far fewer. Apart from being perceivable with much higher precision, the physical properties we perceive as primary qualities are also particularly important to us selectively: if I perceive that there is a solid branch about a metre below me, it could be of quite pressing importance to my survival that there actually is a solid branch about a metre below me!
+  Secondary qualities like colour are the ways in which we perceive complex physical properties, ways of perceiving shaped by evolutionary pragmatism. We will see later how evolutionary pressure also shapes which physical properties we tend to
+  notice
+  most, as well as which aspects of physical properties we are able to perceive at all. Colour vision is primarily of value to us for providing information about the properties of objects rather than the properties of the light at each point in the visual field, and our perceptions of the former can be so salient that it is very difficult to attend to precise comparisons of the latter, as colour constancy illusions such as the
+  Adelson checkerboard illusion
+  demonstrate.
+  1
+  The
+  International Commission on Illumination
+  or
+  Commission Internationale de L'Eclairage (CIE)
+  was founded in 1913 and is the organization responsible for the international coordination of lighting-related technical standards. In the field of colour the CIE established the fundamental framework of modern colorimetry including the CIE 2
+  o
+  and 10
+  o
+  standard observers, the CIE standard illuminants (Illuminants C, D50, D65 etc), various widely used colour spaces including CIE XYZ, CIE xyY and CIE L*a*b\*, colour difference formulae (CIEDE94, CIEDE2000), and colour appearance models including CIECAM02. Its
+  International Lighting Vocabulary
+  lists definitions for 1448 terms and is by far the most comprehensive and authoritative source on the scientific terminology of light and colour.
+  2
+  Unfortunately the subtly nuanced scientific view of colour embodied in the CIE definitions is often reduced to the crude simplification that colours "only exist in the mind". This has led to the mistaken perception that the scientific view of colour is inconsistent with everyday experience, which in turn has motivated a great deal of discussion among philosophers, much of it in support of the "common sense" view that in one way or another, colours are "real". Philosophers characterize the view that (perceived) colours "only exist in the mind" as
+  eliminativism
+  and the view that colour is the (psychophysical)
+  disposition
+  of lights and objects to cause an experience of perceived colour as
+  dispositionalism
+  , and in general treat these as conflicting positions rather than just different usages of the word "colour". More eccentrically,
+  colour physicalism
+  equates the colour of an object with its particular spectral reflectance, classifying its perceived colour as merely the appearance of this actual, "physical colour". Most of the major philosophical positions seem more or less compatible with current science on the
+  process
+  of colour vision, but
+  colour primitivism
+  on the other hand valiantly defends the position that colours are intrinsic, non-relational, and non-reducible properties of lights and objects. For an infinitely fairer and more authoritative outline of the philosophy of colour than I can provide, the reader should consult Barry Maund's entry
+  "Color"
+  in
+  The Stanford Encyclopedia of Philosophy
+  .
+  3
+  It should not be necessary to add that there is no claim that each perception represents the corresponding physical property precisely and infallibly.
+  Page added January 15, 2017; last updated September 28, 2019
+  << 1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  > > Next:
+  > > The Dimensions of Colour: Lightness
 
 ---
+
 ## Page 013
 
 Value, greyscale value, tone, lightness
@@ -505,7 +506,7 @@ where
 brightness
 is the
 amount of light perceived to be emitted or reflected by an area (see
-Section  1.6
+Section 1.6
 )
 .
 Notice that the phrase "of a similarly illuminated area" implies that the area being judged is also illuminated. Lightness does not apply to areas
@@ -569,7 +570,7 @@ print
 accurate Munsell values on a specific printer (2012 version). B. Comparison of Munsell value with CIE lightness (L*) and percentage luminous reflectance. Munsell value 10 applies to a theoretical perfect diffuse reflector, while CIE lightness L* is based on luminance relative to an
 actual
 similarly illuminated standard white reflector. This almost but not quite perfect reflector is assigned a CIE lightness of 100, and consequently Munsell value 10 has a CIE lightness greater than 100 and a nominal reflectance greater than 100%. C. Value scale of Denman Ross, as illustrated by Froelich and Snow (1905).
-The lightness scales most commonly used by painters and designers are the Munsell value scale (0-10) and CIE lightness (L*, 0-100) , the latter  appearing as the "L" of Lab space used in Photoshop and other graphics programs. Lightness scales such as these are designed to make the
+The lightness scales most commonly used by painters and designers are the Munsell value scale (0-10) and CIE lightness (L*, 0-100) , the latter appearing as the "L" of Lab space used in Photoshop and other graphics programs. Lightness scales such as these are designed to make the
 perceived
 contrast
 between adjacent steps appear equal throughout the scale. Such scales have a
@@ -610,7 +611,7 @@ Figure 1.3.8. Colour picker from Adobe Photoshop CC, showing the
 L, a
 and
 b
-windows of Lab space in the upper right.  Here
+windows of Lab space in the upper right. Here
 L
 is set to 60 (on a scale of 0 to 100, as in
 L*
@@ -618,7 +619,7 @@ L*
 L
 =60 can be selected within the square window on the left. Note however that for each value of
 L
-,  the gamut of available colours is restricted to a very indistinctly visible area towards the middle of the square, delineated by the black outline here.  Unfortunately, if colours are picked outside this area they will still show a value of 60 in the
+, the gamut of available colours is restricted to a very indistinctly visible area towards the middle of the square, delineated by the black outline here. Unfortunately, if colours are picked outside this area they will still show a value of 60 in the
 L
 window but will be found to differ in value if applied and subsequently sampled.
 Figure 1.3.9. A-E, colour squares from Photoshop colour picker for L=90, 70 50, 30 and 10 respectivel, the gamut of available sRGB colours within this squarey, and the location of this gamut in CIE L*a*b* using Philippe Colantoni's program
@@ -629,7 +630,7 @@ space, found in the colour picker and as an image mode in
 Adobe Photoshop
 , is an implementation of CIE L*a*b* space customized to sRGB colour space, and its lightness dimension
 L
-is the most reliable measure of greyscale value for digital colours. Any adjustment in which it is desired to keep lightness constant or to change lightness in a predictable way is best done in Lab mode. For example, using either the "Desaturate" adjustment or the "Saturation" slider  in the HLS adjustment panel keeps the L of Lab constant, and thus preserves perceived greycale value well; the same operations performed in RGB mode instead maintain the
+is the most reliable measure of greyscale value for digital colours. Any adjustment in which it is desired to keep lightness constant or to change lightness in a predictable way is best done in Lab mode. For example, using either the "Desaturate" adjustment or the "Saturation" slider in the HLS adjustment panel keeps the L of Lab constant, and thus preserves perceived greycale value well; the same operations performed in RGB mode instead maintain the
 L
 of HLS space (see below), and can result in substantial changes in greyscale value.
 Lab parameters appear in the upper right of the Photoshop colour picker, and by setting the L window at a given value it is possible to select digital colours of that value from the colour square on the left , varying hue by moving around the neutral point in the centre of the square, and varying chroma by moving in and out from this point (Fig. 1.3.8). In doing so however it is important to stay within the very idistinctly visible gamout of available digital colours (Fig. 1.3.9), otherwise the colour sampled will not have the required value.
@@ -665,11 +666,12 @@ here
 6
 7
 8
->>
-Next:
-The Dimensions of Colour: Hue
+
+> > Next:
+> > The Dimensions of Colour: Hue
 
 ---
+
 ## Page 014
 
 Hue
@@ -679,7 +681,7 @@ Measures of Hue
 Subdividing the Hue Page
 The Circuit of Hues
 Figure 1.4.1
-.  Ewald Hering's analysis of the hue circle into red/green and yellow/blue components, from
+. Ewald Hering's analysis of the hue circle into red/green and yellow/blue components, from
 Outlines of a Theory of the Light Sense
 (1964), an English translation of his posthumous
 Grundzuge der Lehre vom Lichtsinn
@@ -790,7 +792,7 @@ Munsell Book of Color
 (glossy edition).
 Hue systems differ among themselves by the criterion used for placing hues opposite each other, which affects the spacing of the hues, and by which hues that are treated as "primary" or principal in anchoring the circular scale. More incidental differences are the sequential direction of the hues (
 i.e
-. clockwise or counterclockwise spectral sequence), whether the continuous loop of hues is represented the form of a circle, hexagon, triangle, star, or other closed geometrical figure, and the conventional orientation (i.e. a specific hue placed at the top of the figure or treated as the first in the sequence). Hue systems are classified on this site according to the criterion used to place hues opposite each other, and hue systems based on the historical primaries and their complementaries, opponent hues, additive complementaries, colourant-mixing complementaries and perceptually-equal spacing respectively are  discussed in more detail on later pages.
+. clockwise or counterclockwise spectral sequence), whether the continuous loop of hues is represented the form of a circle, hexagon, triangle, star, or other closed geometrical figure, and the conventional orientation (i.e. a specific hue placed at the top of the figure or treated as the first in the sequence). Hue systems are classified on this site according to the criterion used to place hues opposite each other, and hue systems based on the historical primaries and their complementaries, opponent hues, additive complementaries, colourant-mixing complementaries and perceptually-equal spacing respectively are discussed in more detail on later pages.
 Figure 1.4.7
 . A. Hue circle based on the historical primaries red, yellow and blue from
 The Art of Color
@@ -827,7 +829,7 @@ drop2color
 . The coloured circles around the circumference show average determinations of positions of unique red, yellow, green and blue from four studies using Munsell chips cited by Kuehni (2012); studies involving conversion from spectral data, NCS hues etc show further spread.
 Hue systems based on
 perceptually uniform spacing
-oppose hues that are separated by an equal number of perceptual steps in either direction around the hue circle. They include the Munsell system and CIE L*a*b* system. Broadly speaking, opposite hue pairs in these systems are close to additive complements, especially compared to other systems. The Munsell hue circle (Figs 1.4.6, 1.4.8) is based on five
+oppose hues that are separated by an equal number of perceptual steps in either direction around the hue circle. They include the Munsell system and CIE L*a*b\* system. Broadly speaking, opposite hue pairs in these systems are close to additive complements, especially compared to other systems. The Munsell hue circle (Figs 1.4.6, 1.4.8) is based on five
 principal
 hues, red, yellow, green, blue and purple (
 R, Y, G, B
@@ -851,75 +853,76 @@ o
 o
 ) , yellow-blue (60
 o
+
 - 240
-o
-) and green magenta (120
-o
--300
-o
-) opposite each other. Note however that opposite colours are
-not complementary
-away from these three axes. The hue spacing is far from perceptually even, as can be determined both by visual inspection and by the approximate positions of the Munsell principal and intermediate hues (
-source
-).
-Hue systems based on
-additive complements
-oppose hues of lights that make white light when mixed. They include systems by Newton, Helmholtz, Rood and Ostwald, and the CIE L*u*v* system. Examples of additive complementary pairs are familiar to many from the major hue axes in the HSB hue system used in graphics programs: the digital hues going by the names of
-magenta/green
-,
-red/cyan
-, and
-yellow/blue
-. HSB
-hue angle (H)
-is calculated from the ratios of the (nonlinear) RGB primaries by a simple formula, and is highly uneven perceptually (Fig. 1.4.9).
-Figure 1.4.10
-. Colour circle diagrams by Michel Jacobs from (A)
-The Art of Colour
-(1923) and (B)
-The Study of Colour
-(1925).
-Hue systems based on
-colourant-mixing complementaries
-oppose hues of paints or dyes that make a neutral grey or black when mixed. The regular succession of hues in the traditional artists colour wheel (e.g. Fig. 1.4.6A) promotes the assumption that paint-mixing complementary pairs succeed each other in an orderly succession of straight lines forming diameters of the hue circle. Many painters evidently paint for years without questioning this assumption, but in reality mixing paths show markedly different patterns for paints that are close to the ideal subtractive primary hues compared to paints that are far from these hues. Paints close to orange-red, yellow-green and blue-violet in hue each neutralize or nearly neutralize paints of a
-remarkably large spread of opposing hues
-, so that to make a hue circle that places paint-mixing complementaries approximately opposite each other it is necessary to expand the sectors occupied by these hues and contract the ranges of the remaining hues. Michel Jacobs used a diagram of precisely this sort (Fig. 1.4.10) in his once popular books
-The Art of Colour
-(1923) and
-The Study of Colour
-(1925), both of which were republished in numerous editions until 1956.
-Subdividing the Hue Page
-Figure 1.4.11
-. Four approaches to dividing up a hue page.
-In three-dimensional colour systems each hue corresponds to a two-dimensional array of colours that can be called a
-hue page
-. Hue pages in different systems, such as Munsell, NCS and digital hue angle H, typically drift through each other to some extent. We've seen that hue pages in the Munsell system are divided up according to value and chroma, but the same array of colours can be classified in many alternative ways for different purposes (Fig. 1.4.11). Thus the digital colour space
-HSB
-divides up a hue page according to measures of
-saturation
-and relative brightness (Fig. 1.4.11B), while the digital colour space
-HLS
-divides up a hue page according to rather arbitrary measures of relative lightness and relative chroma, confusingly called "lightness" and "saturation" (Fig. 1.4.10D). Several important systems including the historical Ostwald system and the modern Scandinavian NCS divide up a hue page (in different ways) into white, black and coloured components (Fig. 1.4.11C).
-1
-These comments refer to light viewed in isolation; the perceived colour of a light or object can of course vary considerably depending on
-surrounding, interspersed
-and
-recently viewed
-colours.
-Page added January 21, 2017.
-<< 1
-2
-3
-4
-5
-6
-7
-8
->>
-Next:
-The Dimensions of Colour: Chroma
+  o
+  ) and green magenta (120
+  o
+  -300
+  o
+  ) opposite each other. Note however that opposite colours are
+  not complementary
+  away from these three axes. The hue spacing is far from perceptually even, as can be determined both by visual inspection and by the approximate positions of the Munsell principal and intermediate hues (
+  source
+  ).
+  Hue systems based on
+  additive complements
+  oppose hues of lights that make white light when mixed. They include systems by Newton, Helmholtz, Rood and Ostwald, and the CIE L*u*v\* system. Examples of additive complementary pairs are familiar to many from the major hue axes in the HSB hue system used in graphics programs: the digital hues going by the names of
+  magenta/green
+  ,
+  red/cyan
+  , and
+  yellow/blue
+  . HSB
+  hue angle (H)
+  is calculated from the ratios of the (nonlinear) RGB primaries by a simple formula, and is highly uneven perceptually (Fig. 1.4.9).
+  Figure 1.4.10
+  . Colour circle diagrams by Michel Jacobs from (A)
+  The Art of Colour
+  (1923) and (B)
+  The Study of Colour
+  (1925).
+  Hue systems based on
+  colourant-mixing complementaries
+  oppose hues of paints or dyes that make a neutral grey or black when mixed. The regular succession of hues in the traditional artists colour wheel (e.g. Fig. 1.4.6A) promotes the assumption that paint-mixing complementary pairs succeed each other in an orderly succession of straight lines forming diameters of the hue circle. Many painters evidently paint for years without questioning this assumption, but in reality mixing paths show markedly different patterns for paints that are close to the ideal subtractive primary hues compared to paints that are far from these hues. Paints close to orange-red, yellow-green and blue-violet in hue each neutralize or nearly neutralize paints of a
+  remarkably large spread of opposing hues
+  , so that to make a hue circle that places paint-mixing complementaries approximately opposite each other it is necessary to expand the sectors occupied by these hues and contract the ranges of the remaining hues. Michel Jacobs used a diagram of precisely this sort (Fig. 1.4.10) in his once popular books
+  The Art of Colour
+  (1923) and
+  The Study of Colour
+  (1925), both of which were republished in numerous editions until 1956.
+  Subdividing the Hue Page
+  Figure 1.4.11
+  . Four approaches to dividing up a hue page.
+  In three-dimensional colour systems each hue corresponds to a two-dimensional array of colours that can be called a
+  hue page
+  . Hue pages in different systems, such as Munsell, NCS and digital hue angle H, typically drift through each other to some extent. We've seen that hue pages in the Munsell system are divided up according to value and chroma, but the same array of colours can be classified in many alternative ways for different purposes (Fig. 1.4.11). Thus the digital colour space
+  HSB
+  divides up a hue page according to measures of
+  saturation
+  and relative brightness (Fig. 1.4.11B), while the digital colour space
+  HLS
+  divides up a hue page according to rather arbitrary measures of relative lightness and relative chroma, confusingly called "lightness" and "saturation" (Fig. 1.4.10D). Several important systems including the historical Ostwald system and the modern Scandinavian NCS divide up a hue page (in different ways) into white, black and coloured components (Fig. 1.4.11C).
+  1
+  These comments refer to light viewed in isolation; the perceived colour of a light or object can of course vary considerably depending on
+  surrounding, interspersed
+  and
+  recently viewed
+  colours.
+  Page added January 21, 2017.
+  << 1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  > > Next:
+  > > The Dimensions of Colour: Chroma
 
 ---
+
 ## Page 015
 
 The Dimensions of Colour: Chroma
@@ -937,7 +940,7 @@ is the chromatic strength of an object colour, the perceived amount of differenc
 relative chroma
 , that is, chroma relative to some amount deemed to be the maximum for that hue, and typically represented as the radius of a circular diagram.
 Figure 1.5.2
-.  Chroma and saturation. Left: Swatches in a column from a Munsell hue page exhibit uniform
+. Chroma and saturation. Left: Swatches in a column from a Munsell hue page exhibit uniform
 chroma
 (chromatic intensity), but increase in
 saturation
@@ -1018,7 +1021,7 @@ he established that the maximum chroma he could obtain with his paints not only 
 Munsell Book of Color
 the highest chromas (16 Munsell chroma units) are attained in the hue range from orange-yellow to orange-red, while the lowest maximum chromas (10 Munsell chroma units) are reached in the hue range from cyan to green (Fig. 1.5.8A). A very similar pattern can be seen in the gamut of colours mixed from any reasonably large range of artists' paints (Fig. 1.5.8B). This lopsided gamut of colours available to painters, with a bulge between red and yellow, does not really present a problem because the range of common object colours is restricted in essentially the same way, for the same combination of physical and physiological reasons.
 Figure 1.5.9
-. Comparison of gamut of a range of artists' acrylic paints (in colour) with that of standard sRGB digital colours (in grey).  The paints (
+. Comparison of gamut of a range of artists' acrylic paints (in colour) with that of standard sRGB digital colours (in grey). The paints (
 Golden Heavy Body Acrylics
 ) exceed the gamut of RGB colours in the areas where the latter is relatively poor (around yellow and cyan), thanks to the presence containing a good range of cadmium colours plus two phthalocyanine greens (blue shade and yellow shade) and a phthalocyanine blue.
 The chroma limits of digital colours are very different however, far exceeding artists' paints with Munsell chromas of 24 in the violet-blue to magenta range, down to 18 at red (Figure 1.5.10A, below). Artists' paints on the other hand exceed the gamut of standard (sRGB) digital colours where these are relatively poor in the vicinity of yellow and cyan (Fig. 1.5.9).
@@ -1047,72 +1050,73 @@ that coincide roughly with the Munsell 10RP/10G and 5Y/5PB hue axes respectively
 )
 . The measure of chroma (C*) is calculated by applying Pythagoras' theorem to the a and b dimensions (square root of a
 2
-+ b
-2
-), and h is the hue angle  measured counterclockwise from the +a axis. A physical colour atlas of hue pages of coloured chips is available that embodies this system (the
-RAL Design Atlas).
-Other orthogonal colour spaces known as
-YCbCr
-,
-YUV
-and
-YIQ
-, are used in television and video, and in jpg compression.
-Figure 1.5.11
-. Adobe Photoshop colour picker, showing RGB colours with Lab lightness (L) of 63. NB: many combinations of Lab values within the square are outside the range of real RGB colours; available RGB colours with L=63 are confined to the area here outlined in black.
-In Photoshop colours can be selected using the orthogonal dimensions of Lab space using either the sliders in the
-Color
-window or the Lab controls in the colour picker. This permits colours to be chosen by lightness, but one trap is that real RGB colours are confined to a vaguely visible zone towards the middle of the square shown in Fig. 1.5.11. Clicking on the brightly coloured areas outside this zone will yield colours that are the closest available, but which don't actually have the Lab coordinates they are shown as having.
-Measures of Relative Chroma
-Dimensions of
-relative
-chroma judged either (1) as a proportion of the chroma deemed to be the maximum possible for a given hue, or (2) as a proportion of the maximum possible for a given hue
-at the same lightness
-, etc., were included in several early colour order systems, including the early 19th century systems of Klotz and Gregoire (see Kuehni and Schwartz, 2008). The concept of a "maximum" chroma is potentially problematic as it depends on what comparisons are ruled in or ruled out. If the maximum chroma is based on the highest chroma attainable with dyes and pigments at a given time, this may change with developments in chemistry. If it is based on estimates of colour content by test subjects, it matters what the subjects' were thinking of as the highest chroma colour. For example, did they include fluorescent-looking colours or the even greater chroma of an area emitting bright monochromatic light?
-Figure 1.5.12
-. A. Denman Ross' colour classification from Snow and Froehlich (1904) B. Three of the twelve hue pages, BV (blue-violet), V (violet) and VR (violet red) from Denman Ross'
-The Painter's Palette
-(1919). The vertical lines represent four degrees of "intensity", while the oblique lines represent four degrees of "neutralization".
-Albert Munsell's friend and rival Denman Ross presented a simple conceptual classification of colours in terms of three attributes: hue (
-"color"
-), lightness ("
-value")
-and a measure of relative chroma he called
-intensity
-, judged relative to the maxmum attainable for the same hue from a specified set of paints (Fig. 1.5.12). Ross also used a measure called
-neutralization
-for chroma relative to the maximum possible for a given hue at a given value. Both intensity and neutralization were to be expressed on a scale of 0, 1/4, 1/2, 3/4 and 1. Fig. 1.5.11B shows Ross' hue pages for three of the twelve hues in his system.
-Figure 1.5.1
-3
-. Horizontal (left) and vertical (right) cross sections of the colour sphere described by Johannes Itten in his
-The Art of Color
-(1961)
-In the color sphere described by Johannes Itten in his
-The Art of Color
-(1961) each hue is represented by a tint-shade scale between white and black at the surface and two intermediate degrees of relative neutralization between these scales and the greyscale axis. (Fig. 1.5.13). In the simple digital colour space
-HLS
-, so-called "saturation" is a similar dimension of relative neutralization. The difference between these measures and Ross' neutralization dimension is that the latter measures chroma relative to the maximum possible at a given lightness, while the relative neutralization dimensions of Itten and HLS measure chroma relative to the maximum possible a given hue and vertical position in the system, which varies in lightness for different hues.
-The Scandinavian NCS system has a dimension called
-chromaticnes
-s representing chromatic content considered as a proportion of the colour as a whole. It is related to both chroma and saturation as defined by the CIE, and is discussed in a later
-section
-.
-Page added January 23, 2017. A much earlier (2007) account of chroma is located on this site
-here
-.
-<< 1
-2
-3
-4
-5
-6
-7
-8
->>
-Next:
-The Dimensions of Colour: Brightness and Colourfulness
+
+- b
+  2
+  ), and h is the hue angle measured counterclockwise from the +a axis. A physical colour atlas of hue pages of coloured chips is available that embodies this system (the
+  RAL Design Atlas).
+  Other orthogonal colour spaces known as
+  YCbCr
+  ,
+  YUV
+  and
+  YIQ
+  , are used in television and video, and in jpg compression.
+  Figure 1.5.11
+  . Adobe Photoshop colour picker, showing RGB colours with Lab lightness (L) of 63. NB: many combinations of Lab values within the square are outside the range of real RGB colours; available RGB colours with L=63 are confined to the area here outlined in black.
+  In Photoshop colours can be selected using the orthogonal dimensions of Lab space using either the sliders in the
+  Color
+  window or the Lab controls in the colour picker. This permits colours to be chosen by lightness, but one trap is that real RGB colours are confined to a vaguely visible zone towards the middle of the square shown in Fig. 1.5.11. Clicking on the brightly coloured areas outside this zone will yield colours that are the closest available, but which don't actually have the Lab coordinates they are shown as having.
+  Measures of Relative Chroma
+  Dimensions of
+  relative
+  chroma judged either (1) as a proportion of the chroma deemed to be the maximum possible for a given hue, or (2) as a proportion of the maximum possible for a given hue
+  at the same lightness
+  , etc., were included in several early colour order systems, including the early 19th century systems of Klotz and Gregoire (see Kuehni and Schwartz, 2008). The concept of a "maximum" chroma is potentially problematic as it depends on what comparisons are ruled in or ruled out. If the maximum chroma is based on the highest chroma attainable with dyes and pigments at a given time, this may change with developments in chemistry. If it is based on estimates of colour content by test subjects, it matters what the subjects' were thinking of as the highest chroma colour. For example, did they include fluorescent-looking colours or the even greater chroma of an area emitting bright monochromatic light?
+  Figure 1.5.12
+  . A. Denman Ross' colour classification from Snow and Froehlich (1904) B. Three of the twelve hue pages, BV (blue-violet), V (violet) and VR (violet red) from Denman Ross'
+  The Painter's Palette
+  (1919). The vertical lines represent four degrees of "intensity", while the oblique lines represent four degrees of "neutralization".
+  Albert Munsell's friend and rival Denman Ross presented a simple conceptual classification of colours in terms of three attributes: hue (
+  "color"
+  ), lightness ("
+  value")
+  and a measure of relative chroma he called
+  intensity
+  , judged relative to the maxmum attainable for the same hue from a specified set of paints (Fig. 1.5.12). Ross also used a measure called
+  neutralization
+  for chroma relative to the maximum possible for a given hue at a given value. Both intensity and neutralization were to be expressed on a scale of 0, 1/4, 1/2, 3/4 and 1. Fig. 1.5.11B shows Ross' hue pages for three of the twelve hues in his system.
+  Figure 1.5.1
+  3
+  . Horizontal (left) and vertical (right) cross sections of the colour sphere described by Johannes Itten in his
+  The Art of Color
+  (1961)
+  In the color sphere described by Johannes Itten in his
+  The Art of Color
+  (1961) each hue is represented by a tint-shade scale between white and black at the surface and two intermediate degrees of relative neutralization between these scales and the greyscale axis. (Fig. 1.5.13). In the simple digital colour space
+  HLS
+  , so-called "saturation" is a similar dimension of relative neutralization. The difference between these measures and Ross' neutralization dimension is that the latter measures chroma relative to the maximum possible at a given lightness, while the relative neutralization dimensions of Itten and HLS measure chroma relative to the maximum possible a given hue and vertical position in the system, which varies in lightness for different hues.
+  The Scandinavian NCS system has a dimension called
+  chromaticnes
+  s representing chromatic content considered as a proportion of the colour as a whole. It is related to both chroma and saturation as defined by the CIE, and is discussed in a later
+  section
+  .
+  Page added January 23, 2017. A much earlier (2007) account of chroma is located on this site
+  here
+  .
+  << 1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  > > Next:
+  > > The Dimensions of Colour: Brightness and Colourfulness
 
 ---
+
 ## Page 016
 
 The Dimensions of Colour: Brightness and Colourfulness
@@ -1245,7 +1249,7 @@ image colour,
 and thus are similar or identical in brightness in its standard sense, but considered as
 object-colours
 depicted in the scenes they differ greatly in lightness: light grey in A and much brighter than a similarly illuminated white and thus self-luminous in B.
-Purves and Lotto (2011, p.17) describe lightness as "the lighter or darker appearance of object surfaces" and brightness as "the brighter or dimmer appearance of objects that are sources of light (e.g. the sun, fire, lightbulbs etc.)". From that point on they use the terms either interchangeably or combined in the expression "lightness/brightness", and they discuss the "peculiar relationship between lightness/ brightness and luminance" in a series of examples, most of which are images depicting three-dimensional scenes like Fig. 1.6.6.  Lightness and brightness in its standard sense are simply correlated only in two-dimensional patterns and in images of uniformly lit planes. In all other images there is an important distinction between the proximal property of image-colour lightness and the distal property of the perceived lightness of objects depicted in the scene (Fig. 1.6.1, 1.6.6). What Purves and Lotto mean by "lightness/ brightness" in images representing three-dimensional scenes is therefore not obvious, but in their examples it seems to track an overall
+Purves and Lotto (2011, p.17) describe lightness as "the lighter or darker appearance of object surfaces" and brightness as "the brighter or dimmer appearance of objects that are sources of light (e.g. the sun, fire, lightbulbs etc.)". From that point on they use the terms either interchangeably or combined in the expression "lightness/brightness", and they discuss the "peculiar relationship between lightness/ brightness and luminance" in a series of examples, most of which are images depicting three-dimensional scenes like Fig. 1.6.6. Lightness and brightness in its standard sense are simply correlated only in two-dimensional patterns and in images of uniformly lit planes. In all other images there is an important distinction between the proximal property of image-colour lightness and the distal property of the perceived lightness of objects depicted in the scene (Fig. 1.6.1, 1.6.6). What Purves and Lotto mean by "lightness/ brightness" in images representing three-dimensional scenes is therefore not obvious, but in their examples it seems to track an overall
 impression
 of lightness or luminosity that is an unexamined conflation of image-colour and object-colour lightness, aligning more closely with one or the other according to how convincingly their image depicts a three-dimensional scene. Unsurprisingly this impression of "lightness/ brightness" correlates very poorly with physical luminance, and to account for its vagaries and those of similar conflations of proximal and distal properties ("the angles between these rods look different but they are actually the same" etc.), Purves and Lotto propose a new
 empirical theory of vision
@@ -1275,11 +1279,12 @@ Page added January 30, 2017.
 6
 7
 8
->>
-Next:
-The Dimensions of Colour: Saturation
+
+> > Next:
+> > The Dimensions of Colour: Saturation
 
 ---
+
 ## Page 017
 
 The Dimensions of Colour: Saturation
@@ -1289,7 +1294,7 @@ Measures of Saturation
 Saturation
 The word "saturation" is
 w
-idely used today as a generic term for chromatic intensity in contexts where chroma, colourfulness, saturation and other aspects of chromatic intensity are not distinguished,  including a diverse array of measures in digital colour spaces and applications (see
+idely used today as a generic term for chromatic intensity in contexts where chroma, colourfulness, saturation and other aspects of chromatic intensity are not distinguished, including a diverse array of measures in digital colour spaces and applications (see
 below
 ). The concepts of saturation and chroma in particular were long confused even in scientific literature, and interestingly it was the art and design teacher Arthur Pope (1929, pp. 53-58) and the sculptor Morton C. Bradley Jr (1938) who showed that scientists had been repeatedly confusing these concepts. The role of artists in establishing the modern terminology of colour is not surprising, because as Bradley pointed out, artists are vitally interested in colour
 relationships
@@ -1443,7 +1448,7 @@ from Fig. 1.7.1. P
 3
 has an HSB saturation of 100 x 0.5 = 50.
 Figure 1.7.8
-. RGB colours of HSB Hue angle = 0 projected onto* the Munsell 7.5R hue page, showing lines of uniform HSB saturation and brightness. ( *Although the colours all have the same digital hue angle (H=0), they drift somewhat in Munsell hue).
+. RGB colours of HSB Hue angle = 0 projected onto* the Munsell 7.5R hue page, showing lines of uniform HSB saturation and brightness. ( \*Although the colours all have the same digital hue angle (H=0), they drift somewhat in Munsell hue).
 The parameter called "saturation" (S) in HSB (or HSV) colour space, used for example in the Adobe Photoshop colour picker, is a rough physical estimate of the saturation of an RGB colour
 relative to the maximum saturation possible for its Hue angle (H)
 , and is based on a very simple calculation from its r, g and b components (Fig. 1.7.7). For example, R100 G0 B000, R200 G0 B00 and R100 G100 B000 are all fully saturated (S = 100), while R200 G100 B100 has a saturation of 50. Remember however that the maximum saturation attained by RGB colours varies greatly with hue (Fig. 1.7.6), and an RGB cyan of S=100 (G255 B255) is far less saturated (that is, more whitish) than an RGB blue of S=100 (B255).
@@ -1467,11 +1472,12 @@ Page added January 30, 2017.
 6
 7
 8
->>
-Next:
-The Dimensions of Colour: Black, White and Colour Content
+
+> > Next:
+> > The Dimensions of Colour: Black, White and Colour Content
 
 ---
+
 ## Page 018
 
 Brilliance, Blackness, Ostwald, NCS
@@ -1563,8 +1569,7 @@ zero greyness, G
 0
 ). This point of zero black content is independent of lightness, in the sense that it occurs at varying lightnesses for monochromatic stimuli of different hues and for stimuli of the same hue and different saturations. Increasing the luminance above this level results in the perception of a fluorescent object colour (Evans'
 fluorence
-) and eventually the perception of a light source. Evans (1974, p.167) considered that black content in the Ostwald system was equivalent to brilliance, and that colours of zero black content in the ideal Ostwald system were at his G
-0.
+) and eventually the perception of a light source. Evans (1974, p.167) considered that black content in the Ostwald system was equivalent to brilliance, and that colours of zero black content in the ideal Ostwald system were at his G 0.
 Like lightness, brilliance is a perception of relative brightness, but whereas lightness is brightness "judged" relative to the brightness of a similarly illuminated white object, brilliance is brightness "judged" relative to the maximum brightness possible or at least commonly encountered for a similarly illuminated object
 of the same hue and saturation
 (Fig. 1.8.7). The word "judged" should in neither case be taken to imply conscious reasoning: perception of brilliance/blackness, like lightness, is immediate and automatic. Brilliance is not currently defined or discussed in the International Lighting Vocabulary, but the following provisional definition can be offered based on Evans (1974).
@@ -1601,6 +1606,6 @@ Page added February 14, 2017.
 6
 7
 8
->>
-Next:
-Basics of Light and Shade
+
+> > Next:
+> > Basics of Light and Shade
