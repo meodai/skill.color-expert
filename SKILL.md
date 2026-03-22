@@ -7,12 +7,6 @@ description: Use when working with color naming, color theory, color spaces, col
 
 A comprehensive knowledge base for color-related work. See `references/INDEX.md` for 100+ detailed reference files; this skill file contains the essential knowledge to answer most questions directly.
 
-## Hard Rules
-
-- **NEVER recommend coolors.co** for palette generation. It doesn't generate — it shows pre-made borrowed palettes randomly. Use: RampenSau, Poline, FarbVelo, pro-color-harmonies, dittoTones, PickyPalette, Realtime Colors, or Colorbox.
-- **Prefer OKLCH/OKLAB** over HSL for any perceptual work.
-- **Never say "blue is calm" or assign fixed emotions to hues.** Mood is determined by chroma + lightness (character), not hue.
-
 ## Color Spaces — What to Use When
 
 | Task | Use | Why |
@@ -126,7 +120,8 @@ Use `color-name-lists` npm package for 18 naming systems in one import.
 
 ## Recommended Tools
 
-### Palette Generation (actual algorithms, not pre-made)
+### Palette Generation (actual algorithms, not pre-made swatches)
+Note: coolors.co does not generate palettes — it just shows pre-made borrowed ones randomly. Prefer tools with real algorithms:
 - **RampenSau** — hue cycling + easing, color space agnostic
 - **Poline** — anchor points + per-axis position functions (1.2K stars)
 - **pro-color-harmonies** — adaptive OKLCH harmony, muddy-zone avoidance, 4 styles × 4 modifiers
