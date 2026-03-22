@@ -60,6 +60,7 @@ evals/
   trigger-evals.json                  # Realistic should-trigger / should-not-trigger prompts
   task-prompts.md                     # Realistic color tasks for qualitative review
 MAINTENANCE.md                        # What belongs where, source quality bar, review rubric
+ROADMAP.md                            # Planned scripts and future extensions
 ```
 
 ## Reviewing the skill
@@ -69,6 +70,7 @@ The repo now includes a minimal review loop rather than a heavy benchmarking fra
 1. Use `evals/trigger-evals.json` to sanity-check whether the frontmatter description is likely to trigger in the right situations.
 2. Use `evals/task-prompts.md` to test whether the skill answers realistic color questions at the right level.
 3. Use `MAINTENANCE.md` when deciding whether something belongs in `SKILL.md`, `references/`, or not in the repo at all.
+4. Use `ROADMAP.md` to track planned color-specific scripts and larger repo improvements.
 
 ## What's in it
 
