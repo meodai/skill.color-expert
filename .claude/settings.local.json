@@ -59,7 +59,8 @@
       "Bash(/tmp/markitdown-venv/bin/yt-dlp --skip-download --print \"%\\(title\\)s|%\\(channel\\)s|%\\(upload_date\\)s|%\\(duration\\)s|%\\(view_count\\)s\" \"https://www.youtube.com/watch?v=u_tQ4UkIPfU\" 2>/dev/null)",
       "Bash(/tmp/markitdown-venv/bin/yt-dlp --skip-download --write-auto-sub --sub-lang \"en.*\" --sub-format vtt --convert-subs srt -o \"/tmp/yt_%\\(id\\)s\" --print \"%\\(title\\)s|%\\(channel\\)s|%\\(upload_date\\)s|%\\(duration\\)s|%\\(view_count\\)s\" \"https://www.youtube.com/watch?v=Flkao2Xa7OI\" 2>/dev/null)",
       "Bash(/tmp/markitdown-venv/bin/yt-dlp --skip-download --write-auto-sub --sub-lang \"en\" --sub-format srt -o \"/tmp/yt_%\\(id\\)s\" \"https://www.youtube.com/watch?v=Flkao2Xa7OI\")",
-      "Bash(wc -l /tmp/yt_Flkao2Xa7OI*.srt)"
+      "Bash(wc -l /tmp/yt_Flkao2Xa7OI*.srt)",
+      "Bash(/tmp/markitdown-venv/bin/yt-dlp --skip-download --write-auto-sub --sub-lang \"en\" --sub-format srt -o \"/tmp/yt_%\\(id\\)s\" --print \"%\\(title\\)s|%\\(channel\\)s|%\\(upload_date\\)s|%\\(duration\\)s|%\\(view_count\\)s\" \"https://www.youtube.com/watch?v=TWVjZ4vuku8\" 2>/dev/null)"
     ]
   }
 }
