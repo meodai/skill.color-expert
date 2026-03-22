@@ -50,7 +50,7 @@ HSL isn't "bad" — it's a simple, fast geometric rearrangement of RGB into a cy
 
 ## Accessibility — Key Numbers
 
-Of ~281 trillion hex color pairs (computed in Rust, original research):
+Of ~281 trillion hex color pairs (research by @mrmrs_, computed in Rust):
 
 | Threshold                 | % passing | Odds            |
 | ------------------------- | --------- | --------------- |

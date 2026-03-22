@@ -1,6 +1,6 @@
 # How Many Hex Color Combinations Are Accessible?
 
-**Source:** Original research by meodai
+**Source:** Research by @mrmrs_ (Adam Morse) — https://x.com/mrmrs_/status/2034403566040088832
 **Method:** Rust brute-force with binary search on sorted luminance arrays (O(N log N) vs naive O(N²))
 
 ## The Numbers
