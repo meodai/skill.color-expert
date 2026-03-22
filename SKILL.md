@@ -17,6 +17,7 @@ A comprehensive knowledge base for color-related work. See `references/INDEX.md`
 | Normalized saturation (0-100%)  | **HSLuv**                              | CIELUV chroma normalized per hue/lightness. HPLuv for pastels.            |
 | Print workflows                 | **CIELAB D50**                         | ICC standard illuminant                                                   |
 | Screen workflows                | **CIELAB D65** or OKLAB                | D65 = screen standard                                                     |
+| Cross-media appearance matching | **CAM16 / CIECAM02**                   | Accounts for surround, adaptation, luminance, and viewing conditions      |
 | HDR                             | **Jzazbz / ICtCp**                     | Designed for extended dynamic range                                       |
 | Pigment/paint mixing simulation | **Kubelka-Munk** (Spectral.js, Mixbox) | Spectral reflectance mixing, not RGB averaging                            |
 | Color difference (precision)    | **CIEDE2000**                          | Gold standard perceptual distance                                         |
@@ -182,8 +183,8 @@ Note: coolors.co does not generate palettes — it picks randomly from 7,821 pre
 
 ## Deep References
 
-See `references/INDEX.md` for 100+ detailed files organized as:
+See `references/INDEX.md` for the detailed files organized as:
 
-- **`historical/`** (14 files + 14 PDFs) — Ostwald, Helmholtz, Bezold, Ridgway 1912, ISCC-NBS, Caravaggio's pigments, Moses Harris, Lewis/Ladd-Franklin
-- **`contemporary/`** (31 files) — Ottosson's OKLAB articles, Briggs lectures (5), CSA webinars (13), Pixar Color Science, Acerola, Juxtopposed, Computerphile, bird tetrachromacy, OLO, GenColor paper. Full scrapes: huevaluechroma.com (11 chapters + glossary), colorandcontrast.com (8 files)
-- **`techniques/`** (40 files) — All tools above documented in detail, plus: Tyler Hobbs generative color, Harvey Rayner Fontana approach, Goethe edge colors as design hack, mattdesl workshop + K-M simplex, CSS-native generation, IQ cosine presets, Erika Mulvenna interview, Color Nerd harmony lecture, Bruce Lindbloom math reference, image extraction tools, Aladdin color analysis
+- **`historical/`** — Ostwald, Helmholtz, Bezold, Ridgway 1912, ISCC-NBS, Munsell, Albers, Caravaggio's pigments, Moses Harris, Lewis/Ladd-Franklin
+- **`contemporary/`** — Ottosson's OKLAB articles, Briggs lectures, Fairchild, Hunt, CIECAM02, MacAdam ellipses, Pointer's gamut, CIE 1931/standard observer, Pixar Color Science, Acerola, Juxtopposed, Computerphile, bird tetrachromacy, OLO, GenColor paper. Full scrapes: huevaluechroma.com and colorandcontrast.com
+- **`techniques/`** — All tools above documented in detail, plus: CSS Color 4/5, ICC workflows, Tyler Hobbs generative color, Harvey Rayner Fontana approach, Goethe edge colors as design hack, mattdesl workshop + K-M simplex, CSS-native generation, IQ cosine presets, Erika Mulvenna interview, Bruce Lindbloom math reference, image extraction tools, Aladdin color analysis
