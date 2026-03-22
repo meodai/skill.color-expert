@@ -183,7 +183,7 @@ The skill activates when your agent detects work involving:
 
 ## License
 
-Content is curated from public sources (YouTube transcripts, open-source repos, public domain books, academic papers). Individual sources retain their original licenses. The skill definition and index are provided as-is.
+Original project materials in this repository, including README.md, SKILL.md, and references/INDEX.md, are licensed under CC BY 4.0. Third-party source materials and source-derived reference content remain subject to their original authorship and licenses. See LICENSE and THIRD_PARTY_NOTICES.md.
 
 ---
 
