@@ -3,3 +3,4 @@
 # Keep PDFs locally for reference but don't commit
 *.pdf
 node_modules
+.claude/settings.local.json
