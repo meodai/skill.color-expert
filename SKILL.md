@@ -55,9 +55,18 @@ When using colors in a program or CSS, add a semantic layer between raw color va
 
 The examples below are pseudocode, not literal CSS requirements. They express the decision structure an agent should preserve even if the target stack uses different syntax.
 
+Across CSS, JS/TS, Swift, design-token JSON, templates, or pseudocode, default to the same structure:
+
+- **Reference tokens/palette values** for concrete colors
+- **Semantic tokens/roles** that map meaning onto those colors
+- **Component usage** that consumes semantic tokens rather than raw literals
+
+Raw color literals should usually appear only in palette/reference definitions, conversions, diagnostics, or deliberately one-off examples.
+
 - **Use reference tokens for concrete colors**: `--c-red: #f00;`
 - **Use semantic tokens for meaning/role**: `--c-warning: var(--c-red);`
 - **Prefer semantic tokens in components** so themes can swap meaning without rewriting component code.
+- **This default applies in any language**; translate `var(...)` to the target system's equivalent alias/reference mechanism.
 - **Encode color decisions when possible** instead of freezing one manual choice into a literal.
 
 Pseudocode examples:
