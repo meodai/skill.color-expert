@@ -77,5 +77,5 @@ Comprehensive explainer covering the entire color pipeline: from physics of ligh
 - **Hue Plot:** https://hueplot.ardov.me/
 - **HSLuv:** https://www.hsluv.org
 - **OKLCH picker:** https://oklch.com
-- **APCA (Myndex):** https://www.myndex.com/APCA
+- **APCA (Myndex):** https://apcacontrast.com/ <!-- Moved from myndex.com/APCA -->
 - **WebKit gamut test images:** https://webkit.org/blog-files/color-gamut/

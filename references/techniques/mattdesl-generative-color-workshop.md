@@ -2,7 +2,7 @@
 
 **Source:** [GitHub — mattdesl/workshop-generative-color](https://github.com/mattdesl/workshop-generative-color)
 **Author:** Matt DesLauriers (mattdesl)
-**Live:** https://generative-color.glitch.me
+**Live:** ~~https://generative-color.glitch.me~~ <!-- ⚠️ GONE (HTTP 410). Glitch project deleted. Use the GitHub repo to run locally. -->
 **Stars:** 99
 
 ## What It Is
@@ -70,7 +70,7 @@ This workshop is one of the best curated collections of **practical generative c
 ## Links
 
 - **GitHub:** https://github.com/mattdesl/workshop-generative-color
-- **Live (Glitch):** https://generative-color.glitch.me
+- **Live (Glitch):** ~~https://generative-color.glitch.me~~ <!-- ⚠️ GONE (HTTP 410). Use GitHub repo to run locally. -->
 - **Edit (Glitch):** https://glitch.com/edit/#!/generative-color
 
 ---

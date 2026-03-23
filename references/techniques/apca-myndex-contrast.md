@@ -3,7 +3,7 @@
 **Source:** [GitHub — Myndex/SAPC-APCA](https://github.com/Myndex/SAPC-APCA)
 **Author:** Andrew Somers (Myndex)
 **npm:** `apca-w3`
-**Calculator:** https://www.myndex.com/APCA/
+**Calculator:** https://apcacontrast.com/ <!-- Moved from myndex.com/APCA -->
 
 ## What APCA Is
 
@@ -105,7 +105,7 @@ APCA is stricter because it's more accurate — it rejects pairs WCAG passes tha
 
 ## Links
 
-- **APCA Calculator:** https://www.myndex.com/APCA/
+- **APCA Calculator:** https://apcacontrast.com/ <!-- Moved from myndex.com/APCA -->
 - **GitHub (SAPC-APCA):** https://github.com/Myndex/SAPC-APCA
 - **npm:** `npm i apca-w3`
 - **Bridge-PCA:** https://github.com/Myndex/bridge-pca

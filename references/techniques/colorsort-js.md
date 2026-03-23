@@ -58,4 +58,4 @@ When generating palettes (via RampenSau, Poline, or any method), the raw output 
 - **GitHub:** https://github.com/darosh/colorsort-js
 - **Sorting test demo:** https://darosh.github.io/colorsort-js/sorting-test/
 - **R&D sandbox:** https://darosh.github.io/colorsort-js/
-- **Inspiration (meodai CodePen):** https://codepen.io/meodai/full/mdpNJQQ
+- **Inspiration (meodai CodePen):** https://codepen.io/meodai/full/mdpNJQQ <!-- ⚠️ Bot-protected: open manually in a browser -->

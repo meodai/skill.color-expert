@@ -1225,7 +1225,7 @@ click to enlarge
 ).. The two
 image shapes
 depicting tables have the same proportions measured through the middle . For an interactive version of this and many other illusions visit Lotto's website at
-http://www.labofmisfits.com/articles/illusionsoflight.asp
+http://www.labofmisfits.com/articles/illusionsoflight.asp <!-- ⚠️ BROKEN: 404. Search for Beau Lotto "illusions of light" interactive demos for a new source. -->
 An analogous situation exists with shape constancy. In Fig. 1.6.5 we can see without difficulty that both of the rectangular tables depicted present a
 trapezoidal
 shape in the visual field, but it is extraordinarily difficult to attend to these areas as flat shapes in the picture plane enough to see that they have exactly the same proportions measured through their centres. For misperceptions like this induced by shape constancy it is the artists's strategy of
@@ -1588,7 +1588,7 @@ against white and black backgrounds.
 The perceived brilliance of an object, like its perceived lightness, is influenced by the lightness of its immediate background. A Munsell N9 chip appears white on a black background but appears light grey (that is, lower in lightness and higher in blackness) when viewed on an N9.5 (lighter white) background. In a Munsell hue page the highest chips in each chroma column appear "bright" with little black content on a white surface, but the same chips appear distinctly fluorent placed on a black surface (Fig. 1.8.9). In addition, most areas of the visual field can be made to appear self-luminous if they are viewed in complete isolation through a small aperture in a dark screen.
 Figure 1.8.10
 . Beau Lotto's cube illusion. A video of this illusion can be downloaded as "Cube I" from
-http://www.labofmisfits.com/downloads.asp
+http://www.labofmisfits.com/downloads.asp <!-- ⚠️ BROKEN: 404. Search for Beau Lotto cube illusion video for a new source. -->
 . Characteristically, Lotto's video caption "See identical tiles differently" conflates image properties with depicted object properties: the tiles "exist" only as perceived objects in the scene depicted in the image; it is the
 rhomboidal areas of the image
 that are physically identical. We find the blackish brown and fluorent orange object colours seen as belonging to those perceived tiles so visually insistent that we literally cannot

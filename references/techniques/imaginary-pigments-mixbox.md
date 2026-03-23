@@ -39,6 +39,6 @@ Here is an animation showing you how as I move that imaginary focal pigment arou
 
 ## Links
 
-- **Hello, Mixbox:** https://observablehq.com/@mjbo/hello-mixbox
+- **Hello, Mixbox:** https://observablehq.com/@mjbo/hello-mixbox <!-- ⚠️ Bot-protected: open manually in a browser -->
 - **OKLAB** (Björn Ottosson): https://bottosson.github.io/posts/oklab/
 - **Mixbox:** spectral pigment mixing library

@@ -41,7 +41,7 @@ The Munsell system uses dimensions of absolute lightness and chroma, and so has 
 Figure 8.10. Two views of the Munsell colour space generated using
 a programme by John Kopplin
 (
-http://www.codeproject.com/directx/d3dmunsell.asp
+http://www.codeproject.com/directx/d3dmunsell.asp <!-- ⚠️ BROKEN: old URL structure, new URL also 404. Search for Kopplin "Direct3D Munsell Color Solid" for a new source. -->
 )
 RGB (screen) colours have a distinctive geometry in hue-lightness-chroma space related to the way they are generated. Among full-chroma screen colours, the cyan, magenta and yellow secondaries are all lighter than their adjacent primaries: L = 98 for yellow, 60 for magenta and 91 for cyan, compared to 88 for green, 54 for red and 30 for blue. These differences can be accounted for by the fact that in the secondary colours, pixels of
 both

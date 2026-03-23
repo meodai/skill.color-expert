@@ -90,7 +90,7 @@ Transforms hue values for a more perceptually even distribution — reduces the 
 
 - **Interactive docs:** https://meodai.github.io/rampensau/
 - **Generative syntax highlighting:** https://meodai.github.io/rampensau/highlighter.html
-- **1000 generative palettes (CodePen):** https://codepen.io/meodai/pen/ExQWwar?editors=0010
+- **1000 generative palettes (CodePen):** https://codepen.io/meodai/pen/ExQWwar?editors=0010 <!-- ⚠️ Bot-protected: open manually in a browser -->
 - **p5.js 3D color:** https://editor.p5js.org/meodai/sketches/dzEX_4wTN
 
 ## Integration

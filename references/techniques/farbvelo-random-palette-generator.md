@@ -63,5 +63,5 @@ Web-based color palette generator that creates harmonious random palettes. Name 
 
 - **Live demo:** https://farbvelo.elastiq.ch/
 - **GitHub:** https://github.com/meodai/farbvelo
-- **Original CodePen:** https://codepen.io/meodai/pen/RerqjG
+- **Original CodePen:** https://codepen.io/meodai/pen/RerqjG <!-- ⚠️ Bot-protected: open manually in a browser -->
 - **Color Names API:** https://github.com/meodai/color-names

@@ -188,7 +188,7 @@ Note: coolors.co does not generate palettes — it picks randomly from 7,821 pre
 - **oklch.com** — OKLCH picker
 - **Huetone** — accessible color system builder (LCH/OKLCH)
 - **View Color** — real-time analysis, WCAG + APCA, CVD preview
-- **APCA Calculator** — myndex.com/APCA
+- **APCA Calculator** — apcacontrast.com
 
 ## Deep References
 

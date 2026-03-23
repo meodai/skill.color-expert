@@ -1879,7 +1879,7 @@ James Gurney
 http://gurneyjourney.blogspot.com/
 https://jamesgurney.com/products/color-and-light-a-guide-for-the-realist-painter-signed-by-james-gurney
 Peter Donahue
-https://www.tiktok.com/@color.nerd?lang=en
+https://www.tiktok.com/@color.nerd?lang=en <!-- ⚠️ Bot-protected: open manually in a browser -->
 Other excellent resources:
 Artists' Helper
 (Bob Burrage)
@@ -1892,7 +1892,7 @@ Virtual Munsell Color Wheel
 http://www.andrewwerth.com/aboutmunsell/
 ColorWell
 (John Morfis)
-http://colorwell.org/
+https://colorwell.org/ <!-- ⚠️ May be intermittently down. Open manually in a browser if this link fails. -->
 This page published March 31, 2022.
 < A Shillito Student Poertolio from the mid-1940's
 Home
@@ -2491,7 +2491,7 @@ verbatim
 from Graves), “Colour Psychology” (mainly after Faber Birren), and a handout on the Bauhaus manifesto. Surprisingly we found no passages we could attribute to the colour theory texts of Itten or Albers of the early 1960’s, which were already highly influential internationally and in Sydney,
 [10:30] Like Carpenter, Shillito promoted experiential learning through practical exercises and experimentation presented in tandem with theory, rather than in advance of or even in place of theory, as in Albers. Shillito consistently emphasized the intimate grasp of colour relationships that can be obtained through many hours of meticulous practical colour manipulation in paints, whether through the intricate copies such as the Ostwald and Munsell hue pages in the 1940's, or later through more creative colour design exercises. Eva recalls Shillito in the 1970’s as a unique, motivating and inspirational educator, who knew how to guide her students to observe, experiment, discover, and search for alternative answers, to prepare them for the fine art field or the commercial world of both in 2D and 3D design.
 A 96-page pdf of full-page images of all of the Burgess plates and text pages, annotated with the sources identified for each page, can be downloaded from
-http://www.huevaluechroma.com/Burgess.pdf
+http://www.huevaluechroma.com/Burgess.pdf <!-- ⚠️ HTTPS broken (TLS cert error). Use HTTP only. Open manually in a browser if download fails. -->
 , and a zip file of Eva Fay's colour theory lecture notes from the Shillito Design School is available at
 http://www.huevaluechroma.com/Fay.zip
 This page published June 16, 2022.
@@ -3028,7 +3028,7 @@ For the colour novice the concept of an object colour as defined by the CIE, pre
 I said at the start that as mortal objects, the colours we mainly notice are those of other objects, and because of this the attributes of object colours are far more familiar than the attributes of colours of light, and most colour educators pass on the idea that there are just three attributes of colour. The solution is to begin colour education with perception, through “eye-opening” exercises like those of the Colour Literacy Project that address how our perception of the world involves colours of light - both light reaching our eyes and light falling on objects - as well as colours of objects.
 Links mentioned in presentation:
 Briggs, 2023b. The Elements of Colour. Parts One and Two. Journal of the International Colour Association, Volume 33, Special Issue: Contributions of the Colour Literacy Team, editor Robert Hirschler:
-https://aic-color.org/journal-issues
+https://www.aic-publishing.org/ojs/ <!-- Moved from aic-color.org/journal-issues to separate publishing platform -->
 Commission Internationale de L’Eclairage (2020), CIE S 017:2020 ILV: International Lighting Vocabulary (2nd edition). Definitions available online as the e-ILV at
 https://cie.co.at/e-ilv
 .
@@ -3040,7 +3040,7 @@ https://www.verivide.com/it-looked-nothing-like-that-in-the-shop-metamerism-an-e
 Colour & Vision Research Laborarory, University College, London
 http://www.cvrl.org
 R. Beau Lotto
-http://www.labofmisfits.com
+http://www.labofmisfits.com <!-- ⚠️ BROKEN: site largely non-functional. Search for Beau Lotto's current work for a new source. -->
 Briggs, D. J. C., Colour Constancy Illusions and Painting. CSA 2018 conference:
 http://www.huevaluechroma.com/116.php
 James Gurney, Banana demo, gouache, 2014

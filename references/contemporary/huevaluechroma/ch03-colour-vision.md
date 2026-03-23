@@ -158,7 +158,7 @@ Figure 3.2. Solar spectrum
 . The orange-red, green and violet-blue
 bands, in which the responses of the L, M and S cones respectively predominate
 over the other two, are clearly evident on visual inspection of spectra such
-as this complete solar spectrum. Image source: http://www.adlerplanetarium.org/cyberspace/sun/learning.html
+as this complete solar spectrum. Image source: http://www.adlerplanetarium.org/cyberspace/sun/learning.html <!-- ⚠️ BROKEN: site restructured, CyberSpace gallery removed. Search for "NOAO solar spectrum" or "Kitt Peak FTS solar spectrum" for a new source. -->
 (Credit: Nigel Sharp, NOAO/NSO/Kitt Peak FTS/ AURA/NSF).
 While the three-receptor theory successfully explained additive colour mixing,
 it struck a problem in explaining our experience of colour. Young and Helmholtz
@@ -238,7 +238,7 @@ r/g
 and
 y/b
 components of the colour sensation induced by each wavelength. Image
-source: http://webvision.med.utah.edu/imageswv/KallColor15.jpg
+source: https://www.webvision.pitt.edu/book/part-viii-psychophysics-of-vision/color-perception/ <!-- Domain moved from utah.edu to pitt.edu; original image path no longer available, linked to chapter page instead -->
 To see how the colours of the spectrum can be understood as different combinations
 of red
 vs

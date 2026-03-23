@@ -33,8 +33,7 @@ The History of the Royal Society of London
 Blakeslee, B. & McCourt, M.E., 2015. What visual illusions tell us about underlying neural mechanisms and observer strategies for tackling the inverse problem of achromatic perception.
 Front. Hum. Neurosci
 ., 21 April 2015.
-http://journal.frontiersin.org/article/10.3389/fnhum.2015.00205/ful
-l
+https://www.frontiersin.org/articles/10.3389/fnhum.2015.00205/full
 Bond, M. E., & Nickerson, D., 1942. Color-order systems, Munsell and Ostwald.
 Journal of the Optical Society of America
 ,
@@ -72,7 +71,7 @@ Fairchild, M.. D., 2004.
 Color Appearance Models: CIECAM and beyond
 .
 IS&T/SID 12th Color Imaging Conference.
-http://www.cis.rit.edu/fairchild/PDFs/AppearanceLec.pdf
+http://www.cis.rit.edu/fairchild/PDFs/AppearanceLec.pdf <!-- ⚠️ BROKEN: TLS cert error, PDF not found at new host markfairchild.org either. Search for Fairchild "Color Appearance Models" lecture PDF for a new source. -->
 Fairchild, M. D., 2005.
 Color Appearance Models
 (2nd Edn). Wiley IS&T.
@@ -90,7 +89,7 @@ http://books.google.com/books?id=PDMAAAAAQAAJ
 Ford, A., and Roberts, A., 1998.
 Colour Space Conversions
 .
-http://www.poynton.com/PDFs/coloureq.pdf
+http://www.poynton.com/PDFs/coloureq.pdf <!-- ⚠️ BROKEN: domain moved to poynton.ca but PDF is 404 there too. Search for Ford & Roberts "Colour Space Conversions" 1998 for a new source. -->
 Foss, C.E., Nickerson, D. and Granville, W.C., 1944. Analysis of the Ostwald Color System.
 Journal of the Optical Society of
 America
@@ -222,7 +221,7 @@ Color : an Introduction to Practice and Principles
 Kuehni, R.G., 2010.
 Anonymous, Traité de la painture au pastel (Treatise on pastel painting), in Anonymous (C. B.), Traité de la peinture en mignature (Treatise on miniature painting), The Hague: van Dole, 1708. An English translation with a speculative essay on its authorship
 .
-www.iscc.org/pdf/TraitePastel.pdf
+www.iscc.org/pdf/TraitePastel.pdf <!-- ⚠️ BROKEN: ISCC site restructured, PDF gone. Search for Kuehni "Traité de la painture au pastel" translation for a new source. -->
 Kuehni, R.G., 2012. Unique Hues and Their Stimuli - State of the Art.
 Color Research and Application
 , 39, 279-287.
@@ -263,7 +262,7 @@ The CIECAM02 Color Appearance Model
 . IS&T/SID Tenth Color
 Imaging Conference, Scottsdale, Arizona: The Society for Imaging Science and
 Technology. ISBN 0-89208-241-0.
-http://www.polybytes.com/misc/Meet_CIECAM02.pdf
+http://www.polybytes.com/misc/Meet_CIECAM02.pdf <!-- ⚠️ BROKEN: domain parked. Search for Moroney et al. "The CIECAM02 Color Appearance Model" for a new source. -->
 Munsell, A. H., 1905.
 A Color Notation. An illustrated System Defining
 All Colors and their Relations by Measured Scales of Hue, Value, and Chroma

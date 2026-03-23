@@ -28,4 +28,4 @@ What's really interesting is if you take intermediate hues — right, like an az
 ## Links
 
 - **Hexaflexagon printable:** available in "handouts" folder on Color Nerd's linktree
-- **Color Nerd linktree:** https://linktr.ee/colornerd (presumed)
+- **Color Nerd linktree:** https://linktr.ee/color.nerd

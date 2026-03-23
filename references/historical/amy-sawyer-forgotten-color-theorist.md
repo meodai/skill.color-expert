@@ -37,7 +37,7 @@ She was in fact a color theorist in her own right and actually applied for a pat
 - **Wikipedia:** https://en.wikipedia.org/wiki/Amy_Sawyer
 - **Wikidata:** https://www.wikidata.org/wiki/Q19409567
 - **handprint (color wheel analysis):** https://www.handprint.com/HP/WCL/color16.html
-- **Color Nerd TikTok on Sawyer:** https://www.tiktok.com/@color.nerd/video/7077661190079483179
+- **Color Nerd TikTok on Sawyer:** https://www.tiktok.com/@color.nerd/video/7077661190079483179 <!-- ⚠️ Bot-protected: open manually in a browser -->
 
 ## Source Books & Documents
 

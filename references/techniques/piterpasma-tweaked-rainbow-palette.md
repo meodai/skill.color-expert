@@ -1,7 +1,7 @@
 # Piter Pasma — Tweaked Rainbow Palette Formula
 
 **Source:** @piterpasma (Twitter/X, Jan 19 2024)
-**Shadertoy:** https://shadertoy.com/view/lcf3Rr
+**Shadertoy:** https://shadertoy.com/view/lcf3Rr <!-- ⚠️ Bot-protected: open manually in a browser -->
 **Used in:** Blokkendoos (generative art project)
 
 ## What It Does
@@ -75,6 +75,6 @@ Difference: Rayner's is a multi-step pipeline with separate concerns; Pasma's is
 
 ## Links
 
-- **Shadertoy:** https://shadertoy.com/view/lcf3Rr
+- **Shadertoy:** https://shadertoy.com/view/lcf3Rr <!-- ⚠️ Bot-protected: open manually in a browser --> <!-- ⚠️ Bot-protected: open manually in a browser -->
 - **Blokkendoos:** Piter Pasma's generative art project
 - **Related:** [Fontana approach](fontana-generative-color-approach.md), [IQ Cosine Formula](iq-cosine-palette-formula.md)

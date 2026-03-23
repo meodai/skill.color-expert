@@ -3,7 +3,7 @@
 **Source:** [GitHub — meodai/color-name-lists](https://github.com/meodai/color-name-lists)
 **Author:** meodai
 **npm:** `color-name-lists`
-**Demo:** https://codepen.io/meodai/full/vYddvLB
+**Demo:** https://codepen.io/meodai/full/vYddvLB <!-- ⚠️ Bot-protected: open manually in a browser -->
 
 ## What It Does
 
@@ -85,4 +85,4 @@ Having all systems in one package enables:
 
 - **GitHub:** https://github.com/meodai/color-name-lists
 - **npm:** `npm install color-name-lists`
-- **CodePen demo:** https://codepen.io/meodai/full/vYddvLB
+- **CodePen demo:** https://codepen.io/meodai/full/vYddvLB <!-- ⚠️ Bot-protected: open manually in a browser -->
