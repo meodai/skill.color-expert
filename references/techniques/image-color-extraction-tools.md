@@ -84,6 +84,48 @@ Upload or paste an image → extracts palette in **OKLab/OKLCh** color space wit
 
 ---
 
+## colorgram-js — Fast Lightweight Palette Extraction
+
+**URL:** https://github.com/darosh/colorgram-js
+**npm:** `colorgram`
+**Author:** Jan Forst ([@darosh](https://github.com/darosh))
+**License:** MIT
+
+### What It Is
+
+A 1 kB (min+gzip) color extraction library for browser and Node. Scans every pixel, buckets by hue/lightness/luminance (top 2 bits each → 64 buckets), returns averaged RGB + proportion. Fixed 1024-byte memory footprint.
+
+### Key Properties
+
+- **Fast:** ~15 ms for 340×340, ~50 ms for 512×512
+- **Tiny:** 1 kB min+gzip, no dependencies
+- **Fixed memory:** 64 buckets × 4 values × 4 bytes = 1024 bytes
+- **Rotation-invariant:** no spatial bias
+- **TypeScript:** full types included
+
+### API
+
+```typescript
+import { extract, Channels } from 'colorgram';
+
+const palette = extract(
+  { data: imageData.data, channels: Channels.RGBAlpha },
+  12 // top N colors
+);
+// Returns: Array of [R, G, B, proportion]
+```
+
+Also exports `sample()` (raw buckets), `hsl()` (RGB→HSL), `sortByHsl()`.
+
+### Algorithm
+
+1. Per pixel: compute H, L (HSL) and BT.709 luminance
+2. Top 2 bits of each → 6-bit index into 64 buckets
+3. Accumulate RGB sums + count per bucket
+4. Sort by count, return top N with averaged RGB and proportion
+
+---
+
 ## Art Palette — Palette Extraction + Search-by-Color (Google Arts & Culture)
 
 **URL:** https://github.com/googleartsculture/art-palette
@@ -108,11 +150,15 @@ A two-part system from Google Arts & Culture that extracts palettes from images 
 2. **Embed** → TensorFlow model encodes palette into a vector where perceptually similar palettes are geometrically close
 3. **Search** → Nearest-neighbor lookup finds artworks with matching palettes
 
+### Usage
+
+The JS extractor can be used directly in browser or Node to extract palettes from image data. The Python backend provides a trainable embedding model for building palette-similarity search.
+
 ### Why It Matters
 
 - **Perceptual embedding** — palette similarity respects human perception, not just RGB distance
 - **Scalable search** — embedding space enables fast nearest-neighbor queries over large art collections
-- **Reference implementation** — foundational concepts for building any "search by color" feature
+- **Reusable code** — Apache 2.0 licensed JS + Python, ready to integrate into projects
 
 ---
 
@@ -127,6 +173,7 @@ A two-part system from Google Arts & Culture that extracts palettes from images 
 | Bias toward muted/saturated or dark/light | okpalette.color.pizza         |
 | Export palette stats                      | okpalette.color.pizza         |
 | Privacy-first (no uploads)                | okpalette.color.pizza         |
+| Minimal bundle, fast extraction in code   | colorgram-js (1 kB)           |
 | Search artworks by palette similarity     | Art Palette                   |
 | Perceptual palette embeddings             | Art Palette                   |
 
@@ -134,4 +181,5 @@ A two-part system from Google Arts & Culture that extracts palettes from images 
 
 - **img-colors.com:** https://img-colors.com/
 - **okpalette.color.pizza:** https://okpalette.color.pizza/
+- **colorgram-js:** https://github.com/darosh/colorgram-js
 - **Art Palette:** https://github.com/googleartsculture/art-palette
