@@ -7,7 +7,7 @@ Two complementary tools for extracting color palettes from images.
 ## img-colors.com — Clustering-Based Extraction
 
 **URL:** https://img-colors.com/
-**Author:** bout
+**Author:** murmurs
 **Architecture:** Edge-computed (Cloudflare Workers), no server/database
 
 ### How It Works
