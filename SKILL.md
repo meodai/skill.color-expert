@@ -41,6 +41,23 @@ HSL isn't "bad" — it's a simple, fast geometric rearrangement of RGB into a cy
 - Gamut-aware picking with HSL-like UX → **OKHSL** (Ottosson's perceptual HSL)
 - Normalized saturation 0–100% → **HSLuv** (CIELUV-based, no out-of-bounds)
 
+### Named Hue Ranges (HSL/OKLCH)
+
+Use these degree ranges when generating or constraining colors by hue name. Source: [random-display-p3-color](https://github.com/mrmrs/random-display-p3-color) by mrmrs / mrmrs.cc.
+
+| Name       | Degrees       |
+| ---------- | ------------- |
+| **red**    | 345–360, 0–15 |
+| **orange** | 15–45         |
+| **yellow** | 45–70         |
+| **green**  | 70–165        |
+| **cyan**   | 165–195       |
+| **blue**   | 195–260       |
+| **purple** | 260–310       |
+| **pink**   | 310–345       |
+| **warm**   | 0–70          |
+| **cool**   | 165–310       |
+
 ### Key Distinctions
 
 - **Chroma** = colorfulness relative to a same-lightness neutral reference
@@ -184,12 +201,14 @@ Note: coolors.co does not generate palettes — it picks randomly from 7,821 pre
 - **RYBitten** — RGB↔RYB with 26 historical color cubes
 - **colorgram** — 1 kB image palette extraction; 64-bucket HLS+luminance quantization, ~15 ms for 340×340, fixed memory
 - **Art Palette** — JS palette extraction from `ImageData` + Python/TensorFlow perceptual palette embeddings for search-by-color (Google Arts & Culture, Apache 2.0)
+- **random-display-p3-color** — generate random Display P3 colors constrained by named hue/saturation/lightness, zero deps, ESM (by mrmrs / mrmrs.cc)
 
 ### Key Online Tools
 
 - **oklch.com** — OKLCH picker
 - **Huetone** — accessible color system builder (LCH/OKLCH), by Ardov
 - **Ardov Color Lab** — gamut mapping playground, P3 space explorer, harmony generator, 3D color space visualizations, themer (lab.ardov.me)
+- **Components.ai Color Scale** — parametric scale generator: 6 spaces, 4 curve methods, WCAG contrast (by mrmrs / mrmrs.cc)
 - **View Color** — real-time analysis, WCAG + APCA, CVD preview
 - **APCA Calculator** — apcacontrast.com
 
