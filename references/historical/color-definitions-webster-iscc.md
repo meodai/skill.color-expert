@@ -40,6 +40,26 @@ True Color: The Strange and Spectacular Quest to Define Color from Azure to Zinc
 - **Inter-Society Color Council (ISCC)** — 1930s–1950s effort to systematize color naming
 - **ISCC-NBS method** — standardized color designation system, divided color solid into 319 named blocks
 
+## Companion: Dorothy Nickerson & Webster's Third
+
+**URL:** https://www.youtube.com/shorts/v4wCvksrR2M
+**Guest:** Kory Stamper (lexicographer)
+
+### Transcript
+
+So, this is the Nickerson color fan. It actually still looks great. This is from 1957. In her booklet that comes with it is this wonky looking — like deflated beach ball. What's the story with how this ends up in the dictionary?
+
+My name is Kory Stamper. I am a lexicographer, that is a dictionary writer, and an author. So Dorothy Nickerson was brought in to help with the definitions in the Third after the primary definer — the primary definer who was I.H. Godlove, also really well known in the color field, also with the ISCC and Munsell, kind of from the beginning. He died suddenly. Dorothy Nickerson is brought in to help define the core color terms, and she is also brought in because they don't have the color plates. They don't know what I.H. was going to do with the color plates. She knew people at Munsell. She could say, "Hey, can you send me a hue wedge?" And so she got all these things. She got one two-sided page. She put this all together. She called in favors. Gave it to Merriam-Webster. And then Merriam-Webster put their copyright on the bottom. Dorothy Nickerson was like, "You don't own these. I called in a lot of favors to get these done."
+
+True Color: The Strange and Spectacular Quest to Define Color from Azure to Zinc Pink is out March 31st, 2026.
+
+### Key Concepts
+
+- **Dorothy Nickerson** — brought in to replace Godlove after his sudden death; defined core color terms for Webster's Third and assembled the color plates by calling in favors from Munsell contacts
+- **Nickerson color fan (1957)** — still in good condition; came with a booklet containing the "deflated beach ball" color solid diagram
+- **Merriam-Webster copyright dispute** — Nickerson objected when M-W copyrighted the color plates she had assembled from borrowed Munsell materials
+- **Continuity from Webster's 2nd→3rd** — Godlove defined colors for the 2nd edition; Nickerson continued and expanded the work for the 3rd
+
 ## Source Books & Documents
 
 | Document                                                                               | Author          | Year | Archive.org                                                        | Local PDF                                                                                    |
