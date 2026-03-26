@@ -41,7 +41,7 @@ HSL isn't "bad" — it's a simple, fast geometric rearrangement of RGB into a cy
 - Gamut-aware picking with HSL-like UX → **OKHSL** (Ottosson's perceptual HSL)
 - Normalized saturation 0–100% → **HSLuv** (CIELUV-based, no out-of-bounds)
 
-### Named Hue Ranges (HSL/OKLCH)
+### Named Hue (HSL/HSV) Ranges
 
 Use these degree ranges when generating or constraining colors by hue name. Source: [random-display-p3-color](https://github.com/mrmrs/random-display-p3-color) by mrmrs / mrmrs.cc.
 
