@@ -2,7 +2,7 @@
 
 Curated transcripts, notes, and source material. Organized for the color-expert skill and for building an online color resource.
 
-**148 files** across 3 categories: `historical/` (pre-digital color science), `contemporary/` (modern color science & theory), `techniques/` (tools, libraries, methods, practical application)
+**150 files** across 3 categories: `historical/` (pre-digital color science), `contemporary/` (modern color science & theory), `techniques/` (tools, libraries, methods, practical application)
 
 ## Historical
 
@@ -27,6 +27,7 @@ Curated transcripts, notes, and source material. Organized for the color-expert 
 | [Bardwell & 18th C. Portrait Colour](historical/bardwell-18th-century-portrait-colour.md)        | Thomas Bardwell's 18th century colour techniques. 63 min.                                                                                                                                                                                               | [CSA](https://www.youtube.com/watch?v=ODxI_QuDkfI)                                        |
 | [Ridgway — Color Standards (1912)](historical/ridgway-color-standards-1912.md)                   | 1,115 named colors across 53 plates. Full text from Gutenberg. Systematic nomenclature for naturalists. 36-hue chromatic scale. [Digitized JSON](https://github.com/meodai/Color-Standards-and-Color-Nomenclature).                                     | [Gutenberg](https://www.gutenberg.org/files/63087/63087-h/63087-h.htm)                    |
 | [Cheskin Color Wheel (1953)](historical/cheskin-1953-color-wheel.md)                             | Cheskin's transparent-overlay wheel solves 2D limitation. Birren's tint/shade/tone (1937). Both knew CMY but handled the RYB→CMY shift differently. Cheskin's spectral error with magenta.                                                               | [Color Nerd](https://www.youtube.com/shorts/HNlFFJowKRk)                                  |
+| [Birren Industrial Color Code — "Seafoam" Control Rooms](historical/birren-industrial-color-code-seafoam.md) | Why Manhattan Project control rooms (X-10, Hanford B Reactor), factories, and hospitals were all seafoam green. Faber Birren + DuPont's 1944 NSC-approved safety code (mandatory since 1948): soft walls for brightness control, brilliant codes for hazards. _Color for Interiors_ (1963) Chart 13. 1945 _Selling with Color_ PDF. | [Beth Mathews](https://bethmathews.substack.com/p/why-so-many-control-rooms-were-seafoam) |
 
 <!-- markdownlint-enable MD060 -->
 
@@ -84,6 +85,7 @@ Curated transcripts, notes, and source material. Organized for the color-expert 
 | [How Eyes Turn Light into Color](contemporary/how-eyes-turn-light-into-color.md)                              | Graph paper exercise: cone cells compress spectral info into 3 signals. "Wavelengths don't have color — imbalances cause the sensation." Why metamerism exists. Why color mixing works.                                                                   | [Color Nerd](https://www.youtube.com/watch?v=u_tQ4UkIPfU)                                                             |
 | [Opponent Process & Color Blindness](contemporary/opponent-process-color-blindness.md)                        | 4 psychological primaries on 2 axes (red↔green, yellow↔blue). CVD = losing one axis. Orange↔blue is most accessible pair — works for BOTH red-green AND yellow-blue blindness.                                                                            | [Color Nerd](https://www.youtube.com/watch?v=DO0kTNxEFrs)                                                             |
 | [Pixar Color Science (Khan Academy)](contemporary/pixar-color-science-khan-academy.md)                        | Full 5-lesson series + bonus. SPD, RGB, HSL, contrast, correction, CIE diagram.                                                                                                                                                                           | [Khan Academy](https://www.youtube.com/watch?v=T0jzClmP2pc)                                                           |
+| [NIST "Any-Wavelength" Laser Chip](contemporary/nist-any-wavelength-laser-photonic-chip.md)                   | Brodnik/Papp et al., Nature 2026. Monolithic 3D photonic chip (tantala + thin-film lithium niobate on Si) converts one 980 nm IR pump into arbitrary visible + IR wavelengths. "Colors by designing circuits." Enables atomic clocks, quantum, RGB AR/VR. | [NIST](https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits) / [arXiv](https://arxiv.org/abs/2509.08092) |
 
 <!-- markdownlint-enable MD060 -->
 
