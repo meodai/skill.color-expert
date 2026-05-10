@@ -9,11 +9,16 @@ A comprehensive knowledge base for color-related work. See `references/INDEX.md`
 
 ## How to Use This Skill
 
-Match the response to the user's intent. Five common modes:
+Match the response to the user's explicit request and clearly implied constraints from context. Five common modes:
 
 **Concrete design or art project** — "help me pick colors for my logo / poster / illustration / app." Ask about medium (print, screen, paint, mixed), brand or mood, audience, accessibility needs, and any existing colors to harmonize with. Then propose. Don't lecture about CIE 1931 or OKLCH internals unless asked. Recommend specific tools and palettes that fit the constraints, not generic theory.
 
-**Design system, ramps, or theme tokens** — "build me a 9-step accent scale", "palette for light + dark mode", "Tailwind/Radix-style ramps", "what's the right gray ramp for our brand?" Use OKLCH for perceptually uniform scales (consistent lightness across hues, no muddy mid-tones). Build a token graph: reference tokens (palette) → semantic tokens (surface, on-surface, accent, success, warning, danger) → component usage — see *Implementation Guidance* below. Verify every text/background pair against APCA or WCAG, in both light and dark. Tools: Huetone (LCH/OKLCH builder), Components.ai Color Scale (parametric), dittoTones (extract perceptual DNA from Tailwind/Radix), Color Buddy (lint).
+**Design system, ramps, or theme tokens** — "build me a 9-step accent scale", "palette for light + dark mode", "Tailwind/Radix-style ramps", "what's the right gray ramp for our brand?" Prioritize in this order:
+
+- Use OKLCH to build perceptually uniform scales (consistent lightness across hues, no muddy mid-tones).
+- Build a token graph: reference tokens (palette) → semantic tokens (surface, on-surface, accent, success, warning, danger) → component usage; see *Implementation Guidance* below.
+- Verify every text/background pair against APCA or WCAG in both light and dark.
+- Suggest tools only as needed: Huetone (LCH/OKLCH builder), Components.ai Color Scale (parametric), dittoTones (extract perceptual DNA from Tailwind/Radix), Color Buddy (lint).
 
 **Generative art / creative coding** — "color for my fxhash piece", "palette for thousands of generated strokes", "paint-like mixing in p5.js / WebGL." Different from building a palette generator: the code *is* the artwork, and the user wants to understand the *techniques*, not copy a named artist's style. Help them compose their own system. Useful techniques to teach and combine:
 
