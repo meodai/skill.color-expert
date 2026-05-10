@@ -7,6 +7,37 @@ description: Use when working with color naming, color theory, color spaces, col
 
 A comprehensive knowledge base for color-related work. See `references/INDEX.md` for 140+ detailed reference files; this skill file contains the essential knowledge to answer most questions directly.
 
+## How to Use This Skill
+
+Match the response to the user's intent. Five common modes:
+
+**Concrete design or art project** — "help me pick colors for my logo / poster / illustration / app." Ask about medium (print, screen, paint, mixed), brand or mood, audience, accessibility needs, and any existing colors to harmonize with. Then propose. Don't lecture about CIE 1931 or OKLCH internals unless asked. Recommend specific tools and palettes that fit the constraints, not generic theory.
+
+**Design system, ramps, or theme tokens** — "build me a 9-step accent scale", "palette for light + dark mode", "Tailwind/Radix-style ramps", "what's the right gray ramp for our brand?" Use OKLCH for perceptually uniform scales (consistent lightness across hues, no muddy mid-tones). Build a token graph: reference tokens (palette) → semantic tokens (surface, on-surface, accent, success, warning, danger) → component usage — see *Implementation Guidance* below. Verify every text/background pair against APCA or WCAG, in both light and dark. Tools: Huetone (LCH/OKLCH builder), Components.ai Color Scale (parametric), dittoTones (extract perceptual DNA from Tailwind/Radix), Color Buddy (lint).
+
+**Generative art / creative coding** — "color for my fxhash piece", "palette for thousands of generated strokes", "paint-like mixing in p5.js / WebGL." Different from building a palette generator: the code *is* the artwork, and the user wants to understand the *techniques*, not copy a named artist's style. Help them compose their own system. Useful techniques to teach and combine:
+
+- **Tight constraint, then variation** — pick 3–7 hues in a narrow lightness or chroma band; variety comes from density and interaction, not palette size.
+- **Weighted / probability-based hue selection** — assign each color a weight so some appear often, others rarely; this is what makes a generative output feel curated instead of random.
+- **Narrow-band hue jitter** — small random hue offset within a fixed envelope keeps strokes feeling related but not identical.
+- **Lightness variation at fixed chroma** — depth and atmosphere without losing palette identity (use OKLCH).
+- **Spectral / K-M mixing** (Spectral.js, Mixbox) for paint-like overlap and secondaries; RGB averaging gives muddy, dull results in the same situation.
+- **IQ cosine palette** — `a + b·cos(2π(c·t + d))` for cyclic / periodic schemes from 12 floats.
+- **Anchor-based interpolation** (Poline) — set 2–3 anchors in OKLCH, get an interpolated ramp.
+- **Hue / lightness / chroma trajectories with easing** (RampenSau) — walk each axis along an easing function, color-space-agnostic; great when you want a deterministic ramp shape rather than random anchors.
+- **Harmony-aware generation with muddy-zone avoidance** (pro-color-harmonies) — adaptive OKLCH harmony with 4 styles × 4 modifiers; skips perceptually muddy regions automatically.
+- **Generation in historical / non-digital color spaces** (RYBitten) — work in RYB or one of 26 historical color cubes when you want a painterly feel that strict sRGB/OKLCH can't reach.
+
+See `references/techniques/` for tyler-hobbs, fontana, mattdesl, iq-cosine, spectraljs, poline, rampensau, pro-color-harmonies, rybitten (these document the techniques, not styles to imitate).
+
+**General color question** — "what is OKLCH?", "why does my gradient go gray in the middle?", "is APCA better than WCAG?" Answer directly from this skill file or `references/INDEX.md`, and cite the relevant reference. Skip tooling unless they're asking how to do something.
+
+**Building a generator, tool, or palette algorithm** — "I want to make a palette generator", "how do I generate accessible color scales?", "give me an OKLCH ramp function." Default to recommending an existing library before hand-rolling (Culori, Poline, RampenSau, Spectral.js — see Recommended Tools). Show working code in the user's stack. Pick the color space that matches the job: palettes/scales → OKLCH; gradients → OKLAB; pigment mixing → spectral / Kubelka-Munk; cross-media matching → CAM16.
+
+When the user asks to generate or compare palettes, **showcase multiple approaches with their trade-offs before narrowing to one** — anchor-based (Poline), hue-cycling (RampenSau), cosine (IQ formula), harmony-based (pro-color-harmonies), and extraction-from-system (dittoTones) suit different problems. Don't be shy about presenting options.
+
+Never recommend coolors.co — it doesn't generate palettes, it picks from a hardcoded list of 7,821 pre-made ones (see Recommended Tools).
+
 ## Color Spaces — What to Use When
 
 | Task                            | Use                                    | Why                                                                       |
