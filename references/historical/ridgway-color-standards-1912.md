@@ -19,9 +19,9 @@ COLOR STANDARDSANDCOLOR NOMENCLATURE
 
 ROBERT RIDGWAY, M.S., C.M.Z.S.,Etc.
 
-Curator of the Division of Birds, United StatesNational Museum.
+Curator of the Division of Birds, United States National Museum.
 
-With Fifty-three Colored PlatesandEleven Hundred and Fifteen Named Colors.
+With Fifty-three Colored Plates and Eleven Hundred and Fifteen Named Colors.
 
 WASHINGTON. D. C.
 
@@ -29,7 +29,7 @@ WASHINGTON. D. C.
 
 Published by the Author.
 
-Copyright, 1912byRobert Ridgway
+Copyright, 1912 by Robert Ridgway
 
 PRESS OFA. HOEN & COMPANYBALTIMORE, MD
 
@@ -93,12 +93,12 @@ Bradley, of Springfield, Mass.; Dr.P. G. Nutting,
 of the U. S. Bureau of Standards;
 Mr.P. L. Ricker, of the Bureau of Plant
 Industry, U. S. Department of Agriculture; and Mr.J. L. Ridgway, of the U. S. Geological Survey. The
-late ProfessorS. P. Langley, then Secretary of
+late Professor S. P. Langley, then Secretary of
 the Smithsonian Institution, was good enough to take a kindly interest
 in this undertaking and gave the author assistance for which he is
 glad to make acknowledgment. More than to all others, however, is the
 author deeply indebted to Mr.John E. Thayer,
-of Lancaster, Mass., and Señor DonJosé
+of Lancaster, Mass., and Señor Don José
 C. Zeledón, of San José, Costa Rica, for aid so indispensible
 that without it the work could not have been completed.
 
@@ -117,10 +117,8 @@ pigments; the skill, industry, and patience of the firm's head
 colorist, Mr.Frank Portugal, and the personal
 interest of both these gentlemen. It is, therefore, with the greatest
 pleasure that the author's grateful acknowledgment is made to the firm
-ofA. Hoen & Companyfor the satisfactory
+of A. Hoen & Company for the satisfactory
 manner in which they have fulfilled their contract.
-
-### CONTENTS
 
 ### PROLOGUE
 
@@ -214,7 +212,7 @@ disks.[8]
 The scales (both horizontal and vertical) of the present work are
 all prepared directly from definite color-wheel formulæ, based on
 carefully calculated curves; the thirty-six pure spectrum hues,
-represented[5]by the middle horizontal line of color-squares onPlates
+represented[5]by the middle horizontal line of color-squares on Plates
 I-XII(together with an equal number of intermediates represented by
 blank spaces), requiring a separate curve and consequently different
 relative proportions of the two component colors for each series of
@@ -233,10 +231,10 @@ per cent. The remaining Plates show these same thirty-six colors or
 hues in exactly the same order and similarly modified (vertically) by
 precisely the same progressive increments of white (upward) and black
 (downward), but all the colors are dulled by admixture of neutral
-gray; the first series (1′-72′, PlatesXIII-XXVI) containing 32 per
-cent. of neutral gray, the second (1′′-72′′, PlatesXXVII-XXXVIII) 58
-per cent., the third (1′′′-72′′′, PlatesXXXIX-XLIV) 77 per cent., and
-the fourth (1′′′′-72′′′′, PlatesXLV-L) 90 per cent. The last three
+gray; the first series (1′-72′, Plates XIII-XXVI) containing 32 per
+cent. of neutral gray, the second (1′′-72′′, Plates XXVII-XXXVIII) 58
+per cent., the third (1′′′-72′′′, Plates XXXIX-XLIV) 77 per cent., and
+the fourth (1′′′′-72′′′′, Plates XLV-L) 90 per cent. The last three
 Plates (LI-LIII) show the six spectrum colors[10](also purple, the intermediate between violet and red)
 still further dulled by admixture of 95.5 per cent. of neutral[6]gray, these being in reality colored grays; to which are added a
 scale of neutral gray and one of carbon gray, the former being the
@@ -301,7 +299,7 @@ letters) employed.[15]
 In order to designate any color for which a satisfactory name
 cannot be found, or one not represented on the plates, it is only
 necessary to proceed as follows: Suppose the color in question is
-nearest 1 on PlateI;say, for example, is intermediate in hue between
+nearest 1 on Plate I; say, for example, is intermediate in hue between
 1 (spectrum red) and 3 (scarlet-red), or in other words if represented
 in color its position would be in the uncolored[9]space designated as
 no. 2; and in tone between the full color (middle horizontal line) and
@@ -579,18 +577,18 @@ a sheet of woven fabric; the chromatic scale (horizontal) representing
 the warp, the luminosity or tone scale (vertical) the woof. A third
 kind of color scale is represented by adding progressive increments of
 neutral gray to any color. This is shown by the several series of
-Plates, of which the first (PlatesI-XII, with colors numbered 1-71)
+Plates, of which the first (Plates I-XII, with colors numbered 1-71)
 represents each step in the spectrum scale unmixed with gray, followed
 by five other series in which the same
 colors[23]are shown dulled by gradually increasing
-increments of neutral gray, the first (PlatesXIII-XXVI, colors
-1′-71′) containing 32 per cent., the second (PlatesXXVII-XXXVIII,
-colors 1′′-71′′) 58 per cent., the third (PlatesXXXIX-XLIV, colors
-1′′′-69′′′) 77 per cent., the fourth (PlatesXLV-L, colors
-1′′′′-69′′′′) 90 per cent., and the fifth (PlatesLI-LIII, colors
+increments of neutral gray, the first (Plates XIII-XXVI, colors
+1′-71′) containing 32 per cent., the second (Plates XXVII-XXXVIII,
+colors 1′′-71′′) 58 per cent., the third (Plates XXXIX-XLIV, colors
+1′′′-69′′′) 77 per cent., the fourth (Plates XLV-L, colors
+1′′′′-69′′′′) 90 per cent., and the fifth (Plates LI-LIII, colors
 1′′′′′, 15′′′′′, 23′′′′′, 35′′′′′, 49′′′′′, 59′′′′′ and 67′′′′′) 95.5
 per cent. of gray, the last being in reality colored grays. Finally
-scales are shown (on PlateLIII) of neutral gray (in which all trace
+scales are shown (on Plate LIII) of neutral gray (in which all trace
 of color is wanting), and of carbon gray, a simple mixture of
 lamp-black and chinese white. It is not easy to find a suitable name
 for these scales of reduced or "broken" colors, but they may, for
@@ -919,7 +917,7 @@ The subject of color and color nomenclature discussed on pages
 [2]Titles of several books on the subject which are especially recommended to the
 lay student of chromatology are given at theend of this text.
 
-[3]SeeScience, June 9, 1893, andNature, Vol. LII, No. 1347, Aug. 22, 1895, pp.
+[3] See Science, June 9, 1893, and Nature, Vol. LII, No. 1347, Aug. 22, 1895, pp.
 390-392.
 
 [4]According to Aubert more than 1000 hues are distinguishable in the spectrum,
@@ -1118,7 +1116,7 @@ possibly be reproduced except by the employment of pigments
 which are more or less sensitive toprolonged exposureto light,
 and hence this caution not to expose the plates unnecessarily.
 
-(SeeChurch: "The Chemistry of Paints and Painting," third edition, pages
+(See Church: "The Chemistry of Paints and Painting," third edition, pages
 257-263.)
 
 #### EXPLANATION OF PLATES XXII AND XXIV.
@@ -1132,7 +1130,7 @@ merely to add to the number of colors represented.
 
 ### TRANSCRIBER'S NOTE
 
-The color sample forLight Corinthian Redon plate VVXII is missing
+The color sample for Light Corinthian Red on plate VVXII is missing
 from the original book.
 
-The entryPlatesin theTable of Contentswas added by the transcriber.
+The entry Plates in the Table of Contents was added by the transcriber.
