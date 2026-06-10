@@ -37,7 +37,7 @@ See `references/techniques/` for tyler-hobbs, fontana, mattdesl, iq-cosine, spec
 
 **General color question** — "what is OKLCH?", "why does my gradient go gray in the middle?", "is APCA better than WCAG?" Answer directly from this skill file or `references/INDEX.md`, and cite the relevant reference. Skip tooling unless they're asking how to do something.
 
-**Building a generator, tool, or palette algorithm** — "I want to make a palette generator", "how do I generate accessible color scales?", "give me an OKLCH ramp function." Default to recommending an existing library before hand-rolling (Culori, Poline, RampenSau, Spectral.js — see Recommended Tools). Show working code in the user's stack. Pick the color space that matches the job: palettes/scales → OKLCH; gradients → OKLAB; pigment mixing → spectral / Kubelka-Munk; cross-media matching → CAM16.
+**Building a generator, tool, or palette algorithm** — "I want to make a palette generator", "how do I generate accessible color scales?", "give me an OKLCH ramp function." Default to recommending an existing library before hand-rolling (Culori, Poline, RampenSau, Spectral.js — see Recommended Tools). Show working code in the user's stack, picking the color space per the table above.
 
 When the user asks to generate or compare palettes, **showcase multiple approaches with their trade-offs before narrowing to one** — anchor-based (Poline), hue-cycling (RampenSau), cosine (IQ formula), harmony-based (pro-color-harmonies), and extraction-from-system (dittoTones) suit different problems. Don't be shy about presenting options.
 
@@ -68,14 +68,7 @@ HSL isn't "bad" — it's a simple, fast geometric rearrangement of RGB into a cy
 - **Hue (H):** non-uniform spacing. A 20° shift near red produces a dramatic change; the same 20° near green is barely visible. The green region is compressed, reds are stretched.
 - **Saturation (S):** doesn't correlate with perceived saturation. A color can have S=100% and still look muted (e.g., dark saturated blue).
 
-**When HSL is fine:** simple color pickers, quick CSS tweaks, situations where perceptual accuracy doesn't matter.
-
-**When to use something better:**
-
-- Generating palettes or scales → **OKLCH** (uniform lightness across hues)
-- Creating gradients → **OKLAB** or `color-mix(in oklab)` (no mid-gradient darkening)
-- Gamut-aware picking with HSL-like UX → **OKHSL** (Ottosson's perceptual HSL)
-- Normalized saturation 0–100% → **HSLuv** (CIELUV-based, no out-of-bounds)
+**When HSL is fine:** simple color pickers, quick CSS tweaks, situations where perceptual accuracy doesn't matter. When it isn't, the table above gives the perceptual alternative per task (OKLCH for scales, OKLAB for gradients, OKHSL for picking, HSLuv for normalized saturation).
 
 ### Named Hue (HSL/HSV) Ranges
 
@@ -101,6 +94,14 @@ Use these degree ranges when generating or constraining colors by hue name. Sour
 - **Lightness** = perceived reflectance relative to a similarly lit white
 - **Brightness** = perceived intensity of light coming from a stimulus
 - Same chroma ≠ same saturation. These are different dimensions.
+
+### Gamut Mapping in Practice
+
+The most common OKLCH mistake: picking a chroma that doesn't exist in the target gamut. `oklch(70% 0.3 150)` asks for more chroma than sRGB (or even P3) can show, so it silently clips — usually to something duller and hue-shifted.
+
+- **CSS gamut-maps for you.** Browsers map `oklch()` / `color()` automatically, so authored CSS rarely clips badly. JS conversions do **not** — `oklch→hex` just truncates channels.
+- **Reduce chroma, not lightness or hue.** Clipping R/G/B shifts the hue; pulling chroma toward the gamut boundary preserves the color's identity. Use Culori's `clampChroma(color, 'oklch')` (holds L and H) or `toGamut()` rather than naive RGB clamping.
+- **Test against the actual target:** `inGamut('rgb')` vs `inGamut('p3')` — a color valid in P3 can still clip in sRGB.
 
 ## Implementation Guidance — Code and CSS
 
@@ -133,6 +134,19 @@ Good pattern: palette/reference tokens define available colors; semantic tokens 
 If a system can derive a decision from constraints, encode that derivation. Examples: nearest named hue in a generated palette, foreground chosen by APCA/WCAG target, hover state computed from the base token in OKLCH instead of hand-picking a second unrelated hex.
 
 For larger systems, prefer a **token graph** over a flat token dump: references, semantic roles, derived functions, and scope inheritance. This makes theme changes, accessibility guarantees, and multi-platform export auditable and easier to maintain.
+
+## CSS Color 4/5 — Syntax Cheat Sheet
+
+Modern CSS does perceptual color natively; reach for these before pulling in a JS library.
+
+- **Perceptual color:** `oklch(70% 0.12 250)`, `oklab(0.7 -0.1 0.1)`, wide gamut via `color(display-p3 1 0.2 0.3)`.
+- **Mixing:** `color-mix(in oklab, blue 30%, white)` — interpolating in `oklab`/`oklch` avoids the gray mid-gradient that RGB/HSL produce. For cylinders, set a hue strategy: `color-mix(in oklch longer hue, …)`.
+- **Relative color syntax (derive from a base):** `oklch(from var(--brand) l c h / 0.5)`, or compute a shade/hover without a second hard-coded hex: `oklch(from var(--brand) calc(l * 0.9) c h)`.
+- **Light/dark without a media query:** `light-dark(white, black)` (requires `color-scheme: light dark`).
+- **Gamut targeting:** `@media (color-gamut: p3) { … }`.
+- **Gradients in a chosen space:** `linear-gradient(in oklch, red, blue)`.
+
+Broadly supported in evergreen browsers (2024+); relative color syntax is the newest piece. See `references/techniques/` CSS Color 4/5 for edge cases.
 
 ## Accessibility — Key Numbers
 
