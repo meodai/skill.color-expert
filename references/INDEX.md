@@ -2,7 +2,7 @@
 
 Curated transcripts, notes, and source material. Organized for the color-expert skill and for building an online color resource.
 
-**160 files** across 3 categories: `historical/` (pre-digital color science), `contemporary/` (modern color science & theory), `techniques/` (tools, libraries, methods, practical application)
+**161 files** across 3 categories: `historical/` (pre-digital color science), `contemporary/` (modern color science & theory), `techniques/` (tools, libraries, methods, practical application)
 
 ## Historical
 
@@ -29,6 +29,7 @@ Curated transcripts, notes, and source material. Organized for the color-expert 
 | [Ridgway — Color Standards (1912)](historical/ridgway-color-standards-1912.md)                   | 1,115 named colors across 53 plates. Full text from Gutenberg. Systematic nomenclature for naturalists. 36-hue chromatic scale. [Digitized JSON](https://github.com/meodai/Color-Standards-and-Color-Nomenclature).                                     | [Gutenberg](https://www.gutenberg.org/files/63087/63087-h/63087-h.htm)                    |
 | [Cheskin Color Wheel (1953)](historical/cheskin-1953-color-wheel.md)                             | Cheskin's transparent-overlay wheel solves 2D limitation. Birren's tint/shade/tone (1937). Both knew CMY but handled the RYB→CMY shift differently. Cheskin's spectral error with magenta.                                                               | [Color Nerd](https://www.youtube.com/shorts/HNlFFJowKRk)                                  |
 | [Birren Industrial Color Code — "Seafoam" Control Rooms](historical/birren-industrial-color-code-seafoam.md) | Why Manhattan Project control rooms (X-10, Hanford B Reactor), factories, and hospitals were all seafoam green. Faber Birren + DuPont's 1944 NSC-approved safety code (mandatory since 1948): soft walls for brightness control, brilliant codes for hazards. _Color for Interiors_ (1963) Chart 13. 1945 _Selling with Color_ PDF. | [Beth Mathews](https://bethmathews.substack.com/p/why-so-many-control-rooms-were-seafoam) |
+| [Color History Through Art Movements (Ira Marcks)](historical/ira-marcks-color-history-art-movements.md) | Art-history survey via **Itten's three intentions** (impression/expression/symbolism). Walks China (yellow=Emperor) → Byzantine → Renaissance → Titian → Goethe → Neo-Impressionism (Cross) → Monet → Cézanne → Munch → af Klint → Mondrian. Carries **Goethe's allegorical color wheel** (red=beauty, yellow=good, violet=spiritual) + the John Gage "no color in the physical world" quote. Pair with the Itten critique and Gage. Goethe 1840 PDF downloaded. | [Skillshare](https://www.youtube.com/watch?v=R7rA3XOHRic) |
 
 <!-- markdownlint-enable MD060 -->
 
