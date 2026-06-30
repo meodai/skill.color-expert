@@ -18,7 +18,7 @@ Match the response to the user's explicit request and clearly implied constraint
 - Use OKLCH to build perceptually uniform scales (consistent lightness across hues, no muddy mid-tones).
 - Build a token graph: reference tokens (palette) → semantic tokens (surface, on-surface, accent, success, warning, danger) → component usage; see *Implementation Guidance* below.
 - Verify every text/background pair against APCA or WCAG in both light and dark.
-- Suggest tools only as needed: Huetone (LCH/OKLCH builder), Components.ai Color Scale (parametric), dittoTones (extract perceptual DNA from Tailwind/Radix), Color Buddy (lint).
+- Suggest tools only as needed: Huetone (LCH/OKLCH builder), Leonardo (contrast-ratio-driven ramps + adaptive theming, Adobe), Components.ai Color Scale (parametric), dittoTones (extract perceptual DNA from Tailwind/Radix), Color Buddy (lint).
 
 **Generative art / creative coding** — "color for my fxhash piece", "palette for thousands of generated strokes", "paint-like mixing in p5.js / WebGL." Different from building a palette generator: the code *is* the artwork, and the user wants to understand the *techniques*, not copy a named artist's style. Help them compose their own system. Useful techniques to teach and combine:
 
@@ -265,6 +265,8 @@ Sorting an arbitrary set of colors into a perceptually smooth sequence has **no 
 - **Huetone** — accessible color system builder (LCH/OKLCH), by Ardov
 - **Ardov Color Lab** — gamut mapping playground, P3 space explorer, harmony generator, 3D color space visualizations, themer (lab.ardov.me)
 - **Components.ai Color Scale** — parametric scale generator: 6 spaces, 4 curve methods, WCAG contrast (by mrmrs / mrmrs.cc)
+- **Leonardo** — Adobe's open-source contrast-based ramp builder (leonardocolor.io): swatches generated from **target contrast ratios** (or target lightness) instead of hand-picked, across multiple color spaces; adaptive light/dark theming, CVD-safe cycling, exports CSS vars + W3C design tokens. Pairs with the `@adobe/leonardo-contrast-colors` npm lib for runtime adaptive theming. By Nate Baldwin / Adobe.
+- **BairesDev Color Palette Editor** — quick HSV-based ramp editor: interpolate between swatches, map palettes, import/export. Fine for fast drafts, but HSV interpolation isn't perceptually uniform (see *Understanding HSL's Limitations*) — prefer Leonardo/Huetone/Components.ai for production ramps.
 - **View Color** — real-time analysis, WCAG + APCA, CVD preview
 - **APCA Calculator** — apcacontrast.com
 
