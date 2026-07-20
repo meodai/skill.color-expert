@@ -222,8 +222,9 @@ Grayscale is a quick sanity check for lightness separation, not an accessibility
 | Ridgway (1912)        | Ornithological             | 1,115 named colors, public domain  |
 | CSS Named Colors      | Web standard               | 147 named colors                   |
 | color-description lib | Emotional adjectives       | "pale, delicate, glistening"       |
+| colornames-oklab      | Perceptually even coverage | "Smaragdine" (rec2020 tier)        |
 
-Use `color-name-lists` npm package for 18 naming systems in one import.
+Use `color-name-lists` npm package for 18 naming systems in one import. For *naming arbitrary or generated colors* — especially wide-gamut — use `colornames-oklab`: 4444 names blue-noise sampled over the Rec2020 gamut in OKLab, so no query lands far from a name (crowd-sourced lists cluster in reds/skin tones/pastels and leave gamut regions empty). Tiered srgb/p3/rec2020, zero-dep `closest()` with a unique-assignment mode for palettes.
 
 ## Historical Corrections
 
@@ -240,7 +241,7 @@ Use `color-name-lists` npm package for 18 naming systems in one import.
 Note: coolors.co does not generate palettes — it picks randomly from 7,821 pre-made palettes hardcoded in its JS bundle.
 
 - **RampenSau** — hue cycling + easing, color space agnostic
-- **CuspHanger** — the Wijffelaars 2009 EuroVis palette model in OKLCH: Bézier paths through each hue's black–cusp–white gamut triangle, perceptual lightness sampling calibrated against Brewer. Sequential/diverging ramps for dataviz, in-gamut by construction, sRGB + Display-P3, RampenSau-compatible API
+- **CuspHanger** — the Wijffelaars 2009 EuroVis palette model in OKLCH: Bézier paths through each hue's black–cusp–white gamut triangle, perceptual lightness sampling calibrated against Brewer. Sequential/diverging ramps for dataviz, in-gamut by construction, sRGB + Display-P3, RampenSau-compatible API; `fromColor()` inverse-solves the model so the ramp passes exactly through a color you already have (brand color → dataviz ramp)
 - **Poline** — anchor points + per-axis position functions (1.2K stars); ships a `<poline-palette>` web component for interactive controls
 - **pro-color-harmonies** — adaptive OKLCH harmony, muddy-zone avoidance, 4 styles × 4 modifiers
 - **dittoTones** — extract Tailwind/Radix "perceptual DNA", apply to your hue

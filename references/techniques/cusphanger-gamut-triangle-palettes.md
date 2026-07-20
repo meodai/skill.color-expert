@@ -59,11 +59,32 @@ ramp({ hStart: 260, total: 9, sRange: [0, 1], lut: oklchSrgb }); // gray dark �
 
 // explicit hue per color — pairs with RampenSau's uniqueRandomHues / colorHarmonies
 ramp({ hStart: 0, total: 9, hueList: [10, 120, 240], lut: oklchSrgb });
+
+// fromColor() — inverse: solve the model so the palette meets a color you already have
+fromColor({ mode: 'oklch', l: 0.58, c: 0.09, h: 155 }, { total: 9, lut: oklchSrgb });
 ```
 
 - **`sequential()` and `diverging()`** are the paper's surface, nothing else.
 - **`ramp()`** is the RampenSau-shaped entry point: extends `SequentialOptions` with the hue trajectory (`hCycles`, `hStartCenter`, `hEasing`, `hueList`), ramped tension (`sRange`/`sEasing`) and `triangleMode`. With none of them set it equals `sequential()` exactly. Each color rides the paper's ramp for its own rotated hue.
 - Also exported, both taking a nutelch LUT: **`cusp(hue, lut)`** (the MSC apex) and **`maxChromaAt(hue, l, lut)`** (the gamut shell at a lightness).
+
+## fromColor — Meet a Color You Already Have
+
+The inverse problem: you have a color (a brand green, a chart accent) and want the ramp that passes through it. `fromColor(target, { total, lut })` solves the sequential model and returns **options, not colors** — the solve stays inspectable and tweakable:
+
+```ts
+const { options, index, color, clamped } = fromColor(target, { total: 9, lut: oklchSrgb });
+sequential(options)[index]; // === target (exactly, when reachable)
+```
+
+Nothing is fitted — the constraints decouple: hue is taken exactly (`hStart = target.h`, the whole curve lives in the target's hue plane), `saturation` is bisected until the curve's chroma at the target's lightness matches (monotone in `s`, so bisection is exact), and the lightness endpoints shift minimally so sample `index` lands on the target's lightness.
+
+- **`index`** — which entry carries the target. Defaults to `'nearest'` (endpoints move least); pass a number to pin it.
+- **`lRange`** — hold the lightness endpoints; only hue + tension are solved, and `index` reports the nearest sample.
+- **`clamped`** — reachability is the triangle (∩ shell), not the full gamut. An unreachable target never throws: it's met at the same-lightness boundary point instead, returned as `color` with `clamped: true`.
+- **`coolWarm`** is deliberately absent — `w > 0` drifts hue along the curve, breaking the hue decoupling; held at 0.
+
+The target is the same OKLCH object the generators emit — a hex is one Culori call away: `converter('oklch')('#4a8a62')`.
 
 ## Output & Rendering
 
