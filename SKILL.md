@@ -174,6 +174,8 @@ Of ~281 trillion hex color pairs (research by @mrmrs\_, computed via a Rust brut
 
 APCA is far more restrictive than WCAG at comparable readability. At APCA 90, only 239 billion of 281 trillion pairs work. JPEG compression exploits the same biology: chroma subsampling (4× less color data) is invisible because human vision resolves brightness at higher resolution than color.
 
+**Charts — the border trick.** WCAG wants 3:1 between adjacent non-text elements. Finding three chart colors that hold 3:1 against *each other* is extremely hard; beyond three it's essentially impossible. Don't try. Put a **border** on the chart elements and require 3:1 between each fill and the border color — one constraint per color instead of N². (Ström, see `references/techniques/strom-least-wrong-colors-simulated-annealing.md`.)
+
 ## Color Harmony — What Actually Works
 
 ### Hue-first harmony is a weak standalone heuristic
@@ -249,6 +251,7 @@ Note: coolors.co does not generate palettes — it picks randomly from 7,821 pre
 - **FarbVelo** — random palettes with dark→light structure
 - **ray-color** — palettes from a raytraced scene ("edit the conditions, not the colors"): sphere + five-sided room + up to 3 colored lights, mirror walls as virtual light sources; sample geodesic lines/circles off the surface. Deterministic, linear-RGB shading, zero deps, ~6 kB, DOM-free for headless use; interactive playground with draggable lights and PNG/code export
 - **IQ Cosine Formula** — `color(t) = a + b*cos(2π(c*t+d))`, 12 floats = infinite palette
+- **category-colors** (Ström) — the *optimizer* approach rather than a constructive model: write a weighted loss function (similarity to a brand reference + ΔE separation + CVD separation per deficiency type) and let simulated annealing search. Best when your criteria conflict and no color-space geometry expresses them; the weights become the explicit, auditable design decision. Node + Culori, MIT
 
 ### Palette Analysis & Linting
 
