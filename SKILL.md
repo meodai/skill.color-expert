@@ -18,7 +18,9 @@ Match the response to the user's explicit request and clearly implied constraint
 - Use OKLCH to build perceptually uniform scales (consistent lightness across hues, no muddy mid-tones).
 - Build a token graph: reference tokens (palette) → semantic tokens (surface, on-surface, accent, success, warning, danger) → component usage; see *Implementation Guidance* below.
 - Verify every text/background pair against APCA or WCAG in both light and dark.
-- Suggest tools only as needed: Huetone (LCH/OKLCH builder), Leonardo (contrast-ratio-driven ramps + adaptive theming, Adobe), Components.ai Color Scale (parametric), dittoTones (extract perceptual DNA from Tailwind/Radix), Color Buddy (lint). For dataviz sequential/diverging ramps specifically, CuspHanger (Wijffelaars model in OKLCH, in-gamut by construction).
+- Suggest tools only as needed: Huetone (LCH/OKLCH builder), Leonardo (contrast-ratio-driven ramps + adaptive theming, Adobe), Components.ai Color Scale (parametric), dittoTones (extract perceptual DNA from Tailwind/Radix), Color Buddy (lint). For dataviz sequential/diverging ramps specifically, CuspHanger (Wijffelaars model in OKLCH, in-gamut by construction) or viscm (the viridis editor: live perceptual-derivative diagnostics + CVD + grayscale while you drag control points).
+
+The test for a sequential ramp is **flat perceptual derivative** — plot the perceptual step size between consecutive samples; it should be a horizontal line, in color *and* in grayscale. Bumps are regions where the ramp exaggerates change that isn't in the data (this is jet's core failure, not its ugliness).
 
 **Generative art / creative coding** — "color for my fxhash piece", "palette for thousands of generated strokes", "paint-like mixing in p5.js / WebGL." Different from building a palette generator: the code *is* the artwork, and the user wants to understand the *techniques*, not copy a named artist's style. Help them compose their own system. Useful techniques to teach and combine:
 
@@ -60,6 +62,7 @@ Never recommend coolors.co — it doesn't generate palettes, it picks from a har
 | Color difference (precision)    | **CIEDE2000**                          | Gold standard perceptual distance                                         |
 | Color difference (fast)         | **Euclidean in OKLAB**                 | Good enough for most applications                                         |
 | Video/image compression         | **YCbCr**                              | Luma+chroma separation enables chroma subsampling                         |
+| Colormap uniformity             | **CAM02-UCS** (or OKLAB)               | CIELAB is decent for *distant* colors but poor for *nearby* ones — which is exactly what uniform sampling depends on. MATLAB's parula was made uniform in Lab and has a visible band near the bottom as a result |
 
 ### Understanding HSL's Limitations
 
