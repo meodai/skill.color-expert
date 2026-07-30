@@ -118,14 +118,74 @@ Caveat from the author's own footnote: for the 12-color runs he **dialed down th
 
 ## The Implementation
 
-Node.js, built on **Culori**. `npx categorycolors run`.
+[github.com/ilikescience/category-colors](https://github.com/ilikescience/category-colors) — Node.js, MIT, two dependencies: **Culori** and **munkres-algorithm**. Notes below reflect commit `6208fdf` (2026-07-22); the code has grown well past what the 2022 essay describes.
 
-- `src/core/` — the annealing loop
-- `src/evaluators/` — modular scorers: energy separation, uniformity, CVD simulation, similarity, contrast, avoidance
-- `src/config/` — defaults + seed state
-- `src/report/jnd.js` — JND analysis
+```bash
+npx categorycolors run                    # generate, --config/--state/--format/--output/--quiet
+npx categorycolors report '#1f77b4' '#ff7f0e' '#2ca02c' --threshold 25 --cvd deuteranomaly:1
+```
 
-Tunables: `similarityTarget` (the reference palette), `evalFunctions` (weights), `colorDistance` (default CIEDE2000 in LAB65), `colorSpace` (working space + per-channel mutation ranges), `coolingRate` / `cutoff` / `maxIterations` (annealing schedule). Also supports channel locking (freeze lightness, mutate hue) and color avoidance.
+Verified run: 8 colors, default config → 14,405 iterations in ~4.7 s, cost 1.45 → 0.32.
+
+### Default config
+
+```js
+evalFunctions: [
+  { energy,     weight: 0.15 },
+  { range,      weight: 0.15 },
+  { jnd,        weight: 0.15 },
+  { jnd,        weight: 0.15, cvd: { type: 'protanomaly',   severity: 0.5 } },
+  { jnd,        weight: 0.5,  cvd: { type: 'deuteranomaly', severity: 0.5 } },
+  { similarity, weight: 1 },
+]
+colorSpace: { mode: 'okhsl', ranges: [[0,360], [0.2,0.8], [0.3,0.9]] }
+colorDistance: { method: 'ciede2000' }   // analysis space lab65
+jnd: 20, colorCount: 8, coolingRate: 0.999, cutoff: 0.0001, maxIterations: 100000
+similarityTarget: ['#F1781E','#D83F41','#8F4CB3','#215BEF','#009919']
+```
+
+Weights are normalized by their sum in `cost()`, so they are *relative*, not absolute — similarity at 1 is ~45% of the total; deuteranomaly gets 3× the weight of protanomaly (it's the more common deficiency); tritan is not scored by default. Mutation happens in **okhsl** while distance is measured in **lab65** — a deliberate split: perceptual-ish channel ranges to sample from, CIEDE2000 to judge with.
+
+### The evaluators (`src/evaluators/`)
+
+All share the signature `(state, config, descriptor) => cost`, take their parameters from the descriptor rather than global config, and normalize by pair/color count so weights stay comparable. That pattern is the reusable part — you can drop in your own scorer without touching the loop.
+
+| Evaluator | What it costs | Shape |
+| --- | --- | --- |
+| `energy` | Colors too close together | Σ (1 − ΔE/ΔEmax)³ over ordered pairs — a repulsion potential, not the essay's "average ΔE" |
+| `range` | Uneven spacing | σ/range of all pairwise ΔE (the essay's "equally different" criterion) |
+| `jnd` | Any pair below the JND | Σ (jnd/ΔE)⁴; 1000 for identical colors. Wrap in `cvd:` to score it under simulated deficiency |
+| `similarity` | Distance from the reference palette | **Munkres/Hungarian min-weight assignment** between palette and target, so pairing is optimal rather than index-order; unmatched colors cost 1 |
+| `avoid` | Intruding on colors you want to steer clear of | Linear ramp 1→0 inside `radius` (default 0.15 × ΔEmax) around the nearest avoid color |
+| `contrast` | WCAG shortfall against a background | (ratio/contrast)⁴ below target, (ratio/contrast)^0.5 above (a gentle pull to keep climbing); `checkAdjacent` adds a softer ² penalty between neighbors |
+| `saliency` | Mean perceptual "attention-grabbingness" | Lookup into a bundled 8,325-entry table (lab65 quantized to steps of 5, saliency 0.009–0.917). Undocumented in the repo — no source cited. Note the sign: as a *cost* it drives the palette toward **less** salient colors |
+
+`ΔEmax` is computed empirically per distance metric by measuring the largest pairwise distance among the 8 RGB primaries/secondaries — so normalization adapts when you switch to CMC, CIE76, etc.
+
+### Core loop (`src/core/`)
+
+- **`findInitialTemperature`** — samples 100 random mutations, then sets `T₀ = −avgΔ⁺ / ln(acceptanceRate)` for a target 95% acceptance of cost-increasing moves. Removes the main hand-tuned magic number; worth stealing for any annealer.
+- **`getNeighbor`** — mutates *one* randomly chosen non-fixed color; step size is annealed too: `distance = min + (max − min)·T` (0.005→0.15 of each channel's span), so it explores coarsely while hot and refines while cold. Locked channels are excluded from the random vector rather than zeroed, so locking hue doesn't shrink the effective step.
+- **`simulateCvd`** — Culori's `filterDeficiency{Prot,Deuter,Trit}`, i.e. **Machado, Oliveira & Fernandes (2009)** with continuous severity. This is a *change from the essay*, which described Brettel–Viénot–Mollon (1997). Machado models anomalous trichromacy (severity 0–1), not just dichromacy.
+- **`optimizeColorOrder`** — a post-annealing pass the essay never mentions. Reorders the finished palette to minimize the **coefficient of variation of adjacent-pair ΔE** — i.e. even-sized perceptual steps along the sequence, *not* the shortest path. Exhaustive DFS up to 10 colors, pairwise-swap local search beyond; `fixedOrder` pins a color to its slot. Different objective from [colorsort-js](colorsort-js.md), which minimizes total path length.
+
+### Pinning and locking
+
+Colors can be given as `{ color: '#e74c3c', lockedChannels: [0], fixedColor, fixedOrder }`:
+
+- `lockedChannels` — freeze channels by index in the working mode (okhsl: `0`=hue, `1`=saturation, `2`=lightness). Keep the brand hue, let saturation and lightness move to hit contrast.
+- `fixedColor` — never mutated, and never coerced into the working space.
+- `fixedOrder` — position is pinned during order optimization.
+
+`colorCount` larger than the seed palette fills the remainder with random in-range colors, so partial seeding works.
+
+### Reporting
+
+`reports.reportJndIssues(palette, { distanceMethod, distanceSpace, jndThreshold, cvdSimulations })` lists every pair below threshold, per simulated deficiency — the same audit exposed as `categorycolors report`. Bundled comparison palettes in `src/data/palettes.js`: `observable10`, `d3category10`, `carbon`, `tableau10`, `tableau20`.
+
+### Where the code has moved past the essay
+
+The essay's loss function was similarity + applicability + three CVD terms scored on Brettel 1997. The shipped code replaces "applicable" with the `energy`/`range`/`jnd` trio, swaps in Machado 2009 for CVD, adds `contrast` / `avoid` / `saliency`, adds optimal-assignment similarity matching, channel locking, and a separate ordering pass. Read the essay for the reasoning, the repo for what to actually run.
 
 ## Why It Matters
 
@@ -139,7 +199,8 @@ Honest limits the author flags: he's not a computer scientist, the annealing par
 ## Cited Sources
 
 - Sharma, Wu & Dalal (2005). "The CIEDE2000 Color-Difference Formula: Implementation Notes, Supplementary Test Data, and Mathematical Observations." *Color Research & Application* 30(1): 21–30. [PDF](pdfs/sharma-2005-ciede2000-implementation-notes.pdf) (gitignored) · [source](https://hajim.rochester.edu/ece/sites/gsharma/ciede2000/)
-- Brettel, Viénot & Mollon (1997). "Computerized simulation of color appearance for dichromats." *JOSA A* 14(10): 2647–2655. [PDF](pdfs/brettel-vienot-mollon-1997-dichromat-simulation.pdf) (gitignored) · [source](http://vision.psychol.cam.ac.uk/jdmollon/papers/Dichromatsimulation.pdf)
+- Brettel, Viénot & Mollon (1997). "Computerized simulation of color appearance for dichromats." *JOSA A* 14(10): 2647–2655. [PDF](pdfs/brettel-vienot-mollon-1997-dichromat-simulation.pdf) (gitignored) · [source](http://vision.psychol.cam.ac.uk/jdmollon/papers/Dichromatsimulation.pdf) — the essay's CVD model
+- Machado, Oliveira & Fernandes (2009). "A Physiologically-based Model for Simulation of Color Vision Deficiency." *IEEE TVCG* 15(6): 1291–1298. [PDF](pdfs/machado-oliveira-fernandes-2009-cvd-simulation.pdf) (gitignored) · [source](https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html) — what the code actually uses, via Culori's `filterDeficiency*`; models anomalous trichromacy with continuous severity, not just dichromacy
 - Stone, Szafir & Setlur (2014). "An engineering model for color difference as a function of size." *Color and Imaging Conference*: 253–258. [PDF](pdfs/stone-szafir-setlur-2014-color-difference-size.pdf) (gitignored) · [source](https://research.tableau.com/sites/default/files/2014CIC_48_Stone_v3.pdf) — the basis for JND-at-size
 - [jsColorblindSimulator](http://mapeper.github.io/jsColorblindSimulator/) — Brettel et al. in JS
 - Prior art surveyed: [Viridis](http://bids.github.io/colormap/), [ColorBrewer](https://colorbrewer2.org/), [Colorgorical](http://vrl.cs.brown.edu/color), [Adobe Spectrum](https://spectrum.adobe.com/page/color-for-data-visualization), [IBM Carbon](https://carbondesignsystem.com/data-visualization/color-palettes/)
@@ -152,4 +213,4 @@ Honest limits the author flags: he's not a computer scientist, the annealing par
 - **[Culori](culori-color-spaces-api.md)** — the library the implementation runs on.
 - **[APCA / Myndex](apca-myndex-contrast.md)** — an alternative contrast metric to plug into the loss function; WCAG 2.x contrast is the weakest link in this scoring scheme.
 - **[Choosing Colors with Confidence](choosing-colors-with-confidence.md)** — human-side counterpart to "equally different" spacing: the exercise there is *no equal chroma, no equal hue spacing*.
-- **[colorsort-js](colorsort-js.md)** — once you have an optimized set, ordering it for display is a separate problem.
+- **[colorsort-js](colorsort-js.md)** — ordering an optimized set is a separate problem, and the two tools optimize different things: `optimizeColorOrder` minimizes the *variation* in adjacent ΔE (even-sized steps), colorsort minimizes total path length (smoothest walk).

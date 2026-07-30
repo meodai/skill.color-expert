@@ -254,7 +254,7 @@ Note: coolors.co does not generate palettes — it picks randomly from 7,821 pre
 - **FarbVelo** — random palettes with dark→light structure
 - **ray-color** — palettes from a raytraced scene ("edit the conditions, not the colors"): sphere + five-sided room + up to 3 colored lights, mirror walls as virtual light sources; sample geodesic lines/circles off the surface. Deterministic, linear-RGB shading, zero deps, ~6 kB, DOM-free for headless use; interactive playground with draggable lights and PNG/code export
 - **IQ Cosine Formula** — `color(t) = a + b*cos(2π(c*t+d))`, 12 floats = infinite palette
-- **category-colors** (Ström) — the *optimizer* approach rather than a constructive model: write a weighted loss function (similarity to a brand reference + ΔE separation + CVD separation per deficiency type) and let simulated annealing search. Best when your criteria conflict and no color-space geometry expresses them; the weights become the explicit, auditable design decision. Node + Culori, MIT
+- **category-colors** (Ström) — the *optimizer* approach rather than a constructive model: write a weighted loss function (similarity to a brand reference + ΔE separation + CVD separation per deficiency type) and let simulated annealing search. Best when your criteria conflict and no color-space geometry expresses them; the weights become the explicit, auditable design decision. `npx categorycolors run`; pluggable evaluators (energy, range, JND, similarity, WCAG contrast, avoid-these-colors, saliency), per-channel locking so a brand hue survives while lightness/saturation move, and `categorycolors report` to audit any existing palette for JND collisions under simulated CVD. Node + Culori, MIT
 
 ### Palette Analysis & Linting
 
