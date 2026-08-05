@@ -268,6 +268,8 @@ Note: coolors.co does not generate palettes — it picks randomly from 7,821 pre
 - **Culori** — 30 spaces, 10 distance metrics, gamut mapping, CVD sim
 - **nutelch** — gamut-relative chroma in OKLCH/LCH: `relC: 0.5` = "halfway to the gamut boundary" at any lightness/hue. The one OkHSL idea (boundary-relative saturation) without leaving native `oklch()` — LUT-backed (faster than OkHSL's runtime gamut math), zero runtime deps, sRGB + P3
 - **@texel/color** — 5–125× faster than Color.js, minimal, for real-time
+- **colordx** (`@colordx/core`) — chainable CSS-facing manipulation with OKLCH native, 7.6 kB, 0 deps, plugin-gated extras (Lab/LCH/CMYK/P3/Rec.2020/APCA/harmonies). Keeps out-of-gamut OKLCH unclamped and lets you pick the fold: `.mapSrgb()` (CSS Color 4 chroma reduction, holds L+H) vs `.clampSrgb()` (naive clip, what browsers render). Zero-allocation `*Into` channel converters for per-pixel work. Note `.mix()` is sRGB — use `.mixOklab()`
+- **@colordx/gpu** — the same colordx math generated as GLSL and parity-tested against the CPU library, plus a WebGL2 renderer for the gamut-slice chart behind every OKLCH/LCH picker (one draw per frame instead of a per-pixel CPU loop). Gamuts are independent layers rather than an assumed nesting, so A98 draws correctly; `maxChromaLUT` stretches the chroma axis to the gamut shell (nutelch's `relC` idea, GPU-side). Reach for it when building a picker UI or any wide-gamut visualization
 - **Spectral.js** — open-source K-M pigment mixing (blue+yellow=green)
 - **RYBitten** — RGB↔RYB with 26 historical color cubes
 - **colorgram** — 1 kB image palette extraction; 64-bucket HLS+luminance quantization, ~15 ms for 340×340, fixed memory
