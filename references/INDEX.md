@@ -2,7 +2,7 @@
 
 Curated transcripts, notes, and source material. Organized for the color-expert skill and for building an online color resource.
 
-**164 files** across 3 categories: `historical/` (pre-digital color science), `contemporary/` (modern color science & theory), `techniques/` (tools, libraries, methods, practical application)
+**165 files** across 3 categories: `historical/` (pre-digital color science), `contemporary/` (modern color science & theory), `techniques/` (tools, libraries, methods, practical application)
 
 ## Historical
 
@@ -193,6 +193,7 @@ Curated transcripts, notes, and source material. Organized for the color-expert 
 | [The Futur — Color Playlist](techniques/futur-academy-color-playlist.md)                                   | 6 videos, 4.3M views. 60-30-10 rule, harmonies, palettes. Design-focused.                                                                                                                                                                                                           | [The Futur](https://www.youtube.com/playlist?list=PLroLjS4HDi0BLMx3d7mzROMfm7bC9ZQuc)            |
 | [Francis — Balanced Generative Palettes](techniques/francis-balanced-generative-palettes.md)               | George Francis's two composable JS tricks: `createWeightedSelector` turns a palette into a probability distribution (60/30/10 rule by weights), and `modulateColorHSL` nudges each placed color by a small random HSL delta for "hand-mixed paint" variance. Best combined.         | [Francis](https://georgefrancis.dev/writing/balanced-generative-color-palettes/)                 |
 | [Francis — Coloring With Code (LCH)](techniques/francis-coloring-with-code-lch.md)                          | Three LCH palette generators via Culori: **Scientific** (hue rotation for classic harmonies), **Discovery** (nearest-match harmony from any color pool — e.g. an image palette), **Hue Shift** (pixel-art technique: shift hue with lightness for vivid tints/shades, not gray).    | [Codrops](https://tympanus.net/codrops/2021/12/07/coloring-with-code-a-programmatic-approach-to-design/) |
+| [Why Some Brands Look Expensive](techniques/brand-color-luxury-positioning.md)                             | Color as **price-tier positioning**: discount categories buy attention with max-chroma primaries (McDonald's, Burger King), luxury buys perceived value with restraint (Rolex, Hermès, Cartier) — large neutral field, reduced chroma, one reserved accent. 60-30-10 as the hierarchy fix. Cross-checked: **proportion/restraint is supported** (Divers — chroma+lightness beat hue for affect), **"blue = trust" is category convention, not perceptual law**; precedent in Cheskin's *sensation transference* and Birren's _Selling with Color_ (1945). Adds the accessibility caveat the video omits: drop chroma, keep lightness contrast. | [Peter Reitano](https://www.youtube.com/shorts/BgzB73FUOpU) |
 
 <!-- markdownlint-enable MD060 -->
 
