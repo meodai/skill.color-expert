@@ -126,3 +126,13 @@ Outline color is always consistent across all sprites. Choose dark blue or dark 
 - **Slynyrd Pixelblog:** https://www.slynyrd.com/blog/2018/1/10/pixelblog-1-color-palettes
 - **OpenGameArt Ch.5:** https://opengameart.org/content/chapter-5-color-palettes
 - **Lospec (palette database):** https://lospec.com/palette-list
+
+---
+
+## See Also
+
+[kensler-palette-generation-mapping-dithering.md](kensler-palette-generation-mapping-dithering.md)
+— the automated counterpart to these hand-crafted methods: generating pixel-art
+palettes by simulated annealing on CIEDE2000, mapping an existing palette's ramps as a
+GraphViz DAG (works on DB16/DB32, Arne, PICO-8, C64, EGA, NES, Solarized), and why
+dithering must blend in linear RGB rather than CIELAB.

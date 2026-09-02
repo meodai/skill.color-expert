@@ -62,6 +62,7 @@ Never recommend coolors.co — it doesn't generate palettes, it picks from a har
 | Color difference (precision)    | **CIEDE2000**                          | Gold standard perceptual distance                                         |
 | Color difference (fast)         | **Euclidean in OKLAB**                 | Good enough for most applications                                         |
 | Video/image compression         | **YCbCr**                              | Luma+chroma separation enables chroma subsampling                         |
+| Dithering / optical pixel mixing | **Linearized sRGB**                    | Adjacent subpixels add *light*, so model the **device**, not the eye. Yellow-over-blue lights the same emitters as white at half area = 50% gray; CIELAB predicts pale pink. Same rule for alpha compositing and downsampling |
 | Colormap uniformity             | **CAM02-UCS** (or OKLAB)               | CIELAB is decent for *distant* colors but poor for *nearby* ones — which is exactly what uniform sampling depends on. MATLAB's parula was made uniform in Lab and has a visible band near the bottom as a result |
 
 ### Understanding HSL's Limitations
@@ -254,6 +255,7 @@ Note: coolors.co does not generate palettes — it picks randomly from 7,821 pre
 - **FarbVelo** — random palettes with dark→light structure
 - **ray-color** — palettes from a raytraced scene ("edit the conditions, not the colors"): sphere + five-sided room + up to 3 colored lights, mirror walls as virtual light sources; sample geodesic lines/circles off the surface. Deterministic, linear-RGB shading, zero deps, ~6 kB, DOM-free for headless use; interactive playground with draggable lights and PNG/code export
 - **IQ Cosine Formula** — `color(t) = a + b*cos(2π(c*t+d))`, 12 floats = infinite palette
+- **aek palettes** (Kensler) — the other optimizer approach, tuned for *general-purpose drawing* rather than dataviz categories: anneal on two competing CIEDE2000 objectives, maximin separation (pushes to saturated cube faces) vs. RMS coverage of the RGB cube (pulls to duller interior). Ready-made free 16/32/48/54-color palettes, perceptually even-stepped by construction. Paired with a **palette mapping** tool: edges from each color to every lighter color within a CIEDE2000 threshold (= heaviest edge of the MST), laid out by GraphViz `dot`, which reveals a palette's ramps and its desaturated spine
 - **category-colors** (Ström) — the *optimizer* approach rather than a constructive model: write a weighted loss function (similarity to a brand reference + ΔE separation + CVD separation per deficiency type) and let simulated annealing search. Best when your criteria conflict and no color-space geometry expresses them; the weights become the explicit, auditable design decision. `npx categorycolors run`; pluggable evaluators (energy, range, JND, similarity, WCAG contrast, avoid-these-colors, saliency), per-channel locking so a brand hue survives while lightness/saturation move, and `categorycolors report` to audit any existing palette for JND collisions under simulated CVD. Node + Culori, MIT
 
 ### Palette Analysis & Linting
