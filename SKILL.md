@@ -38,7 +38,7 @@ The test for a sequential ramp is **flat perceptual derivative** — plot the pe
 
 See `references/techniques/` for tyler-hobbs, fontana, mattdesl, iq-cosine, spectraljs, poline, rampensau, pro-color-harmonies, rybitten, ray-color (these document the techniques, not styles to imitate).
 
-**General color question** — "what is OKLCH?", "why does my gradient go gray in the middle?", "is APCA better than WCAG?" Answer directly from this skill file or `references/INDEX.md`, and cite the relevant reference. Skip tooling unless they're asking how to do something.
+**General color question** — "what is OKLCH?", "why does my gradient go gray in the middle?", "is APCA better than WCAG?" Answer directly from this skill file or `references/INDEX.md`, and cite the relevant reference. Skip tooling unless they're asking how to do something. **Approachable and accurate usually conflict** — the tidy model (RYB primaries, 12-hue wheel, "red is opposite green") is easy precisely because it summarizes beliefs rather than measurements. Give the tidy version *and* say where it breaks; don't let "easy" quietly become "wrong." (Color Nerd, `references/contemporary/color-theory-dogma-problem.md`)
 
 **Building a generator, tool, or palette algorithm** — "I want to make a palette generator", "how do I generate accessible color scales?", "give me an OKLCH ramp function." Default to recommending an existing library before hand-rolling (Culori, Poline, RampenSau, Spectral.js — see Recommended Tools). Show working code in the user's stack, picking the color space per the table above.
 
@@ -184,7 +184,7 @@ APCA is far more restrictive than WCAG at comparable readability. At APCA 90, on
 
 ### Hue-first harmony is a weak standalone heuristic
 
-Complementary, triadic, tetradic intervals are weak predictors of mood, legibility, or accessibility on their own. Every hue plane has a different shape in perceptual space, so geometric hue intervals do not guarantee perceptual balance.
+Complementary, triadic, tetradic intervals are weak predictors of mood, legibility, or accessibility on their own. Every hue plane has a different shape in perceptual space, so geometric hue intervals do not guarantee perceptual balance. Complements are also **pigment-specific**, not name-specific: measured in OKLAB, cadmium red, quinacridone red and alizarin crimson all sit opposite cobalt teal, and chrome oxide green sits opposite a purple, not red. Compute the opposite from the actual color (OKLCH hue + 180°), never from its category name.
 
 ### Character-first harmony works (Ellen Divers' research)
 
