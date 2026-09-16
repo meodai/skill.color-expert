@@ -34,6 +34,7 @@ The test for a sequential ramp is **flat perceptual derivative** — plot the pe
 - **Hue / lightness / chroma trajectories with easing** (RampenSau) — walk each axis along an easing function, color-space-agnostic; great when you want a deterministic ramp shape rather than random anchors.
 - **Harmony-aware generation with muddy-zone avoidance** (pro-color-harmonies) — adaptive OKLCH harmony with 4 styles × 4 modifiers; skips perceptually muddy regions automatically.
 - **Generation in historical / non-digital color spaces** (RYBitten) — work in RYB or one of 26 historical color cubes when you want a painterly feel that strict sRGB/OKLCH can't reach.
+- **Palette cycling / indexed color** — store an index buffer and a small palette, then animate the palette (rotate, ease, or drive from an OKLCH trajectory) instead of the pixels; motion for one lookup per pixel. Works only if each cycle range is a perceptually even closed ramp. See `references/techniques/color-cycling-indexed-palette-animation.md`.
 - **Scene-light sampling** (ray-color) — raytrace a sphere in a room with up to 3 colored lights and sample colors off its surface; coherence comes from shared illumination physics (like an object photographed under one light) rather than color-space geometry.
 
 See `references/techniques/` for tyler-hobbs, fontana, mattdesl, iq-cosine, spectraljs, poline, rampensau, pro-color-harmonies, rybitten, ray-color (these document the techniques, not styles to imitate).
