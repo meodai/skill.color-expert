@@ -1,7 +1,7 @@
 # Color Names in Vision-Language Models
 
 **Source:** arXiv preprint 2509.22524 (September 2025, under review)
-**Authors:** Alexandra Gomez-Villa, Pablo Hernández-Cámara, Muhammad Atif Butt, Valero Laparra, Jesús Malo, Javier Vazquez-Corral (Computer Vision Center Barcelona / Universitat de València)
+**Authors:** Alexandra Gomez-Villa, Pablo Hernández-Cámara, Muhammad Atif Butt, Valero Laparra, Jesús Malo, Javier Vazquez-Corral (Computer Vision Center / Universitat Autònoma de Barcelona; Image Processing Lab, Universitat de València)
 **URL:** https://arxiv.org/abs/2509.22524
 **Local PDF:** [pdfs/gomez-villa-2025-color-names-in-vlms-arxiv-2509.22524.pdf](pdfs/gomez-villa-2025-color-names-in-vlms-arxiv-2509.22524.pdf)
 **Found via:** Umma Gohil's *Colour in Computer Vision* ([colour-in-computer-vision-vlm.md](colour-in-computer-vision-vlm.md))

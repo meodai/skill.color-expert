@@ -1,7 +1,7 @@
 # Do Vision Encoders Exhibit Human-like Color Thresholds?
 
 **Source:** arXiv preprint 2607.16540 (July 2026)
-**Authors:** Eslam Ehab, Pablo Hernández-Cámara, Nour Belal, Jesús Malo, Javier Vazquez-Corral, Alexandra Gomez-Villa (Computer Vision Center Barcelona / Universitat de València)
+**Authors:** Engy Ehab, Pablo Hernández-Cámara, Nahla Belal, Jesús Malo, Javier Vazquez-Corral, Alexandra Gomez-Villa (Computer Vision Center / Universitat Autònoma de Barcelona; Image Processing Lab, Universitat de València; Arab Academy for Science, Technology and Maritime Transport, Egypt)
 **URL:** https://arxiv.org/abs/2607.16540
 **Local PDF:** [pdfs/ehab-2026-vision-encoders-color-thresholds-arxiv-2607.16540.pdf](pdfs/ehab-2026-vision-encoders-color-thresholds-arxiv-2607.16540.pdf)
 **Found via:** Umma Gohil's *Colour in Computer Vision* ([colour-in-computer-vision-vlm.md](colour-in-computer-vision-vlm.md))
