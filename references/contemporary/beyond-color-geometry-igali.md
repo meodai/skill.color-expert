@@ -92,6 +92,6 @@ Language-supervised encoders start with high ρ_fuzzy at the input embedding and
 
 - Paper: https://arxiv.org/abs/2607.13647
 - COLIBRI: https://arxiv.org/abs/2507.11488, [colibri-fuzzy-color-model.md](colibri-fuzzy-color-model.md)
-- World Color Survey: https://www1.icsi.berkeley.edu/wcs/
+- World Color Survey: https://linguistics.berkeley.edu/wcs/
 - MegaCOIN dataset (colour-annotated natural images): Li et al. 2024, arXiv 2412.03927
 - Discrimination-side companion: [vision-encoder-color-thresholds-ehab.md](vision-encoder-color-thresholds-ehab.md)
