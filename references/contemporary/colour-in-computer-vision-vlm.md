@@ -21,6 +21,8 @@ This is the one reference in the knowledge base about **how neural vision system
 
 **Practical rule for the agent:** when asked "what colour is this?" about an image, extract pixel values with code (sample regions, convert to OKLCH, then name with `colornames-oklab` or ISCC-NBS) rather than eyeballing. Trust your own visual colour reading for prototypical hues at high chroma; distrust it for near-neutrals, low-chroma shades, fine-grained lightness differences, and anything with text in the frame.
 
+Four of the cited papers now have their own files: [color-names-in-vlms-gomez-villa.md](color-names-in-vlms-gomez-villa.md), [vision-encoder-color-thresholds-ehab.md](vision-encoder-color-thresholds-ehab.md), [beyond-color-geometry-igali.md](beyond-color-geometry-igali.md), and the COLIBRI model they build on, [colibri-fuzzy-color-model.md](colibri-fuzzy-color-model.md).
+
 Gohil's second thread — **colour constancy, camera→display coupling, colour-space choice in pipelines** — complements `computerphile-colourspaces.md`, `cie-1931-standard-observer.md` and `techniques/icc-profile-color-management.md`.
 
 ## Structured digest
