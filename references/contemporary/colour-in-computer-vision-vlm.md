@@ -1,6 +1,7 @@
 # Colour in Computer Vision — How Machines (and VLMs) See Colour
 
-**Source:** umma.dev, "Technically Speaking" blog — *Colour in Computer Vision*
+**Source:** *Colour in Computer Vision*, on "Technically Speaking" (umma.dev)
+**Author:** Umma Gohil — front-end developer; blog covers development, AI and technology (https://umma.dev, @umma_dev)
 **URL:** https://www.umma.dev/blog/en/colour-computervis-ai/
 **Published:** 10 September 2026 (21 min read)
 **Format:** Full verbatim article text (HTML → markdown), plus a structured digest and abstracts of the 26 cited papers. Diagram images are linked to the original site; they were not mirrored.
@@ -20,7 +21,7 @@ This is the one reference in the knowledge base about **how neural vision system
 
 **Practical rule for the agent:** when asked "what colour is this?" about an image, extract pixel values with code (sample regions, convert to OKLCH, then name with `colornames-oklab` or ISCC-NBS) rather than eyeballing. Trust your own visual colour reading for prototypical hues at high chroma; distrust it for near-neutrals, low-chroma shades, fine-grained lightness differences, and anything with text in the frame.
 
-The article's second thread — **colour constancy, camera→display coupling, colour-space choice in pipelines** — complements `computerphile-colourspaces.md`, `cie-1931-standard-observer.md` and `techniques/icc-profile-color-management.md`.
+Gohil's second thread — **colour constancy, camera→display coupling, colour-space choice in pipelines** — complements `computerphile-colourspaces.md`, `cie-1931-standard-observer.md` and `techniques/icc-profile-color-management.md`.
 
 ## Structured digest
 
@@ -66,7 +67,7 @@ All of these improve **illuminant estimation or reproduction**, not object recog
 - WCAG "Use of Color": meaning must not depend on colour alone. For CV overlays: label beside outline, contours/values on heatmaps, adjustable palettes with stable category meaning.
 - **ColorA11Y** (Siu et al. 2026, 2608.23852, Adobe) — just-in-time contrast checking of text over photographs/textures with recommendations (text colour, backing, opacity). Preference study n=40: best fix depends on background; workflow study n=8 beat a baseline checker. **Local contrast** matters — a label readable over most of an image can vanish over one region. Not validated with CVD or low-vision users.
 
-### Open directions the article proposes
+### Open directions Gohil proposes
 
 Capture: cross-sensor/observer transfer; is more spectral data worth the hardware. Models: reward perceptually meaningful colour differences, allow overlapping categories, train with controlled recolouring (an apple stays an apple after recolouring, but the *colour answer* must change). Evaluation: vary hue, luminance, saturation, spatial detail and context independently; report per task, device and participant group.
 
