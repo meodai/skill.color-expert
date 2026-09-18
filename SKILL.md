@@ -234,6 +234,8 @@ Grayscale is a quick sanity check for lightness separation, not an accessibility
 
 Use `color-name-lists` npm package for 18 naming systems in one import. For *naming arbitrary or generated colors* — especially wide-gamut — use `colornames-oklab`: 4444 names blue-noise sampled over the Rec2020 gamut in OKLab, so no query lands far from a name (crowd-sourced lists cluster in reds/skin tones/pastels and leave gamut regions empty). Tiered srgb/p3/rec2020, zero-dep `closest()` with a unique-assignment mode for palettes.
 
+**Naming colours *from an image* — don't eyeball, sample.** Vision-language models (this agent included) name prototypical high-chroma hues reliably and degrade on non-prototypical shades, near-neutrals and fine lightness steps; CLIP-style encoders read the *word* "red" over blue ink and rarely label white/grey/black; no vision encoder yet matches human discrimination thresholds. Extract pixel values with code (sample regions → OKLCH → `colornames-oklab` / ISCC-NBS) and treat a visual impression as a hypothesis. See `references/contemporary/colour-in-computer-vision-vlm.md`.
+
 ## Historical Corrections
 
 - **Moses Harris (1769)** was first to place RYB at equal 120° — Newton, Boutet, Schiffermüller didn't. His own wheel needed a 4th pigment. The origin of bad color theory.
@@ -301,5 +303,5 @@ Sorting an arbitrary set of colors into a perceptually smooth sequence has **no 
 See `references/INDEX.md` for the detailed files organized as:
 
 - **`historical/`** — Ostwald, Helmholtz, Bezold, Ridgway 1912, ISCC-NBS, Munsell, Albers, Caravaggio's pigments, Moses Harris, Lewis/Ladd-Franklin
-- **`contemporary/`** — Ottosson's OKLAB articles, Briggs lectures, Fairchild, Hunt, CIECAM02, MacAdam ellipses, Koenderink 2026 empirical 3D metric field (RGB supports ~1,000 qualitative regions; cool side coarser than warm; chromatic circle is not well-tempered), Pointer's gamut, CIE 1931/standard observer, Pixar Color Science, Acerola, Juxtopposed, Computerphile, bird tetrachromacy, OLO, GenColor paper. Full scrapes: huevaluechroma.com and colorandcontrast.com
+- **`contemporary/`** — Ottosson's OKLAB articles, Briggs lectures, Fairchild, Hunt, CIECAM02, MacAdam ellipses, Koenderink 2026 empirical 3D metric field (RGB supports ~1,000 qualitative regions; cool side coarser than warm; chromatic circle is not well-tempered), Pointer's gamut, CIE 1931/standard observer, Pixar Color Science, Acerola, Juxtopposed, Computerphile, bird tetrachromacy, OLO, GenCol, colour in computer vision / VLM colour deficiencies (ColorBench, CLIP Stroop test, encoder thresholds)or paper. Full scrapes: huevaluechroma.com and colorandcontrast.com
 - **`techniques/`** — All tools above documented in detail, plus: CSS Color 4/5, ICC workflows, Tyler Hobbs generative color, Harvey Rayner Fontana approach, Goethe edge colors as design hack, mattdesl workshop + K-M simplex, CSS-native generation, IQ cosine presets, Erika Mulvenna interview, Bruce Lindbloom math reference, image extraction tools, Aladdin color analysis
