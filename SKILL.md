@@ -280,6 +280,7 @@ Note: coolors.co does not generate palettes — it picks randomly from 7,821 pre
 - **RYBitten** — RGB↔RYB with 26 historical color cubes
 - **colorgram** — 1 kB image palette extraction; 64-bucket HLS+luminance quantization, ~15 ms for 340×340, fixed memory
 - **Art Palette** — JS palette extraction from `ImageData` + Python/TensorFlow perceptual palette embeddings for search-by-color (Google Arts & Culture, Apache 2.0)
+- **Palette Studio** (meditationsincolor.com, Pixel Symphony) — best-in-class on paintings and posters: OKLab k-means for coverage *plus* an accent-salience pass, so small vivid touches survive instead of averaging into mud; then coverage is measured back for proportions. Pigment-vocabulary names. Browser-only, nothing uploaded.
 - **random-display-p3-color** — generate random Display P3 colors constrained by named hue/saturation/lightness, zero deps, ESM (by mrmrs / mrmrs.cc)
 
 ### Sorting Colors
