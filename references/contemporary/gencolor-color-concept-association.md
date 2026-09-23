@@ -54,6 +54,10 @@ Selecting colors that semantically match a concept (e.g., "Statue of Liberty," "
 - Context modifiers ("quiet" vs "lively" forest) significantly change the appropriate palette
 - Connects to: color-name-lists (naming), color-description (emotional adjectives), image extraction tools (okpalette, img-colors)
 
+## Prior Art: mattdesl's Stable Diffusion palette gist (Sept 2022)
+
+Matt DesLauriers sketched the same pipeline two and a half years earlier in ~50 lines of Node: text prompt → Stable Diffusion v1.4 (with a stock "photograph, 8k, canon, leica" suffix) → 512px image → 5 colours via gifenc's RGB quantizer → swatch strip. No segmentation, no primary/accent structure, no perceptual clustering — GenColor is the rigorous version of this idea. Gist: https://gist.github.com/mattdesl/314037a8cf1002c6c42766b478b339a0 · Tweet: https://twitter.com/mattdesl/status/1569457645182152705
+
 ## References of Note (from the paper)
 
 - Schloss et al. (2018) — Color inference in visual communication
