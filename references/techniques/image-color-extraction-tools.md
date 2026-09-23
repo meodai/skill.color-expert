@@ -196,6 +196,27 @@ Run coverage clustering **and** an accent-salience pass, select by salience with
 
 ---
 
+## Irozukume — sample reweighting for accent-aware quantization (technique note)
+
+**URL:** https://github.com/Romly-Romly/irozukume
+**Author:** Romly (Japan) — GPL-3.0, Windows-only tray colour picker, alpha (June 2026). Ported from the author's own earlier web version.
+
+The app is a conventional picker (RGB/CMYK/HSV/HSL/HWB/Lab/LCH/OKLCH/YUV planes, harmony disc, WCAG checker, GIMP `.gpl` / Adobe `.act` export) and not itself a reason to install anything. Its image-palette tab is worth a note because of one trick that answers the same complaint Palette Studio does — coverage clustering never finds the small accent — with less machinery:
+
+**Reweight the sample set before quantizing.** Instead of changing the objective, change what the optimiser sees. Each pixel sample gets a draw weight
+
+```
+w = (1 + satW · min(1, C*ab / 60)) · (1 + rareW · (1 − density / maxDensity))
+```
+
+with `satW`, `rareW` in 0…8, then a fixed-size training set is resampled *with replacement* by those weights. High-chroma and low-density colours are over-represented, so a plain error-minimising quantizer run on that set allocates palette entries to them. Both weights at 0 collapse to uniform subsampling, so the same code gives the honest coverage palette.
+
+The quantizer itself is simulated annealing in CIELAB (CIE76): median-cut seed, Metropolis acceptance on mean cost with the initial temperature calibrated from the average worsening of trial moves, a Lloyd centroid-snap move mixed in with random jitter, and in-loop orphan rescue that relocates a palette entry with zero pixels (or the redundant twin of a near-duplicate pair) to the highest-error sample found by an 8-point tournament. Median cut, k-means++ and octree are offered alongside for comparison. Extracted colours are always shown hue-sorted so the same colour lands in the same place regardless of algorithm.
+
+**Why it matters:** the reweighting is quantizer-agnostic. Drop it in front of k-means, median cut or Spectrimage-style OKLab clustering and you get an accent-sensitivity dial without hand-tuned hue-family boosts.
+
+---
+
 ## When to Use Which
 
 | Scenario                                  | Best tool                     |
@@ -212,6 +233,7 @@ Run coverage clustering **and** an accent-salience pass, select by salience with
 | Perceptual palette embeddings             | Art Palette                   |
 | Painterly palette from artwork (accents, not averages) | Palette Studio (meditationsincolor.com) |
 | Pigment-vocabulary colour names            | Palette Studio                |
+| Accent dial for any quantizer (sample reweighting) | Irozukume technique note |
 
 ## Links
 
@@ -220,3 +242,4 @@ Run coverage clustering **and** an accent-salience pass, select by salience with
 - **colorgram-js:** https://github.com/darosh/colorgram-js
 - **Art Palette:** https://github.com/googleartsculture/art-palette
 - **Palette Studio:** https://meditationsincolor.com/palette-studio
+- **Irozukume:** https://github.com/Romly-Romly/irozukume
