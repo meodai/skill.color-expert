@@ -192,6 +192,10 @@ Complementary, triadic, tetradic intervals are weak predictors of mood, legibili
 
 Organize by character (pale/muted/deep/vivid/dark), not hue. Finding: **hue is usually a weaker predictor of emotional response than chroma and lightness** — a muted palette often reads as calm across many hues. Relaxed vs intense is driven more by chroma + lightness than hue alone.
 
+### Colour meaning in a story is per-story, not a symbolism table (Lewis Bond)
+
+For narrative work (film, games, illustration, brand storytelling) ask two questions instead of "what does red mean": what subject is the colour **associated** with by repetition, and does it **transition** as that subject changes (*The Godfather* makes orange mean death; *Blue Is the Warmest Colour* tracks the affair by blue's saturation). A single saturated outlier on a balanced scheme is a focal device; a new hue entering a settled scheme reads as disruption. See `references/contemporary/colour-in-storytelling-lewis-bond.md`.
+
 ### Legibility = lightness variation
 
 Grayscale is a quick sanity check for lightness separation, not an accessibility proof. You still need to verify contrast with WCAG/APCA and consider text size, weight, polarity, and CVD. Same character + varied lightness is often more readable. Same lightness regardless of hue is usually illegible.
