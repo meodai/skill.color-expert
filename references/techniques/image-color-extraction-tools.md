@@ -1,6 +1,6 @@
 # Image Color Extraction Tools
 
-Five tools for extracting color palettes from images — plus one that enables searching by palette.
+Six tools for extracting color palettes from images — plus one that enables searching by palette.
 
 ---
 
@@ -217,6 +217,60 @@ The quantizer itself is simulated annealing in CIELAB (CIE76): median-cut seed, 
 
 ---
 
+## Pixi — seven-chip palette card, art-directed rather than measured
+
+**URL:** https://xanderstagwood.github.io/pixi/ — source https://github.com/xanderstagwood/pixi (`src/`)
+**Author:** Xander Stagwood. Plain-JS ES modules, no dependencies, no build step, with a test suite under `test/`. No LICENSE file in the repo (as of Oct 2026), so read it but don't copy it.
+**What it does:** drop in an image (or draw a random Unsplash photo) and get a 7-colour card you can name, reorder and export as CSS vars, JSON, GIMP `.gpl`, `.hex`, JASC `.pal`, paint.net, SVG, Unity, Adobe `.ase` / `.aco` / `.act`.
+
+The code says plainly what Palette Studio only implies: *"the picture's colors are adjusted for a pleasing card, not copied."* Extraction is deliberately simple, and most of the work goes into choosing which colours to keep and then nudging them. Every adjustment runs under the same guard: **a nudged chip is never left closer to another chip than it was before, or than ΔE_OK 0.08 ("tellable")**.
+
+### Pipeline (read from `src/`, Oct 2026)
+
+1. **Over-extract.** k-means in **RGB**, k = 12, farthest-point seeding from one random pixel. That seeding is why a small vivid patch gets its own cluster: it sits far from everything else. The author tried an extraction step that boosted vividness and spread the colours apart, and dropped it in favour of plain k-means. The perceptual work happens afterwards.
+2. **Vivid face** (`extract.js`). Each cluster is shown as the **mean of its most colourful 25 % of pixels** (ranked by RGB max−min spread), not as its centroid. The source's example: a red dragonfly on a dark ground averages to brown, but its vivid face is still red. It's a cheap fix for the averaging that turns k-means palettes into mud, and it doesn't touch the clustering.
+3. **Exact mode.** Merge clusters closer than ΔE_OK 0.02 (one JND). If 7 or fewer distinct colours remain, the chips are shared out by area and no later step changes them. A flat-colour illustration gets its own colours back.
+4. **Scheme detection** (`scheme.js`). Neutral means OKLCH C < 0.04. Hue families are runs of hues with no gap of 25° or more. A family counts as a hue if it holds ≥ 8 % of the image's chromatic area. The detector then names the image's scheme: ≥ 70 % neutral → *neutral-pop*; one hue → *tonal*; two hues ≥ 150° apart → *complementary*, ≤ 60° → *analogous*, between → *dichromatic*; three or four hues → *split-complementary / triadic / square / tetradic* by arc geometry. With more than four families (a rainbow) it keeps a random run of four neighbouring families, so the card isn't a hue salad.
+5. **Roles, then recipe** (`chooser.js`). Four chips are fixed first:
+   - **dark anchor**: the darkest colour.
+   - **light anchor**: the lightest colour.
+   - **hero**: the most chromatic colour.
+   - **accent**: only if one earns it. It needs C ≥ 0.08 and a hue ≥ 70° from the image's chroma×area-weighted circular-mean hue, and ≥ 85 % of the remaining colour area has to sit within 70° of that mean.
+
+   Pure black (L < 0.09) and pure white (L > 0.99) are excluded unless they cover ≥ 80 % of the image. Each scheme has a **~60/30/10 chip recipe**. For example, triadic gets 3 + 2 + 1 chips from its families plus 1 neutral, and neutral-pop gets 4 neutrals + 3 colour chips. Each group fills its quota **as a ramp**: the next chip is the candidate farthest from the group's existing chips, with lightness distance weighted 1.5× and a +0.5·C bonus so a group doesn't come out all greys. A family takes at most 3 chips while other colours are available.
+6. **Harmonize** (`harmony.js`). This step only touches *free* chips. A chip within 30° of one of the scheme's ideal angles (measured from the hero's hue: 180° for complementary, ±120° for triadic, and so on) is turned halfway toward that angle. Otherwise it is turned at most 10° toward the palette's mean hue. Neutrals get 0.015 chroma of the palette's hue, an imperceptible tint that still helps the card hold together.
+7. **Intensify** (`intensity.js`). Free chips in the hero's family keep 70 % of their chroma, and no free chip may exceed 1.2× the median free chroma. Nothing is ever *raised*: duller neighbours are what make the hero pop.
+8. **Calm the Christmas clash** (`clash.js`). If the palette contains both a vivid red (hue 30° ± 22°, C ≥ 0.1) and a vivid green (135° ± 28°), the hero's side wins (or the more chromatic side if neither is the hero). The other side drops to C 0.05 and moves 0.1 L away from the winner.
+9. **One lightness ramp** (`gradient.js`).
+   - **Blocks.** Hues are grouped into contiguous blocks so they never alternate down the card. A vivid red and a muted tan become separate blocks even though their hues are close, because their chroma differs by more than 2.2×. Neutrals are slotted in wherever they cost least. A tinted grey (C ≥ 0.015) joins its hue's block as a "shadow" of it.
+   - **Block order.** Every permutation of block order is tried and scored by how much lightness would have to move. Warm-to-cool only breaks ties.
+   - **Fitting.** Lightness is fitted with **isotonic regression (pool-adjacent-violators) with a minimum step of 0.06 L**, then pulled halfway toward even steps. Moves are capped at 0.18 L for free chips, 0.09 for the hero and accent, and 0 for the anchors.
+   - **Flat-card rescue.** If the card's total L range is still under 0.5, the two ends are pushed outward by up to 0.06 (`contrast.js`).
+10. **Final candidate pick** (`arrange.js`). Each chip has 5 OKLCH variants: ±0.05 L (darker is also richer, lighter also softer) and ±8° hue. A cost function keeps whichever variant best fits the order's lightness and warmth patterns. Steps against the ramp cost 100×, warmth only settles what the ramp leaves open, and a zig-zag/lurch penalty keeps the run smooth.
+
+### Perception helpers worth lifting (`perceive.js`, `color.js`)
+
+- **Warmth curve on OKLCH hue**, from recent warm/cool judgment studies the source cites (Min 2026; Jov 2025). Orange (~45°) = +1 and cyan-blue (~205°) = −1. Red and green are ambiguous, yellow is weakly warm, magenta leans warm and violet cool. The score is scaled by `1 − exp(−C/0.03)`, so a grey with a hint of blue reads as a cool grey, and lighter colours read slightly warmer (+0.2·(L − 0.55)).
+- **Helmholtz–Kohlrausch "shade"**: `L + C·(0.15 + 0.15·cos(h − 265°) + 0.1·max(0, cos(h − 345°)))`. This is a Fairchild–Pirrotta-style chroma term with an added red-magenta peak, used to judge "lighter than" when ordering.
+- **Tinted label ink** (`inkOver`). Text over one or more backgrounds takes their mean hue and up to 0.05 chroma, and its lightness is bisected toward the background's mean lightness until WCAG contrast is exactly 5:1 against every background. The result is ink that looks like part of the palette instead of a black-or-white sticker.
+- **Highlights lifted in OKLCH** (`brighter`). The L step grows with lightness (`0.01 + 0.03·L`) and comes with a 6 % chroma bump. The step shrinks if gamut mapping would cost more than 4 % chroma, so highlights on vivid colours don't wash toward white.
+
+### Where it is opinionated
+
+- **Not a measurement.** Hues are rotated, chroma is tempered, lightness is refitted, and red/green pairs are defused. Don't use it when you need the image's real colours or proportions. Exact mode is the exception.
+- Clustering and the vividness ranking are in **RGB**. Everything after that is OKLab/OKLCH.
+- The output is randomised: the seed pixel, the rainbow neighbourhood, the ramp direction and the tie-breaks all vary, so the same image gives a slightly different card each time. A seeded `random` makes it repeatable.
+- The scheme names are classic wheel geometry used as *recipes* (how many chips each family gets, and which angles to pull hues toward). They are not a claim that complementary colours look good. The hue pull is capped at 15°.
+
+### Transferable ideas
+
+1. **Vivid face**: show a cluster as the mean of its most chromatic pixels, not its centroid.
+2. **Over-extract, then choose**, with explicit roles (two lightness anchors, a hero, an earned accent).
+3. **The "never closer than before or than tellable" guard** on every post-process. It lets you stack harmonize/temper/refit steps without them merging chips into twins.
+4. **Isotonic regression with a minimum step** to turn any ordered set into a clean value ramp with capped per-chip moves.
+
+---
+
 ## When to Use Which
 
 | Scenario                                  | Best tool                     |
@@ -234,6 +288,8 @@ The quantizer itself is simulated annealing in CIELAB (CIE76): median-cut seed, 
 | Painterly palette from artwork (accents, not averages) | Palette Studio (meditationsincolor.com) |
 | Pigment-vocabulary colour names            | Palette Studio                |
 | Accent dial for any quantizer (sample reweighting) | Irozukume technique note |
+| Designed 7-chip card: roles, scheme recipe, one value ramp | Pixi                          |
+| Image's real colours when it has ≤ 7 (flat art) | Pixi (exact mode)            |
 
 ## Links
 
@@ -243,3 +299,4 @@ The quantizer itself is simulated annealing in CIELAB (CIE76): median-cut seed, 
 - **Art Palette:** https://github.com/googleartsculture/art-palette
 - **Palette Studio:** https://meditationsincolor.com/palette-studio
 - **Irozukume:** https://github.com/Romly-Romly/irozukume
+- **Pixi:** https://xanderstagwood.github.io/pixi/ — source https://github.com/xanderstagwood/pixi
