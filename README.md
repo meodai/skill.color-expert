@@ -8,13 +8,13 @@ This started as a simple skill file with some color theory notes. Over time it g
 
 The skill has three layers:
 
-1. **`SKILL.md`** (~200 lines) — The "greatest hits" that your agent loads immediately. Key facts, corrections, tool recommendations, and guidelines that answer most color questions without needing to dig deeper.
+1. **`SKILL.md`** — The "greatest hits" that your agent loads immediately. Key facts, corrections, tool recommendations, and guidelines that answer most color questions without needing to dig deeper.
 
-2. **`references/INDEX.md`** (~220 lines) — A structured lookup table your agent can scan to find the right reference file for a specific topic.
+2. **`references/INDEX.md`** — A compact map, one line per reference file, meant to be read whole when the agent needs to find the right file. Full summaries and source links live in per-directory indexes (`references/*/INDEX.md`) that are only opened when the one-liner is too terse to choose.
 
-3. **`references/`** (144 markdown files, ~286K words) — Deep reference material: full video transcripts, article summaries, library documentation, scraped websites, and research notes.
+3. **`references/`** — Deep reference material: full video transcripts, article summaries, library documentation, scraped websites, and research notes.
 
-There is also a lightweight **`evals/`** folder for realistic trigger and task prompts so the skill can be reviewed against actual usage instead of only edited by intuition.
+There is also a lightweight **`evals/`** folder for realistic trigger and task prompts so the skill can be reviewed against actual usage instead of only edited by intuition. `evals/TRIGGERING.md` states the rule those trigger cases encode, so the boundary is arguable in writing rather than per-case.
 
 ## How it was built
 
@@ -36,13 +36,16 @@ Everything goes into one of three folders and gets indexed.
 SKILL.md                              # The skill definition (loaded on activation)
 CLAUDE.md                             # Claude Code repo instructions
 references/
-  INDEX.md                            # Master lookup table
+  INDEX.md                            # Compact map: one line per reference file
+  PDFS.md                             # Primary-source PDFs (gitignored, archive.org links)
   historical/                         # Pre-digital color science
+    INDEX.md                          # Full summaries + sources for this directory
     *.md                              # Ostwald, Helmholtz, Bezold, Ridgway, ISCC-NBS,
                                       # Moses Harris, Amy Sawyer, Lewis/Ladd-Franklin,
                                       # Caravaggio's pigments, Itten critique...
-    pdfs/                             # Source books from Archive.org (gitignored, ~236MB)
+    pdfs/                             # Source books from Archive.org (gitignored, see PDFS.md)
   contemporary/                       # Modern color science & theory
+    INDEX.md                          # Full summaries + sources for this directory
     *.md                              # OKLAB articles, Briggs lectures, CSA webinars,
                                       # Pixar Color Science, bird tetrachromacy, OLO,
                                       # Acerola, Juxtopposed, Computerphile, GenColor paper...
@@ -50,6 +53,8 @@ references/
     colorandcontrast/                 # colorandcontrast.com extracted content
     pdfs/                             # Research papers (gitignored)
   techniques/                         # Tools, libraries, methods, practical application
+    INDEX.md                          # Full summaries + sources for this directory
+    ONLINE-TOOLS.md                   # Pickers, generators and analysers, with what each is for
     *.md                              # Spectral.js, Culori, Color.js, RampenSau, Poline,
                                       # RYBitten, PickyPalette, Color Buddy lint rules,
                                       # APCA/Myndex, IQ cosine formula, Cubehelix,
@@ -57,8 +62,11 @@ references/
                                       # pixel art palettes, Book of Shaders, LYGIA,
                                       # paint mixing lecture, color harmony lecture...
 evals/
+  TRIGGERING.md                       # The rule the trigger cases encode
   trigger-evals.json                  # Realistic should-trigger / should-not-trigger prompts
   task-prompts.md                     # Realistic color tasks for qualitative review
+scripts/
+  stats.sh                            # Source of every count quoted in this README
 MAINTENANCE.md                        # What belongs where, source quality bar, review rubric
 ROADMAP.md                            # Planned scripts and future extensions
 ```
@@ -67,7 +75,7 @@ ROADMAP.md                            # Planned scripts and future extensions
 
 The repo now includes a minimal review loop rather than a heavy benchmarking framework:
 
-1. Use `evals/trigger-evals.json` to sanity-check whether the frontmatter description is likely to trigger in the right situations.
+1. Use `evals/trigger-evals.json` to sanity-check whether the frontmatter description is likely to trigger in the right situations, and `evals/TRIGGERING.md` when a case looks arguable.
 2. Use `evals/task-prompts.md` to test whether the skill answers realistic color questions at the right level.
 3. Use `MAINTENANCE.md` when deciding whether something belongs in `SKILL.md`, `references/`, or not in the repo at all.
 4. Use `ROADMAP.md` to track planned color-specific scripts and larger repo improvements.
@@ -76,15 +84,17 @@ The repo now includes a minimal review loop rather than a heavy benchmarking fra
 
 ### By the numbers
 
+Counted at the last update; run `bash scripts/stats.sh` to refresh rather than trusting these.
+
 |                                 |    Count |
 | ------------------------------- | -------: |
-| Markdown reference files        |      144 |
-| Total words                     | ~286,000 |
+| Markdown reference files        |      181 |
+| Total words                     | ~365,000 |
 | Source PDFs (local, gitignored) |       14 |
-| Online tools catalogued         |       48 |
-| Video sources transcribed       |      54+ |
+| Online tools catalogued         |       71 |
+| Distinct video sources          |      109 |
 
-### Historical color science (14 files)
+### Historical color science
 
 The resources I keep returning to when explaining where color theory came from and where it went wrong:
 
@@ -95,10 +105,10 @@ The resources I keep returning to when explaining where color theory came from a
 - **ISCC-NBS** (1955) — 319 systematically named color blocks
 - **Moses Harris** (1769) — the origin of bad RYB color theory (his own wheel needed a 4th pigment)
 - **Amy Sawyer** (1911) — patented a CMY wheel decades before it was mainstream
-- **Elizabeth Lewis** (1931) — married trichromatic + opponent process, anticipating CIE Lab by 30 years
+- **Elizabeth Lewis** (1931) — married trichromatic + opponent process, anticipating CIE Lab/Luv by decades
 - Plus: Caravaggio's copper resinate technique, Itten's seven contrasts (critically reviewed), the evolution of "magenta" as a color name, Frank Reilly's controlled palette
 
-### Contemporary color science (55 files)
+### Contemporary color science
 
 The theory and science I reference when building tools or explaining why things work the way they do:
 
@@ -109,7 +119,7 @@ The theory and science I reference when building tools or explaining why things 
 - **Colour Society of Australia** — 13 webinar transcripts (Briggs, Itten critique, Golden paint making, Reilly palette, colour philosophy)
 - **Accessible color pair research** — @mrmrs\_'s Rust brute-force run over ~281T hex pairs found that only 11.98% pass WCAG AA and 0.08% pass APCA 90
 
-### Techniques, tools & libraries (50 files)
+### Techniques, tools & libraries
 
 The practical resources — the tools I've built, use, or recommend:
 

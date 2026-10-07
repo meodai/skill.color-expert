@@ -1,4 +1,4 @@
-# PDFs are large (~600MB total) and not needed for the skill
+# PDFs are large and not needed for the skill (per-file sizes: references/PDFS.md)
 # The markdown summaries capture all relevant content
 # Keep PDFs locally for reference but don't commit
 *.pdf

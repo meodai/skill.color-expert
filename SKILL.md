@@ -5,7 +5,7 @@ description: Use when working with color naming, color theory, color spaces, col
 
 # Color Expert
 
-A comprehensive knowledge base for color-related work. See `references/INDEX.md` for 140+ detailed reference files; this skill file contains the essential knowledge to answer most questions directly.
+A comprehensive knowledge base for color-related work. See `references/INDEX.md` for a one-line-per-file map of 180+ reference files; this skill file contains the essential knowledge to answer most questions directly.
 
 ## How to Use This Skill
 
@@ -233,7 +233,7 @@ Grayscale is a quick sanity check for lightness separation, not an accessibility
 | Traditional Japanese  | Cultural/poetic            | "wasurenagusa-iro" (forget-me-not) |
 | RAL                   | Industrial reproducibility | RAL 5002                           |
 | Ridgway (1912)        | Ornithological             | 1,115 named colors, public domain  |
-| CSS Named Colors      | Web standard               | 147 named colors                   |
+| CSS Named Colors      | Web standard               | 148 names, 138 unique colors       |
 | color-description lib | Emotional adjectives       | "pale, delicate, glistening"       |
 | colornames-oklab      | Perceptually even coverage | "Smaragdine" (rec2020 tier)        |
 | COLIBRI (fuzzy)       | Graded / "between" naming  | 0.6 cyan · 0.4 light blue, medium sat |
@@ -248,7 +248,7 @@ Use `color-name-lists` npm package for 18 naming systems in one import. For *nam
 - **Von Bezold (1874)** killed "indigo" as a spectral color — Newton's "blue" ≈ modern cyan, Newton's "indigo" ≈ modern blue.
 - **The word "magenta"** wasn't used for the subtractive primary until 1907 (Carl Gustav Zander). Before: "pink" (Benson 1868), "crimson," "purpur."
 - **Amy Sawyer (1911)** patented a CMY wheel (primrose/rose/turquoise) decades before it became mainstream.
-- **Elizabeth Lewis (1931)** married trichromatic + opponent process on one wheel, anticipating CIE Lab by 30 years.
+- **Elizabeth Lewis (1931)** married trichromatic + opponent process on one wheel, anticipating CIE Lab/Luv by decades.
 
 ## Recommended Tools
 
@@ -309,8 +309,12 @@ Sorting an arbitrary set of colors into a perceptually smooth sequence has **no 
 
 ## Deep References
 
-See `references/INDEX.md` for the detailed files organized as:
+Start at `references/INDEX.md` — a compact map, one line per file, cheap to read whole. When that
+line is too terse to choose between two files, the per-directory indexes
+(`references/historical/INDEX.md`, `contemporary/INDEX.md`, `techniques/INDEX.md`) carry the full
+summaries and source links, and `references/techniques/ONLINE-TOOLS.md` lists the online tools.
+The three directories hold:
 
 - **`historical/`** — Ostwald, Helmholtz, Bezold, Ridgway 1912, ISCC-NBS, Munsell, Albers, Caravaggio's pigments, Moses Harris, Lewis/Ladd-Franklin
-- **`contemporary/`** — Ottosson's OKLAB articles, Briggs lectures, Fairchild, Hunt, CIECAM02, MacAdam ellipses, Koenderink 2026 empirical 3D metric field (RGB supports ~1,000 qualitative regions; cool side coarser than warm; chromatic circle is not well-tempered), Pointer's gamut, CIE 1931/standard observer, Pixar Color Science, Acerola, Juxtopposed, Computerphile, bird tetrachromacy, OLO, GenCol, colour in computer vision / VLM colour deficiencies (ColorBench, CLIP Stroop test, encoder thresholds)or paper. Full scrapes: huevaluechroma.com and colorandcontrast.com
+- **`contemporary/`** — Ottosson's OKLAB articles, Briggs lectures, Fairchild, Hunt, CIECAM02, MacAdam ellipses, Koenderink 2026 empirical 3D metric field (RGB supports ~1,000 qualitative regions; cool side coarser than warm; chromatic circle is not well-tempered), Pointer's gamut, CIE 1931/standard observer, Pixar Color Science, Acerola, Juxtopposed, Computerphile, bird tetrachromacy, OLO, GenColor paper, colour in computer vision / VLM colour deficiencies (ColorBench, CLIP Stroop test, encoder thresholds). Full scrapes: huevaluechroma.com and colorandcontrast.com
 - **`techniques/`** — All tools above documented in detail, plus: CSS Color 4/5, ICC workflows, Tyler Hobbs generative color, Harvey Rayner Fontana approach, Goethe edge colors as design hack, mattdesl workshop + K-M simplex, CSS-native generation, IQ cosine presets, Erika Mulvenna interview, Bruce Lindbloom math reference, image extraction tools, Aladdin color analysis

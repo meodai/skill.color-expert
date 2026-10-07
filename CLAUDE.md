@@ -9,7 +9,9 @@ This is an **agent skill** (compatible with Claude Code, Codex, Cursor, Copilot,
 ## Architecture
 
 - `SKILL.md` — The skill definition with YAML frontmatter (`name`, `description`) and structured color knowledge. Loaded when color work is detected.
-- `references/INDEX.md` — Master lookup table for 140+ deep reference files.
+- `references/INDEX.md` — Compact map: one line per reference file, meant to be read whole.
+- `references/<dir>/INDEX.md` — Full summaries and source links per directory; opened only when the one-liner is too terse.
+- `references/techniques/ONLINE-TOOLS.md`, `references/PDFS.md` — Online tool catalogue and primary-source PDF list.
 - `references/historical/` — Pre-digital color science (Ostwald, Helmholtz, ISCC-NBS, etc.)
 - `references/contemporary/` — Modern color science (OKLAB, Briggs, CSA webinars, etc.)
 - `references/techniques/` — Tools, libraries, methods (Spectral.js, Culori, APCA, palette generation, etc.)
@@ -24,4 +26,5 @@ There are no commands to run. This project is purely declarative content consume
 - The skill is referenced by name (`color-expert`).
 - SKILL.md should be concise "greatest hits" (~200 lines) — the agent already has broad color knowledge; the skill should correct misconceptions, highlight non-obvious facts, and point to the right tools.
 - Deep content goes in `references/` files, not in SKILL.md.
-- PDFs are gitignored (~236MB); archive.org source links are preserved in every reference file.
+- PDFs are gitignored; archive.org source links are preserved in every reference file and listed in `references/PDFS.md`.
+- Counts quoted in `README.md` come from `scripts/stats.sh` — refresh with that, don't hand-edit them.

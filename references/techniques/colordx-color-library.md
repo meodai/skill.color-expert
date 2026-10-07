@@ -70,7 +70,7 @@ Gamut checks accept CIE `lab()` / `lch()` strings and objects too, not just OK-s
 
 ## Plugins
 
-`a11y` (WCAG + APCA) · `lab` (CIE Lab D50, XYZ D50/D65, `mixLab()`, `delta()` = CIEDE2000) · `lch` · `cmyk` (`device-cmyk()`) · `hsv` · `hwb` · `harmonies` · `mix` (`tints/shades/tones/palette`) · `minify` · `names` (140 CSS names) · `p3` · `rec2020` · `a98rgb` · `prophoto`.
+`a11y` (WCAG + APCA) · `lab` (CIE Lab D50, XYZ D50/D65, `mixLab()`, `delta()` = CIEDE2000) · `lch` · `cmyk` (`device-cmyk()`) · `hsv` · `hwb` · `harmonies` · `mix` (`tints/shades/tones/palette`) · `minify` · `names` (CSS named colors) · `p3` · `rec2020` · `a98rgb` · `prophoto`.
 
 **Lab vs OKLab disambiguation:** `{l, a, b}` and `{l, c, h}` are shape-identical between CIE and OK spaces, so CIE objects require a `colorSpace: 'lab' | 'lch'` discriminant. Bare objects parse as OK-space. Same trick for `{x, y, z}`: plain = D50, `colorSpace: 'xyz-d65'` = screen-native D65.
 

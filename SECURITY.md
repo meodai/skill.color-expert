@@ -11,10 +11,11 @@ When an agent loads this skill, it reads `SKILL.md` and optionally reads static 
 The `references/` directory contains curated markdown summaries of color science literature. These files are:
 
 - **Static** — committed to the repo as plain text, not fetched at runtime
-- **Human-curated** — reviewed and edited by the maintainer, not raw scrapes
+- **Mostly human-curated** — most files are summaries written and edited by the maintainer. A minority are near-verbatim site scrapes kept deliberately for fidelity (the
+  `contemporary/huevaluechroma/` chapters and `contemporary/colorandcontrast/`), so they contain machine-extracted text with the original line breaks and page markers
 - **Read-only** — the agent reads them for context; they contain no instructions, no tool calls, and no prompts
 
-Sources include public domain books (archive.org, Project Gutenberg), academic publications, and educational websites. All sources are cited in each file.
+Sources include public domain books (archive.org, Project Gutenberg), academic publications, and educational websites. All sources are cited in each file. Scraped files carry the source URL in their header and are text extractions of pages that are publicly readable — no authentication was bypassed and no paywalled content was captured.
 
 The reference files are a knowledge base, not executable prompts. They contain no instructions to the agent, no tool invocations, and no system-prompt-style directives. An agent reading these files receives factual color science content, the same as reading any textbook or Wikipedia article.
 
@@ -28,7 +29,7 @@ A `settings.local.json` existed briefly in early commits (the maintainer's local
 
 - **`colorwell.org`** — Flagged as "malicious" by automated scanners. This is a legitimate color/art education site by painter John Morfis ([colorwell.org](http://colorwell.org/)). It appears as a citation in a reference file from huevaluechroma.com, not as a download target. The domain may trigger heuristic flags due to the word "well" but it is a real, long-standing educational resource in the oil painting community.
 
-- **PROMPT_INJECTION risk from reference files** — The 113 markdown files in `references/` are curated summaries of color science literature. They contain no agent instructions, no tool calls, no role-play prompts, and no behavioral overrides. The content is factual (color spaces, pigment chemistry, perception research). Treating educational content as an injection vector would flag any knowledge base, textbook, or documentation site.
+- **PROMPT_INJECTION risk from reference files** — The markdown files in `references/` are summaries and source extractions of color science literature. They contain no agent instructions, no tool calls, no role-play prompts, and no behavioral overrides. The content is factual (color spaces, pigment chemistry, perception research). Treating educational content as an injection vector would flag any knowledge base, textbook, or documentation site.
 
 - **DATA_EXFILTRATION via absolute paths** — The flagged paths (e.g. `/Users/m.../Sites/...`) appeared only in the now-removed `settings.local.json`. This file was the maintainer's local development configuration and is no longer tracked. No absolute paths exist in any shipped skill content.
 

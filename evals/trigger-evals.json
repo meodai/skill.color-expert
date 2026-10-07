@@ -1,114 +1,182 @@
 [
   {
     "query": "i need a 10-step OKLCH ramp for a warning color that still keeps body text readable on white and near-black backgrounds",
-    "should_trigger": true
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Perceptual ramp spacing plus contrast verification in both polarities."
   },
   {
     "query": "why does my print proof look duller than the display-p3 mockup even though the hex values match in figma",
-    "should_trigger": true
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Gamut and viewing-condition mismatch; needs ICC and D50/D65 reasoning."
   },
   {
     "query": "can you name these paint swatches in a way that feels like real historical bird-book color names, not marketing names",
-    "should_trigger": true
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Naming register: Ridgway/ISCC-NBS rather than invented poetic names."
   },
   {
     "query": "i'm building a css theme generator and want gradients that do not go muddy halfway through. should i use oklch, lab, or color-mix somehow",
-    "should_trigger": true
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Interpolation space choice — the mid-gradient grey is the whole question."
   },
   {
     "query": "help me explain to my team why hsl saturation 100% does not mean two colors are equally vivid",
-    "should_trigger": true
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Chroma vs saturation, and why HSL's channels are not perceptual."
   },
   {
     "query": "what's a good way to simulate blue plus yellow paint making green in code instead of getting grayish rgb mush",
-    "should_trigger": true
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Pigment vs light mixing; Kubelka-Munk rather than RGB averaging."
   },
   {
     "query": "i have a palette extracted from an image and want to sort it so neighboring colors feel smooth and intentional rather than random",
-    "should_trigger": true
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Perceptual ordering — no correct 1D sort, needs a smoothest-path approach."
   },
   {
     "query": "is there a color system better than complementary and triadic rules if i'm trying to make a calm interface that still has clear emphasis",
-    "should_trigger": true
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Hue-first harmony vs character-first; chroma and lightness carry the mood."
   },
   {
     "query": "what is the difference between chroma, saturation, colorfulness, brightness, and lightness in plain english",
-    "should_trigger": true
-  },
-  {
-    "query": "i need to convert a bunch of files from png to webp and keep the folder structure the same",
-    "should_trigger": false
-  },
-  {
-    "query": "write me a react color picker component with keyboard support and no external dependencies",
-    "should_trigger": false
-  },
-  {
-    "query": "summarize this css file and tell me which variables are unused",
-    "should_trigger": false
-  },
-  {
-    "query": "i want a nice landing page for my design studio, maybe use orange and blue somewhere",
-    "should_trigger": false
-  },
-  {
-    "query": "make this chart more readable for stakeholders and reduce visual clutter",
-    "should_trigger": false
-  },
-  {
-    "query": "give me brand adjectives for this startup: trustworthy, energetic, slightly technical",
-    "should_trigger": false
-  },
-  {
-    "query": "find the bug in my shader, the normals are flipped and the lighting looks wrong",
-    "should_trigger": false
-  },
-  {
-    "query": "rename all the image assets from uppercase to lowercase and update imports",
-    "should_trigger": false
-  },
-  {
-    "query": "what fonts pair well with this poster layout",
-    "should_trigger": false
-  },
-  {
-    "query": "turn this csv into a dashboard and use our brand palette from the figma file",
-    "should_trigger": false
-  },
-  {
-    "query": "wire these figma color tokens into our tailwind config and replace the hardcoded hex values across the app",
-    "should_trigger": false
-  },
-  {
-    "query": "build a theme switcher that toggles between our light, dark, and high-contrast palettes and persists the choice in local storage",
-    "should_trigger": false
-  },
-  {
-    "query": "can you refactor this d3 chart so the series colors come from a config object instead of being scattered through the code",
-    "should_trigger": false
-  },
-  {
-    "query": "our marketing team wants three hero-section options using the same brand colors but different moods. can you mock up the copy and layout directions",
-    "should_trigger": false
-  },
-  {
-    "query": "i need a script that scans screenshots and flags any pixels that are not one of our approved brand colors",
-    "should_trigger": false
-  },
-  {
-    "query": "make this svg logo animate from grayscale into the brand palette on hover",
-    "should_trigger": false
-  },
-  {
-    "query": "can you update our storybook examples so each component shows all semantic color variants in a tidy grid",
-    "should_trigger": false
-  },
-  {
-    "query": "i want a reusable chart-color assignment function that picks the next unused series color and wraps safely when there are too many lines",
-    "should_trigger": false
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Terminology that collapses into synonyms without the skill."
   },
   {
     "query": "why does this jpeg get smaller when i export with 4:2:0 subsampling",
-    "should_trigger": true
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Chroma subsampling rests on luminance/chrominance acuity — a vision fact."
+  },
+  {
+    "query": "i want a nice landing page for my design studio, maybe use orange and blue somewhere",
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Colours are not chosen yet; this is the skill's 'concrete design project' mode."
+  },
+  {
+    "query": "wire these figma color tokens into our tailwind config and replace the hardcoded hex values across the app",
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Reference vs semantic token structure is the substance of the answer."
+  },
+  {
+    "query": "turn this csv into a dashboard and use our brand palette from the figma file",
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Assigning given colours to series still needs adjacent contrast and CVD."
+  },
+  {
+    "query": "i want a reusable chart-color assignment function that picks the next unused series color and wraps safely when there are too many lines",
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Distinctness under wrap-around — when do two series become confusable."
+  },
+  {
+    "query": "i need a script that scans screenshots and flags any pixels that are not one of our approved brand colors",
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Needs a perceptual tolerance, not exact hex equality; anti-aliasing guarantees near-misses."
+  },
+  {
+    "query": "make this svg logo animate from grayscale into the brand palette on hover",
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Interpolation space decides whether the transition passes through mud."
+  },
+  {
+    "query": "write me a react color picker component with keyboard support and no external dependencies",
+    "should_trigger": true,
+    "kind": "colour-decision",
+    "why": "Hand-rolled conversions plus which space the picker exposes (OKHSL vs HSL)."
+  },
+  {
+    "query": "build a theme switcher that toggles between our light, dark, and high-contrast palettes and persists the choice in local storage",
+    "should_trigger": false,
+    "kind": "colour-incidental",
+    "why": "The palettes exist; the task is state management."
+  },
+  {
+    "query": "can you refactor this d3 chart so the series colors come from a config object instead of being scattered through the code",
+    "should_trigger": false,
+    "kind": "colour-incidental",
+    "why": "Pure refactor — the colours themselves do not change."
+  },
+  {
+    "query": "can you update our storybook examples so each component shows all semantic color variants in a tidy grid",
+    "should_trigger": false,
+    "kind": "colour-incidental",
+    "why": "Presentation of existing tokens; no colour is chosen."
+  },
+  {
+    "query": "add a `color` prop to this Button component and forward it to the styled-component",
+    "should_trigger": false,
+    "kind": "colour-incidental",
+    "why": "API plumbing; the caller supplies the value."
+  },
+  {
+    "query": "make this chart more readable for stakeholders and reduce visual clutter",
+    "should_trigger": false,
+    "kind": "colour-incidental",
+    "why": "No colour named and clutter is mostly layout. Would flip if the ask were 'the series are hard to tell apart.'"
+  },
+  {
+    "query": "our marketing team wants three hero-section options using the same brand colors but different moods. can you mock up the copy and layout directions",
+    "should_trigger": false,
+    "kind": "colour-incidental",
+    "why": "Explicitly the same brand colours; the deliverable is copy and layout."
+  },
+  {
+    "query": "i need to convert a bunch of files from png to webp and keep the folder structure the same",
+    "should_trigger": false,
+    "kind": "not-colour",
+    "why": "File conversion and paths."
+  },
+  {
+    "query": "summarize this css file and tell me which variables are unused",
+    "should_trigger": false,
+    "kind": "not-colour",
+    "why": "Static analysis; the variables could hold anything."
+  },
+  {
+    "query": "give me brand adjectives for this startup: trustworthy, energetic, slightly technical",
+    "should_trigger": false,
+    "kind": "not-colour",
+    "why": "Verbal brand work, no colour requested."
+  },
+  {
+    "query": "find the bug in my shader, the normals are flipped and the lighting looks wrong",
+    "should_trigger": false,
+    "kind": "not-colour",
+    "why": "Geometry bug; the wrong colours are a symptom, not the question."
+  },
+  {
+    "query": "rename all the image assets from uppercase to lowercase and update imports",
+    "should_trigger": false,
+    "kind": "not-colour",
+    "why": "Filesystem and imports."
+  },
+  {
+    "query": "what fonts pair well with this poster layout",
+    "should_trigger": false,
+    "kind": "not-colour",
+    "why": "Typography."
+  },
+  {
+    "query": "our visual regression tests fail after a merge, find which commit changed the rendered screenshots",
+    "should_trigger": false,
+    "kind": "not-colour",
+    "why": "Git bisection; 'screenshots' is not a colour question."
   }
 ]

@@ -16,6 +16,12 @@ Put only the highest-leverage guidance here:
 
 Keep it concise. If a section starts reading like notes for a lecture, it probably belongs in `references/`.
 
+Keep it concise in bytes, not just in tone. `SKILL.md` and `references/INDEX.md` are the two files
+an agent pays for on almost every color task, so treat their size as a budget: run
+`scripts/stats.sh`, and if either drifts much past ~35 KB (~9K tokens) move detail down a layer
+rather than letting the always-loaded layer absorb it. The per-directory indexes exist for exactly
+this — they can be as long as they need to be, because they are opened on purpose.
+
 ### `references/`
 
 Put deeper material here:
@@ -27,6 +33,13 @@ Put deeper material here:
 - library and spec documentation
 
 Each reference should justify its presence by being either authoritative, unusually clarifying, or practically useful.
+
+Most reference files are written summaries. A few are near-verbatim site scrapes kept for fidelity
+(`contemporary/huevaluechroma/`, `contemporary/colorandcontrast/`); those carry machine-extracted
+text with original line breaks, so they read roughly and some are very large. If a scrape is the
+only copy of something worth keeping, keep it — but give it a written summary at the top rather
+than expecting an agent to read 80K tokens of raw extraction, and say so in `SECURITY.md` rather
+than describing the whole directory as curated.
 
 ### `evals/`
 
@@ -102,7 +115,8 @@ Watch for these failure modes:
 - too much generic design advice and not enough color-specific reasoning
 - too much wheel-theory language without perceptual grounding
 - recommendations that confuse standards with shipping support
-- stale counts or claims that will rot quickly
+- stale counts or claims that will rot quickly — every number in `README.md` comes from
+  `scripts/stats.sh`, so refresh it there instead of editing prose
 - duplicate references that add no new angle
 
 ## Preferred Update Loop
@@ -110,6 +124,6 @@ Watch for these failure modes:
 When making non-trivial edits:
 
 1. update the skill or references
-2. scan `evals/trigger-evals.json` and ask whether the new description still triggers in the right places
+2. scan `evals/trigger-evals.json` and ask whether the new description still triggers in the right places; `evals/TRIGGERING.md` holds the rule those cases encode, and any relabelling belongs there first
 3. try at least one prompt from `evals/task-prompts.md`
 4. fix anything that became misleading, overbroad, or too abstract

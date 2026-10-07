@@ -57,7 +57,7 @@ This makes the page valuable as a method reference, not only as a source of list
 
 ## Why This Matters for the Skill
 
-- Strong companion to [techniques/color-name-lists.md](techniques/color-name-lists.md), which catalogs systems but does not critique them this deeply
+- Strong companion to [color-name-lists.md](color-name-lists.md), which catalogs systems but does not critique them this deeply
 - Reinforces the skill's preference for **physically plausible surface colors** over RGB-cube folklore
 - Useful when explaining why familiar web color names can be misleading or historically contingent
 
