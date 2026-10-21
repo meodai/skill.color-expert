@@ -31,6 +31,9 @@ Tools that also have a reference file here are linked to it.
 | RampenSau | https://meodai.github.io/rampensau/ | Hue cycling ramp generator |
 | CuspHanger | https://meodai.github.io/cusphanger/ | Wijffelaars-model palette generator demo (OKLCH, sRGB/P3) |
 | ray-color | https://meodai.github.io/ray-color/ | Raytraced-scene palette playground: drag lights and sample points on a sphere, mirror walls, line/circle sampling, PNG + code export |
+| Color Collapse | https://colorcollapse.speckofdustin.com/ | Tone-mapping explorer (Dustin Brown): watch an equal-L/C hue family skew or desaturate under Clip, Reinhard, ACES 1/2, AgX, Khronos Neutral, OpenDRT, or a loaded film LUT; sRGB/P3; PNG + JSON export |
+| Color Flow | https://colorflow.speckofdustin.com/ | Six-module instrument course on digital color plus the Color Flow Designer gradient/palette builder (OKLCH arc, chroma bow, monotonic-L spine, Cubehelix) (Dustin Brown) |
+| Color Weight | https://colorweight.speckofdustin.com/ | Five-color palette built on a lightness hierarchy: one accent and four supports separated by OKLab-L gap/range, contrast targets, luminance-grayscale preview on UI mockups (Dustin Brown) |
 | Lightfield | https://lightfield-beta.vercel.app | Sun-lit city palette generator (tol.is): drag the sun, click faces to copy OKLCH tokens, export CSS/JSON/Tailwind ramps |
 | colornames-oklab viewer | https://meodai.github.io/colornames-oklab/ | 3D Three.js viewer of 4444 blue-noise names in the OKLab solid — orbit, filter by gamut tier, click to copy (P3 displays render the real wide-gamut colors) |
 | Poline | https://meodai.github.io/poline/ | Anchor-based palette gen |

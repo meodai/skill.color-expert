@@ -110,6 +110,7 @@ The most common OKLCH mistake: picking a chroma that doesn't exist in the target
 - **Reduce chroma, not lightness or hue.** Clipping R/G/B shifts the hue; pulling chroma toward the gamut boundary preserves the color's identity. Use Culori's `clampChroma(color, 'oklch')` (holds L and H) or `toGamut()` rather than naive RGB clamping.
 - **Test against the actual target:** `inGamut('rgb')` vs `inGamut('p3')` — a color valid in P3 can still clip in sRGB.
 - **Or avoid the problem by construction:** nutelch expresses chroma *relative to the gamut boundary* (`relC: 0.5` = halfway to the shell at that L/H), so generated colors can't accidentally ask for chroma that isn't there.
+- **Brightening is a gamut problem too.** Per-channel exposure/tone curves (clip, Reinhard, the Narkowicz "ACES fit", which is not real ACES) push bright saturated colors toward R/Y/G/C/B/M, the "notorious six". For hue-stable highlights use AgX / ACES 2 / OpenDRT (they desaturate toward white). Use Khronos PBR Neutral when authored base colors must stay exact. See Color Collapse (Dustin Brown) in `references/techniques/color-collapse-tone-mapping.md`.
 
 ## Implementation Guidance — Code and CSS
 
