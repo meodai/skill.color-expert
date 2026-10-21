@@ -2,7 +2,7 @@
 
 Curated transcripts, notes, and source material for the `color-expert` skill.
 
-**183 files** — `historical/` (21), `contemporary/` (85), `techniques/` (77).
+**185 files** — `historical/` (21), `contemporary/` (86), `techniques/` (78).
 
 This page is the cheap map: one line per file, grouped by directory, meant to be read whole. The
 one-liner is a pointer, not a summary — when a line looks right, open the file.
@@ -117,6 +117,7 @@ opening only when this page is too terse to choose between two files:
 - [`lightness-vs-brightness.md`](contemporary/lightness-vs-brightness.md) — Lightness = contextual (relative to illumination). Brightness = absolute. Cube demo.
 - [`macadam-ellipses-jnd.md`](contemporary/macadam-ellipses-jnd.md) — Classic evidence that CIE 1931 xy is not perceptually uniform.
 - [`magical-color-theory-rgb-shadows.md`](contemporary/magical-color-theory-rgb-shadows.md) — RGB flashlights → white. Object casts CMY shadows. Physical RGB↔CMY proof. 194K views.
+- [`nguyen-data-driven-color-manifolds.md`](contemporary/nguyen-data-driven-color-manifolds.md) — Nguyen, Ritschel & Seidel 2015 (TOG): learned per-object 1D/2D color sliders (SOM) beat RGB/HSV/Lab pickers.
 - [`nist-any-wavelength-laser-photonic-chip.md`](contemporary/nist-any-wavelength-laser-photonic-chip.md) — Brodnik/Papp et al., Nature 2026. Monolithic 3D photonic chip (tantala + thin-film lithium niobate on Si) converts…
 - [`oklab-perceptual-color-space-minecraft.md`](contemporary/oklab-perceptual-color-space-minecraft.md) — Best perceptual uniformity demo. Conversion pipeline. 201K views.
 - [`olo-newly-discovered-color.md`](contemporary/olo-newly-discovered-color.md) — 488nm laser on individual M-cones. Cone ratio impossible under natural light. 339K views.
@@ -154,6 +155,7 @@ opening only when this page is too terse to choose between two files:
 - [`color-palette-shader.md`](techniques/color-palette-shader.md) — WebGL2 Voronoi viz across 30+ color models. 11 distance metrics.
 - [`color-spd-spectral-picker.md`](techniques/color-spd-spectral-picker.md) — Create colors by editing spectral power distributions directly. Physics-level color creation.
 - [`color-triangle-jinjer-markley.md`](techniques/color-triangle-jinjer-markley.md) — CMY at corners, pigments plotted, offset neutral. Straight lines predict mixes.
+- [`color-weight-lightness-hierarchy.md`](techniques/color-weight-lightness-hierarchy.md) — Dustin Brown: five-color UI palette with a reading order; one accent, four supports at an OKLab-L gap with ≤30-pt range.
 - [`colordisk-trillium.md`](techniques/colordisk-trillium.md) — Peter Donahue's artist tool for paint mixing and complements.
 - [`colordx-color-library.md`](techniques/colordx-color-library.md) — Chainable immutable color library, 7.6 KB, 0 deps, OKLCH/OKLab native…
 - [`colornames-oklab-blue-noise-names.md`](techniques/colornames-oklab-blue-noise-names.md) — 4444 names blue-noise sampled (Mitchell best-candidate) over the Rec2020 gamut in OKLab…

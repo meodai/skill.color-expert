@@ -88,7 +88,7 @@ Counted at the last update; run `bash scripts/stats.sh` to refresh rather than t
 
 |                                 |    Count |
 | ------------------------------- | -------: |
-| Markdown reference files        |      183 |
+| Markdown reference files        |      185 |
 | Total words                     | ~370,000 |
 | Source PDFs (local, gitignored) |       14 |
 | Online tools catalogued         |       74 |

@@ -3,7 +3,7 @@
 By **Dustin Brown** (speckofdustin.com). Personal project, captured 2026-10-21.
 
 - Tool / course hub: https://colorflow.speckofdustin.com/
-- Sibling tools: [Color Collapse](color-collapse-tone-mapping.md) (tone mapping, the full version of module 6), Color Weight (https://colorweight.speckofdustin.com/)
+- Sibling tools: [Color Collapse](color-collapse-tone-mapping.md) (tone mapping, the full version of module 6), [Color Weight](color-weight-lightness-hierarchy.md) (lightness-hierarchy palettes, built on module 01)
 
 "Interactive instruments for understanding digital color." Six modules, each stating **one fact** with an instrument to test it ("the controls are the main content"). The order goes from perception to the systems that put numbers on it. A good teaching sequence to borrow: each module pairs the tidy claim with the failure that proves it.
 
